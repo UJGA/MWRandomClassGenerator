@@ -31,16 +31,16 @@ var primarysArray = [
   ];
 
   var secondarysArray = [
-    { name: '.50 GS', image: 'secondary/50GS.png' }, 
-    { name: '.357', image: 'secondary/357.png' }, 
-    { name: '1911', image: 'secondary/1911.png' },
-    { name: 'Combat Knife', image: 'secondary/combatKnife.png' },
-    { name: 'JOKR', image: 'secondary/JOKR.png' },
-    { name: 'M19', image: 'secondary/M19.png' },
-    { name: 'PILA', image: 'secondary/PILA.png' },
-    { name: 'RPG-7', image: 'secondary/RPG7.png' },
-    { name: 'Strela-P', image: 'secondary/StrelaP.png' },
-    { name: 'X16', image: 'secondary/X16.png' }
+    { name: '.50 GS', image: 'Secondary/50GS.png' }, 
+    { name: '.357', image: 'Secondary/357.png' }, 
+    { name: '1911', image: 'Secondary/1911.png' },
+    { name: 'Combat Knife', image: 'Secondary/combatKnife.png' },
+    { name: 'JOKR', image: 'Secondary/JOKR.png' },
+    { name: 'M19', image: 'Secondary/M19.png' },
+    { name: 'PILA', image: 'Secondary/PILA.png' },
+    { name: 'RPG-7', image: 'Secondary/RPG7.png' },
+    { name: 'Strela-P', image: 'Secondary/StrelaP.png' },
+    { name: 'X16', image: 'Secondary/X16.png' }
   ];
 
   var perk1Array = [
