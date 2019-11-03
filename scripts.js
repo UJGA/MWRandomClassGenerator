@@ -72,7 +72,7 @@ var primarysArray = [
 
 
 var lethalsArray = [
-    { name: 'Claymore', image: 'lethal/claymore.png' }, 
+    { name: 'Claymore', image: 'lethal/Claymore.png' }, 
     { name: 'Frag Grenade', image: 'lethal/FragGrenade.png' }, 
     { name: 'Molotov Cocktail', image: 'lethal/MolotovCocktail.png' },
     { name: 'C4', image: 'lethal/C4.png' },
