@@ -1,0 +1,27 @@
+.randomClass{
+    text-align: center;
+}
+
+.title{
+    text-align: center;
+}
+
+#footer {
+    position: absolute;
+    bottom: -2;
+    width: 100%;
+    height: 3rem;            /* Footer height */
+  }
+
+  #goAgain{
+      text-align: center;
+  }
+
+  body{
+      background-color: #343A40;
+      color: #32BDCB;
+  }
+
+  .contactContent{
+    text-align: center;
+  }
