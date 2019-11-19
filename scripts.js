@@ -1,34 +1,37 @@
+// var primarysArray = [
+//     { name: '725', image: 'primary/725.png' }, 
+//     { name: 'AK-47', image: 'primary/AK47.png' }, 
+//     { name: 'AUG', image: 'primary/AUG.png' },
+//     { name: 'AX-50', image: 'primary/AX50.png' },
+//     { name: 'Dragunov', image: 'primary/Dragunov.png' },
+//     { name: 'EBR-14', image: 'primary/EBR14.png' },
+//     { name: 'FAL', image: 'primary/FAL.png' },
+//     { name: 'FN Scar 17', image: 'primary/FNScar17.png' },
+//     { name: 'FR 5.56', image: 'primary/FR556.png' },
+//     { name: 'HDR', image: 'primary/HDR.png' },
+//     { name: 'Kar98k', image: 'primary/Kar98k.png' },
+//     { name: 'Kilo 141', image: 'primary/Kilo141.png' },
+//     { name: 'M4A1', image: 'primary/M4A1.png' },
+//     { name: 'M13', image: 'primary/M13.png' },
+//     { name: 'M91', image: 'primary/M91.png' },
+//     { name: 'MG34', image: 'primary/MG34.png' },
+//     { name: 'MK2 Carbine', image: 'primary/MK2Carbine.png' },
+//     { name: 'Model 680', image: 'primary/Model680.png' },
+//     { name: 'MP5', image: 'primary/MP5.png' },
+//     { name: 'MP7', image: 'primary/MP7.png' },
+//     { name: 'Oden', image: 'primary/Oden.png' },
+//     { name: 'Origin 12 Shotgun', image: 'primary/Origin12Shotgun.png' },
+//     { name: 'P90', image: 'primary/P90.png' },
+//     { name: 'PKM', image: 'primary/PKM.png' },
+//     { name: 'PP19 Bizon', image: 'primary/PP19Bizon.png' },
+//     { name: 'R9-0 Shotgun', image: 'primary/R90Shotgun.png' },
+//     { name: 'Riot Shield', image: 'primary/RiotShield.png' },
+//     { name: 'SA87', image: 'primary/SA87.png' },
+//     { name: 'Uzi', image: 'primary/Uzi.png' }
+//   ];
 var primarysArray = [
-    { name: '725', image: 'primary/725.png' }, 
-    { name: 'AK-47', image: 'primary/AK47.png' }, 
-    { name: 'AUG', image: 'primary/AUG.png' },
-    { name: 'AX-50', image: 'primary/AX50.png' },
-    { name: 'Dragunov', image: 'primary/Dragunov.png' },
-    { name: 'EBR-14', image: 'primary/EBR14.png' },
-    { name: 'FAL', image: 'primary/FAL.png' },
-    { name: 'FN Scar 17', image: 'primary/FNScar17.png' },
-    { name: 'FR 5.56', image: 'primary/FR556.png' },
-    { name: 'HDR', image: 'primary/HDR.png' },
-    { name: 'Kar98k', image: 'primary/Kar98k.png' },
-    { name: 'Kilo 141', image: 'primary/Kilo141.png' },
-    { name: 'M4A1', image: 'primary/M4A1.png' },
-    { name: 'M13', image: 'primary/M13.png' },
-    { name: 'M91', image: 'primary/M91.png' },
-    { name: 'MG34', image: 'primary/MG34.png' },
-    { name: 'MK2 Carbine', image: 'primary/MK2Carbine.png' },
-    { name: 'Model 680', image: 'primary/Model680.png' },
-    { name: 'MP5', image: 'primary/MP5.png' },
-    { name: 'MP7', image: 'primary/MP7.png' },
-    { name: 'Oden', image: 'primary/Oden.png' },
-    { name: 'Origin 12 Shotgun', image: 'primary/Origin12Shotgun.png' },
-    { name: 'P90', image: 'primary/P90.png' },
-    { name: 'PKM', image: 'primary/PKM.png' },
-    { name: 'PP19 Bizon', image: 'primary/PP19Bizon.png' },
-    { name: 'R9-0 Shotgun', image: 'primary/R90Shotgun.png' },
-    { name: 'Riot Shield', image: 'primary/RiotShield.png' },
-    { name: 'SA87', image: 'primary/SA87.png' },
-    { name: 'Uzi', image: 'primary/Uzi.png' }
-  ];
+  { name: 'M4A1', image: 'primary/M4A1.png' }
+];
 
   var secondarysArray = [
     { name: '.50 GS', image: 'Secondary/50GS.png' }, 
@@ -112,6 +115,8 @@ function random_item()
     var randomPrimary = primarysArray[Math.floor(Math.random()*primarysArray.length)];
     document.getElementById("primary").innerHTML =randomPrimary.name + '<br>' + '<img src="'+randomPrimary.image+'">';
     document.getElementById("primaryH3").innerHTML = "Primary";
+    document.getElementById("primaryAttH3").innerHTML = "Primary Attachments";
+    document.getElementById("primaryAttH2").innerHTML = "None";
 
     //Secondary
     var randomSecondary = secondarysArray[Math.floor(Math.random()*secondarysArray.length)];
@@ -154,7 +159,18 @@ var randomUpgrade = fieldUpgradesArray[Math.floor(Math.random()*fieldUpgradesArr
 document.getElementById("upgrade").innerHTML = randomUpgrade.name + '<br>' + '<img src="'+randomUpgrade.image+'">';
 document.getElementById("upgradeH3").innerHTML = "Field Upgrade";
 
+//Moves Button and Revmoves top text
 
 document.getElementById("myTitle").innerHTML = "";
 document.getElementById("goAgain").innerHTML = '<button id="mybtn" class="btn btn-primary" onclick="random_item()">Generate Again</button>';
+
+
+//Call to weapon functions
+if(randomPrimary.name = "M4A1")
+  m4a1();
+
+
 }
+
+
+
