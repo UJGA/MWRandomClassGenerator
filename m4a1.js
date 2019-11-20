@@ -25,6 +25,8 @@ function m4a1(){
 
 
         var muzzle = false;
+        document.getElementById("primaryAttH2").innerHTML = "";
+        document.getElementById("primaryAtt1").innerHTML = "";
 
         if (attArr.includes(0)){
             muzzle = true;
@@ -52,6 +54,8 @@ function m4a1(){
 
 
         var barrel = false;
+        document.getElementById("primaryAttH2").innerHTML = "";
+        document.getElementById("primaryAtt2").innerHTML = "";
 
         if (attArr.includes(1)){
             barrel = true;
@@ -67,10 +71,81 @@ function m4a1(){
             document.getElementById("primaryAtt2").innerHTML = "Barrel " + '<br>' + '<img src="'+barrelPick.image+'">';
         }
 
+    
+
+
+        //Laser
+
+        var lasers = [
+            { name: '1mW Laser', image: 'attachments/m4a1/' }, 
+            { name: '5mW Laser', image: 'attachments/m4a1/' }, 
+            { name: 'Tac Laser', image: 'attachments/m4a1/' }
+          ];
+
+
+        var laser = false;
+        document.getElementById("primaryAttH2").innerHTML = "";
+        document.getElementById("primaryAtt3").innerHTML = "";
+
+        if (attArr.includes(2)){
+            laser = true;
+            console.log("laser is true");
+        }
+
+        if (laser != false){
+            var ranLaser = Math.floor(Math.random() * 3) + 0;
+        
+            var laserPick = lasers[ranLaser];
+            console.log(laserPick.name);
+            document.getElementById("primaryAttH2").innerHTML = "";
+            document.getElementById("primaryAtt3").innerHTML = "Laser " + '<br>' + '<img src="'+laserPick.image+'">';
+        }
 
 
 
+        //Optic
 
+        var optics = [
+            { name: 'Cronen LP945 Mini Reflex', image: 'attachments/m4a1/' },
+            { name: 'Corp Combat Holo Sight', image: 'attachments/m4a1/' }, 
+            { name: 'Operator Reflex Sight', image: 'attachments/m4a1/' },
+            { name: 'Scout Combat Optic', image: 'attachments/m4a1/' },
+            { name: '4.0x Flip Hybrid', image: 'attachments/m4a1/' },
+            { name: 'Aim-Op Reflex Sight', image: 'attachments/m4a1/' },
+            { name: 'APx5 Holographic Sight', image: 'attachments/m4a1/' },
+            { name: 'Integral Hybrid', image: 'attachments/m4a1/' },
+            { name: 'Solozero NVG Enhanced', image: 'attachments/m4a1/' },
+            { name: 'VLK 3.0x Optic', image: 'attachments/m4a1/' },
+            { name: 'Sniper Scope', image: 'attachments/m4a1/' },
+            { name: 'Viper Reflex Sight', image: 'attachments/m4a1/' },
+            { name: 'G.I. Mini Reflex', image: 'attachments/m4a1/' },
+            { name: 'PBX Holo 7 Sight', image: 'attachments/m4a1/' },
+            { name: 'Cronen C480 Pro Optic', image: 'attachments/m4a1/' },
+            { name: 'Monocle Reflex Sight', image: 'attachments/m4a1/' },
+            { name: 'Variable Zoom Scope', image: 'attachments/m4a1/' },
+            { name: 'Canted Hybrid', image: 'attachments/m4a1/' },
+            { name: 'Merc Thermal Optic', image: 'attachments/m4a1/' }, 
+            { name: 'Thermal Hybrid', image: 'attachments/m4a1/' }
+          ];
+
+
+        var optic = false;
+        document.getElementById("primaryAttH2").innerHTML = "";
+        document.getElementById("primaryAtt4").innerHTML = "";
+
+        if (attArr.includes(3)){
+            optic = true;
+            console.log("optic is true");
+        }
+
+        if (optic != false){
+            var ranOptic = Math.floor(Math.random() * 3) + 0;
+        
+            var opticPick = optics[ranOptic];
+            console.log(opticPick.name);
+            document.getElementById("primaryAttH2").innerHTML = "";
+            document.getElementById("primaryAtt4").innerHTML = "Optic " + '<br>' + '<img src="'+opticPick.image+'">';
+        }
 
         }
         
