@@ -1,4 +1,4 @@
-function kilo141(){
+function m13(){
     var numAttachments = [0, 1, 2, 3, 4, 5, 6, 7, 8];
     var totalCount = 9;
     var ran = Math.floor(Math.random() * 5) + 0;
@@ -16,10 +16,10 @@ function kilo141(){
 
     var muzzles = [
         { name: 'Flash Guard', image: 'attachments/muzzles/flashguard.png' }, 
-        { name: 'Breacher Device', image: 'attachments/muzzles/breacherdevice.png' }, 
+        { name: 'Lightweight Suppressor', image: 'attachments/muzzles/lightweightsuppressor.png' }, 
         { name: 'Tactical Suppressor', image: 'attachments/muzzles/tacticalsuppressor.png' },
         { name: 'Muzzle Brake', image: 'attachments/muzzles/muzzlebrake.png' },
-        { name: 'Lightweight Suppressor', image: 'attachments/muzzles/lightweightsuppressor.png' },
+        { name: 'Breacher Device', image: 'attachments/muzzles/breacherdevice.png' },
         { name: 'Compensator', image: 'attachments/muzzles/compensator.png' },
         { name: 'Monolithic Suppressor', image: 'attachments/muzzles/monolithicsuppressor.png' }
       ];
@@ -43,11 +43,16 @@ function kilo141(){
         document.getElementById("primaryAtt1").innerHTML = '<b>'+ "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img src="'+muzzlePick.image+'">';
     }
 
+
+
+                        //Image coming soon Sorry :'(
+
+
      //Barrel
      var barrels = [
-        { name: 'Singuard Arms 15.6 SOCOM', image: 'attachments/barrels/socom.png' }, 
-        { name: 'Singuard Arms 19.7 Prowler', image: 'attachments/barrels/prowler.png' }, 
-        { name: 'Singuard Arms Whisper', image: 'attachments/barrels/whisper.png' },
+        { name: 'Tempus Mini', image: 'attachments/barrels/tempusmini.png' }, 
+        { name: 'Tempus Cyclone', image: 'attachments/barrels/tempuscyclone.png' }, 
+        { name: 'Tempus Marksman', image: 'attachments/barrels/tempusmarksman.png' },
       ];
 
 
@@ -68,7 +73,6 @@ function kilo141(){
         document.getElementById("primaryAttH2").innerHTML = "";
         document.getElementById("primaryAtt2").innerHTML = '<b>'+ "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img src="'+barrelPick.image+'">';
     }
-
 
 
 
@@ -108,9 +112,9 @@ function kilo141(){
         { name: 'Corp Combat Holo Sight', image: 'attachments/optics/corp.png' }, 
         { name: 'Operator Reflex Sight', image: 'attachments/optics/operator.png' },
         { name: 'Scout Combat Optic', image: 'attachments/optics/scout.png' },
-        { name: '4.0x Flip Hybrid', image: 'attachments/optics/40x.png' },
         { name: 'Aim-Op Reflex Sight', image: 'attachments/optics/aimop.png' },
         { name: 'APx5 Holographic Sight', image: 'attachments/optics/apx5.png' },
+        { name: '4.0x Flip Hybrid', image: 'attachments/optics/40x.png' },
         { name: 'Integral Hybrid', image: 'attachments/optics/integral.png' },
         { name: 'Solozero NVG Enhanced', image: 'attachments/optics/solozero.png' },
         { name: 'VLK 3.0x Optic', image: 'attachments/optics/vlk.png' },
@@ -151,10 +155,10 @@ function kilo141(){
     //Stock
 
     var stocks = [
-        { name: 'FORGE TAC Ultralight', image: 'attachments/stocks/ultralight.png' },
-        { name: 'Singuard Arms Sniper Pro', image: 'attachments/stocks/sniperpro.png' }, 
-        { name: 'No Stock', image: 'attachments/stocks/nostockkilo.png' },
-        { name: 'FFS CLose Quarters Stock', image: 'attachments/stocks/closequarters.png' }
+        { name: 'FORGE TAC Stalker', image: 'attachments/stocks/forgetacstalker.png' },
+        { name: 'No Stock', image: 'attachments/stocks/nostockkilo.png' }, 
+        { name: 'FFS Close Quarters Stock', image: 'attachments/stocks/closequartersfal.png' },
+        { name: 'M13 Skeleton Stock', image: 'attachments/stocks/m13skeletonstock.png' }
       ];
 
 
@@ -226,8 +230,8 @@ function kilo141(){
 
      var ammunations = [
         { name: '50 Round Mags', image: 'attachments/ammunations/50.png' },
-        { name: '60 Round Mags', image: 'attachments/ammunations/60.png' }, 
-        { name: '100 Round Drums', image: 'attachments/ammunations/100.png' }
+        { name: '.300 Blackout 30-Round Mags', image: 'attachments/ammunations/300blackout30.png' },
+        { name: '60 Round Mags', image: 'attachments/ammunations/60.png' }
       ];
 
 

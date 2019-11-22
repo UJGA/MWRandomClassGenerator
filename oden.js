@@ -1,4 +1,4 @@
-function kilo141(){
+function oden(){
     var numAttachments = [0, 1, 2, 3, 4, 5, 6, 7, 8];
     var totalCount = 9;
     var ran = Math.floor(Math.random() * 5) + 0;
@@ -9,17 +9,17 @@ function kilo141(){
     numAttachments.splice(rand,1);
     totalCount--;
     }
-    //console.log(attArr);
+    console.log(attArr);
     var underbarrel = false;
 
     //Muzzles
 
     var muzzles = [
         { name: 'Flash Guard', image: 'attachments/muzzles/flashguard.png' }, 
-        { name: 'Breacher Device', image: 'attachments/muzzles/breacherdevice.png' }, 
+        { name: 'Colossus Suppressor', image: 'attachments/muzzles/colossussuppressor.png' }, 
         { name: 'Tactical Suppressor', image: 'attachments/muzzles/tacticalsuppressor.png' },
         { name: 'Muzzle Brake', image: 'attachments/muzzles/muzzlebrake.png' },
-        { name: 'Lightweight Suppressor', image: 'attachments/muzzles/lightweightsuppressor.png' },
+        { name: 'CQB Breacher Device', image: 'attachments/muzzles/cqbbreacherdevice.png' },
         { name: 'Compensator', image: 'attachments/muzzles/compensator.png' },
         { name: 'Monolithic Suppressor', image: 'attachments/muzzles/monolithicsuppressor.png' }
       ];
@@ -31,23 +31,28 @@ function kilo141(){
 
     if (attArr.includes(0)){
         muzzle = true;
-        //console.log("Muzzle is true");
+        console.log("Muzzle is true");
     }
 
     if (muzzle != false){
         var ranMuzzle = Math.floor(Math.random() * 7) + 0;
     
         var muzzlePick = muzzles[ranMuzzle];
-        //console.log(muzzlePick.name);
+        console.log(muzzlePick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
         document.getElementById("primaryAtt1").innerHTML = '<b>'+ "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img src="'+muzzlePick.image+'">';
     }
 
+
+
+                        //Image coming soon Sorry :'(
+
+
      //Barrel
      var barrels = [
-        { name: 'Singuard Arms 15.6 SOCOM', image: 'attachments/barrels/socom.png' }, 
-        { name: 'Singuard Arms 19.7 Prowler', image: 'attachments/barrels/prowler.png' }, 
-        { name: 'Singuard Arms Whisper', image: 'attachments/barrels/whisper.png' },
+        { name: 'Oden Factory 810mm', image: 'attachments/barrels/oden810.png' }, 
+        { name: 'Oden Factory 730mm', image: 'attachments/barrels/oden730.png' }, 
+        { name: 'Oden Factory 420mm', image: 'attachments/barrels/oden420.png' },
       ];
 
 
@@ -57,18 +62,17 @@ function kilo141(){
 
     if (attArr.includes(1)){
         barrel = true;
-        //console.log("Barrel is true");
+        console.log("Barrel is true");
     }
 
     if (barrel != false){
         var ranBarrel = Math.floor(Math.random() * 3) + 0;
     
         var barrelPick = barrels[ranBarrel];
-        //console.log(barrelPick.name);
+        console.log(barrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
         document.getElementById("primaryAtt2").innerHTML = '<b>'+ "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img src="'+barrelPick.image+'">';
     }
-
 
 
 
@@ -87,14 +91,14 @@ function kilo141(){
 
     if (attArr.includes(2)){
         laser = true;
-        //console.log("laser is true");
+        console.log("laser is true");
     }
 
     if (laser != false){
         var ranLaser = Math.floor(Math.random() * 3) + 0;
     
         var laserPick = lasers[ranLaser];
-        //console.log(laserPick.name);
+        console.log(laserPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
         document.getElementById("primaryAtt3").innerHTML = '<b>'+ "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img src="'+laserPick.image+'">';
     }
@@ -108,7 +112,6 @@ function kilo141(){
         { name: 'Corp Combat Holo Sight', image: 'attachments/optics/corp.png' }, 
         { name: 'Operator Reflex Sight', image: 'attachments/optics/operator.png' },
         { name: 'Scout Combat Optic', image: 'attachments/optics/scout.png' },
-        { name: '4.0x Flip Hybrid', image: 'attachments/optics/40x.png' },
         { name: 'Aim-Op Reflex Sight', image: 'attachments/optics/aimop.png' },
         { name: 'APx5 Holographic Sight', image: 'attachments/optics/apx5.png' },
         { name: 'Integral Hybrid', image: 'attachments/optics/integral.png' },
@@ -134,14 +137,14 @@ function kilo141(){
 
     if (attArr.includes(3)){
         optic = true;
-        //console.log("optic is true");
+        console.log("optic is true");
     }
 
     if (optic != false){
-        var ranOptic = Math.floor(Math.random() * 21) + 0;
+        var ranOptic = Math.floor(Math.random() * 20) + 0;
     
         var opticPick = optics[ranOptic];
-        //console.log(opticPick.name);
+        console.log(opticPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
         document.getElementById("primaryAtt4").innerHTML = '<b>'+ "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img src="'+opticPick.image+'">';
     }
@@ -151,10 +154,9 @@ function kilo141(){
     //Stock
 
     var stocks = [
-        { name: 'FORGE TAC Ultralight', image: 'attachments/stocks/ultralight.png' },
-        { name: 'Singuard Arms Sniper Pro', image: 'attachments/stocks/sniperpro.png' }, 
-        { name: 'No Stock', image: 'attachments/stocks/nostockkilo.png' },
-        { name: 'FFS CLose Quarters Stock', image: 'attachments/stocks/closequarters.png' }
+        { name: 'FORGE TAC Ballast Pack', image: 'attachments/stocks/forgetacballastpackoden.png' },
+        { name: 'Oden Ultralight Hollow', image: 'attachments/stocks/odenultralighthollow.png' }, 
+        { name: 'FTAC XL Elite Comb', image: 'attachments/stocks/ftacxlelitecomb.png' }
       ];
 
 
@@ -164,14 +166,14 @@ function kilo141(){
 
     if (attArr.includes(4)){
         stock = true;
-        //console.log("stock is true");
+        console.log("stock is true");
     }
 
     if (stock != false){
-        var ranStock = Math.floor(Math.random() * 4) + 0;
+        var ranStock = Math.floor(Math.random() * 3) + 0;
     
         var stockPick = stocks[ranStock];
-        //console.log(stockPick.name);
+        console.log(stockPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
         document.getElementById("primaryAtt5").innerHTML = '<b>'+ "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img src="'+stockPick.image+'">';
     }
@@ -204,14 +206,14 @@ function kilo141(){
 
     if (attArr.includes(5)){
         underbarrel = true;
-        //console.log("underbarrel is true");
+        console.log("underbarrel is true");
     }
 
     if (underbarrel != false){
         var ranUnderbarrel = Math.floor(Math.random() * 13) + 0;
     
         var underbarrelPick = underbarrels[ranUnderbarrel];
-        //console.log(underbarrelPick.name);
+        console.log(underbarrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
         document.getElementById("primaryAtt6").innerHTML = '<b>'+ "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img src="'+underbarrelPick.image+'">';
     }
@@ -225,9 +227,8 @@ function kilo141(){
      //Ammunation
 
      var ammunations = [
-        { name: '50 Round Mags', image: 'attachments/ammunations/50.png' },
-        { name: '60 Round Mags', image: 'attachments/ammunations/60.png' }, 
-        { name: '100 Round Drums', image: 'attachments/ammunations/100.png' }
+        { name: '25 Round Mags', image: 'attachments/ammunations/25.png' },
+        { name: '30 Round Mags', image: 'attachments/ammunations/30.png' }
       ];
 
 
@@ -237,14 +238,14 @@ function kilo141(){
 
     if (attArr.includes(6)){
         ammunation = true;
-        //console.log("ammunation is true");
+        console.log("ammunation is true");
     }
 
     if (ammunation != false){
-        var ranAmmunation = Math.floor(Math.random() * 3) + 0;
+        var ranAmmunation = Math.floor(Math.random() * 2) + 0;
     
         var ammunationPick = ammunations[ranAmmunation];
-        //console.log(ammunationPick.name);
+        console.log(ammunationPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
         document.getElementById("primaryAtt7").innerHTML = '<b>'+ "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img src="'+ammunationPick.image+'">';
     }
@@ -267,14 +268,14 @@ document.getElementById("primaryAtt8").innerHTML = "";
 
 if (attArr.includes(7)){
 reargrip = true;
-//console.log("rear grip is true");
+console.log("rear grip is true");
 }
 
 if (reargrip != false){
 var ranRearGrip = Math.floor(Math.random() * 3) + 0;
 
 var rearGripPick = reargrips[ranRearGrip];
-//console.log(rearGripPick.name);
+console.log(rearGripPick.name);
 document.getElementById("primaryAttH2").innerHTML = "";
 document.getElementById("primaryAtt8").innerHTML = '<b>'+ "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img src="'+rearGripPick.image+'">';
 }
@@ -288,7 +289,7 @@ var perks = [
 { name: 'Frangible - Wounding', image: 'attachments/perks/wounding.png' },
 { name: 'Heavy Hitter', image: 'attachments/perks/heavyhitter.png' },
 { name: 'Fully Loaded', image: 'attachments/perks/fullyloaded.png' },
-{ name: 'Burst', image: 'attachments/perks/burst.png' },
+{ name: 'Burst Fire (x2)', image: 'attachments/perks/burstoden.png' },
 { name: 'Recon', image: 'attachments/perks/recon.png' },
 { name: 'Mo Money', image: 'attachments/perks/money.png' },
 { name: 'Fast Melee', image: 'attachments/perks/fastmelee.png' },
@@ -303,14 +304,14 @@ document.getElementById("primaryAtt9").innerHTML = "";
 
 if (attArr.includes(8)){
 perk = true;
-//console.log("perk is true");
+console.log("perk is true");
 }
 
 if (perk != false){
 var ranPerk= Math.floor(Math.random() * 11) + 0;
 
 var perkPick = perks[ranPerk];
-//console.log(perkPick.name);
+console.log(perkPick.name);
 document.getElementById("primaryAttH2").innerHTML = "";
 document.getElementById("primaryAtt9").innerHTML = '<b>'+ "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img src="'+perkPick.image+ '" "' + '">';
 }

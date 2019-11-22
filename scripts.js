@@ -1,39 +1,46 @@
-// var primarysArray = [
-//     { name: '725', image: 'primary/725.png' }, 
-//     { name: 'AK-47', image: 'primary/AK47.png' }, 
-//     { name: 'AUG', image: 'primary/AUG.png' },
-//     { name: 'AX-50', image: 'primary/AX50.png' },
-//     { name: 'Dragunov', image: 'primary/Dragunov.png' },
-//     { name: 'EBR-14', image: 'primary/EBR14.png' },
-//     { name: 'FAL', image: 'primary/FAL.png' },
-//     { name: 'FN Scar 17', image: 'primary/FNScar17.png' },
-//     { name: 'FR 5.56', image: 'primary/FR556.png' },
-//     { name: 'HDR', image: 'primary/HDR.png' },
-//     { name: 'Kar98k', image: 'primary/Kar98k.png' },
-//     { name: 'Kilo 141', image: 'primary/Kilo141.png' },
-//     { name: 'M4A1', image: 'primary/M4A1.png' },
-//     { name: 'M13', image: 'primary/M13.png' },
-//     { name: 'M91', image: 'primary/M91.png' },
-//     { name: 'MG34', image: 'primary/MG34.png' },
-//     { name: 'MK2 Carbine', image: 'primary/MK2Carbine.png' },
-//     { name: 'Model 680', image: 'primary/Model680.png' },
-//     { name: 'MP5', image: 'primary/MP5.png' },
-//     { name: 'MP7', image: 'primary/MP7.png' },
-//     { name: 'Oden', image: 'primary/Oden.png' },
-//     { name: 'Origin 12 Shotgun', image: 'primary/Origin12Shotgun.png' },
-//     { name: 'P90', image: 'primary/P90.png' },
-//     { name: 'PKM', image: 'primary/PKM.png' },
-//     { name: 'PP19 Bizon', image: 'primary/PP19Bizon.png' },
-//     { name: 'R9-0 Shotgun', image: 'primary/R90Shotgun.png' },
-//     { name: 'Riot Shield', image: 'primary/RiotShield.png' },
-//     { name: 'SA87', image: 'primary/SA87.png' },
-//     { name: 'Uzi', image: 'primary/Uzi.png' }
-//   ];
 var primarysArray = [
-  { name: 'M4A1', image: 'primary/M4A1.png' },
-  { name: 'FAL', image: 'primary/FAL.png' },
-  { name: 'Kilo 141', image: 'primary/Kilo141.png' },
-];
+    { name: '725', image: 'primary/725.png' }, 
+    { name: 'AK-47', image: 'primary/AK47.png' }, 
+    { name: 'AUG', image: 'primary/AUG.png' },
+    { name: 'AX-50', image: 'primary/AX50.png' },
+    { name: 'Dragunov', image: 'primary/Dragunov.png' },
+    { name: 'EBR-14', image: 'primary/EBR14.png' },
+    { name: 'FAL', image: 'primary/FAL.png' },
+    { name: 'FN Scar 17', image: 'primary/FNScar17.png' },
+    { name: 'FR 5.56', image: 'primary/FR556.png' },
+    { name: 'HDR', image: 'primary/HDR.png' },
+    { name: 'Kar98k', image: 'primary/Kar98k.png' },
+    { name: 'Kilo 141', image: 'primary/Kilo141.png' },
+    { name: 'M4A1', image: 'primary/M4A1.png' },
+    { name: 'M13', image: 'primary/M13.png' },
+    { name: 'M91', image: 'primary/M91.png' },
+    { name: 'MG34', image: 'primary/MG34.png' },
+    { name: 'MK2 Carbine', image: 'primary/MK2Carbine.png' },
+    { name: 'Model 680', image: 'primary/Model680.png' },
+    { name: 'MP5', image: 'primary/MP5.png' },
+    { name: 'MP7', image: 'primary/MP7.png' },
+    { name: 'Oden', image: 'primary/Oden.png' },
+    { name: 'Origin 12 Shotgun', image: 'primary/Origin12Shotgun.png' },
+    { name: 'P90', image: 'primary/P90.png' },
+    { name: 'PKM', image: 'primary/PKM.png' },
+    { name: 'PP19 Bizon', image: 'primary/PP19Bizon.png' },
+    { name: 'R9-0 Shotgun', image: 'primary/R90Shotgun.png' },
+    { name: 'Riot Shield', image: 'primary/RiotShield.png' },
+    { name: 'SA87', image: 'primary/SA87.png' },
+    { name: 'Uzi', image: 'primary/Uzi.png' }
+  ];
+
+//----------------------------------------------------------------------Testing purposes only
+// var primarysArray = [
+//   { name: 'M4A1', image: 'primary/M4A1.png' },
+//   { name: 'FAL', image: 'primary/FAL.png' },
+//   { name: 'FR 5.56', image: 'primary/FR556.png' },
+//   { name: 'Oden', image: 'primary/Oden.png' },
+//   { name: 'Kilo 141', image: 'primary/Kilo141.png' },
+//   { name: 'M13', image: 'primary/M13.png' },
+//   { name: 'FN Scar 17', image: 'primary/FNScar17.png' },
+//   { name: 'AK-47', image: 'primary/AK47.png' },
+// ];
 
   var secondarysArray = [
     { name: '.50 GS', image: 'Secondary/50GS.png' }, 
@@ -117,9 +124,9 @@ function random_item()
     //Primary
     var randomPrimaryNumber = Math.floor(Math.random() * primayLength) + 0;
     var randomPrimary = primarysArray[randomPrimaryNumber];
-    console.log("The Random primary number is-------------------------" + randomPrimaryNumber);
-    console.log("The name is -----------------------------------------" + randomPrimary.name);
-    console.log("The image is -----------------------------------------" + randomPrimary.image);
+    //console.log("The Random primary number is-------------------------" + randomPrimaryNumber);
+    //console.log("The name is -----------------------------------------" + randomPrimary.name);
+    //console.log("The image is -----------------------------------------" + randomPrimary.image);
     document.getElementById("primary").innerHTML =randomPrimary.name + '<br>' + '<img src="'+randomPrimary.image+'">';
     document.getElementById("primaryH3").innerHTML = "Primary";
     document.getElementById("primaryAttH3").innerHTML = "Primary Attachments";
@@ -172,6 +179,9 @@ document.getElementById("myTitle").innerHTML = "";
 document.getElementById("goAgain").innerHTML = '<button id="mybtn" class="btn btn-primary" onclick="random_item();">Generate Again</button>';
 
 //window.location.reload();
+var isAR = false;
+
+
 
 // Call to weapon functions
 if(randomPrimary.name == "M4A1"){
@@ -186,6 +196,49 @@ if(randomPrimary.name == "FAL"){
   fal();
 }
 
+if(randomPrimary.name == "FR 5.56"){
+  fr556();
+}
+
+if(randomPrimary.name == "Oden"){
+  oden();
+}
+
+if(randomPrimary.name == "M13"){
+  m13();
+}
+
+if(randomPrimary.name == "FN Scar 17"){
+  fnscar17();
+}
+
+if(randomPrimary.name == "AK-47"){
+  ak47();
+}
+
+
+
+
+if((randomPrimary.name == "M4A1") || (randomPrimary.name == "Kilo 141") || (randomPrimary.name == "FAL") || (randomPrimary.name == "FR 5.56") || (randomPrimary.name == "Oden") 
+|| (randomPrimary.name == "M13") || (randomPrimary.name == "FN Scar 17") || (randomPrimary.name == "AK-47")){
+  isAR = true;
+  //console.log("------------------------------ " + isAR);
+}
+
+if(isAR != true){
+  //console.log("------------------------------ " + isAR)
+
+  document.getElementById("primaryAttH2").innerHTML = "None - Sorry Coming soon";
+  document.getElementById("primaryAtt1").innerHTML = "";
+  document.getElementById("primaryAtt2").innerHTML = "";
+  document.getElementById("primaryAtt3").innerHTML = "";
+  document.getElementById("primaryAtt4").innerHTML = "";
+  document.getElementById("primaryAtt5").innerHTML = "";
+  document.getElementById("primaryAtt6").innerHTML = "";
+  document.getElementById("primaryAtt7").innerHTML = "";
+  document.getElementById("primaryAtt8").innerHTML = "";
+  document.getElementById("primaryAtt9").innerHTML = "";
+}
 }
 
 

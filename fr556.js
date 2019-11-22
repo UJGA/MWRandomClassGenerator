@@ -1,4 +1,4 @@
-function kilo141(){
+function fr556(){
     var numAttachments = [0, 1, 2, 3, 4, 5, 6, 7, 8];
     var totalCount = 9;
     var ran = Math.floor(Math.random() * 5) + 0;
@@ -16,7 +16,6 @@ function kilo141(){
 
     var muzzles = [
         { name: 'Flash Guard', image: 'attachments/muzzles/flashguard.png' }, 
-        { name: 'Breacher Device', image: 'attachments/muzzles/breacherdevice.png' }, 
         { name: 'Tactical Suppressor', image: 'attachments/muzzles/tacticalsuppressor.png' },
         { name: 'Muzzle Brake', image: 'attachments/muzzles/muzzlebrake.png' },
         { name: 'Lightweight Suppressor', image: 'attachments/muzzles/lightweightsuppressor.png' },
@@ -35,7 +34,7 @@ function kilo141(){
     }
 
     if (muzzle != false){
-        var ranMuzzle = Math.floor(Math.random() * 7) + 0;
+        var ranMuzzle = Math.floor(Math.random() * 6) + 0;
     
         var muzzlePick = muzzles[ranMuzzle];
         //console.log(muzzlePick.name);
@@ -43,11 +42,15 @@ function kilo141(){
         document.getElementById("primaryAtt1").innerHTML = '<b>'+ "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img src="'+muzzlePick.image+'">';
     }
 
+
+
+                        //Image coming soon Sorry :'(
+
      //Barrel
      var barrels = [
-        { name: 'Singuard Arms 15.6 SOCOM', image: 'attachments/barrels/socom.png' }, 
-        { name: 'Singuard Arms 19.7 Prowler', image: 'attachments/barrels/prowler.png' }, 
-        { name: 'Singuard Arms Whisper', image: 'attachments/barrels/whisper.png' },
+        { name: 'FR 15.9 Commando', image: 'attachments/barrels/fr159commando.png' }, 
+        { name: 'FR 24.4 Sniper', image: 'attachments/barrels/fr244sniper.png' }, 
+        { name: 'TAC FORGE Ultralight', image: 'attachments/barrels/tacforgeultralight.png' },
       ];
 
 
@@ -68,7 +71,6 @@ function kilo141(){
         document.getElementById("primaryAttH2").innerHTML = "";
         document.getElementById("primaryAtt2").innerHTML = '<b>'+ "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img src="'+barrelPick.image+'">';
     }
-
 
 
 
@@ -151,10 +153,9 @@ function kilo141(){
     //Stock
 
     var stocks = [
-        { name: 'FORGE TAC Ultralight', image: 'attachments/stocks/ultralight.png' },
-        { name: 'Singuard Arms Sniper Pro', image: 'attachments/stocks/sniperpro.png' }, 
-        { name: 'No Stock', image: 'attachments/stocks/nostockkilo.png' },
-        { name: 'FFS CLose Quarters Stock', image: 'attachments/stocks/closequarters.png' }
+        { name: 'FR Ultralight Hollow', image: 'attachments/stocks/frultralighthollow.png' },
+        { name: 'FORGE TAC Ballast Pack', image: 'attachments/stocks/forgetacballastpackfr.png' },
+        { name: 'FFS Tac-Wrap', image: 'attachments/stocks/ffstacwrap.png' }
       ];
 
 
@@ -168,7 +169,7 @@ function kilo141(){
     }
 
     if (stock != false){
-        var ranStock = Math.floor(Math.random() * 4) + 0;
+        var ranStock = Math.floor(Math.random() * 3) + 0;
     
         var stockPick = stocks[ranStock];
         //console.log(stockPick.name);
@@ -226,8 +227,7 @@ function kilo141(){
 
      var ammunations = [
         { name: '50 Round Mags', image: 'attachments/ammunations/50.png' },
-        { name: '60 Round Mags', image: 'attachments/ammunations/60.png' }, 
-        { name: '100 Round Drums', image: 'attachments/ammunations/100.png' }
+        { name: '60 Round Mags', image: 'attachments/ammunations/60.png' }
       ];
 
 
@@ -241,7 +241,7 @@ function kilo141(){
     }
 
     if (ammunation != false){
-        var ranAmmunation = Math.floor(Math.random() * 3) + 0;
+        var ranAmmunation = Math.floor(Math.random() * 2) + 0;
     
         var ammunationPick = ammunations[ranAmmunation];
         //console.log(ammunationPick.name);
@@ -288,7 +288,6 @@ var perks = [
 { name: 'Frangible - Wounding', image: 'attachments/perks/wounding.png' },
 { name: 'Heavy Hitter', image: 'attachments/perks/heavyhitter.png' },
 { name: 'Fully Loaded', image: 'attachments/perks/fullyloaded.png' },
-{ name: 'Burst', image: 'attachments/perks/burst.png' },
 { name: 'Recon', image: 'attachments/perks/recon.png' },
 { name: 'Mo Money', image: 'attachments/perks/money.png' },
 { name: 'Fast Melee', image: 'attachments/perks/fastmelee.png' },
@@ -307,7 +306,7 @@ perk = true;
 }
 
 if (perk != false){
-var ranPerk= Math.floor(Math.random() * 11) + 0;
+var ranPerk= Math.floor(Math.random() * 10) + 0;
 
 var perkPick = perks[ranPerk];
 //console.log(perkPick.name);

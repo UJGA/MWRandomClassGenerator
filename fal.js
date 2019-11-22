@@ -9,7 +9,7 @@ function fal(){
     numAttachments.splice(rand,1);
     totalCount--;
     }
-    console.log(attArr);
+    //console.log(attArr);
     var underbarrel = false;
 
     //Muzzles
@@ -31,14 +31,14 @@ function fal(){
 
     if (attArr.includes(0)){
         muzzle = true;
-        console.log("Muzzle is true");
+        //console.log("Muzzle is true");
     }
 
     if (muzzle != false){
         var ranMuzzle = Math.floor(Math.random() * 7) + 0;
     
         var muzzlePick = muzzles[ranMuzzle];
-        console.log(muzzlePick.name);
+        //console.log(muzzlePick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
         document.getElementById("primaryAtt1").innerHTML = '<b>'+ "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img src="'+muzzlePick.image+'">';
     }
@@ -47,12 +47,12 @@ function fal(){
 
                         //Image coming soon Sorry :'(
 
-//------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
      //Barrel
      var barrels = [
-        { name: '18.0 Ultralight', image: 'attachments/comingsoon.png' }, 
-        { name: 'XRX Marksman', image: 'attachments/comingsoon.png' }, 
-        { name: '13.0 OSW Para', image: 'attachments/comingsoon.png' },
+        { name: '18.0 Ultralight', image: 'attachments/barrels/180ultralight.png' }, 
+        { name: 'XRX Marksman', image: 'attachments/barrels/xrxmarksman.png' }, 
+        { name: '13.0 OSW Para', image: 'attachments/barrels/130oswpara.png' },
       ];
 
 
@@ -62,14 +62,14 @@ function fal(){
 
     if (attArr.includes(1)){
         barrel = true;
-        console.log("Barrel is true");
+        //console.log("Barrel is true");
     }
 
     if (barrel != false){
         var ranBarrel = Math.floor(Math.random() * 3) + 0;
     
         var barrelPick = barrels[ranBarrel];
-        console.log(barrelPick.name);
+        //console.log(barrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
         document.getElementById("primaryAtt2").innerHTML = '<b>'+ "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img src="'+barrelPick.image+'">';
     }
@@ -91,14 +91,14 @@ function fal(){
 
     if (attArr.includes(2)){
         laser = true;
-        console.log("laser is true");
+        //console.log("laser is true");
     }
 
     if (laser != false){
         var ranLaser = Math.floor(Math.random() * 3) + 0;
     
         var laserPick = lasers[ranLaser];
-        console.log(laserPick.name);
+        //console.log(laserPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
         document.getElementById("primaryAtt3").innerHTML = '<b>'+ "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img src="'+laserPick.image+'">';
     }
@@ -138,14 +138,14 @@ function fal(){
 
     if (attArr.includes(3)){
         optic = true;
-        console.log("optic is true");
+        //console.log("optic is true");
     }
 
     if (optic != false){
         var ranOptic = Math.floor(Math.random() * 21) + 0;
     
         var opticPick = optics[ranOptic];
-        console.log(opticPick.name);
+        //console.log(opticPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
         document.getElementById("primaryAtt4").innerHTML = '<b>'+ "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img src="'+opticPick.image+'">';
     }
@@ -153,13 +153,12 @@ function fal(){
 
 
     //Stock
-        //-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
     var stocks = [
-        { name: 'Factory 18 Aluminum Stock', image: 'attachments/comingsoon.png' },
-        { name: 'FORGE TAC Stalker', image: 'attachments/comingsoon.png' }, 
-        { name: 'No Stock', image: 'attachments/stocks/nostockkilo.png' }, //---------------------------------FAL No stock?
-        { name: 'FFS CLose Quarters Stock', image: 'attachments/stocks/closequarters.png' }//--------------------------Different for fal?
+        { name: 'Factory 18 Aluminum Stock', image: 'attachments/stocks/factory18aluminumstock.png' },
+        { name: 'FORGE TAC Stalker', image: 'attachments/stocks/forgetacstalker.png' }, 
+        { name: 'No Stock', image: 'attachments/stocks/nostockkilo.png' },
+        { name: 'FFS CLose Quarters Stock', image: 'attachments/stocks/closequartersfal.png' }
       ];
 
 
@@ -169,14 +168,14 @@ function fal(){
 
     if (attArr.includes(4)){
         stock = true;
-        console.log("stock is true");
+        //console.log("stock is true");
     }
 
     if (stock != false){
         var ranStock = Math.floor(Math.random() * 4) + 0;
     
         var stockPick = stocks[ranStock];
-        console.log(stockPick.name);
+        //console.log(stockPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
         document.getElementById("primaryAtt5").innerHTML = '<b>'+ "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img src="'+stockPick.image+'">';
     }
@@ -209,14 +208,14 @@ function fal(){
 
     if (attArr.includes(5)){
         underbarrel = true;
-        console.log("underbarrel is true");
+        //console.log("underbarrel is true");
     }
 
     if (underbarrel != false){
         var ranUnderbarrel = Math.floor(Math.random() * 13) + 0;
     
         var underbarrelPick = underbarrels[ranUnderbarrel];
-        console.log(underbarrelPick.name);
+        //console.log(underbarrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
         document.getElementById("primaryAtt6").innerHTML = '<b>'+ "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img src="'+underbarrelPick.image+'">';
     }
@@ -228,11 +227,10 @@ function fal(){
 
 
      //Ammunation
-        //-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
      var ammunations = [
-        { name: '24 Round Mags', image: 'attachments/comingsoon.png' },
-        { name: '30 Round Mags', image: 'attachments/comingsoon.png' }
+        { name: '24 Round Mags', image: 'attachments/ammunations/24.png' },
+        { name: '30 Round Mags', image: 'attachments/ammunations/30.png' }
       ];
 
 
@@ -242,14 +240,14 @@ function fal(){
 
     if (attArr.includes(6)){
         ammunation = true;
-        console.log("ammunation is true");
+        //console.log("ammunation is true");
     }
 
     if (ammunation != false){
         var ranAmmunation = Math.floor(Math.random() * 2) + 0;
     
         var ammunationPick = ammunations[ranAmmunation];
-        console.log(ammunationPick.name);
+        //console.log(ammunationPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
         document.getElementById("primaryAtt7").innerHTML = '<b>'+ "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img src="'+ammunationPick.image+'">';
     }
@@ -272,14 +270,14 @@ document.getElementById("primaryAtt8").innerHTML = "";
 
 if (attArr.includes(7)){
 reargrip = true;
-console.log("rear grip is true");
+//console.log("rear grip is true");
 }
 
 if (reargrip != false){
 var ranRearGrip = Math.floor(Math.random() * 3) + 0;
 
 var rearGripPick = reargrips[ranRearGrip];
-console.log(rearGripPick.name);
+//console.log(rearGripPick.name);
 document.getElementById("primaryAttH2").innerHTML = "";
 document.getElementById("primaryAtt8").innerHTML = '<b>'+ "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img src="'+rearGripPick.image+'">';
 }
@@ -308,14 +306,14 @@ document.getElementById("primaryAtt9").innerHTML = "";
 
 if (attArr.includes(8)){
 perk = true;
-console.log("perk is true");
+//console.log("perk is true");
 }
 
 if (perk != false){
 var ranPerk= Math.floor(Math.random() * 11) + 0;
 
 var perkPick = perks[ranPerk];
-console.log(perkPick.name);
+//console.log(perkPick.name);
 document.getElementById("primaryAttH2").innerHTML = "";
 document.getElementById("primaryAtt9").innerHTML = '<b>'+ "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img src="'+perkPick.image+ '" "' + '">';
 }
