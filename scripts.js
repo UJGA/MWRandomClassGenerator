@@ -30,7 +30,9 @@
 //     { name: 'Uzi', image: 'primary/Uzi.png' }
 //   ];
 var primarysArray = [
-  { name: 'M4A1', image: 'primary/M4A1.png' }
+  { name: 'M4A1', image: 'primary/M4A1.png' },
+  { name: 'FAL', image: 'primary/FAL.png' },
+  { name: 'Kilo 141', image: 'primary/Kilo141.png' },
 ];
 
   var secondarysArray = [
@@ -111,8 +113,13 @@ var lethalsArray = [
 
 function random_item()
 {
+  var primayLength = primarysArray.length;
     //Primary
-    var randomPrimary = primarysArray[Math.floor(Math.random()*primarysArray.length)];
+    var randomPrimaryNumber = Math.floor(Math.random() * primayLength) + 0;
+    var randomPrimary = primarysArray[randomPrimaryNumber];
+    console.log("The Random primary number is-------------------------" + randomPrimaryNumber);
+    console.log("The name is -----------------------------------------" + randomPrimary.name);
+    console.log("The image is -----------------------------------------" + randomPrimary.image);
     document.getElementById("primary").innerHTML =randomPrimary.name + '<br>' + '<img src="'+randomPrimary.image+'">';
     document.getElementById("primaryH3").innerHTML = "Primary";
     document.getElementById("primaryAttH3").innerHTML = "Primary Attachments";
@@ -162,15 +169,23 @@ document.getElementById("upgradeH3").innerHTML = "Field Upgrade";
 //Moves Button and Revmoves top text
 
 document.getElementById("myTitle").innerHTML = "";
-document.getElementById("goAgain").innerHTML = '<button id="mybtn" class="btn btn-primary" onclick="random_item()">Generate Again</button>';
+document.getElementById("goAgain").innerHTML = '<button id="mybtn" class="btn btn-primary" onclick="random_item();">Generate Again</button>';
 
+//window.location.reload();
 
-//Call to weapon functions
-if(randomPrimary.name = "M4A1")
+// Call to weapon functions
+if(randomPrimary.name == "M4A1"){
   m4a1();
-
-
 }
 
+if(randomPrimary.name == "Kilo 141"){
+  kilo141();
+}
+
+if(randomPrimary.name == "FAL"){
+  fal();
+}
+
+}
 
 
