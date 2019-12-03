@@ -15,7 +15,13 @@ function mp5(){
     //Muzzles
 
     var muzzles = [
-        { name: '', image: 'attachments/smgs/' }, 
+        { name: 'Breacher Device', image: 'attachments/smgs/breacherdevice.png' },
+        { name: 'Tactical Suppressor', image: 'attachments/smgs/tacticalsuppressor.png' }, 
+        { name: 'Flash Guard', image: 'attachments/smgs/flashguard.png' }, 
+        { name: 'Monolithic Suppressor', image: 'attachments/smgs/monolithicsuppressor.png' }, 
+        { name: 'Muzzle Brake', image: 'attachments/smgs/muzzlebrake.png' }, 
+        { name: 'Compensator', image: 'attachments/smgs/compensator.png' }, 
+        { name: 'Lightweight Suppressor', image: 'attachments/smgs/lightweightsuppressor.png' }, 
       ];
 
 
@@ -40,7 +46,10 @@ function mp5(){
      //Barrel
 
      var barrels = [
-        { name: '', image: 'attachments/smgs/' }, 
+        { name: 'FFS Light', image: 'attachments/smgs/comingsoon' }, 
+        { name: 'Monolithic Integral Suppressor', image: 'attachments/smgs/comingsoon' }, 
+        { name: 'FFS Mini', image: 'attachments/smgs/comingsoon' }, 
+        { name: 'Subsonic Integral Suppressor', image: 'attachments/smgs/comingsoon' }, 
       ];
 
 
@@ -54,7 +63,7 @@ function mp5(){
     }
 
     if (barrel != false){
-        var ranBarrel = Math.floor(Math.random() * 5) + 0;
+        var ranBarrel = Math.floor(Math.random() * 4) + 0;
     
         var barrelPick = barrels[ranBarrel];
         console.log(barrelPick.name);
@@ -68,7 +77,9 @@ function mp5(){
     //Laser
 
     var lasers = [
-        { name: '1mW Laser', image: 'attachments/smgs/' }, 
+        { name: '1mW Laser', image: 'attachments/smgs/1mwlaser.png' },
+        { name: '5mW Laser', image: 'attachments/smgs/5mwlaser.png' }, 
+        { name: 'Tac Laser', image: 'attachments/smgs/taclaser.png' },  
       ];
 
 
@@ -95,7 +106,24 @@ function mp5(){
     //Optic
 
     var optics = [
-        { name: '', image: 'attachments/smgs/' },
+        { name: 'Operator Reflex Sight', image: 'attachments/smgs/operatorreflex.png' },
+        { name: 'Corp Combat Holo Sight', image: 'attachments/smgs/corp.png' },
+        { name: 'Aim-Op Relfex Sight', image: 'attachments/smgs/aimop.png' },
+        { name: 'G.I. Mini Relex', image: 'attachments/smgs/gi.png' },
+        { name: 'Scout Combat Optic', image: 'attachments/smgs/scout.png' },
+        { name: 'APX5 Holographic Sight', image: 'attachments/smgs/apx5.png' },
+        { name: 'Solozero Optics Mini Reflex', image: 'attachments/smgs/solozeromini.png' },
+        { name: 'VLK 3.0x Optic', image: 'attachments/smgs/vlk.png' },
+        { name: 'Thermal hybrid', image: 'attachments/smgs/thermal.png' },
+        { name: 'Viper Reflex Sight', image: 'attachments/smgs/viper.png' },
+        { name: 'PBX Holo 7 sight', image: 'attachments/smgs/pbx.png' },
+        { name: 'Solozero NVG Enhanced', image: 'attachments/smgs/solozero.png' },
+        { name: 'Cronen LP945 Mini Reflex', image: 'attachments/smgs/cronenlp945.png' },
+        { name: 'Canted Hybrid', image: 'attachments/smgs/cantedhybrid.png' },
+        { name: 'Monocle Reflex Sight', image: 'attachments/smgs/monocle.png' },
+        { name: 'Cronen C480 Pro Optic', image: 'attachments/smgs/cronenc480.png' },
+        { name: 'Merc Thermal Optic', image: 'attachments/smgs/mercthermal.png' },
+        { name: 'Integral Hybrid', image: 'attachments/smgs/integral.png' },
       ];
 
 
@@ -109,7 +137,7 @@ function mp5(){
     }
 
     if (optic != false){
-        var ranOptic = Math.floor(Math.random() * 20) + 0;
+        var ranOptic = Math.floor(Math.random() * 18) + 0;
     
         var opticPick = optics[ranOptic];
         console.log(opticPick.name);
@@ -122,7 +150,9 @@ function mp5(){
     //Stock
 
     var stocks = [
-        { name: '', image: 'attachments/smgs/' },
+        { name: 'FTAC Ultralight Hollow', image: 'attachments/smgs/ftacultralighthollow.png' },
+        { name: 'FORGE TAC CQB Comb', image: 'attachments/smgs/forgetaccqbcomb.png' },
+        { name: 'FSS Heavy Stock Pro', image: 'attachments/smgs/fssheavystockpro.png' },
       ];
 
 
@@ -136,7 +166,7 @@ function mp5(){
     }
 
     if (stock != false){
-        var ranStock = Math.floor(Math.random() * 4) + 0;
+        var ranStock = Math.floor(Math.random() * 3) + 0;
     
         var stockPick = stocks[ranStock];
         console.log(stockPick.name);
@@ -150,7 +180,11 @@ function mp5(){
     //Underbarrel
 
     var underbarrels = [
-        { name: '', image: 'attachments/smgs/' },
+        { name: 'Merc Foregrup', image: 'attachments/smgs/merc.png' },
+        { name: 'Commando Foregrip', image: 'attachments/smgs/commando.png' },
+        { name: 'Tactical Foregrip', image: 'attachments/smgs/tactical.png' },
+        { name: 'Ranger Foregrip', image: 'attachments/smgs/ranger.png' },
+        { name: 'Operator Foregrip', image: 'attachments/smgs/operator.png' },
       ];
 
 
@@ -164,7 +198,7 @@ function mp5(){
     }
 
     if (underbarrel != false){
-        var ranUnderbarrel = Math.floor(Math.random() * 13) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * 5) + 0;
     
         var underbarrelPick = underbarrels[ranUnderbarrel];
         console.log(underbarrelPick.name);
@@ -181,7 +215,8 @@ function mp5(){
      //Ammunation
 
      var ammunations = [
-        { name: '', image: 'attachments/smgs/' },
+        { name: '45 Round Mags', image: 'attachments/smgs/comingsoon' },
+        { name: '10mm Auto 30-Round Mags', image: 'attachments/smgs/comingsoon' },
       ];
 
 
@@ -195,7 +230,7 @@ function mp5(){
     }
 
     if (ammunation != false){
-        var ranAmmunation = Math.floor(Math.random() * 4) + 0;
+        var ranAmmunation = Math.floor(Math.random() * 2) + 0;
     
         var ammunationPick = ammunations[ranAmmunation];
         console.log(ammunationPick.name);
@@ -209,7 +244,9 @@ function mp5(){
 //RearGrip
 
 var reargrips = [
-{ name: '', image: 'attachments/smgs/' },
+{ name: 'Granulated Grip Tape', image: 'attachments/smgs/granulatedgriptape.png' },
+{ name: 'Rubberized Grip Tape', image: 'attachments/smgs/rubberizedgriptape.png' },
+{ name: 'Stippled Grip Tape', image: 'attachments/smgs/stippledgriptape.png' },
 ];
 
 
@@ -258,14 +295,13 @@ console.log("perk is true");
 }
 
 if (perk != false){
-var ranPerk= Math.floor(Math.random() * 11) + 0;
+var ranPerk= Math.floor(Math.random() * 10) + 0;
 
 var perkPick = perks[ranPerk];
 console.log(perkPick.name);
 document.getElementById("primaryAttH2").innerHTML = "";
 document.getElementById("primaryAtt9").innerHTML = '<b>'+ "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img src="'+perkPick.image+ '" "' + '">';
 }
-
 
 
 

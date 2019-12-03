@@ -149,8 +149,8 @@ function p90(){
     //Stock
 
     var stocks = [
-        { name: 'FTAC Ultralight Hollow', image: 'attachments/smgs/ftacultralighthollow.png' },
         { name: 'FORGE TAC CQB Comb', image: 'attachments/smgs/forgetaccqbcomb.png' },
+        { name: 'Fly Strap', image: 'attachments/smgs/comingsoon' },
         { name: 'FSS Heavy Stock Pro', image: 'attachments/smgs/fssheavystockpro.png' },
       ];
 
@@ -179,11 +179,9 @@ function p90(){
     //Underbarrel
 
     var underbarrels = [
-        { name: 'Merc Foregrup', image: 'attachments/smgs/merc.png' },
-        { name: 'Commando Foregrip', image: 'attachments/smgs/commando.png' },
-        { name: 'Tactical Foregrip', image: 'attachments/smgs/tactical.png' },
-        { name: 'Ranger Foregrip', image: 'attachments/smgs/ranger.png' },
-        { name: 'Operator Foregrip', image: 'attachments/smgs/operator.png' },
+        { name: 'Granuldated Grip Tape', image: 'attachments/smgs/comingsoon' },
+        { name: 'Stippled Grip Tape', image: 'attachments/smgs/comingsoon' },
+        { name: 'Rubberized Grip Tape', image: 'attachments/smgs/comingsoon' },
       ];
 
 
@@ -197,7 +195,7 @@ function p90(){
     }
 
     if (underbarrel != false){
-        var ranUnderbarrel = Math.floor(Math.random() * 5) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * 3) + 0;
     
         var underbarrelPick = underbarrels[ranUnderbarrel];
         console.log(underbarrelPick.name);
@@ -245,7 +243,6 @@ var perks = [
 { name: 'Frangible - Wounding', image: 'attachments/perks/wounding.png' },
 { name: 'Heavy Hitter', image: 'attachments/perks/heavyhitter.png' },
 { name: 'Fully Loaded', image: 'attachments/perks/fullyloaded.png' },
-{ name: 'Burst', image: 'attachments/perks/burst.png' },
 { name: 'Recon', image: 'attachments/perks/recon.png' },
 { name: 'Mo Money', image: 'attachments/perks/money.png' },
 { name: 'Fast Melee', image: 'attachments/perks/fastmelee.png' },
@@ -263,7 +260,7 @@ console.log("perk is true");
 }
 
 if (perk != false){
-var ranPerk= Math.floor(Math.random() * 10) + 0;
+var ranPerk= Math.floor(Math.random() * 9) + 0;
 
 var perkPick = perks[ranPerk];
 console.log(perkPick.name);

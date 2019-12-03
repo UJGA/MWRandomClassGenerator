@@ -32,8 +32,8 @@
 
 //----------------------------------------------------------------------Testing purposes only
 var primarysArray = [
-  { name: 'AUG', image: 'primary/AUG.png' },
-  { name: 'P90', image: 'primary/P90.png' },
+  // { name: 'AUG', image: 'primary/AUG.png' },
+  // { name: 'P90', image: 'primary/P90.png' },
   // { name: 'MP5', image: 'primary/MP5.png' },
   // { name: 'Uzi', image: 'primary/Uzi.png' },
   // { name: 'PP19 Bizon', image: 'primary/PP19Bizon.png' },
