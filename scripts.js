@@ -31,27 +31,14 @@
 //   ];
 
 //----------------------------------------------------------------------Testing purposes only
-<<<<<<< Updated upstream
-// var primarysArray = [
-//   { name: 'M4A1', image: 'primary/M4A1.png' },
-//   { name: 'FAL', image: 'primary/FAL.png' },
-//   { name: 'FR 5.56', image: 'primary/FR556.png' },
-//   { name: 'Oden', image: 'primary/Oden.png' },
-//   { name: 'Kilo 141', image: 'primary/Kilo141.png' },
-//   { name: 'M13', image: 'primary/M13.png' },
-//   { name: 'FN Scar 17', image: 'primary/FNScar17.png' },
-//   { name: 'AK-47', image: 'primary/AK47.png' },
-// ];
-=======
 var primarysArray = [
   { name: 'AUG', image: 'primary/AUG.png' },
   { name: 'P90', image: 'primary/P90.png' },
-  { name: 'MP5', image: 'primary/MP5.png' },
-  { name: 'Uzi', image: 'primary/Uzi.png' },
-  { name: 'PP19 Bizon', image: 'primary/PP19Bizon.png' },
-  { name: 'MP7', image: 'primary/MP7.png' },
+  // { name: 'MP5', image: 'primary/MP5.png' },
+  // { name: 'Uzi', image: 'primary/Uzi.png' },
+  // { name: 'PP19 Bizon', image: 'primary/PP19Bizon.png' },
+  // { name: 'MP7', image: 'primary/MP7.png' },
 ];
->>>>>>> Stashed changes
 
   var secondarysArray = [
     { name: '.50 GS', image: 'Secondary/50GS.png' }, 
@@ -227,6 +214,30 @@ if(randomPrimary.name == "AK-47"){
   ak47();
 }
 
+if(randomPrimary.name == "AUG"){
+  aug();
+}
+
+if(randomPrimary.name == "P90"){
+  p90();
+}
+
+if(randomPrimary.name == "MP5"){
+  mp5();
+}
+
+if(randomPrimary.name == "Uzi"){
+  uzi();
+}
+
+if(randomPrimary.name == "PP19 Bizon"){
+  pp19();
+}
+
+if(randomPrimary.name == "MP7"){
+  mp7();
+}
+
 
 
 
@@ -236,20 +247,20 @@ if((randomPrimary.name == "M4A1") || (randomPrimary.name == "Kilo 141") || (rand
   //console.log("------------------------------ " + isAR);
 }
 
-if(isAR != true){
-  //console.log("------------------------------ " + isAR)
+// if(isAR != true){
+//   //console.log("------------------------------ " + isAR)
 
-  document.getElementById("primaryAttH2").innerHTML = "None - Sorry Coming soon";
-  document.getElementById("primaryAtt1").innerHTML = "";
-  document.getElementById("primaryAtt2").innerHTML = "";
-  document.getElementById("primaryAtt3").innerHTML = "";
-  document.getElementById("primaryAtt4").innerHTML = "";
-  document.getElementById("primaryAtt5").innerHTML = "";
-  document.getElementById("primaryAtt6").innerHTML = "";
-  document.getElementById("primaryAtt7").innerHTML = "";
-  document.getElementById("primaryAtt8").innerHTML = "";
-  document.getElementById("primaryAtt9").innerHTML = "";
-}
+//   document.getElementById("primaryAttH2").innerHTML = "None - Sorry Coming soon";
+//   document.getElementById("primaryAtt1").innerHTML = "";
+//   document.getElementById("primaryAtt2").innerHTML = "";
+//   document.getElementById("primaryAtt3").innerHTML = "";
+//   document.getElementById("primaryAtt4").innerHTML = "";
+//   document.getElementById("primaryAtt5").innerHTML = "";
+//   document.getElementById("primaryAtt6").innerHTML = "";
+//   document.getElementById("primaryAtt7").innerHTML = "";
+//   document.getElementById("primaryAtt8").innerHTML = "";
+//   document.getElementById("primaryAtt9").innerHTML = "";
+// }
 }
 
 
