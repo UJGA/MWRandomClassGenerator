@@ -32,14 +32,9 @@ var primarysArray = [
 
 //----------------------------------------------------------------------Testing purposes only
 // var primarysArray = [
-//   { name: 'M4A1', image: 'primary/M4A1.png' },
-//   { name: 'FAL', image: 'primary/FAL.png' },
-//   { name: 'FR 5.56', image: 'primary/FR556.png' },
-//   { name: 'Oden', image: 'primary/Oden.png' },
-//   { name: 'Kilo 141', image: 'primary/Kilo141.png' },
-//   { name: 'M13', image: 'primary/M13.png' },
-//   { name: 'FN Scar 17', image: 'primary/FNScar17.png' },
-//   { name: 'AK-47', image: 'primary/AK47.png' },
+//   { name: 'AUG', image: 'primary/AUG.png' },
+//   { name: 'P90', image: 'primary/P90.png' },
+//   { name: 'MP5', image: 'primary/MP5.png' },
 // ];
 
   var secondarysArray = [

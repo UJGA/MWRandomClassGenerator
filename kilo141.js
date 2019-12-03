@@ -12,6 +12,8 @@ function kilo141(){
     //console.log(attArr);
     var underbarrel = false;
 
+    var singuardWhisper = false;
+
     //Muzzles
 
     var muzzles = [
@@ -31,14 +33,14 @@ function kilo141(){
 
     if (attArr.includes(0)){
         muzzle = true;
-        //console.log("Muzzle is true");
+        // console.log("Muzzle is true");
     }
 
     if (muzzle != false){
         var ranMuzzle = Math.floor(Math.random() * 7) + 0;
     
         var muzzlePick = muzzles[ranMuzzle];
-        //console.log(muzzlePick.name);
+        // console.log(muzzlePick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
         document.getElementById("primaryAtt1").innerHTML = '<b>'+ "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img src="'+muzzlePick.image+'">';
     }
@@ -57,14 +59,18 @@ function kilo141(){
 
     if (attArr.includes(1)){
         barrel = true;
-        //console.log("Barrel is true");
+        // console.log("Barrel is true");
     }
 
     if (barrel != false){
-        var ranBarrel = Math.floor(Math.random() * 3) + 0;
+        var ranBarrel = Math.floor(Math.random() * 1) + 0;
     
         var barrelPick = barrels[ranBarrel];
-        //console.log(barrelPick.name);
+        if(barrelPick.name == "Singuard Arms Whisper")
+        {
+            singuardWhisper = true;
+        }
+        // console.log(barrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
         document.getElementById("primaryAtt2").innerHTML = '<b>'+ "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img src="'+barrelPick.image+'">';
     }
@@ -317,6 +323,11 @@ document.getElementById("primaryAtt9").innerHTML = '<b>'+ "Perk -  " + '</b>' + 
 
 
 
+
+if(singuardWhisper = true){
+    document.getElementById("primaryAttH2").innerHTML = "";
+    document.getElementById("primaryAtt1").innerHTML = "";
+}
 
 
 

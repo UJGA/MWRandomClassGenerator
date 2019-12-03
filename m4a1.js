@@ -11,6 +11,7 @@ function m4a1(){
         }
         //console.log(attArr);
         var underbarrel = false;
+        var fFSPredator = false;
 
         //Muzzles
 
@@ -67,6 +68,10 @@ function m4a1(){
             var ranBarrel = Math.floor(Math.random() * 5) + 0;
         
             var barrelPick = barrels[ranBarrel];
+            if(barrelPick.name == "FFS 12.4 Predator")
+            {
+                fFSPredator = true;
+            }
             //console.log(barrelPick.name);
             document.getElementById("primaryAttH2").innerHTML = "";
             document.getElementById("primaryAtt2").innerHTML = '<b>'+ "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img src="'+barrelPick.image+'">';
@@ -318,7 +323,10 @@ if (perk != false){
     document.getElementById("primaryAtt9").innerHTML = '<b>'+ "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img src="'+perkPick.image+ '" "' + '">';
 }
 
-
+if(fFSPredator = true){
+    document.getElementById("primaryAttH2").innerHTML = "";
+    document.getElementById("primaryAtt1").innerHTML = "";
+}
 
 
 
