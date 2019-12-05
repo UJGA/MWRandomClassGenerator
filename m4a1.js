@@ -68,6 +68,9 @@ function m4a1(){
         
             var barrelPick = barrels[ranBarrel];
             //console.log(barrelPick.name);
+            if(barrelPick.name == "FFS 12.4 Predator")
+            document.getElementById("primaryAttH2").innerHTML = "";
+
             document.getElementById("primaryAttH2").innerHTML = "";
             document.getElementById("primaryAtt2").innerHTML = '<b>'+ "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img src="'+barrelPick.image+'">';
         }

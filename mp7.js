@@ -46,9 +46,9 @@ function mp7(){
      //Barrel
 
      var barrels = [
-        { name: 'FFS STRIKE', image: 'attachments/smgs/comingsoon' }, 
-        { name: 'FSS RECON', image: 'attachments/smgs/comingsoon' }, 
-        { name: 'FFS SWAT', image: 'attachments/smgs/comingsoon' }, 
+        { name: 'FSS STRIKE', image: 'attachments/smgs/fssstrike.png' }, 
+        { name: 'FSS RECON', image: 'attachments/smgs/fssrecon.png' }, 
+        { name: 'FSS SWAT', image: 'attachments/smgs/fssswat.png' }, 
       ];
 
 
@@ -148,10 +148,10 @@ function mp7(){
     //Stock
 
     var stocks = [
-        { name: 'FORGE TAC Ultralight', image: 'attachments/smgs/comingsoon' },
-        { name: 'FORGE TAC Stalker', image: 'attachments/smgs/comingsoon' },
-        { name: 'FSS Close Quarters Stock', image: 'attachments/smgs/comingsoon' },
-        { name: 'No Stock', image: 'attachments/smgs/comingsoon' },
+        { name: 'FORGE TAC Ultralight', image: 'attachments/smgs/forgetacultralight.png' },
+        { name: 'FORGE TAC Stalker', image: 'attachments/smgs/forgetacstalker.png' },
+        { name: 'FSS Close Quarters Stock', image: 'attachments/smgs/fssclosequartersstock.png' },
+        { name: 'No Stock', image: 'attachments/smgs/nostockmp7.png' },
       ];
 
 
@@ -214,8 +214,8 @@ function mp7(){
      //Ammunation
 
      var ammunations = [
-        { name: '50 Round Mags', image: 'attachments/smgs/comingsoon' },
-        { name: '60 Round Mags', image: 'attachments/smgs/comingsoon' },
+        { name: '50 Round Mags', image: 'attachments/smgs/50mp7.png' },
+        { name: '60 Round Mags', image: 'attachments/smgs/60mp7.png' },
       ];
 
 

@@ -32,12 +32,10 @@
 
 //----------------------------------------------------------------------Testing purposes only
 var primarysArray = [
-  // { name: 'AUG', image: 'primary/AUG.png' },
-  // { name: 'P90', image: 'primary/P90.png' },
-  // { name: 'MP5', image: 'primary/MP5.png' },
-  // { name: 'Uzi', image: 'primary/Uzi.png' },
-  // { name: 'PP19 Bizon', image: 'primary/PP19Bizon.png' },
-  // { name: 'MP7', image: 'primary/MP7.png' },
+    { name: 'Model 680', image: 'primary/Model680.png' },
+//     { name: 'R9-0 Shotgun', image: 'primary/R90Shotgun.png' },
+//     { name: '725', image: 'primary/725.png' },
+//     { name: 'Origin 12 Shotgun', image: 'primary/Origin12Shotgun.png' },
 ];
 
   var secondarysArray = [
@@ -238,6 +236,21 @@ if(randomPrimary.name == "MP7"){
   mp7();
 }
 
+if(randomPrimary.name == "Model 680"){
+  model680();
+}
+
+if(randomPrimary.name == "R9-0 Shotgun"){
+  r90();
+}
+
+if(randomPrimary.name == "725"){
+  s725();
+}
+
+if(randomPrimary.name == "Origin 12 Shotgun"){
+  origin12();
+}
 
 
 

@@ -150,7 +150,7 @@ function p90(){
 
     var stocks = [
         { name: 'FORGE TAC CQB Comb', image: 'attachments/smgs/forgetaccqbcomb.png' },
-        { name: 'Fly Strap', image: 'attachments/smgs/comingsoon' },
+        { name: 'Fly Strap', image: 'attachments/smgs/flystrap.png' },
         { name: 'FSS Heavy Stock Pro', image: 'attachments/smgs/fssheavystockpro.png' },
       ];
 
@@ -179,9 +179,9 @@ function p90(){
     //Underbarrel
 
     var underbarrels = [
-        { name: 'Granuldated Grip Tape', image: 'attachments/smgs/comingsoon' },
-        { name: 'Stippled Grip Tape', image: 'attachments/smgs/comingsoon' },
-        { name: 'Rubberized Grip Tape', image: 'attachments/smgs/comingsoon' },
+        { name: 'Granuldated Grip Tape', image: 'attachments/smgs/granulatedgriptapeub.png' },
+        { name: 'Stippled Grip Tape', image: 'attachments/smgs/stippledgriptapeub.png' },
+        { name: 'Rubberized Grip Tape', image: 'attachments/smgs/rubberizedgriptapeub.png' },
       ];
 
 

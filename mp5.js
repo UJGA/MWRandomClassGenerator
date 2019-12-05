@@ -46,11 +46,12 @@ function mp5(){
      //Barrel
 
      var barrels = [
-        { name: 'FFS Light', image: 'attachments/smgs/comingsoon' }, 
-        { name: 'Monolithic Integral Suppressor', image: 'attachments/smgs/comingsoon' }, 
-        { name: 'FFS Mini', image: 'attachments/smgs/comingsoon' }, 
-        { name: 'Subsonic Integral Suppressor', image: 'attachments/smgs/comingsoon' }, 
+        // { name: 'FFS Light', image: 'attachments/smgs/fsslight.png' }, 
+        { name: 'Monolithic Integral Suppressor', image: 'attachments/smgs/monolithicintegralsuppressor.png' }, 
+        // { name: 'FFS Mini', image: 'attachments/smgs/fssmini.png' }, 
+        { name: 'Subsonic Integral Suppressor', image: 'attachments/smgs/subsonicintegralsuppressor.png' }, 
       ];
+
 
 
     var barrel = false;
@@ -63,9 +64,16 @@ function mp5(){
     }
 
     if (barrel != false){
-        var ranBarrel = Math.floor(Math.random() * 4) + 0;
+        var ranBarrel = Math.floor(Math.random() * 2) + 0;
     
         var barrelPick = barrels[ranBarrel];
+
+
+        if((barrelPick.name == "Subsonic Integral Suppressor") ||(barrelPick.name == "Monolithic Integral Suppressor"))
+        {
+            document.getElementById("primaryAtt1").innerHTML = "";
+        }
+
         console.log(barrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
         document.getElementById("primaryAtt2").innerHTML = '<b>'+ "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img src="'+barrelPick.image+'">';
@@ -215,8 +223,8 @@ function mp5(){
      //Ammunation
 
      var ammunations = [
-        { name: '45 Round Mags', image: 'attachments/smgs/comingsoon' },
-        { name: '10mm Auto 30-Round Mags', image: 'attachments/smgs/comingsoon' },
+        { name: '45 Round Mags', image: 'attachments/smgs/45mp5.png' },
+        { name: '10mm Auto 30-Round Mags', image: 'attachments/smgs/30mp5.png' },
       ];
 
 

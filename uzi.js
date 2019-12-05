@@ -46,9 +46,9 @@ function uzi(){
      //Barrel
 
      var barrels = [
-        { name: '13.1 First Responder', image: 'attachments/smgs/comingsoon' }, 
-        { name: '8.5 Factory Mini', image: 'attachments/smgs/comingsoon' }, 
-        { name: '16.5 Factory Carbine', image: 'attachments/smgs/comingsoon' }, 
+        { name: '13.1 First Responder', image: 'attachments/smgs/131firstresponder.png' }, 
+        { name: '8.5 Factory Mini', image: 'attachments/smgs/85factorymini.png' }, 
+        { name: '16.5 Factory Carbine', image: 'attachments/smgs/165factorycarbine.png' }, 
       ];
 
 
@@ -149,10 +149,10 @@ function uzi(){
     //Stock
 
     var stocks = [
-        { name: 'FORGE TAC Ultralight', image: 'attachments/smgs/comingsoon' },
-        { name: 'Standard-Issue Wood Stock', image: 'attachments/smgs/comingsoon' },
-        { name: 'No Stock', image: 'attachments/smgs/comingsoon' },
-        { name: 'FFS Close Quarters Stock', image: 'attachments/smgs/comingsoon' },
+        { name: 'FORGE TAC Ultralight', image: 'attachments/smgs/forgetacultralight.png' },
+        { name: 'Standard-Issue Wood Stock', image: 'attachments/smgs/standardissuewoodstock.png' },
+        { name: 'No Stock', image: 'attachments/smgs/nostockuzi.png' },
+        { name: 'FFS Close Quarters Stock', image: 'attachments/smgs/fssclosequartersstock.png' },
       ];
 
 
@@ -215,8 +215,8 @@ function uzi(){
      //Ammunation
 
      var ammunations = [
-        { name: '40 Round Mags', image: 'attachments/smgs/comingsoon' },
-        { name: '50 Round Mags', image: 'attachments/smgs/comingsoon' },
+        { name: '40 Round Mags', image: 'attachments/smgs/40uzi.png' },
+        { name: '50 Round Mags', image: 'attachments/smgs/50uzi.png' },
       ];
 
 

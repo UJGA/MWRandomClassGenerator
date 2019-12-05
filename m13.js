@@ -69,6 +69,10 @@ function m13(){
         var ranBarrel = Math.floor(Math.random() * 3) + 0;
     
         var barrelPick = barrels[ranBarrel];
+
+        if(barrelPick.name == "Tempus Cyclone")
+        document.getElementById("primaryAttH2").innerHTML = "";
+
         //console.log(barrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
         document.getElementById("primaryAtt2").innerHTML = '<b>'+ "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img src="'+barrelPick.image+'">';

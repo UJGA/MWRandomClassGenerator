@@ -46,8 +46,9 @@ function pp19(){
      //Barrel
 
      var barrels = [
-        { name: '8.7 Polygonal', image: 'attachments/smgs/comingsoon' }, 
-        { name: '8.7 Aluminum', image: 'attachments/smgs/comingsoon' },  
+        { name: '8.7 Steel', image: 'attachments/smgs/87steel.png' }, 
+        { name: '8.7 Polygonal', image: 'attachments/smgs/87pologonal.png' }, 
+        { name: '8.7 Aluminum', image: 'attachments/smgs/87aluminum.png' },  
       ];
 
 
@@ -61,7 +62,7 @@ function pp19(){
     }
 
     if (barrel != false){
-        var ranBarrel = Math.floor(Math.random() * 2) + 0;
+        var ranBarrel = Math.floor(Math.random() * 3) + 0;
     
         var barrelPick = barrels[ranBarrel];
         console.log(barrelPick.name);
@@ -148,10 +149,10 @@ function pp19(){
     //Stock
 
     var stocks = [
-        { name: 'Factory Aiuminum Stock', image: 'attachments/smgs/comingsoon' },
-        { name: 'No Stock', image: 'attachments/smgs/comingsoon' },
-        { name: 'Corvus Skeleton Stock', image: 'attachments/smgs/comingsoon' },
-        { name: 'FFS Close Quarters Stock', image: 'attachments/smgs/comingsoon' },
+        { name: 'Factory Aiuminum Stock', image: 'attachments/smgs/factoryalumniumstock.png' },
+        { name: 'No Stock', image: 'attachments/smgs/nostockpp.png' },
+        { name: 'Corvus Skeleton Stock', image: 'attachments/smgs/corvussleketonstock.png' },
+        { name: 'FFS Close Quarters Stock', image: 'attachments/smgs/fssclosequartersstock.png' },
       ];
 
 
@@ -181,7 +182,7 @@ function pp19(){
      //Ammunation
 
      var ammunations = [
-        { name: '84 Round Helical Mags', image: 'attachments/smgs/comingsoon' },
+        { name: '84 Round Helical Mags', image: 'attachments/smgs/84round.png' },
       ];
 
 
@@ -242,7 +243,6 @@ var perks = [
 { name: 'Frangible - Wounding', image: 'attachments/perks/wounding.png' },
 { name: 'Heavy Hitter', image: 'attachments/perks/heavyhitter.png' },
 { name: 'Fully Loaded', image: 'attachments/perks/fullyloaded.png' },
-{ name: 'Burst', image: 'attachments/perks/burst.png' },
 { name: 'Recon', image: 'attachments/perks/recon.png' },
 { name: 'Mo Money', image: 'attachments/perks/money.png' },
 { name: 'Fast Melee', image: 'attachments/perks/fastmelee.png' },
