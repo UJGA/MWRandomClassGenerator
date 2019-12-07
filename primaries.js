@@ -13797,3 +13797,17 @@ function s725() {
 
 
 }
+
+function riot(){
+    
+    document.getElementById("primaryAttH2").innerHTML = "None";
+    document.getElementById("primaryAtt1").innerHTML = ""
+    document.getElementById("primaryAtt2").innerHTML = ""
+    document.getElementById("primaryAtt3").innerHTML = ""
+    document.getElementById("primaryAtt4").innerHTML = ""
+    document.getElementById("primaryAtt5").innerHTML = ""
+    document.getElementById("primaryAtt6").innerHTML = ""
+    document.getElementById("primaryAtt7").innerHTML = ""
+    document.getElementById("primaryAtt8").innerHTML = ""
+    document.getElementById("primaryAtt9").innerHTML = ""
+}

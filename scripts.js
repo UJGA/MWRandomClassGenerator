@@ -77,6 +77,10 @@ var primarysArray = [
 // ];
 
 
+// var primarysArray = [
+//   { name: 'Riot Shield', image: 'primary/RiotShield.png' },
+// ];
+
 
 //----------------------------------------------------------------------------------------------------------------End testing
   var secondarysArray = [
@@ -330,6 +334,10 @@ if(randomPrimary.name == "HDR"){
 }
 if(randomPrimary.name == "AX-50"){
   ax50();
+}
+
+if(randomPrimary.name == "Riot Shield"){
+  riot();
 }
 if((randomPrimary.name == "M4A1") || (randomPrimary.name == "Kilo 141") || (randomPrimary.name == "FAL") || (randomPrimary.name == "FR 5.56") || (randomPrimary.name == "Oden") 
 || (randomPrimary.name == "M13") || (randomPrimary.name == "FN Scar 17") || (randomPrimary.name == "AK-47")){
