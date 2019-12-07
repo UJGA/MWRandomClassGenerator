@@ -24,19 +24,61 @@ var primarysArray = [
     { name: 'P90', image: 'primary/P90.png' },
     { name: 'PKM', image: 'primary/PKM.png' },
     { name: 'PP19 Bizon', image: 'primary/PP19Bizon.png' },
+    { name: 'RAM-7', image: 'primary/RAM7.png' },
     { name: 'R9-0 Shotgun', image: 'primary/R90Shotgun.png' },
     { name: 'Riot Shield', image: 'primary/RiotShield.png' },
     { name: 'SA87', image: 'primary/SA87.png' },
-    { name: 'Uzi', image: 'primary/Uzi.png' }
+    { name: 'Uzi', image: 'primary/Uzi.png' },
+    { name: 'Holger-26', image: 'primary/holger26.png' }
+
   ];
 
-//----------------------------------------------------------------------Testing purposes only
+// //----------------------------------------------------------------------------------------------------------------Testing purposes only
+// var primarysArray = [
+//   { name: 'Kilo 141', image: 'primary/Kilo141.png' },
+//   { name: 'FAL', image: 'primary/FAL.png' },
+//   { name: 'M4A1', image: 'primary/M4A1.png' },
+//   { name: 'FR 5.56', image: 'primary/FR556.png' },
+//   { name: 'Oden', image: 'primary/Oden.png' },
+//   { name: 'M13', image: 'primary/M13.png' },
+//   { name: 'FN Scar 17', image: 'primary/FNScar17.png' },
+//   { name: 'AK-47', image: 'primary/AK47.png' },
+//   { name: 'RAM-7', image: 'primary/RAM7.png' },
+// ];
+
 // var primarysArray = [
 //   { name: 'AUG', image: 'primary/AUG.png' },
 //   { name: 'P90', image: 'primary/P90.png' },
 //   { name: 'MP5', image: 'primary/MP5.png' },
+//   { name: 'Uzi', image: 'primary/Uzi.png' },
+//   { name: 'PP19 Bizon', image: 'primary/PP19Bizon.png' },
+//   { name: 'MP7', image: 'primary/MP7.png' },
 // ];
 
+// var primarysArray = [
+//   { name: 'Model 680', image: 'primary/Model680.png' },
+//   { name: 'R9-0 Shotgun', image: 'primary/R90Shotgun.png' },
+//   { name: '725', image: 'primary/725.png' }, 
+//   { name: 'Origin 12 Shotgun', image: 'primary/Origin12Shotgun.png' },
+// ];
+
+// var primarysArray = [
+//   { name: 'PKM', image: 'primary/PKM.png' },
+//   { name: 'SA87', image: 'primary/SA87.png' },
+//   { name: 'M91', image: 'primary/M91.png' },
+//   { name: 'MG34', image: 'primary/MG34.png' },
+//   { name: 'Holger-26', image: 'primary/holger26.png' }
+// ];
+
+// var primarysArray = [
+//   { name: 'Dragunov', image: 'primary/Dragunov.png' },
+//   { name: 'HDR', image: 'primary/HDR.png' },
+//   { name: 'AX-50', image: 'primary/AX50.png' },
+// ];
+
+
+
+//----------------------------------------------------------------------------------------------------------------End testing
   var secondarysArray = [
     { name: '.50 GS', image: 'Secondary/50GS.png' }, 
     { name: '.357', image: 'Secondary/357.png' }, 
@@ -210,30 +252,105 @@ if(randomPrimary.name == "FN Scar 17"){
 if(randomPrimary.name == "AK-47"){
   ak47();
 }
+if(randomPrimary.name == "RAM-7"){
+  ram7();
+}
 
+if(randomPrimary.name == "AUG"){
+  aug();
+}
 
+if(randomPrimary.name == "P90"){
+  p90();
+}
 
+if(randomPrimary.name == "MP5"){
+  mp5();
+}
 
+if(randomPrimary.name == "Uzi"){
+  uzi();
+}
+
+if(randomPrimary.name == "PP19 Bizon"){
+  pp19();
+}
+
+if(randomPrimary.name == "MP7"){
+  mp7();
+}
+
+if(randomPrimary.name == "Model 680"){
+  model680();
+}
+
+if(randomPrimary.name == "R9-0 Shotgun"){
+  r90();
+}
+
+if(randomPrimary.name == "725"){
+  s725();
+}
+
+if(randomPrimary.name == "Origin 12 Shotgun"){
+  origin12();
+}
+
+if(randomPrimary.name == "PKM"){
+  pkm();
+}
+if(randomPrimary.name == "SA87"){
+  sa87();
+}
+if(randomPrimary.name == "M91"){
+  m91();
+}
+if(randomPrimary.name == "MG34"){
+  mg34();
+}
+if(randomPrimary.name == "Holger-26"){
+  holger();
+}
+
+if(randomPrimary.name == "EBR-14"){
+  ebr();
+}
+if(randomPrimary.name == "MK2 Carbine"){
+  mk2();
+}
+if(randomPrimary.name == "Kar98k"){
+  kar();
+}
+
+if(randomPrimary.name == "Dragunov"){
+  dragunov();
+}
+if(randomPrimary.name == "HDR"){
+  hdr();
+}
+if(randomPrimary.name == "AX-50"){
+  ax50();
+}
 if((randomPrimary.name == "M4A1") || (randomPrimary.name == "Kilo 141") || (randomPrimary.name == "FAL") || (randomPrimary.name == "FR 5.56") || (randomPrimary.name == "Oden") 
 || (randomPrimary.name == "M13") || (randomPrimary.name == "FN Scar 17") || (randomPrimary.name == "AK-47")){
   isAR = true;
   //console.log("------------------------------ " + isAR);
 }
 
-if(isAR != true){
-  //console.log("------------------------------ " + isAR)
+// if(isAR != true){
+//   //console.log("------------------------------ " + isAR)
 
-  document.getElementById("primaryAttH2").innerHTML = "None - Sorry Coming soon";
-  document.getElementById("primaryAtt1").innerHTML = "";
-  document.getElementById("primaryAtt2").innerHTML = "";
-  document.getElementById("primaryAtt3").innerHTML = "";
-  document.getElementById("primaryAtt4").innerHTML = "";
-  document.getElementById("primaryAtt5").innerHTML = "";
-  document.getElementById("primaryAtt6").innerHTML = "";
-  document.getElementById("primaryAtt7").innerHTML = "";
-  document.getElementById("primaryAtt8").innerHTML = "";
-  document.getElementById("primaryAtt9").innerHTML = "";
-}
+//   document.getElementById("primaryAttH2").innerHTML = "None - Sorry Coming soon";
+//   document.getElementById("primaryAtt1").innerHTML = "";
+//   document.getElementById("primaryAtt2").innerHTML = "";
+//   document.getElementById("primaryAtt3").innerHTML = "";
+//   document.getElementById("primaryAtt4").innerHTML = "";
+//   document.getElementById("primaryAtt5").innerHTML = "";
+//   document.getElementById("primaryAtt6").innerHTML = "";
+//   document.getElementById("primaryAtt7").innerHTML = "";
+//   document.getElementById("primaryAtt8").innerHTML = "";
+//   document.getElementById("primaryAtt9").innerHTML = "";
+// }
 }
 
 
