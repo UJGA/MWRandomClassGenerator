@@ -25,3 +25,14 @@
   .contactContent{
     text-align: center;
   }
+
+  .ksPictures{
+      text-align: center;
+      width: 95%;
+      padding-left: 5%;
+
+  }
+
+  .ksimage{
+      width: 5%;
+  }

@@ -345,6 +345,26 @@ if((randomPrimary.name == "M4A1") || (randomPrimary.name == "Kilo 141") || (rand
   //console.log("------------------------------ " + isAR);
 }
 
+document.getElementById("ks1").innerHTML = '<img class="ksimage" src="test.png">';
+document.getElementById("ks2").innerHTML = '<img class="ksimage" src="test.png">';
+document.getElementById("ks3").innerHTML = '<img class="ksimage" src="test.png">';
+document.getElementById("ks4").innerHTML = '<img class="ksimage" src="test.png">';
+document.getElementById("ks5").innerHTML = '<img class="ksimage" src="test.png">';
+document.getElementById("ks6").innerHTML = '<img class="ksimage" src="test.png">';
+document.getElementById("ks7").innerHTML = '<img class="ksimage" src="test.png">';
+document.getElementById("ks8").innerHTML = '<img class="ksimage" src="test.png">';
+document.getElementById("ks9").innerHTML = '<img class="ksimage" src="test.png">';
+document.getElementById("ks10").innerHTML = '<img class="ksimage" src="test.png">';
+document.getElementById("ks11").innerHTML = '<img class="ksimage" src="test.png">';
+document.getElementById("ks12").innerHTML = '<img class="ksimage" src="test.png">';
+document.getElementById("ks13").innerHTML = '<img class="ksimage" src="test.png">';
+document.getElementById("ks14").innerHTML = '<img class="ksimage" src="test.png">';
+document.getElementById("ks15").innerHTML = '<img class="ksimage" src="test.png">';
+document.getElementById("ks16").innerHTML = '<img class="ksimage" src="test.png">';
+document.getElementById("ks17").innerHTML = '<img class="ksimage" src="test.png">';
+document.getElementById("ks18").innerHTML = '<img class="ksimage" src="test.png">';
+document.getElementById("ks19").innerHTML = '<img class="ksimage" src="test.png">';
+
 // if(isAR != true){
 //   //console.log("------------------------------ " + isAR)
 
