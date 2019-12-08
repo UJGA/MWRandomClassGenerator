@@ -13798,8 +13798,8 @@ function s725() {
 
 }
 
-function riot(){
-    
+function riot() {
+
     document.getElementById("primaryAttH2").innerHTML = "None";
     document.getElementById("primaryAtt1").innerHTML = ""
     document.getElementById("primaryAtt2").innerHTML = ""
