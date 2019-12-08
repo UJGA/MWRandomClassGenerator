@@ -1,3 +1,6 @@
+
+
+
 var primarysArray = [
     { name: '725', image: 'primary/725.png' }, 
     { name: 'AK-47', image: 'primary/AK47.png' }, 
@@ -168,50 +171,50 @@ function random_item()
     //console.log("The Random primary number is-------------------------" + randomPrimaryNumber);
     //console.log("The name is -----------------------------------------" + randomPrimary.name);
     //console.log("The image is -----------------------------------------" + randomPrimary.image);
-    document.getElementById("primary").innerHTML =randomPrimary.name + '<br>' + '<img src="'+randomPrimary.image+'">';
+    document.getElementById("primary").innerHTML =randomPrimary.name + '<br>' + '<img style="height:75px;"  src="'+randomPrimary.image+'">';
     document.getElementById("primaryH3").innerHTML = "Primary";
     document.getElementById("primaryAttH3").innerHTML = "Primary Attachments";
     document.getElementById("primaryAttH2").innerHTML = "None";
 
     //Secondary
     var randomSecondary = secondarysArray[Math.floor(Math.random()*secondarysArray.length)];
-    document.getElementById("secondary").innerHTML = randomSecondary.name + '<br>' + '<img src="'+randomSecondary.image+'">';
+    document.getElementById("secondary").innerHTML = randomSecondary.name + '<br>' + '<img  style="height:75px;"  src="'+randomSecondary.image+'">';
     document.getElementById("secondaryH3").innerHTML = "Secondary";
 
     //Perk 1
     var randomPerk1 = perk1Array[Math.floor(Math.random()*perk1Array.length)];
-    document.getElementById("perk1").innerHTML = randomPerk1.name + '<br>' + '<img src="'+randomPerk1.image+'">';
+    document.getElementById("perk1").innerHTML = randomPerk1.name + '<br>' + '<img style="width:100px;" src="'+randomPerk1.image+'">';
     document.getElementById("perk1H3").innerHTML = "Perk 1";
 
     if(randomPerk1.name == 'Overkill'){
         var randomSecondary = primarysArray[Math.floor(Math.random()*primarysArray.length)];
-        document.getElementById("secondary").innerHTML = randomSecondary.name + '<br>' + '<img src="'+randomSecondary.image+'">';
+        document.getElementById("secondary").innerHTML = randomSecondary.name + '<br>' + '<img  style="height:75px;"  src="'+randomSecondary.image+'">';
         document.getElementById("secondaryH3").innerHTML = "Secondary";
     }
 
     //Perk 2
     var randomPerk2 = perk2Array[Math.floor(Math.random()*perk2Array.length)];
-    document.getElementById("perk2").innerHTML = randomPerk2.name + '<br>' + '<img src="'+randomPerk2.image+'">';
+    document.getElementById("perk2").innerHTML = randomPerk2.name + '<br>' + '<img style="width:100px;" src="'+randomPerk2.image+'">';
     document.getElementById("perk2H3").innerHTML = "Perk 2";
 
     //Perk 3
     var randomPerk3 = perk3Array[Math.floor(Math.random()*perk3Array.length)];
-    document.getElementById("perk3").innerHTML = randomPerk3.name + '<br>' + '<img src="'+randomPerk3.image+'">';
+    document.getElementById("perk3").innerHTML = randomPerk3.name + '<br>' + '<img style="width:100px;" src="'+randomPerk3.image+'">';
     document.getElementById("perk3H3").innerHTML = "Perk 3";
 
     //Lethal
     var randomLethal = lethalsArray[Math.floor(Math.random()*lethalsArray.length)];
-document.getElementById("lethal").innerHTML = randomLethal.name + '<br>' + '<img src="'+randomLethal.image+'">';
+document.getElementById("lethal").innerHTML = randomLethal.name + '<br>' + '<img style="width:250px;" src="'+randomLethal.image+'">';
 document.getElementById("lethalH3").innerHTML = "Lethal";
 
 //Tactical
 var randomTactical = tacticalsArray[Math.floor(Math.random()*tacticalsArray.length)];
-document.getElementById("tactical").innerHTML = randomTactical.name + '<br>' + '<img src="'+randomTactical.image+'">';
+document.getElementById("tactical").innerHTML = randomTactical.name + '<br>' + '<img style="width:250px;" src="'+randomTactical.image+'">';
 document.getElementById("tacticalH3").innerHTML = "Tactical";
 
 //Field Upgrade
 var randomUpgrade = fieldUpgradesArray[Math.floor(Math.random()*fieldUpgradesArray.length)];
-document.getElementById("upgrade").innerHTML = randomUpgrade.name + '<br>' + '<img src="'+randomUpgrade.image+'">';
+document.getElementById("upgrade").innerHTML = randomUpgrade.name + '<br>' + '<img style="width:60px;" src="'+randomUpgrade.image+'">';
 document.getElementById("upgradeH3").innerHTML = "Field Upgrade";
 
 //Moves Button and Revmoves top text

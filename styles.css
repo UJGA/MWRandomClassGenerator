@@ -16,10 +16,12 @@
   #goAgain{
       text-align: center;
   }
-
+  
   body{
       background-color: #343A40;
       color: #32BDCB;
+      padding-top: 1px;
+
   }
 
   .contactContent{

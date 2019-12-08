@@ -27,13 +27,14 @@
 </head>
 
 <body>
+    <div class="layout">
 
     <div id="myTitle" class="title">
         <h1>Modern Warfare Random Class Generator!</h1>
         <h3>Welcome!</h3>
         <h6>This is still very much a work in progress and is not 100% finished. Please let me know using the contact
             button below if you run into any bugs <br><br>
-            Update 11/22: Attachments work for all Assault Rifles. More to come!</h6>
+            Attachments work for all Primary Weapons. More to come!</h6>
         <button id="mybtn" class="btn btn-primary" onclick="random_item()">Generate My Class</button>
     </div>
     <br>
@@ -98,6 +99,39 @@
                     <div id="tactical"></div>
                 </div>
             </div>
+            <br>
+            <div class="row">
+                    <div class="col-md-6">
+                  <h3 id="upgradeH3"></h3>
+                    <div id="upgrade"></div>
+                    </div>
+                    <div class="col-md-6">
+                            <h3 id="killstreaks"></h3>
+                            <br>
+                            <div class="ksPictures"></div>
+                            <span class="ksimage" id="ks1"></span>
+                            <span class="ksimage" id="ks2"></span>
+                            <span class="ksimage" id="ks3"></span>
+                            <span class="ksimage" id="ks4"></span>
+                            <span class="ksimage" id="ks5"></span>
+                            <span class="ksimage" id="ks6"></span>
+                            <span class="ksimage" id="ks7"></span>
+                            <span class="ksimage" id="ks8"></span>
+                            <span class="ksimage" id="ks9"></span>
+                            <span class="ksimage" id="ks10"></span>
+                            <span class="ksimage" id="ks11"></span>
+                            <span class="ksimage" id="ks12"></span>
+                            <span class="ksimage" id="ks13"></span>
+                            <span class="ksimage" id="ks14"></span>
+                            <span class="ksimage" id="ks15"></span>
+                            <span class="ksimage" id="ks16"></span>
+                            <span class="ksimage" id="ks17"></span>
+                            <span class="ksimage" id="ks18"></span>
+                            <span class="ksimage" id="ks19"></span>
+                    </div>
+                </div>
+
+
             <div class="row">
                 <div class="col-md-12">
                     <h3 id="upgradeH3"></h3>
@@ -133,7 +167,7 @@
             </div>
 
             <br>
-            <button id="mybtn" class="btn btn-primary" onclick="random_item()">Generate My Class</button>
+            <!-- <button id="mybtn" class="btn btn-primary" onclick="random_item()">Generate My Class</button> -->
             <br><br><br>
             <footer id="footer" class="py-4 bg-dark text-white-50">
                 <div class="container text-center">
@@ -147,7 +181,7 @@
             <script src="primaries.js"></script>
             <script src="killstreaks.js"></script>
 
-
+        </div>
 </body>
 
 </html>

@@ -60,7 +60,7 @@ function ak47() {
         var muzzlePick = muzzles[ranMuzzle];
         //console.log(muzzlePick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img src="' + muzzlePick.image + '">';
+        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img  style="width:250px;"  src="' + muzzlePick.image + '">';
     }
 
     //Barrel
@@ -99,7 +99,7 @@ function ak47() {
         var barrelPick = barrels[ranBarrel];
         //console.log(barrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img src="' + barrelPick.image + '">';
+        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + barrelPick.image + '">';
     }
 
 
@@ -137,7 +137,7 @@ function ak47() {
         var laserPick = lasers[ranLaser];
         //console.log(laserPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img src="' + laserPick.image + '">';
+        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img  style="width:250px;"  src="' + laserPick.image + '">';
     }
 
 
@@ -238,7 +238,7 @@ function ak47() {
         var opticPick = optics[ranOptic];
         //console.log(opticPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img src="' + opticPick.image + '">';
+        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img  style="width:250px;"  src="' + opticPick.image + '">';
     }
 
 
@@ -283,7 +283,7 @@ function ak47() {
         var stockPick = stocks[ranStock];
         //console.log(stockPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img src="' + stockPick.image + '">';
+        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img  style="width:250px;"  src="' + stockPick.image + '">';
     }
 
 
@@ -361,7 +361,7 @@ function ak47() {
         var underbarrelPick = underbarrels[ranUnderbarrel];
         //console.log(underbarrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img src="' + underbarrelPick.image + '">';
+        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + underbarrelPick.image + '">';
     }
 
 
@@ -402,7 +402,7 @@ function ak47() {
         var ammunationPick = ammunations[ranAmmunation];
         //console.log(ammunationPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img src="' + ammunationPick.image + '">';
+        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img  style="width:250px;"  src="' + ammunationPick.image + '">';
     }
 
 
@@ -440,7 +440,7 @@ function ak47() {
         var rearGripPick = reargrips[ranRearGrip];
         //console.log(rearGripPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img src="' + rearGripPick.image + '">';
+        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img  style="width:250px;"  src="' + rearGripPick.image + '">';
     }
 
 
@@ -504,7 +504,7 @@ function ak47() {
         var perkPick = perks[ranPerk];
         //console.log(perkPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img src="' + perkPick.image + '" "' + '">';
+        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img  style="width:250px;"  src="' + perkPick.image + '" "' + '">';
     }
 
 }
@@ -577,7 +577,7 @@ function r90() {
         var muzzlePick = muzzles[ranMuzzle];
         // console.log(muzzlePick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img src="' + muzzlePick.image + '">';
+        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img  style="width:250px;"  src="' + muzzlePick.image + '">';
     }
 
     //Barrel
@@ -608,7 +608,7 @@ function r90() {
         var barrelPick = barrels[ranBarrel];
         // console.log(barrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img src="' + barrelPick.image + '">';
+        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + barrelPick.image + '">';
     }
 
 
@@ -646,7 +646,7 @@ function r90() {
         var laserPick = lasers[ranLaser];
         // console.log(laserPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img src="' + laserPick.image + '">';
+        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img  style="width:250px;"  src="' + laserPick.image + '">';
     }
 
 
@@ -727,7 +727,7 @@ function r90() {
         var opticPick = optics[ranOptic];
         // console.log(opticPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img src="' + opticPick.image + '">';
+        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img  style="width:250px;"  src="' + opticPick.image + '">';
     }
 
 
@@ -764,7 +764,7 @@ function r90() {
         var pumpPick = pumps[ranPump];
         // console.log(pumpPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Pump -  " + '</b>' + pumpPick.name + '<br>' + '<img src="' + pumpPick.image + '">';
+        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Pump -  " + '</b>' + pumpPick.name + '<br>' + '<img  style="width:250px;"  src="' + pumpPick.image + '">';
     }
 
 
@@ -802,7 +802,7 @@ function r90() {
         var underbarrelPick = underbarrels[ranUnderbarrel];
         // console.log(underbarrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img src="' + underbarrelPick.image + '">';
+        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + underbarrelPick.image + '">';
     }
 
 
@@ -839,7 +839,7 @@ function r90() {
         var ammunationPick = ammunations[ranAmmunation];
         // console.log(ammunationPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img src="' + ammunationPick.image + '">';
+        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img  style="width:250px;"  src="' + ammunationPick.image + '">';
     }
 
     //RearGrip
@@ -874,7 +874,7 @@ function r90() {
         var rearGripPick = reargrips[ranRearGrip];
         // console.log(rearGripPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img src="' + rearGripPick.image + '">';
+        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img  style="width:250px;"  src="' + rearGripPick.image + '">';
     }
 
     //Perks
@@ -933,7 +933,7 @@ function r90() {
         var perkPick = perks[ranPerk];
         // console.log(perkPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img src="' + perkPick.image + '" "' + '">';
+        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img  style="width:250px;"  src="' + perkPick.image + '" "' + '">';
     }
 
 
@@ -1002,7 +1002,7 @@ function ram7() {
         var muzzlePick = muzzles[ranMuzzle];
         //console.log(muzzlePick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img src="' + muzzlePick.image + '">';
+        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img  style="width:250px;"  src="' + muzzlePick.image + '">';
     }
 
     //Barrel
@@ -1040,7 +1040,7 @@ function ram7() {
             document.getElementById("primaryAttH2").innerHTML = "";
 
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img src="' + barrelPick.image + '">';
+        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + barrelPick.image + '">';
     }
 
 
@@ -1078,7 +1078,7 @@ function ram7() {
         var laserPick = lasers[ranLaser];
         //console.log(laserPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img src="' + laserPick.image + '">';
+        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img  style="width:250px;"  src="' + laserPick.image + '">';
     }
 
 
@@ -1183,7 +1183,7 @@ function ram7() {
         var opticPick = optics[ranOptic];
         //console.log(opticPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img src="' + opticPick.image + '">';
+        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img  style="width:250px;"  src="' + opticPick.image + '">';
     }
 
 
@@ -1220,7 +1220,7 @@ function ram7() {
         var stockPick = stocks[ranStock];
         //console.log(stockPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img src="' + stockPick.image + '">';
+        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img  style="width:250px;"  src="' + stockPick.image + '">';
     }
 
 
@@ -1294,7 +1294,7 @@ function ram7() {
         var underbarrelPick = underbarrels[ranUnderbarrel];
         //console.log(underbarrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img src="' + underbarrelPick.image + '">';
+        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + underbarrelPick.image + '">';
     }
 
 
@@ -1328,7 +1328,7 @@ function ram7() {
         var ammunationPick = ammunations[ranAmmunation];
         //console.log(ammunationPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img src="' + ammunationPick.image + '">';
+        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img  style="width:250px;"  src="' + ammunationPick.image + '">';
     }
 
 
@@ -1366,7 +1366,7 @@ function ram7() {
         var rearGripPick = reargrips[ranRearGrip];
         //console.log(rearGripPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img src="' + rearGripPick.image + '">';
+        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img  style="width:250px;"  src="' + rearGripPick.image + '">';
     }
 
 
@@ -1434,7 +1434,7 @@ function ram7() {
         var perkPick = perks[ranPerk];
         //console.log(perkPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img src="' + perkPick.image + '" "' + '">';
+        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img  style="width:250px;"  src="' + perkPick.image + '" "' + '">';
     }
 
 }
@@ -1502,7 +1502,7 @@ function sa87() {
         var muzzlePick = muzzles[ranMuzzle];
         //console.log(muzzlePick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img src="' + muzzlePick.image + '">';
+        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img  style="width:250px;"  src="' + muzzlePick.image + '">';
     }
 
     //Barrel
@@ -1539,7 +1539,7 @@ function sa87() {
         //console.log(barrelPick.name);
 
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img src="' + barrelPick.image + '">';
+        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + barrelPick.image + '">';
     }
 
 
@@ -1577,7 +1577,7 @@ function sa87() {
         var laserPick = lasers[ranLaser];
         //console.log(laserPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img src="' + laserPick.image + '">';
+        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img  style="width:250px;"  src="' + laserPick.image + '">';
     }
 
 
@@ -1678,7 +1678,7 @@ function sa87() {
         var opticPick = optics[ranOptic];
         //console.log(opticPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img src="' + opticPick.image + '">';
+        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img  style="width:250px;"  src="' + opticPick.image + '">';
     }
 
 
@@ -1716,7 +1716,7 @@ function sa87() {
         var stockPick = stocks[ranStock];
         //console.log(stockPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img src="' + stockPick.image + '">';
+        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img  style="width:250px;"  src="' + stockPick.image + '">';
     }
 
 
@@ -1764,7 +1764,7 @@ function sa87() {
         var underbarrelPick = underbarrels[ranUnderbarrel];
         //console.log(underbarrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img src="' + underbarrelPick.image + '">';
+        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + underbarrelPick.image + '">';
     }
 
 
@@ -1802,7 +1802,7 @@ function sa87() {
         var ammunationPick = ammunations[ranAmmunation];
         //console.log(ammunationPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img src="' + ammunationPick.image + '">';
+        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img  style="width:250px;"  src="' + ammunationPick.image + '">';
     }
 
 
@@ -1841,7 +1841,7 @@ function sa87() {
         var rearGripPick = reargrips[ranRearGrip];
         //console.log(rearGripPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img src="' + rearGripPick.image + '">';
+        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img  style="width:250px;"  src="' + rearGripPick.image + '">';
     }
 
 
@@ -1901,7 +1901,7 @@ function sa87() {
         var perkPick = perks[ranPerk];
         //console.log(perkPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img src="' + perkPick.image + '" "' + '">';
+        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img  style="width:250px;"  src="' + perkPick.image + '" "' + '">';
     }
 
 
@@ -1970,7 +1970,7 @@ function uzi() {
         var muzzlePick = muzzles[ranMuzzle];
         // console.log(muzzlePick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img src="' + muzzlePick.image + '">';
+        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img  style="width:250px;"  src="' + muzzlePick.image + '">';
     }
 
     //Barrel
@@ -2005,7 +2005,7 @@ function uzi() {
         var barrelPick = barrels[ranBarrel];
         // console.log(barrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img src="' + barrelPick.image + '">';
+        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + barrelPick.image + '">';
     }
 
 
@@ -2043,7 +2043,7 @@ function uzi() {
         var laserPick = lasers[ranLaser];
         // console.log(laserPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img src="' + laserPick.image + '">';
+        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img  style="width:250px;"  src="' + laserPick.image + '">';
     }
 
 
@@ -2140,7 +2140,7 @@ function uzi() {
         var opticPick = optics[ranOptic];
         // console.log(opticPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img src="' + opticPick.image + '">';
+        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img  style="width:250px;"  src="' + opticPick.image + '">';
     }
 
 
@@ -2181,7 +2181,7 @@ function uzi() {
         var stockPick = stocks[ranStock];
         // console.log(stockPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img src="' + stockPick.image + '">';
+        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img  style="width:250px;"  src="' + stockPick.image + '">';
     }
 
 
@@ -2227,7 +2227,7 @@ function uzi() {
         var underbarrelPick = underbarrels[ranUnderbarrel];
         // console.log(underbarrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img src="' + underbarrelPick.image + '">';
+        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + underbarrelPick.image + '">';
     }
 
 
@@ -2264,7 +2264,7 @@ function uzi() {
         var ammunationPick = ammunations[ranAmmunation];
         // console.log(ammunationPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img src="' + ammunationPick.image + '">';
+        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img  style="width:250px;"  src="' + ammunationPick.image + '">';
     }
 
 
@@ -2302,7 +2302,7 @@ function uzi() {
         var rearGripPick = reargrips[ranRearGrip];
         // console.log(rearGripPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img src="' + rearGripPick.image + '">';
+        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img  style="width:250px;"  src="' + rearGripPick.image + '">';
     }
 
 
@@ -2366,7 +2366,7 @@ function uzi() {
         var perkPick = perks[ranPerk];
         // console.log(perkPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img src="' + perkPick.image + '" "' + '">';
+        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img  style="width:250px;"  src="' + perkPick.image + '" "' + '">';
     }
 
 
@@ -2434,7 +2434,7 @@ function pp19() {
         var muzzlePick = muzzles[ranMuzzle];
         // console.log(muzzlePick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img src="' + muzzlePick.image + '">';
+        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img  style="width:250px;"  src="' + muzzlePick.image + '">';
     }
 
     //Barrel
@@ -2469,7 +2469,7 @@ function pp19() {
         var barrelPick = barrels[ranBarrel];
         // console.log(barrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img src="' + barrelPick.image + '">';
+        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + barrelPick.image + '">';
     }
 
 
@@ -2507,7 +2507,7 @@ function pp19() {
         var laserPick = lasers[ranLaser];
         // console.log(laserPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img src="' + laserPick.image + '">';
+        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img  style="width:250px;"  src="' + laserPick.image + '">';
     }
 
 
@@ -2604,7 +2604,7 @@ function pp19() {
         var opticPick = optics[ranOptic];
         // console.log(opticPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img src="' + opticPick.image + '">';
+        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img  style="width:250px;"  src="' + opticPick.image + '">';
     }
 
 
@@ -2645,7 +2645,7 @@ function pp19() {
         var stockPick = stocks[ranStock];
         // console.log(stockPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img src="' + stockPick.image + '">';
+        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img  style="width:250px;"  src="' + stockPick.image + '">';
     }
 
 
@@ -2676,7 +2676,7 @@ function pp19() {
         var ammunationPick = ammunations[ranAmmunation];
         // console.log(ammunationPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img src="' + ammunationPick.image + '">';
+        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img  style="width:250px;"  src="' + ammunationPick.image + '">';
     }
 
 
@@ -2714,7 +2714,7 @@ function pp19() {
         var rearGripPick = reargrips[ranRearGrip];
         // console.log(rearGripPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img src="' + rearGripPick.image + '">';
+        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img  style="width:250px;"  src="' + rearGripPick.image + '">';
     }
 
 
@@ -2774,7 +2774,7 @@ function pp19() {
         var perkPick = perks[ranPerk];
         // console.log(perkPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img src="' + perkPick.image + '" "' + '">';
+        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img  style="width:250px;"  src="' + perkPick.image + '" "' + '">';
     }
 
 
@@ -2842,7 +2842,7 @@ function pkm() {
         var muzzlePick = muzzles[ranMuzzle];
         //console.log(muzzlePick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img src="' + muzzlePick.image + '">';
+        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img  style="width:250px;"  src="' + muzzlePick.image + '">';
     }
 
     //Barrel
@@ -2879,7 +2879,7 @@ function pkm() {
         //console.log(barrelPick.name);
 
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img src="' + barrelPick.image + '">';
+        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + barrelPick.image + '">';
     }
 
 
@@ -2917,7 +2917,7 @@ function pkm() {
         var laserPick = lasers[ranLaser];
         //console.log(laserPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img src="' + laserPick.image + '">';
+        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img  style="width:250px;"  src="' + laserPick.image + '">';
     }
 
 
@@ -3018,7 +3018,7 @@ function pkm() {
         var opticPick = optics[ranOptic];
         //console.log(opticPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img src="' + opticPick.image + '">';
+        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img  style="width:250px;"  src="' + opticPick.image + '">';
     }
 
 
@@ -3059,7 +3059,7 @@ function pkm() {
         var stockPick = stocks[ranStock];
         //console.log(stockPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img src="' + stockPick.image + '">';
+        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img  style="width:250px;"  src="' + stockPick.image + '">';
     }
 
 
@@ -3107,7 +3107,7 @@ function pkm() {
         var underbarrelPick = underbarrels[ranUnderbarrel];
         //console.log(underbarrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img src="' + underbarrelPick.image + '">';
+        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + underbarrelPick.image + '">';
     }
 
 
@@ -3145,7 +3145,7 @@ function pkm() {
         var ammunationPick = ammunations[ranAmmunation];
         //console.log(ammunationPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img src="' + ammunationPick.image + '">';
+        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img  style="width:250px;"  src="' + ammunationPick.image + '">';
     }
 
 
@@ -3184,7 +3184,7 @@ function pkm() {
         var rearGripPick = reargrips[ranRearGrip];
         //console.log(rearGripPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img src="' + rearGripPick.image + '">';
+        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img  style="width:250px;"  src="' + rearGripPick.image + '">';
     }
 
 
@@ -3244,7 +3244,7 @@ function pkm() {
         var perkPick = perks[ranPerk];
         //console.log(perkPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img src="' + perkPick.image + '" "' + '">';
+        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img  style="width:250px;"  src="' + perkPick.image + '" "' + '">';
     }
 
 
@@ -3316,7 +3316,7 @@ function p90() {
         var muzzlePick = muzzles[ranMuzzle];
         // console.log(muzzlePick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img src="' + muzzlePick.image + '">';
+        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img  style="width:250px;"  src="' + muzzlePick.image + '">';
     }
 
     //Barrel
@@ -3347,7 +3347,7 @@ function p90() {
         var barrelPick = barrels[ranBarrel];
         // console.log(barrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img src="' + barrelPick.image + '">';
+        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + barrelPick.image + '">';
     }
 
 
@@ -3385,7 +3385,7 @@ function p90() {
         var laserPick = lasers[ranLaser];
         // console.log(laserPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img src="' + laserPick.image + '">';
+        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img  style="width:250px;"  src="' + laserPick.image + '">';
     }
 
 
@@ -3486,7 +3486,7 @@ function p90() {
         var opticPick = optics[ranOptic];
         // console.log(opticPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img src="' + opticPick.image + '">';
+        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img  style="width:250px;"  src="' + opticPick.image + '">';
     }
 
 
@@ -3523,7 +3523,7 @@ function p90() {
         var stockPick = stocks[ranStock];
         // console.log(stockPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img src="' + stockPick.image + '">';
+        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img  style="width:250px;"  src="' + stockPick.image + '">';
     }
 
 
@@ -3561,7 +3561,7 @@ function p90() {
         var underbarrelPick = underbarrels[ranUnderbarrel];
         // console.log(underbarrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img src="' + underbarrelPick.image + '">';
+        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + underbarrelPick.image + '">';
     }
 
 
@@ -3600,7 +3600,7 @@ function p90() {
         var rearGripPick = reargrips[ranRearGrip];
         // console.log(rearGripPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img src="' + rearGripPick.image + '">';
+        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img  style="width:250px;"  src="' + rearGripPick.image + '">';
     }
 
 
@@ -3660,7 +3660,7 @@ function p90() {
         var perkPick = perks[ranPerk];
         // console.log(perkPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img src="' + perkPick.image + '" "' + '">';
+        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img  style="width:250px;"  src="' + perkPick.image + '" "' + '">';
     }
 
 
@@ -3732,7 +3732,7 @@ function origin12() {
         var muzzlePick = muzzles[ranMuzzle];
         // console.log(muzzlePick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img src="' + muzzlePick.image + '">';
+        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img  style="width:250px;"  src="' + muzzlePick.image + '">';
     }
 
     //Barrel
@@ -3767,7 +3767,7 @@ function origin12() {
         var barrelPick = barrels[ranBarrel];
         // console.log(barrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img src="' + barrelPick.image + '">';
+        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + barrelPick.image + '">';
     }
 
 
@@ -3805,7 +3805,7 @@ function origin12() {
         var laserPick = lasers[ranLaser];
         // console.log(laserPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img src="' + laserPick.image + '">';
+        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img  style="width:250px;"  src="' + laserPick.image + '">';
     }
 
 
@@ -3886,7 +3886,7 @@ function origin12() {
         var opticPick = optics[ranOptic];
         // console.log(opticPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img src="' + opticPick.image + '">';
+        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img  style="width:250px;"  src="' + opticPick.image + '">';
     }
 
 
@@ -3927,7 +3927,7 @@ function origin12() {
         var pumpPick = pumps[ranPump];
         // console.log(pumpPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + pumpPick.name + '<br>' + '<img src="' + pumpPick.image + '">';
+        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + pumpPick.name + '<br>' + '<img  style="width:250px;"  src="' + pumpPick.image + '">';
     }
 
 
@@ -3961,7 +3961,7 @@ function origin12() {
         var underbarrelPick = underbarrels[ranUnderbarrel];
         // console.log(underbarrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img src="' + underbarrelPick.image + '">';
+        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + underbarrelPick.image + '">';
     }
 
 
@@ -4002,7 +4002,7 @@ function origin12() {
         var ammunationPick = ammunations[ranAmmunation];
         // console.log(ammunationPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img src="' + ammunationPick.image + '">';
+        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img  style="width:250px;"  src="' + ammunationPick.image + '">';
     }
 
     //RearGrip
@@ -4037,7 +4037,7 @@ function origin12() {
         var rearGripPick = reargrips[ranRearGrip];
         // console.log(rearGripPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img src="' + rearGripPick.image + '">';
+        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img  style="width:250px;"  src="' + rearGripPick.image + '">';
     }
 
     //Perks
@@ -4096,7 +4096,7 @@ function origin12() {
         var perkPick = perks[ranPerk];
         // console.log(perkPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img src="' + perkPick.image + '" "' + '">';
+        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img  style="width:250px;"  src="' + perkPick.image + '" "' + '">';
     }
 
 
@@ -4167,7 +4167,7 @@ function oden() {
         var muzzlePick = muzzles[ranMuzzle];
         // console.log(muzzlePick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img src="' + muzzlePick.image + '">';
+        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img  style="width:250px;"  src="' + muzzlePick.image + '">';
     }
 
 
@@ -4206,7 +4206,7 @@ function oden() {
         var barrelPick = barrels[ranBarrel];
         // console.log(barrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img src="' + barrelPick.image + '">';
+        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + barrelPick.image + '">';
     }
 
 
@@ -4243,7 +4243,7 @@ function oden() {
         var laserPick = lasers[ranLaser];
         // console.log(laserPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img src="' + laserPick.image + '">';
+        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img  style="width:250px;"  src="' + laserPick.image + '">';
     }
 
 
@@ -4348,7 +4348,7 @@ function oden() {
         var opticPick = optics[ranOptic];
         // console.log(opticPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img src="' + opticPick.image + '">';
+        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img  style="width:250px;"  src="' + opticPick.image + '">';
     }
 
 
@@ -4385,7 +4385,7 @@ function oden() {
         var stockPick = stocks[ranStock];
         // console.log(stockPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img src="' + stockPick.image + '">';
+        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img  style="width:250px;"  src="' + stockPick.image + '">';
     }
 
 
@@ -4463,7 +4463,7 @@ function oden() {
         var underbarrelPick = underbarrels[ranUnderbarrel];
         // console.log(underbarrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img src="' + underbarrelPick.image + '">';
+        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + underbarrelPick.image + '">';
     }
 
 
@@ -4500,7 +4500,7 @@ function oden() {
         var ammunationPick = ammunations[ranAmmunation];
         // console.log(ammunationPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img src="' + ammunationPick.image + '">';
+        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img  style="width:250px;"  src="' + ammunationPick.image + '">';
     }
 
 
@@ -4538,7 +4538,7 @@ function oden() {
         var rearGripPick = reargrips[ranRearGrip];
         // console.log(rearGripPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img src="' + rearGripPick.image + '">';
+        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img  style="width:250px;"  src="' + rearGripPick.image + '">';
     }
 
 
@@ -4606,7 +4606,7 @@ function oden() {
         var perkPick = perks[ranPerk];
         // console.log(perkPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img src="' + perkPick.image + '" "' + '">';
+        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img  style="width:250px;"  src="' + perkPick.image + '" "' + '">';
     }
 
 
@@ -4678,7 +4678,7 @@ function mp7() {
         var muzzlePick = muzzles[ranMuzzle];
         // console.log(muzzlePick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img src="' + muzzlePick.image + '">';
+        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img  style="width:250px;"  src="' + muzzlePick.image + '">';
     }
 
     //Barrel
@@ -4713,7 +4713,7 @@ function mp7() {
         var barrelPick = barrels[ranBarrel];
         // console.log(barrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img src="' + barrelPick.image + '">';
+        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + barrelPick.image + '">';
     }
 
 
@@ -4751,7 +4751,7 @@ function mp7() {
         var laserPick = lasers[ranLaser];
         // console.log(laserPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img src="' + laserPick.image + '">';
+        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img  style="width:250px;"  src="' + laserPick.image + '">';
     }
 
 
@@ -4844,7 +4844,7 @@ function mp7() {
         var opticPick = optics[ranOptic];
         // console.log(opticPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img src="' + opticPick.image + '">';
+        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img  style="width:250px;"  src="' + opticPick.image + '">';
     }
 
 
@@ -4885,7 +4885,7 @@ function mp7() {
         var stockPick = stocks[ranStock];
         // console.log(stockPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img src="' + stockPick.image + '">';
+        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img  style="width:250px;"  src="' + stockPick.image + '">';
     }
 
 
@@ -4931,7 +4931,7 @@ function mp7() {
         var underbarrelPick = underbarrels[ranUnderbarrel];
         // console.log(underbarrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img src="' + underbarrelPick.image + '">';
+        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + underbarrelPick.image + '">';
     }
 
 
@@ -4968,7 +4968,7 @@ function mp7() {
         var ammunationPick = ammunations[ranAmmunation];
         // console.log(ammunationPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img src="' + ammunationPick.image + '">';
+        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img  style="width:250px;"  src="' + ammunationPick.image + '">';
     }
 
 
@@ -5006,7 +5006,7 @@ function mp7() {
         var rearGripPick = reargrips[ranRearGrip];
         // console.log(rearGripPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img src="' + rearGripPick.image + '">';
+        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img  style="width:250px;"  src="' + rearGripPick.image + '">';
     }
 
 
@@ -5066,7 +5066,7 @@ function mp7() {
         var perkPick = perks[ranPerk];
         // console.log(perkPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img src="' + perkPick.image + '" "' + '">';
+        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img  style="width:250px;"  src="' + perkPick.image + '" "' + '">';
     }
 
 
@@ -5137,7 +5137,7 @@ function mp5() {
         var muzzlePick = muzzles[ranMuzzle];
         // console.log(muzzlePick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img src="' + muzzlePick.image + '">';
+        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img  style="width:250px;"  src="' + muzzlePick.image + '">';
     }
 
     //Barrel
@@ -5178,7 +5178,7 @@ function mp5() {
 
         // console.log(barrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img src="' + barrelPick.image + '">';
+        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + barrelPick.image + '">';
     }
 
 
@@ -5216,7 +5216,7 @@ function mp5() {
         var laserPick = lasers[ranLaser];
         // console.log(laserPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img src="' + laserPick.image + '">';
+        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img  style="width:250px;"  src="' + laserPick.image + '">';
     }
 
 
@@ -5313,7 +5313,7 @@ function mp5() {
         var opticPick = optics[ranOptic];
         // console.log(opticPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img src="' + opticPick.image + '">';
+        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img  style="width:250px;"  src="' + opticPick.image + '">';
     }
 
 
@@ -5350,7 +5350,7 @@ function mp5() {
         var stockPick = stocks[ranStock];
         // console.log(stockPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img src="' + stockPick.image + '">';
+        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img  style="width:250px;"  src="' + stockPick.image + '">';
     }
 
 
@@ -5396,7 +5396,7 @@ function mp5() {
         var underbarrelPick = underbarrels[ranUnderbarrel];
         // console.log(underbarrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img src="' + underbarrelPick.image + '">';
+        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + underbarrelPick.image + '">';
     }
 
 
@@ -5433,7 +5433,7 @@ function mp5() {
         var ammunationPick = ammunations[ranAmmunation];
         // console.log(ammunationPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img src="' + ammunationPick.image + '">';
+        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img  style="width:250px;"  src="' + ammunationPick.image + '">';
     }
 
 
@@ -5471,7 +5471,7 @@ function mp5() {
         var rearGripPick = reargrips[ranRearGrip];
         // console.log(rearGripPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img src="' + rearGripPick.image + '">';
+        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img  style="width:250px;"  src="' + rearGripPick.image + '">';
     }
 
 
@@ -5535,7 +5535,7 @@ function mp5() {
         var perkPick = perks[ranPerk];
         // console.log(perkPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img src="' + perkPick.image + '" "' + '">';
+        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img  style="width:250px;"  src="' + perkPick.image + '" "' + '">';
     }
 
 
@@ -5611,7 +5611,7 @@ function model680() {
         var muzzlePick = muzzles[ranMuzzle];
         // console.log(muzzlePick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img src="' + muzzlePick.image + '">';
+        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img  style="width:250px;"  src="' + muzzlePick.image + '">';
     }
 
     //Barrel
@@ -5646,7 +5646,7 @@ function model680() {
         var barrelPick = barrels[ranBarrel];
         // console.log(barrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img src="' + barrelPick.image + '">';
+        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + barrelPick.image + '">';
     }
 
 
@@ -5684,7 +5684,7 @@ function model680() {
         var laserPick = lasers[ranLaser];
         // console.log(laserPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img src="' + laserPick.image + '">';
+        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img  style="width:250px;"  src="' + laserPick.image + '">';
     }
 
 
@@ -5765,7 +5765,7 @@ function model680() {
         var opticPick = optics[ranOptic];
         // console.log(opticPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img src="' + opticPick.image + '">';
+        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img  style="width:250px;"  src="' + opticPick.image + '">';
     }
 
 
@@ -5810,7 +5810,7 @@ function model680() {
         var stockPick = stocks[ranStock];
         // console.log(stockPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img src="' + stockPick.image + '">';
+        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img  style="width:250px;"  src="' + stockPick.image + '">';
     }
 
 
@@ -5860,7 +5860,7 @@ function model680() {
         var underbarrelPick = underbarrels[ranUnderbarrel];
         // console.log(underbarrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img src="' + underbarrelPick.image + '">';
+        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + underbarrelPick.image + '">';
     }
 
 
@@ -5897,7 +5897,7 @@ function model680() {
         var ammunationPick = ammunations[ranAmmunation];
         // console.log(ammunationPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img src="' + ammunationPick.image + '">';
+        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img  style="width:250px;"  src="' + ammunationPick.image + '">';
     }
 
 
@@ -5954,7 +5954,7 @@ function model680() {
         var perkPick = perks[ranPerk];
         // console.log(perkPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img src="' + perkPick.image + '" "' + '">';
+        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img  style="width:250px;"  src="' + perkPick.image + '" "' + '">';
     }
 
 
@@ -6025,7 +6025,7 @@ function mk2() {
         var muzzlePick = muzzles[ranMuzzle];
         //console.log(muzzlePick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img src="' + muzzlePick.image + '">';
+        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img  style="width:250px;"  src="' + muzzlePick.image + '">';
     }
 
     //Barrel
@@ -6061,7 +6061,7 @@ function mk2() {
         //console.log(barrelPick.name);
 
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img src="' + barrelPick.image + '">';
+        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + barrelPick.image + '">';
     }
 
 
@@ -6093,7 +6093,7 @@ function mk2() {
         var laserPick = lasers[ranLaser];
         //console.log(laserPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img src="' + laserPick.image + '">';
+        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img  style="width:250px;"  src="' + laserPick.image + '">';
     }
 
 
@@ -6198,7 +6198,7 @@ function mk2() {
         var opticPick = optics[ranOptic];
         //console.log(opticPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img src="' + opticPick.image + '">';
+        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img  style="width:250px;"  src="' + opticPick.image + '">';
     }
 
 
@@ -6239,7 +6239,7 @@ function mk2() {
         var stockPick = stocks[ranStock];
         //console.log(stockPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img src="' + stockPick.image + '">';
+        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img  style="width:250px;"  src="' + stockPick.image + '">';
     }
 
 
@@ -6275,7 +6275,7 @@ function mk2() {
         var rearGripPick = reargrips[ranRearGrip];
         //console.log(rearGripPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img src="' + rearGripPick.image + '">';
+        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img  style="width:250px;"  src="' + rearGripPick.image + '">';
     }
 
 
@@ -6344,7 +6344,7 @@ function mk2() {
         var perkPick = perks[ranPerk];
         //console.log(perkPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img src="' + perkPick.image + '" "' + '">';
+        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img  style="width:250px;"  src="' + perkPick.image + '" "' + '">';
     }
 
 
@@ -6416,7 +6416,7 @@ function mg34() {
         var muzzlePick = muzzles[ranMuzzle];
         //console.log(muzzlePick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img src="' + muzzlePick.image + '">';
+        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img  style="width:250px;"  src="' + muzzlePick.image + '">';
     }
 
     //Barrel
@@ -6453,7 +6453,7 @@ function mg34() {
         //console.log(barrelPick.name);
 
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img src="' + barrelPick.image + '">';
+        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + barrelPick.image + '">';
     }
 
 
@@ -6491,7 +6491,7 @@ function mg34() {
         var laserPick = lasers[ranLaser];
         //console.log(laserPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img src="' + laserPick.image + '">';
+        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img  style="width:250px;"  src="' + laserPick.image + '">';
     }
 
 
@@ -6592,7 +6592,7 @@ function mg34() {
         var opticPick = optics[ranOptic];
         //console.log(opticPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img src="' + opticPick.image + '">';
+        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img  style="width:250px;"  src="' + opticPick.image + '">';
     }
 
 
@@ -6634,7 +6634,7 @@ function mg34() {
         var stockPick = stocks[ranStock];
         //console.log(stockPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img src="' + stockPick.image + '">';
+        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img  style="width:250px;"  src="' + stockPick.image + '">';
     }
 
 
@@ -6682,7 +6682,7 @@ function mg34() {
         var underbarrelPick = underbarrels[ranUnderbarrel];
         //console.log(underbarrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img src="' + underbarrelPick.image + '">';
+        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + underbarrelPick.image + '">';
     }
 
 
@@ -6720,7 +6720,7 @@ function mg34() {
         var ammunationPick = ammunations[ranAmmunation];
         //console.log(ammunationPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img src="' + ammunationPick.image + '">';
+        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img  style="width:250px;"  src="' + ammunationPick.image + '">';
     }
 
 
@@ -6759,7 +6759,7 @@ function mg34() {
         var rearGripPick = reargrips[ranRearGrip];
         //console.log(rearGripPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img src="' + rearGripPick.image + '">';
+        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img  style="width:250px;"  src="' + rearGripPick.image + '">';
     }
 
 
@@ -6819,7 +6819,7 @@ function mg34() {
         var perkPick = perks[ranPerk];
         //console.log(perkPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img src="' + perkPick.image + '" "' + '">';
+        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img  style="width:250px;"  src="' + perkPick.image + '" "' + '">';
     }
 
 
@@ -6891,7 +6891,7 @@ function m91() {
         var muzzlePick = muzzles[ranMuzzle];
         //console.log(muzzlePick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img src="' + muzzlePick.image + '">';
+        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img  style="width:250px;"  src="' + muzzlePick.image + '">';
     }
 
     //Barrel
@@ -6928,7 +6928,7 @@ function m91() {
         //console.log(barrelPick.name);
 
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img src="' + barrelPick.image + '">';
+        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + barrelPick.image + '">';
     }
 
 
@@ -6966,7 +6966,7 @@ function m91() {
         var laserPick = lasers[ranLaser];
         //console.log(laserPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img src="' + laserPick.image + '">';
+        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img  style="width:250px;"  src="' + laserPick.image + '">';
     }
 
 
@@ -7071,7 +7071,7 @@ function m91() {
         var opticPick = optics[ranOptic];
         //console.log(opticPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img src="' + opticPick.image + '">';
+        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img  style="width:250px;"  src="' + opticPick.image + '">';
     }
 
 
@@ -7113,7 +7113,7 @@ function m91() {
         var stockPick = stocks[ranStock];
         //console.log(stockPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img src="' + stockPick.image + '">';
+        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img  style="width:250px;"  src="' + stockPick.image + '">';
     }
 
 
@@ -7161,7 +7161,7 @@ function m91() {
         var underbarrelPick = underbarrels[ranUnderbarrel];
         //console.log(underbarrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img src="' + underbarrelPick.image + '">';
+        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + underbarrelPick.image + '">';
     }
 
 
@@ -7199,7 +7199,7 @@ function m91() {
         var ammunationPick = ammunations[ranAmmunation];
         //console.log(ammunationPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img src="' + ammunationPick.image + '">';
+        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img  style="width:250px;"  src="' + ammunationPick.image + '">';
     }
 
 
@@ -7238,7 +7238,7 @@ function m91() {
         var rearGripPick = reargrips[ranRearGrip];
         //console.log(rearGripPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img src="' + rearGripPick.image + '">';
+        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img  style="width:250px;"  src="' + rearGripPick.image + '">';
     }
 
 
@@ -7298,7 +7298,7 @@ function m91() {
         var perkPick = perks[ranPerk];
         //console.log(perkPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img src="' + perkPick.image + '" "' + '">';
+        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img  style="width:250px;"  src="' + perkPick.image + '" "' + '">';
     }
 
 
@@ -7370,7 +7370,7 @@ function m13() {
         var muzzlePick = muzzles[ranMuzzle];
         //console.log(muzzlePick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img src="' + muzzlePick.image + '">';
+        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img  style="width:250px;"  src="' + muzzlePick.image + '">';
     }
 
 
@@ -7413,7 +7413,7 @@ function m13() {
 
         //console.log(barrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img src="' + barrelPick.image + '">';
+        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + barrelPick.image + '">';
     }
 
 
@@ -7450,7 +7450,7 @@ function m13() {
         var laserPick = lasers[ranLaser];
         //console.log(laserPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img src="' + laserPick.image + '">';
+        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img  style="width:250px;"  src="' + laserPick.image + '">';
     }
 
 
@@ -7559,7 +7559,7 @@ function m13() {
         var opticPick = optics[ranOptic];
         //console.log(opticPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img src="' + opticPick.image + '">';
+        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img  style="width:250px;"  src="' + opticPick.image + '">';
     }
 
 
@@ -7600,7 +7600,7 @@ function m13() {
         var stockPick = stocks[ranStock];
         //console.log(stockPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img src="' + stockPick.image + '">';
+        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img  style="width:250px;"  src="' + stockPick.image + '">';
     }
 
 
@@ -7678,7 +7678,7 @@ function m13() {
         var underbarrelPick = underbarrels[ranUnderbarrel];
         //console.log(underbarrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img src="' + underbarrelPick.image + '">';
+        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + underbarrelPick.image + '">';
     }
 
 
@@ -7719,7 +7719,7 @@ function m13() {
         var ammunationPick = ammunations[ranAmmunation];
         //console.log(ammunationPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img src="' + ammunationPick.image + '">';
+        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img  style="width:250px;"  src="' + ammunationPick.image + '">';
     }
 
 
@@ -7757,7 +7757,7 @@ function m13() {
         var rearGripPick = reargrips[ranRearGrip];
         //console.log(rearGripPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img src="' + rearGripPick.image + '">';
+        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img  style="width:250px;"  src="' + rearGripPick.image + '">';
     }
 
 
@@ -7825,7 +7825,7 @@ function m13() {
         var perkPick = perks[ranPerk];
         //console.log(perkPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img src="' + perkPick.image + '" "' + '">';
+        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img  style="width:250px;"  src="' + perkPick.image + '" "' + '">';
     }
 
 
@@ -7897,7 +7897,7 @@ function m4a1() {
         var muzzlePick = muzzles[ranMuzzle];
         //console.log(muzzlePick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img src="' + muzzlePick.image + '">';
+        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img  style="width:250px;"  src="' + muzzlePick.image + '">';
     }
 
     //Barrel
@@ -7943,7 +7943,7 @@ function m4a1() {
             document.getElementById("primaryAttH2").innerHTML = "";
 
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img src="' + barrelPick.image + '">';
+        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + barrelPick.image + '">';
     }
 
 
@@ -7981,7 +7981,7 @@ function m4a1() {
         var laserPick = lasers[ranLaser];
         //console.log(laserPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img src="' + laserPick.image + '">';
+        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img  style="width:250px;"  src="' + laserPick.image + '">';
     }
 
 
@@ -8086,7 +8086,7 @@ function m4a1() {
         var opticPick = optics[ranOptic];
         //console.log(opticPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img src="' + opticPick.image + '">';
+        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img  style="width:250px;"  src="' + opticPick.image + '">';
     }
 
 
@@ -8127,7 +8127,7 @@ function m4a1() {
         var stockPick = stocks[ranStock];
         //console.log(stockPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img src="' + stockPick.image + '">';
+        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img  style="width:250px;"  src="' + stockPick.image + '">';
     }
 
 
@@ -8205,7 +8205,7 @@ function m4a1() {
         var underbarrelPick = underbarrels[ranUnderbarrel];
         //console.log(underbarrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img src="' + underbarrelPick.image + '">';
+        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + underbarrelPick.image + '">';
     }
 
 
@@ -8250,7 +8250,7 @@ function m4a1() {
         var ammunationPick = ammunations[ranAmmunation];
         //console.log(ammunationPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img src="' + ammunationPick.image + '">';
+        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img  style="width:250px;"  src="' + ammunationPick.image + '">';
     }
 
 
@@ -8288,7 +8288,7 @@ function m4a1() {
         var rearGripPick = reargrips[ranRearGrip];
         //console.log(rearGripPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img src="' + rearGripPick.image + '">';
+        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img  style="width:250px;"  src="' + rearGripPick.image + '">';
     }
 
 
@@ -8356,7 +8356,7 @@ function m4a1() {
         var perkPick = perks[ranPerk];
         //console.log(perkPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img src="' + perkPick.image + '" "' + '">';
+        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img  style="width:250px;"  src="' + perkPick.image + '" "' + '">';
     }
 
 
@@ -8428,7 +8428,7 @@ function kilo141() {
         var muzzlePick = muzzles[ranMuzzle];
         //console.log(muzzlePick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img src="' + muzzlePick.image + '">';
+        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img  style="width:250px;"  src="' + muzzlePick.image + '">';
     }
 
     //Barrel
@@ -8466,7 +8466,7 @@ function kilo141() {
 
         //console.log(barrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img src="' + barrelPick.image + '">';
+        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + barrelPick.image + '">';
     }
 
 
@@ -8504,7 +8504,7 @@ function kilo141() {
         var laserPick = lasers[ranLaser];
         //console.log(laserPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img src="' + laserPick.image + '">';
+        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img  style="width:250px;"  src="' + laserPick.image + '">';
     }
 
 
@@ -8613,7 +8613,7 @@ function kilo141() {
         var opticPick = optics[ranOptic];
         //console.log(opticPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img src="' + opticPick.image + '">';
+        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img  style="width:250px;"  src="' + opticPick.image + '">';
     }
 
 
@@ -8654,7 +8654,7 @@ function kilo141() {
         var stockPick = stocks[ranStock];
         //console.log(stockPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img src="' + stockPick.image + '">';
+        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img  style="width:250px;"  src="' + stockPick.image + '">';
     }
 
 
@@ -8732,7 +8732,7 @@ function kilo141() {
         var underbarrelPick = underbarrels[ranUnderbarrel];
         //console.log(underbarrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img src="' + underbarrelPick.image + '">';
+        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + underbarrelPick.image + '">';
     }
 
 
@@ -8773,7 +8773,7 @@ function kilo141() {
         var ammunationPick = ammunations[ranAmmunation];
         //console.log(ammunationPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img src="' + ammunationPick.image + '">';
+        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img  style="width:250px;"  src="' + ammunationPick.image + '">';
     }
 
 
@@ -8811,7 +8811,7 @@ function kilo141() {
         var rearGripPick = reargrips[ranRearGrip];
         //console.log(rearGripPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img src="' + rearGripPick.image + '">';
+        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img  style="width:250px;"  src="' + rearGripPick.image + '">';
     }
 
 
@@ -8879,7 +8879,7 @@ function kilo141() {
         var perkPick = perks[ranPerk];
         //console.log(perkPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img src="' + perkPick.image + '" "' + '">';
+        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img  style="width:250px;"  src="' + perkPick.image + '" "' + '">';
     }
 
 
@@ -8951,7 +8951,7 @@ function kar() {
         var muzzlePick = muzzles[ranMuzzle];
         //console.log(muzzlePick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img src="' + muzzlePick.image + '">';
+        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img  style="width:250px;"  src="' + muzzlePick.image + '">';
     }
 
     //Barrel
@@ -8987,7 +8987,7 @@ function kar() {
         //console.log(barrelPick.name);
 
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img src="' + barrelPick.image + '">';
+        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + barrelPick.image + '">';
     }
 
 
@@ -9019,7 +9019,7 @@ function kar() {
         var laserPick = lasers[ranLaser];
         //console.log(laserPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img src="' + laserPick.image + '">';
+        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img  style="width:250px;"  src="' + laserPick.image + '">';
     }
 
 
@@ -9124,7 +9124,7 @@ function kar() {
         var opticPick = optics[ranOptic];
         //console.log(opticPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img src="' + opticPick.image + '">';
+        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img  style="width:250px;"  src="' + opticPick.image + '">';
     }
 
 
@@ -9161,7 +9161,7 @@ function kar() {
         var stockPick = stocks[ranStock];
         //console.log(stockPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img src="' + stockPick.image + '">';
+        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img  style="width:250px;"  src="' + stockPick.image + '">';
     }
 
     //Underbarrel
@@ -9190,7 +9190,7 @@ function kar() {
         var underbarrelPick = underbarrels[ranUnderbarrel];
         //console.log(underbarrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img src="' + underbarrelPick.image + '">';
+        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + underbarrelPick.image + '">';
     }
 
 
@@ -9229,7 +9229,7 @@ function kar() {
         var rearGripPick = reargrips[ranRearGrip];
         //console.log(rearGripPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img src="' + rearGripPick.image + '">';
+        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img  style="width:250px;"  src="' + rearGripPick.image + '">';
     }
 
 
@@ -9298,7 +9298,7 @@ function kar() {
         var perkPick = perks[ranPerk];
         //console.log(perkPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img src="' + perkPick.image + '" "' + '">';
+        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img  style="width:250px;"  src="' + perkPick.image + '" "' + '">';
     }
 
 
@@ -9370,7 +9370,7 @@ function holger() {
         var muzzlePick = muzzles[ranMuzzle];
         //console.log(muzzlePick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img src="' + muzzlePick.image + '">';
+        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img  style="width:250px;"  src="' + muzzlePick.image + '">';
     }
 
     //Barrel
@@ -9404,7 +9404,7 @@ function holger() {
         //console.log(barrelPick.name);
 
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img src="' + barrelPick.image + '">';
+        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + barrelPick.image + '">';
     }
 
 
@@ -9442,7 +9442,7 @@ function holger() {
         var laserPick = lasers[ranLaser];
         //console.log(laserPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img src="' + laserPick.image + '">';
+        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img  style="width:250px;"  src="' + laserPick.image + '">';
     }
 
 
@@ -9555,7 +9555,7 @@ function holger() {
         var opticPick = optics[ranOptic];
         //console.log(opticPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img src="' + opticPick.image + '">';
+        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img  style="width:250px;"  src="' + opticPick.image + '">';
     }
 
 
@@ -9597,7 +9597,7 @@ function holger() {
         var stockPick = stocks[ranStock];
         //console.log(stockPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img src="' + stockPick.image + '">';
+        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img  style="width:250px;"  src="' + stockPick.image + '">';
     }
 
 
@@ -9641,7 +9641,7 @@ function holger() {
         var underbarrelPick = underbarrels[ranUnderbarrel];
         //console.log(underbarrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img src="' + underbarrelPick.image + '">';
+        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + underbarrelPick.image + '">';
     }
 
 
@@ -9675,7 +9675,7 @@ function holger() {
         var ammunationPick = ammunations[ranAmmunation];
         //console.log(ammunationPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img src="' + ammunationPick.image + '">';
+        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img  style="width:250px;"  src="' + ammunationPick.image + '">';
     }
 
 
@@ -9714,7 +9714,7 @@ function holger() {
         var rearGripPick = reargrips[ranRearGrip];
         //console.log(rearGripPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img src="' + rearGripPick.image + '">';
+        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img  style="width:250px;"  src="' + rearGripPick.image + '">';
     }
 
 
@@ -9774,7 +9774,7 @@ function holger() {
         var perkPick = perks[ranPerk];
         //console.log(perkPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img src="' + perkPick.image + '" "' + '">';
+        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img  style="width:250px;"  src="' + perkPick.image + '" "' + '">';
     }
 
 
@@ -9846,7 +9846,7 @@ function hdr() {
         var muzzlePick = muzzles[ranMuzzle];
         //console.log(muzzlePick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img src="' + muzzlePick.image + '">';
+        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img  style="width:250px;"  src="' + muzzlePick.image + '">';
     }
 
     //Barrel
@@ -9883,7 +9883,7 @@ function hdr() {
 
 
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img src="' + barrelPick.image + '">';
+        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + barrelPick.image + '">';
     }
 
 
@@ -9912,7 +9912,7 @@ function hdr() {
         var laserPick = lasers[ranLaser];
         //console.log(laserPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img src="' + laserPick.image + '">';
+        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img  style="width:250px;"  src="' + laserPick.image + '">';
     }
 
 
@@ -9965,7 +9965,7 @@ function hdr() {
         var opticPick = optics[ranOptic];
         //console.log(opticPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img src="' + opticPick.image + '">';
+        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img  style="width:250px;"  src="' + opticPick.image + '">';
     }
 
 
@@ -10006,7 +10006,7 @@ function hdr() {
         var stockPick = stocks[ranStock];
         //console.log(stockPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img src="' + stockPick.image + '">';
+        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img  style="width:250px;"  src="' + stockPick.image + '">';
     }
 
 
@@ -10035,7 +10035,7 @@ function hdr() {
         var underbarrelPick = underbarrels[ranUnderbarrel];
         //console.log(underbarrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img src="' + underbarrelPick.image + '">';
+        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + underbarrelPick.image + '">';
     }
 
 
@@ -10072,7 +10072,7 @@ function hdr() {
         var ammunationPick = ammunations[ranAmmunation];
         //console.log(ammunationPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img src="' + ammunationPick.image + '">';
+        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img  style="width:250px;"  src="' + ammunationPick.image + '">';
     }
 
 
@@ -10140,7 +10140,7 @@ function hdr() {
         var perkPick = perks[ranPerk];
         //console.log(perkPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img src="' + perkPick.image + '" "' + '">';
+        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img  style="width:250px;"  src="' + perkPick.image + '" "' + '">';
     }
 
 
@@ -10208,7 +10208,7 @@ function fr556() {
         var muzzlePick = muzzles[ranMuzzle];
         //console.log(muzzlePick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img src="' + muzzlePick.image + '">';
+        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img  style="width:250px;"  src="' + muzzlePick.image + '">';
     }
 
 
@@ -10246,7 +10246,7 @@ function fr556() {
         var barrelPick = barrels[ranBarrel];
         //console.log(barrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img src="' + barrelPick.image + '">';
+        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + barrelPick.image + '">';
     }
 
 
@@ -10283,7 +10283,7 @@ function fr556() {
         var laserPick = lasers[ranLaser];
         //console.log(laserPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img src="' + laserPick.image + '">';
+        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img  style="width:250px;"  src="' + laserPick.image + '">';
     }
 
 
@@ -10392,7 +10392,7 @@ function fr556() {
         var opticPick = optics[ranOptic];
         //console.log(opticPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img src="' + opticPick.image + '">';
+        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img  style="width:250px;"  src="' + opticPick.image + '">';
     }
 
 
@@ -10429,7 +10429,7 @@ function fr556() {
         var stockPick = stocks[ranStock];
         //console.log(stockPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img src="' + stockPick.image + '">';
+        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img  style="width:250px;"  src="' + stockPick.image + '">';
     }
 
 
@@ -10507,7 +10507,7 @@ function fr556() {
         var underbarrelPick = underbarrels[ranUnderbarrel];
         //console.log(underbarrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img src="' + underbarrelPick.image + '">';
+        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + underbarrelPick.image + '">';
     }
 
 
@@ -10544,7 +10544,7 @@ function fr556() {
         var ammunationPick = ammunations[ranAmmunation];
         //console.log(ammunationPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img src="' + ammunationPick.image + '">';
+        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img  style="width:250px;"  src="' + ammunationPick.image + '">';
     }
 
 
@@ -10582,7 +10582,7 @@ function fr556() {
         var rearGripPick = reargrips[ranRearGrip];
         //console.log(rearGripPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img src="' + rearGripPick.image + '">';
+        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img  style="width:250px;"  src="' + rearGripPick.image + '">';
     }
 
 
@@ -10646,7 +10646,7 @@ function fr556() {
         var perkPick = perks[ranPerk];
         //console.log(perkPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img src="' + perkPick.image + '" "' + '">';
+        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img  style="width:250px;"  src="' + perkPick.image + '" "' + '">';
     }
 
 
@@ -10718,7 +10718,7 @@ function fnscar17() {
         var muzzlePick = muzzles[ranMuzzle];
         //console.log(muzzlePick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img src="' + muzzlePick.image + '">';
+        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img  style="width:250px;"  src="' + muzzlePick.image + '">';
     }
 
 
@@ -10757,7 +10757,7 @@ function fnscar17() {
         var barrelPick = barrels[ranBarrel];
         //console.log(barrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img src="' + barrelPick.image + '">';
+        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + barrelPick.image + '">';
     }
 
 
@@ -10794,7 +10794,7 @@ function fnscar17() {
         var laserPick = lasers[ranLaser];
         //console.log(laserPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img src="' + laserPick.image + '">';
+        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img  style="width:250px;"  src="' + laserPick.image + '">';
     }
 
 
@@ -10903,7 +10903,7 @@ function fnscar17() {
         var opticPick = optics[ranOptic];
         //console.log(opticPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img src="' + opticPick.image + '">';
+        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img  style="width:250px;"  src="' + opticPick.image + '">';
     }
 
 
@@ -10944,7 +10944,7 @@ function fnscar17() {
         var stockPick = stocks[ranStock];
         //console.log(stockPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img src="' + stockPick.image + '">';
+        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img  style="width:250px;"  src="' + stockPick.image + '">';
     }
 
 
@@ -11018,7 +11018,7 @@ function fnscar17() {
         var underbarrelPick = underbarrels[ranUnderbarrel];
         //console.log(underbarrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img src="' + underbarrelPick.image + '">';
+        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + underbarrelPick.image + '">';
     }
 
 
@@ -11055,7 +11055,7 @@ function fnscar17() {
         var ammunationPick = ammunations[ranAmmunation];
         //console.log(ammunationPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img src="' + ammunationPick.image + '">';
+        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img  style="width:250px;"  src="' + ammunationPick.image + '">';
     }
 
 
@@ -11093,7 +11093,7 @@ function fnscar17() {
         var rearGripPick = reargrips[ranRearGrip];
         //console.log(rearGripPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img src="' + rearGripPick.image + '">';
+        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img  style="width:250px;"  src="' + rearGripPick.image + '">';
     }
 
 
@@ -11153,7 +11153,7 @@ function fnscar17() {
         var perkPick = perks[ranPerk];
         //console.log(perkPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img src="' + perkPick.image + '" "' + '">';
+        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img  style="width:250px;"  src="' + perkPick.image + '" "' + '">';
     }
 
 
@@ -11225,7 +11225,7 @@ function fal() {
         var muzzlePick = muzzles[ranMuzzle];
         //console.log(muzzlePick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img src="' + muzzlePick.image + '">';
+        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img  style="width:250px;"  src="' + muzzlePick.image + '">';
     }
 
 
@@ -11264,7 +11264,7 @@ function fal() {
         var barrelPick = barrels[ranBarrel];
         //console.log(barrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img src="' + barrelPick.image + '">';
+        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + barrelPick.image + '">';
     }
 
 
@@ -11301,7 +11301,7 @@ function fal() {
         var laserPick = lasers[ranLaser];
         //console.log(laserPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img src="' + laserPick.image + '">';
+        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img  style="width:250px;"  src="' + laserPick.image + '">';
     }
 
 
@@ -11410,7 +11410,7 @@ function fal() {
         var opticPick = optics[ranOptic];
         //console.log(opticPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img src="' + opticPick.image + '">';
+        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img  style="width:250px;"  src="' + opticPick.image + '">';
     }
 
 
@@ -11451,7 +11451,7 @@ function fal() {
         var stockPick = stocks[ranStock];
         //console.log(stockPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img src="' + stockPick.image + '">';
+        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img  style="width:250px;"  src="' + stockPick.image + '">';
     }
 
 
@@ -11529,7 +11529,7 @@ function fal() {
         var underbarrelPick = underbarrels[ranUnderbarrel];
         //console.log(underbarrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img src="' + underbarrelPick.image + '">';
+        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + underbarrelPick.image + '">';
     }
 
 
@@ -11566,7 +11566,7 @@ function fal() {
         var ammunationPick = ammunations[ranAmmunation];
         //console.log(ammunationPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img src="' + ammunationPick.image + '">';
+        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img  style="width:250px;"  src="' + ammunationPick.image + '">';
     }
 
 
@@ -11604,7 +11604,7 @@ function fal() {
         var rearGripPick = reargrips[ranRearGrip];
         //console.log(rearGripPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img src="' + rearGripPick.image + '">';
+        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img  style="width:250px;"  src="' + rearGripPick.image + '">';
     }
 
 
@@ -11672,7 +11672,7 @@ function fal() {
         var perkPick = perks[ranPerk];
         //console.log(perkPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img src="' + perkPick.image + '" "' + '">';
+        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img  style="width:250px;"  src="' + perkPick.image + '" "' + '">';
     }
 
 
@@ -11744,7 +11744,7 @@ function ebr() {
         var muzzlePick = muzzles[ranMuzzle];
         //console.log(muzzlePick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img src="' + muzzlePick.image + '">';
+        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img  style="width:250px;"  src="' + muzzlePick.image + '">';
     }
 
     //Barrel
@@ -11780,7 +11780,7 @@ function ebr() {
         //console.log(barrelPick.name);
 
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img src="' + barrelPick.image + '">';
+        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + barrelPick.image + '">';
     }
 
 
@@ -11812,7 +11812,7 @@ function ebr() {
         var laserPick = lasers[ranLaser];
         //console.log(laserPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img src="' + laserPick.image + '">';
+        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img  style="width:250px;"  src="' + laserPick.image + '">';
     }
 
 
@@ -11913,7 +11913,7 @@ function ebr() {
         var opticPick = optics[ranOptic];
         //console.log(opticPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img src="' + opticPick.image + '">';
+        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img  style="width:250px;"  src="' + opticPick.image + '">';
     }
 
 
@@ -11954,7 +11954,7 @@ function ebr() {
         var stockPick = stocks[ranStock];
         //console.log(stockPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img src="' + stockPick.image + '">';
+        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img  style="width:250px;"  src="' + stockPick.image + '">';
     }
 
 
@@ -12004,7 +12004,7 @@ function ebr() {
         var underbarrelPick = underbarrels[ranUnderbarrel];
         //console.log(underbarrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img src="' + underbarrelPick.image + '">';
+        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + underbarrelPick.image + '">';
     }
 
 
@@ -12042,7 +12042,7 @@ function ebr() {
         var ammunationPick = ammunations[ranAmmunation];
         //console.log(ammunationPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img src="' + ammunationPick.image + '">';
+        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img  style="width:250px;"  src="' + ammunationPick.image + '">';
     }
 
 
@@ -12112,7 +12112,7 @@ function ebr() {
         var perkPick = perks[ranPerk];
         //console.log(perkPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img src="' + perkPick.image + '" "' + '">';
+        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img  style="width:250px;"  src="' + perkPick.image + '" "' + '">';
     }
 
 
@@ -12184,7 +12184,7 @@ function dragunov() {
         var muzzlePick = muzzles[ranMuzzle];
         //console.log(muzzlePick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img src="' + muzzlePick.image + '">';
+        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img  style="width:250px;"  src="' + muzzlePick.image + '">';
     }
 
     //Barrel
@@ -12217,7 +12217,7 @@ function dragunov() {
 
 
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img src="' + barrelPick.image + '">';
+        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + barrelPick.image + '">';
     }
 
 
@@ -12246,7 +12246,7 @@ function dragunov() {
         var laserPick = lasers[ranLaser];
         //console.log(laserPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img src="' + laserPick.image + '">';
+        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img  style="width:250px;"  src="' + laserPick.image + '">';
     }
 
 
@@ -12299,7 +12299,7 @@ function dragunov() {
         var opticPick = optics[ranOptic];
         //console.log(opticPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img src="' + opticPick.image + '">';
+        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img  style="width:250px;"  src="' + opticPick.image + '">';
     }
 
 
@@ -12341,7 +12341,7 @@ function dragunov() {
         var stockPick = stocks[ranStock];
         //console.log(stockPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img src="' + stockPick.image + '">';
+        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img  style="width:250px;"  src="' + stockPick.image + '">';
     }
 
 
@@ -12370,7 +12370,7 @@ function dragunov() {
         var underbarrelPick = underbarrels[ranUnderbarrel];
         //console.log(underbarrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img src="' + underbarrelPick.image + '">';
+        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + underbarrelPick.image + '">';
     }
 
 
@@ -12407,7 +12407,7 @@ function dragunov() {
         var ammunationPick = ammunations[ranAmmunation];
         //console.log(ammunationPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img src="' + ammunationPick.image + '">';
+        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img  style="width:250px;"  src="' + ammunationPick.image + '">';
     }
 
 
@@ -12475,7 +12475,7 @@ function dragunov() {
         var perkPick = perks[ranPerk];
         //console.log(perkPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img src="' + perkPick.image + '" "' + '">';
+        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img  style="width:250px;"  src="' + perkPick.image + '" "' + '">';
     }
 
 
@@ -12547,7 +12547,7 @@ function ax50() {
         var muzzlePick = muzzles[ranMuzzle];
         //console.log(muzzlePick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img src="' + muzzlePick.image + '">';
+        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img  style="width:250px;"  src="' + muzzlePick.image + '">';
     }
 
     //Barrel
@@ -12584,7 +12584,7 @@ function ax50() {
 
 
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img src="' + barrelPick.image + '">';
+        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + barrelPick.image + '">';
     }
 
 
@@ -12613,7 +12613,7 @@ function ax50() {
         var laserPick = lasers[ranLaser];
         //console.log(laserPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img src="' + laserPick.image + '">';
+        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img  style="width:250px;"  src="' + laserPick.image + '">';
     }
 
 
@@ -12666,7 +12666,7 @@ function ax50() {
         var opticPick = optics[ranOptic];
         //console.log(opticPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img src="' + opticPick.image + '">';
+        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img  style="width:250px;"  src="' + opticPick.image + '">';
     }
 
 
@@ -12703,7 +12703,7 @@ function ax50() {
         var stockPick = stocks[ranStock];
         //console.log(stockPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img src="' + stockPick.image + '">';
+        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img  style="width:250px;"  src="' + stockPick.image + '">';
     }
 
 
@@ -12732,7 +12732,7 @@ function ax50() {
         var underbarrelPick = underbarrels[ranUnderbarrel];
         //console.log(underbarrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img src="' + underbarrelPick.image + '">';
+        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + underbarrelPick.image + '">';
     }
 
 
@@ -12769,7 +12769,7 @@ function ax50() {
         var ammunationPick = ammunations[ranAmmunation];
         //console.log(ammunationPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img src="' + ammunationPick.image + '">';
+        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img  style="width:250px;"  src="' + ammunationPick.image + '">';
     }
 
     //RearGrip
@@ -12804,7 +12804,7 @@ function ax50() {
         var rearGripPick = reargrips[ranRearGrip];
         //console.log(rearGripPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img src="' + rearGripPick.image + '">';
+        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img  style="width:250px;"  src="' + rearGripPick.image + '">';
     }
 
     //Perks
@@ -12871,7 +12871,7 @@ function ax50() {
         var perkPick = perks[ranPerk];
         //console.log(perkPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img src="' + perkPick.image + '" "' + '">';
+        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img  style="width:250px;"  src="' + perkPick.image + '" "' + '">';
     }
 
 
@@ -12943,7 +12943,7 @@ function aug() {
         var muzzlePick = muzzles[ranMuzzle];
         // console.log(muzzlePick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img src="' + muzzlePick.image + '">';
+        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img  style="width:250px;"  src="' + muzzlePick.image + '">';
     }
 
     //Barrel
@@ -12978,7 +12978,7 @@ function aug() {
         var barrelPick = barrels[ranBarrel];
         // console.log(barrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img src="' + barrelPick.image + '">';
+        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + barrelPick.image + '">';
     }
 
 
@@ -13016,7 +13016,7 @@ function aug() {
         var laserPick = lasers[ranLaser];
         // console.log(laserPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img src="' + laserPick.image + '">';
+        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img  style="width:250px;"  src="' + laserPick.image + '">';
     }
 
 
@@ -13117,7 +13117,7 @@ function aug() {
         var opticPick = optics[ranOptic];
         // console.log(opticPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img src="' + opticPick.image + '">';
+        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img  style="width:250px;"  src="' + opticPick.image + '">';
     }
 
 
@@ -13154,7 +13154,7 @@ function aug() {
         var stockPick = stocks[ranStock];
         // console.log(stockPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img src="' + stockPick.image + '">';
+        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img  style="width:250px;"  src="' + stockPick.image + '">';
     }
 
 
@@ -13200,7 +13200,7 @@ function aug() {
         var underbarrelPick = underbarrels[ranUnderbarrel];
         // console.log(underbarrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img src="' + underbarrelPick.image + '">';
+        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + underbarrelPick.image + '">';
     }
 
 
@@ -13241,7 +13241,7 @@ function aug() {
         var ammunationPick = ammunations[ranAmmunation];
         // console.log(ammunationPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img src="' + ammunationPick.image + '">';
+        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img  style="width:250px;"  src="' + ammunationPick.image + '">';
     }
 
 
@@ -13279,7 +13279,7 @@ function aug() {
         var rearGripPick = reargrips[ranRearGrip];
         // console.log(rearGripPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img src="' + rearGripPick.image + '">';
+        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img  style="width:250px;"  src="' + rearGripPick.image + '">';
     }
 
 
@@ -13343,7 +13343,7 @@ function aug() {
         var perkPick = perks[ranPerk];
         // console.log(perkPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img src="' + perkPick.image + '" "' + '">';
+        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img  style="width:250px;"  src="' + perkPick.image + '" "' + '">';
     }
 
 
@@ -13419,7 +13419,7 @@ function s725() {
         var muzzlePick = muzzles[ranMuzzle];
         // console.log(muzzlePick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img src="' + muzzlePick.image + '">';
+        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img  style="width:250px;"  src="' + muzzlePick.image + '">';
     }
 
     //Barrel
@@ -13454,7 +13454,7 @@ function s725() {
         var barrelPick = barrels[ranBarrel];
         // console.log(barrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img src="' + barrelPick.image + '">';
+        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + barrelPick.image + '">';
     }
 
 
@@ -13492,7 +13492,7 @@ function s725() {
         var laserPick = lasers[ranLaser];
         // console.log(laserPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img src="' + laserPick.image + '">';
+        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img  style="width:250px;"  src="' + laserPick.image + '">';
     }
 
 
@@ -13576,7 +13576,7 @@ function s725() {
         var opticPick = optics[ranOptic];
         // console.log(opticPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img src="' + opticPick.image + '">';
+        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img  style="width:250px;"  src="' + opticPick.image + '">';
     }
 
 
@@ -13617,7 +13617,7 @@ function s725() {
         var stockPick = stocks[ranStock];
         // console.log(stockPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img src="' + stockPick.image + '">';
+        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img  style="width:250px;"  src="' + stockPick.image + '">';
     }
 
 
@@ -13663,7 +13663,7 @@ function s725() {
         var underbarrelPick = underbarrels[ranUnderbarrel];
         // console.log(underbarrelPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img src="' + underbarrelPick.image + '">';
+        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + underbarrelPick.image + '">';
     }
 
 
@@ -13695,7 +13695,7 @@ function s725() {
         var ammunationPick = ammunations[ranAmmunation];
         // console.log(ammunationPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img src="' + ammunationPick.image + '">';
+        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img  style="width:250px;"  src="' + ammunationPick.image + '">';
     }
 
     //Guard
@@ -13730,7 +13730,7 @@ function s725() {
         var rearGripPick = reargrips[ranRearGrip];
         // console.log(rearGripPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Guard -  " + '</b>' + rearGripPick.name + '<br>' + '<img src="' + rearGripPick.image + '">';
+        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Guard -  " + '</b>' + rearGripPick.name + '<br>' + '<img  style="width:250px;"  src="' + rearGripPick.image + '">';
     }
 
     //Perks
@@ -13789,7 +13789,7 @@ function s725() {
         var perkPick = perks[ranPerk];
         // console.log(perkPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img src="' + perkPick.image + '" "' + '">';
+        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img  style="width:250px;"  src="' + perkPick.image + '" "' + '">';
     }
 
 

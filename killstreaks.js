@@ -39,7 +39,7 @@
         //VTOL Jet
         var ks8 = [
         { name: 'Emergency Airdrop', image: 'killstreaks/emergency.png' }, 
-        { name: 'Wheelson', image: 'killstreaks/wheelson.png' }
+        { name: 'VTOL Jet', image: 'killstreaks/vtoljet.png' }
       ];
     
     // --------- 10
@@ -113,12 +113,12 @@
     
             if(ks3Pick.name == "Personal Radar")
             {
-             document.getElementById("ks1").innerHTML = '<img class="ksimage" src="test1.png">';
+             document.getElementById("ks1").innerHTML = '<img class="ksimage" src="killstreaks/colored/personalradar.png">';
             }
 
             if(ks3Pick.name == "Shield Turret")
             {
-             document.getElementById("ks2").innerHTML = '<img class="ksimage" src="test1.png">';
+             document.getElementById("ks2").innerHTML = '<img class="ksimage" src="killstreaks/colored/shieldturret.png">';
             }
     
     }
@@ -131,17 +131,17 @@
 
       if(ks4Pick.name == "Counter UAV")
       {
-       document.getElementById("ks3").innerHTML = '<img class="ksimage" src="test1.png">';
+       document.getElementById("ks3").innerHTML = '<img class="ksimage" src="killstreaks/colored/counteruav.png">';
       }
 
       if(ks4Pick.name == "UAV")
       {
-       document.getElementById("ks4").innerHTML = '<img class="ksimage" src="test1.png">';
+       document.getElementById("ks4").innerHTML = '<img class="ksimage" src="killstreaks/colored/uav.png">';
       }
 
       if(ks4Pick.name == "Care Package")
       {
-       document.getElementById("ks5").innerHTML = '<img class="ksimage" src="test1.png">';
+       document.getElementById("ks5").innerHTML = '<img class="ksimage" src="killstreaks/colored/carepackage.png">';
       }
     }
     
@@ -153,17 +153,17 @@
 
       if(ks5Pick.name == "Cluster Strike")
       {
-       document.getElementById("ks6").innerHTML = '<img class="ksimage" src="test1.png">';
+       document.getElementById("ks6").innerHTML = '<img class="ksimage" src="killstreaks/colored/clusterstrike.png">';
       }
 
       if(ks5Pick.name == "Cruise Missile")
       {
-       document.getElementById("ks7").innerHTML = '<img class="ksimage" src="test1.png">';
+       document.getElementById("ks7").innerHTML = '<img class="ksimage" src="killstreaks/colored/cruisemissile.png">';
       }
 
       if(ks5Pick.name == "Precision Airstrike")
       {
-       document.getElementById("ks8").innerHTML = '<img class="ksimage" src="test1.png">';
+       document.getElementById("ks8").innerHTML = '<img class="ksimage" src="killstreaks/colored/precisionairstrike.png">';
       }
     }
     
@@ -175,17 +175,17 @@
 
       if(ks7Pick.name == "Infantry Assault Vehicle")
       {
-       document.getElementById("ks9").innerHTML = '<img class="ksimage" src="test1.png">';
+       document.getElementById("ks9").innerHTML = '<img class="ksimage" src="killstreaks/colored/infantry.png">';
       }
 
       if(ks7Pick.name == "Sentry Gun")
       {
-       document.getElementById("ks10").innerHTML = '<img class="ksimage" src="test1.png">';
+       document.getElementById("ks10").innerHTML = '<img class="ksimage" src="killstreaks/colored/sentrygun.png">';
       }
 
       if(ks7Pick.name == "Wheelson")
       {
-       document.getElementById("ks11").innerHTML = '<img class="ksimage" src="test1.png">';
+       document.getElementById("ks11").innerHTML = '<img class="ksimage" src="killstreaks/colored/wheelson.png">';
       }
     }
     
@@ -197,12 +197,12 @@
 
       if(ks8Pick.name == "Emergency Airdrop")
       {
-       document.getElementById("ks12").innerHTML = '<img class="ksimage" src="test1.png">';
+       document.getElementById("ks12").innerHTML = '<img class="ksimage" src="killstreaks/colored/emercencyairdrop.png">';
       }
 
-      if(ks8Pick.name == "Wheelson")
+      if(ks8Pick.name == "VTOL Jet")
       {
-       document.getElementById("ks13").innerHTML = '<img class="ksimage" src="test1.png">';
+       document.getElementById("ks13").innerHTML = '<img class="ksimage" src="killstreaks/colored/vtoljet.png">';
       }
     }
     
@@ -214,12 +214,12 @@
 
       if(ks10Pick.name == "White Phosphorus")
       {
-       document.getElementById("ks14").innerHTML = '<img class="ksimage" src="test1.png">';
+       document.getElementById("ks14").innerHTML = '<img class="ksimage" src="killstreaks/colored/white.png">';
       }
 
       if(ks10Pick.name == "Chopper Gunner")
       {
-       document.getElementById("ks15").innerHTML = '<img class="ksimage" src="test1.png">';
+       document.getElementById("ks15").innerHTML = '<img class="ksimage" src="killstreaks/colored/choppergunner.png">';
       }
 
 
@@ -233,7 +233,7 @@
 
       if(ks11Pick.name == "Support Helo")
       {
-       document.getElementById("ks16").innerHTML = '<img class="ksimage" src="test1.png">';
+       document.getElementById("ks16").innerHTML = '<img class="ksimage" src="killstreaks/colored/supporthelo.png">';
       }
     }
     
@@ -245,11 +245,11 @@
 
       if(ks12Pick.name == "Gunship")
       {
-       document.getElementById("ks17").innerHTML = '<img class="ksimage" src="test1.png">';
+       document.getElementById("ks17").innerHTML = '<img class="ksimage" src="killstreaks/colored/gunship.png">';
       }
       if(ks12Pick.name == "Advanced UAV")
       {
-       document.getElementById("ks18").innerHTML = '<img class="ksimage" src="test1.png">';
+       document.getElementById("ks18").innerHTML = '<img class="ksimage" src="killstreaks/colored/advanceduav.png">';
       }
 
     }
@@ -262,7 +262,7 @@
 
       if(ks15Pick.name == "Juggernaut")
       {
-       document.getElementById("ks19").innerHTML = '<img class="ksimage" src="test1.png">';
+       document.getElementById("ks19").innerHTML = '<img class="ksimage" src="killstreaks/colored/juggernaut.png">';
       }
       
     }
