@@ -345,6 +345,10 @@ if((randomPrimary.name == "M4A1") || (randomPrimary.name == "Kilo 141") || (rand
   //console.log("------------------------------ " + isAR);
 }
 
+document.getElementById("killstreaks").innerHTML = "Killstreaks";
+
+
+
 document.getElementById("ks1").innerHTML = '<img class="ksimage" src="test.png">';
 document.getElementById("ks2").innerHTML = '<img class="ksimage" src="test.png">';
 document.getElementById("ks3").innerHTML = '<img class="ksimage" src="test.png">';
@@ -364,6 +368,9 @@ document.getElementById("ks16").innerHTML = '<img class="ksimage" src="test.png"
 document.getElementById("ks17").innerHTML = '<img class="ksimage" src="test.png">';
 document.getElementById("ks18").innerHTML = '<img class="ksimage" src="test.png">';
 document.getElementById("ks19").innerHTML = '<img class="ksimage" src="test.png">';
+
+
+randomKillstreaks();
 
 // if(isAR != true){
 //   //console.log("------------------------------ " + isAR)
