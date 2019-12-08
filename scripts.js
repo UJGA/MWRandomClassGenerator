@@ -349,25 +349,25 @@ document.getElementById("killstreaks").innerHTML = "Killstreaks";
 
 
 
-document.getElementById("ks1").innerHTML = '<img class="ksimage" src="test.png">';
-document.getElementById("ks2").innerHTML = '<img class="ksimage" src="test.png">';
-document.getElementById("ks3").innerHTML = '<img class="ksimage" src="test.png">';
-document.getElementById("ks4").innerHTML = '<img class="ksimage" src="test.png">';
-document.getElementById("ks5").innerHTML = '<img class="ksimage" src="test.png">';
-document.getElementById("ks6").innerHTML = '<img class="ksimage" src="test.png">';
-document.getElementById("ks7").innerHTML = '<img class="ksimage" src="test.png">';
-document.getElementById("ks8").innerHTML = '<img class="ksimage" src="test.png">';
-document.getElementById("ks9").innerHTML = '<img class="ksimage" src="test.png">';
-document.getElementById("ks10").innerHTML = '<img class="ksimage" src="test.png">';
-document.getElementById("ks11").innerHTML = '<img class="ksimage" src="test.png">';
-document.getElementById("ks12").innerHTML = '<img class="ksimage" src="test.png">';
-document.getElementById("ks13").innerHTML = '<img class="ksimage" src="test.png">';
-document.getElementById("ks14").innerHTML = '<img class="ksimage" src="test.png">';
-document.getElementById("ks15").innerHTML = '<img class="ksimage" src="test.png">';
-document.getElementById("ks16").innerHTML = '<img class="ksimage" src="test.png">';
-document.getElementById("ks17").innerHTML = '<img class="ksimage" src="test.png">';
-document.getElementById("ks18").innerHTML = '<img class="ksimage" src="test.png">';
-document.getElementById("ks19").innerHTML = '<img class="ksimage" src="test.png">';
+document.getElementById("ks1").innerHTML = ''
+document.getElementById("ks2").innerHTML = ''
+document.getElementById("ks3").innerHTML = ''
+document.getElementById("ks4").innerHTML = ''
+document.getElementById("ks5").innerHTML = ''
+document.getElementById("ks6").innerHTML = ''
+document.getElementById("ks7").innerHTML = ''
+document.getElementById("ks8").innerHTML = ''
+document.getElementById("ks9").innerHTML = ''
+document.getElementById("ks10").innerHTML = ''
+document.getElementById("ks11").innerHTML = ''
+document.getElementById("ks12").innerHTML = ''
+document.getElementById("ks13").innerHTML = ''
+document.getElementById("ks14").innerHTML = ''
+document.getElementById("ks15").innerHTML = ''
+document.getElementById("ks16").innerHTML = ''
+document.getElementById("ks17").innerHTML = ''
+document.getElementById("ks18").innerHTML = ''
+document.getElementById("ks19").innerHTML = ''
 
 
 randomKillstreaks();

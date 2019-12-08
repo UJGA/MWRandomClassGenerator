@@ -27,12 +27,9 @@
   }
 
   .ksPictures{
-      text-align: center;
-      width: 95%;
-      padding-left: 5%;
+      text-align: center !important; 
+      display: table;
+      margin: auto;
 
   }
 
-  .ksimage{
-      width: 5%;
-  }
