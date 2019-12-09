@@ -148,10 +148,10 @@ function randomKillstreaks() {
     numKsSections.splice(rand, 1);
     totalSections--;
   }
-  console.log(ksArr);
+  //console.log(ksArr);
 
   if (ksArr.includes(0)) {
-    console.log("ks3");
+    //console.log("ks3");
 
     var ks3Ran = Math.floor(Math.random() * 2) + 0;
 
@@ -168,7 +168,7 @@ function randomKillstreaks() {
   }
 
   if (ksArr.includes(1)) {
-    console.log("ks4");
+    //console.log("ks4");
     var ks4Ran = Math.floor(Math.random() * 3) + 0;
 
     var ks4Pick = ks4[ks4Ran];
@@ -187,7 +187,7 @@ function randomKillstreaks() {
   }
 
   if (ksArr.includes(2)) {
-    console.log("ks5");
+    //console.log("ks5");
     var ks5Ran = Math.floor(Math.random() * 3) + 0;
 
     var ks5Pick = ks5[ks5Ran];
@@ -206,7 +206,7 @@ function randomKillstreaks() {
   }
 
   if (ksArr.includes(3)) {
-    console.log("ks7");
+    //console.log("ks7");
     var ks7Ran = Math.floor(Math.random() * 3) + 0;
 
     var ks7Pick = ks7[ks7Ran];
@@ -225,7 +225,7 @@ function randomKillstreaks() {
   }
 
   if (ksArr.includes(4)) {
-    console.log("ks8");
+    //console.log("ks8");
     var ks8Ran = Math.floor(Math.random() * 2) + 0;
 
     var ks8Pick = ks8[ks8Ran];
@@ -240,7 +240,7 @@ function randomKillstreaks() {
   }
 
   if (ksArr.includes(5)) {
-    console.log("ks10");
+    //console.log("ks10");
     var ks10Ran = Math.floor(Math.random() * 2) + 0;
 
     var ks10Pick = ks10[ks10Ran];
@@ -257,7 +257,7 @@ function randomKillstreaks() {
   }
 
   if (ksArr.includes(6)) {
-    console.log("ks11");
+    //console.log("ks11");
     var ks11Ran = Math.floor(Math.random() * 1) + 0;
 
     var ks11Pick = ks11[ks11Ran];
@@ -268,7 +268,7 @@ function randomKillstreaks() {
   }
 
   if (ksArr.includes(7)) {
-    console.log("ks12");
+    //console.log("ks12");
     var ks12Ran = Math.floor(Math.random() * 2) + 0;
 
     var ks12Pick = ks12[ks12Ran];
@@ -283,7 +283,7 @@ function randomKillstreaks() {
   }
 
   if (ksArr.includes(8)) {
-    console.log("ks15");
+    //console.log("ks15");
     var ks15Ran = Math.floor(Math.random() * 1) + 0;
 
     var ks15Pick = ks15[ks15Ran];
