@@ -468,10 +468,16 @@ function random_item() {
   document.getElementById("myTitle").innerHTML = "";
   document.getElementById("goAgain").innerHTML = '<button id="mybtn" class="btn btn-primary" onclick="random_item();">Generate Again</button>';
 
-  //window.location.reload();
-  var isAR = false;
 
-
+  document.getElementById("primaryAtt1").innerHTML = "";
+  document.getElementById("primaryAtt2").innerHTML = "";
+  document.getElementById("primaryAtt3").innerHTML = "";
+  document.getElementById("primaryAtt4").innerHTML = "";
+  document.getElementById("primaryAtt5").innerHTML = "";
+  document.getElementById("primaryAtt6").innerHTML = "";
+  document.getElementById("primaryAtt7").innerHTML = "";
+  document.getElementById("primaryAtt8").innerHTML = "";
+  document.getElementById("primaryAtt9").innerHTML = "";
 
   // Call to weapon functions
   if (randomPrimary.name == "M4A1") {
@@ -617,6 +623,7 @@ function random_item() {
   document.getElementById("ks17").innerHTML = ''
   document.getElementById("ks18").innerHTML = ''
   document.getElementById("ks19").innerHTML = ''
+
 
 
   randomKillstreaks();

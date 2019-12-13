@@ -140,7 +140,7 @@ var ks15 = [{
 function randomKillstreaks() {
   var numKsSections = [0, 1, 2, 3, 4, 5, 6, 7, 8]
   var totalSections = 9;
-  var ran = Math.floor(Math.random() * 3) + 0;
+  var ran = 2;
   var ksArr = [];
   for (var i = 0; i <= ran; i++) {
     var rand = numKsSections[Math.floor(Math.random() * totalSections)];
