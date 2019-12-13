@@ -1,3 +1,4 @@
+
 .randomClass {
     text-align: center;
 }
@@ -20,13 +21,14 @@
 
 body {
     background-color: #343A40;
-    color: #32BDCB;
-    padding-top: 1px;
-
+    color: white;
+    background-image: url("mwbg.jpg");
+    background-repeat: no-repeat;
 }
 
 .contactContent {
     text-align: center;
+    padding-top: 1%;
 }
 
 .ksPictures {
@@ -47,3 +49,24 @@ body {
 
 }
 
+.classContent{
+    background-color:rgba(255, 255, 255, 0.75);
+    color: black;
+    padding: 1%;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: -20px;;
+    width: 76%;
+    height: 90%;
+
+}
+
+.footerBG{
+margin-top: -6%;
+}
+
+.updates{
+    background-color:rgba(255, 255, 255, 0.75);
+    color: black;
+    padding: 1%;
+}

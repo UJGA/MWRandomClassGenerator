@@ -404,6 +404,12 @@ var fieldUpgradesArray = [{
 
 
 function random_item() {
+
+    var element = document.getElementById("classContent");
+    element.classList.add("classContent");
+
+    document.getElementById("footerBG").innerHTML= '<footer id="footer" class="py-4 footerBG text-white-50"><div class="container text-center"><small></small><a href="http://www.youtube.com/c/PresidentWiFi">Blake Riding / PresidentWiFi</a> <br><a href="https://github.com/UJGA">Github </a> <a href="https://twitter.com/riding">Twitter</a><br><a href="contact.html"><button class="btn btn-primary">Found a Bug?</button></a><a href="bugs.html"> ' + " " + '<button class="btn btn-primary">Bug Fixes</button></a></small></footer>';
+
   var primayLength = primarysArray.length;
   //Primary
   var randomPrimaryNumber = Math.floor(Math.random() * primayLength) + 0;
@@ -418,7 +424,7 @@ function random_item() {
 
   //Secondary
   var randomSecondary = secondarysArray[Math.floor(Math.random() * secondarysArray.length)];
-  document.getElementById("secondary").innerHTML = randomSecondary.name + '<br>' + '<img  style="height:75px;"  src="' + randomSecondary.image + '">';
+  document.getElementById("secondary").innerHTML = randomSecondary.name + '<br>' + '<img  style="height:70px;"  src="' + randomSecondary.image + '">';
   document.getElementById("secondaryH3").innerHTML = "Secondary";
 
   //Perk 1
@@ -428,12 +434,12 @@ function random_item() {
 
   if (randomPerk1.name == 'Overkill') {
     var randomSecondary = primarysArray[Math.floor(Math.random() * primarysArray.length)];
-    document.getElementById("secondary").innerHTML = randomSecondary.name + '<br>' + '<img  style="height:75px;"  src="' + randomSecondary.image + '">';
+    document.getElementById("secondary").innerHTML = randomSecondary.name + '<br>' + '<img  style="height:70px;"  src="' + randomSecondary.image + '">';
     document.getElementById("secondaryH3").innerHTML = "Secondary";
 
     if (randomPrimary.name == randomSecondary.name) {
       var randomSecondary = primarysArray[Math.floor(Math.random() * primarysArray.length)];
-      document.getElementById("secondary").innerHTML = randomSecondary.name + '<br>' + '<img  style="height:75px;"  src="' + randomSecondary.image + '">';
+      document.getElementById("secondary").innerHTML = randomSecondary.name + '<br>' + '<img  style="height:70px;"  src="' + randomSecondary.image + '">';
       document.getElementById("secondaryH3").innerHTML = "Secondary";
     }
   }
@@ -460,7 +466,7 @@ function random_item() {
 
   //Field Upgrade
   var randomUpgrade = fieldUpgradesArray[Math.floor(Math.random() * fieldUpgradesArray.length)];
-  document.getElementById("upgrade").innerHTML = randomUpgrade.name + '<br>' + '<img style="width:60px;" src="' + randomUpgrade.image + '">';
+  document.getElementById("upgrade").innerHTML = '<img style="width:60px;" src="' + randomUpgrade.image + '">';
   document.getElementById("upgradeH3").innerHTML = "Field Upgrade";
 
   //Moves Button and Revmoves top text
@@ -478,6 +484,20 @@ function random_item() {
   document.getElementById("primaryAtt7").innerHTML = "";
   document.getElementById("primaryAtt8").innerHTML = "";
   document.getElementById("primaryAtt9").innerHTML = "";
+
+  document.getElementById("secondaryAtt1").innerHTML = "";
+  document.getElementById("secondaryAtt2").innerHTML = "";
+  document.getElementById("secondaryAtt3").innerHTML = "";
+  document.getElementById("secondaryAtt4").innerHTML = "";
+  document.getElementById("secondaryAtt5").innerHTML = "";
+  document.getElementById("secondaryAtt6").innerHTML = "";
+  document.getElementById("secondaryAtt7").innerHTML = "";
+  document.getElementById("secondaryAtt8").innerHTML = "";
+  document.getElementById("secondaryAtt9").innerHTML = "";
+
+  document.getElementById("secondaryAttH3").innerHTML = "Secondary Attachments";
+  document.getElementById("secondaryAttH2").innerHTML = "Coming";
+
 
   // Call to weapon functions
   if (randomPrimary.name == "M4A1") {

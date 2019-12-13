@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-83439495-2"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -28,164 +27,163 @@
 
 <body>
     <div class="layout">
+        <div class="hover">
 
-        <div id="myTitle" class="title">
-            <h1>Modern Warfare Random Class Generator!</h1>
-            <h3>Welcome!</h3>
-            <h6>This is still very much a work in progress and is not 100% finished. Please let me know using the
-                contact
-                button below if you run into any bugs <br><br>
-                Attachments work for all Primary Weapons. More to come!</h6>
-            <button id="mybtn" class="btn btn-primary" onclick="random_item()">Generate My Class</button>
-        </div>
-        <br>
-        <div id="goAgain"></div>
-        <div class="randomClass">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h3 id="primaryH3"></h3>
-                        <div id="primary"></div>
-                    </div>
-                    <div class="col-md-6">
-                        <h3 id="primaryAttH3"></h3>
-                        <h2 id="primaryAttH2"></h2>
-                        <div id="primaryAtt1"></div>
-                        <div id="primaryAtt2"></div>
-                        <div id="primaryAtt3"></div>
-                        <div id="primaryAtt4"></div>
-                        <div id="primaryAtt5"></div>
-                        <div id="primaryAtt6"></div>
-                        <div id="primaryAtt7"></div>
-                        <div id="primaryAtt8"></div>
-                        <div id="primaryAtt9"></div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-12">
-
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <br>
-                        <h3 id="secondaryH3"></h3>
-                        <div id="secondary"></div>
-                        <br>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <h3 id="perk1H3"></h3>
-                        <div id="perk1"></div>
-                    </div>
-                    <div class="col-md-4">
-                        <h3 id="perk2H3"></h3>
-                        <div id="perk2"></div>
-                    </div>
-                    <div class="col-md-4">
-                        <h3 id="perk3H3"></h3>
-                        <div id="perk3"></div>
-                        <br>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <h3 id="lethalH3"></h3>
-                        <div id="lethal"></div>
-                    </div>
-                    <div class="col-md-6">
-                        <h3 id="tacticalH3"></h3>
-                        <div id="tactical"></div>
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-md-6">
-                        <h3 id="upgradeH3"></h3>
-                        <div id="upgrade"></div>
-                    </div>
-                    <div class="col-md-6">
-                        <h3 id="killstreaks"></h3>
-                        <br>
-                        <div class="ksPictures"></div>
-                        <span class="ksimage" id="ks1"></span>
-                        <span class="ksimage" id="ks2"></span>
-                        <span class="ksimage" id="ks3"></span>
-                        <span class="ksimage" id="ks4"></span>
-                        <span class="ksimage" id="ks5"></span>
-                        <span class="ksimage" id="ks6"></span>
-                        <span class="ksimage" id="ks7"></span>
-                        <span class="ksimage" id="ks8"></span>
-                        <span class="ksimage" id="ks9"></span>
-                        <span class="ksimage" id="ks10"></span>
-                        <span class="ksimage" id="ks11"></span>
-                        <span class="ksimage" id="ks12"></span>
-                        <span class="ksimage" id="ks13"></span>
-                        <span class="ksimage" id="ks14"></span>
-                        <span class="ksimage" id="ks15"></span>
-                        <span class="ksimage" id="ks16"></span>
-                        <span class="ksimage" id="ks17"></span>
-                        <span class="ksimage" id="ks18"></span>
-                        <span class="ksimage" id="ks19"></span>
-                    </div>
-                </div>
-
-
-                <div class="row">
-                    <div class="col-md-12">
-                        <h3 id="upgradeH3"></h3>
-                        <div id="upgrade"></div>
-                    </div>
-                </div>
-                <br>
-                <h3 id="killstreaks"></h3>
-                <div class="row ksPictures">
-                    <div class="col-xs-9">
-                        <div class="ksPictures"></div>
-                        <span class="ksimage" id="ks1"></span>
-                        <span class="ksimage" id="ks2"></span>
-                        <span class="ksimage" id="ks3"></span>
-                        <span class="ksimage" id="ks4"></span>
-                        <span class="ksimage" id="ks5"></span>
-                        <span class="ksimage" id="ks6"></span>
-                        <span class="ksimage" id="ks7"></span>
-                        <span class="ksimage" id="ks8"></span>
-                        <span class="ksimage" id="ks9"></span>
-                        <span class="ksimage" id="ks10"></span>
-                        <span class="ksimage" id="ks11"></span>
-                        <span class="ksimage" id="ks12"></span>
-                        <span class="ksimage" id="ks13"></span>
-                        <span class="ksimage" id="ks14"></span>
-                        <span class="ksimage" id="ks15"></span>
-                        <span class="ksimage" id="ks16"></span>
-                        <span class="ksimage" id="ks17"></span>
-                        <span class="ksimage" id="ks18"></span>
-                        <span class="ksimage" id="ks19"></span>
-                    </div>
-                </div>
+            <div id="myTitle" class="title">
+                <h1>Modern Warfare Random Class Generator!</h1>
+                <h3>Welcome!</h3>
+                <h6>This is still very much a work in progress and is not 100% finished. Please let me know using the
+                    contact
+                    button below if you run into any bugs <br><br>
+                    Attachments work for all Primary Weapons. More to come!</h6>
+                <button id="mybtn" class="btn btn-primary" onclick="random_item()">Generate My Class</button>
             </div>
-
             <br>
-            <!-- <button id="mybtn" class="btn btn-primary" onclick="random_item()">Generate My Class</button> -->
-            <br><br><br>
-            <footer id="footer" class="py-4 bg-dark text-white-50">
-                <div class="container text-center">
-                    <small>2019 - <a href="https://www.youtube.com/user/Blaker4198">Blake Riding / UJGA</a> <br>
-                        <a href="https://github.com/UJGA">Github </a> <a href="https://twitter.com/riding"> Twitter</a>
-                        <br><br>
+            <!-- <div id="goAgain"></div> -->
+            <br>
+            <div class="randomClass">
 
-                        <a href="bugs.html"><button class="btn btn-primary">Bug Fixes</button></a> <br> <br>
-                        <a href="contact.html"><button class="btn btn-primary">Found a Bug?</button></a> <br> <br>
-                    </small>
+                <div id="classContent" class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h3 id="primaryH3"></h3>
+                            <div id="primary"></div>
+                        </div>
+                        <div class="col-md-3">
+                            <h3 id="primaryAttH3"></h3>
+                            <h2 id="primaryAttH2"></h2>
+                            <div id="primaryAtt1"></div>
+                            <div id="primaryAtt2"></div>
+                            <div id="primaryAtt3"></div>
+                            <div id="primaryAtt4"></div>
+                            <div id="primaryAtt5"></div>
+                            <div id="primaryAtt6"></div>
+                            <div id="primaryAtt7"></div>
+                            <div id="primaryAtt8"></div>
+                            <div id="primaryAtt9"></div>
+                        </div>
 
-            </footer>
+                        <div class="col-md-3">
+                            <h3 id="secondaryH3"></h3>
+                            <div id="secondary"></div>
+                        </div>
+                        <div class="col-md-3">
+                            <h3 id="secondaryAttH3"></h3>
+                            <h2 id="secondaryAttH2"></h2>
+                            <div id="secondaryAtt1"></div>
+                            <div id="secondaryAtt2"></div>
+                            <div id="secondaryAtt3"></div>
+                            <div id="secondaryAtt4"></div>
+                            <div id="secondaryAtt5"></div>
+                            <div id="secondaryAtt6"></div>
+                            <div id="secondaryAtt7"></div>
+                            <div id="secondaryAtt8"></div>
+                            <div id="secondaryAtt9"></div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h3 id="perk1H3"></h3>
+                            <div id="perk1"></div>
+                        </div>
+                        <div class="col-md-4">
+                            <h3 id="perk2H3"></h3>
+                            <div id="perk2"></div>
+                        </div>
+                        <div class="col-md-4">
+                            <h3 id="perk3H3"></h3>
+                            <div id="perk3"></div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3 id="lethalH3"></h3>
+                            <div id="lethal"></div>
+                        </div>
+                        <div class="col-md-6">
+                            <h3 id="tacticalH3"></h3>
+                            <div id="tactical"></div>
+                        </div>
+                    </div>
+                    <br><br>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h3 id="upgradeH3"></h3>
+                            <br>
+                            <div id="upgrade"></div>
+                        </div>
+                        <div class="col-md-4">
+                            <div id="goAgain"></div>
+                        </div>
+                        <div class="col-md-4">
+                            <h3 id="killstreaks"></h3>
+                            <br>
+                            <div class="ksPictures"></div>
+                            <span class="ksimage" id="ks1"></span>
+                            <span class="ksimage" id="ks2"></span>
+                            <span class="ksimage" id="ks3"></span>
+                            <span class="ksimage" id="ks4"></span>
+                            <span class="ksimage" id="ks5"></span>
+                            <span class="ksimage" id="ks6"></span>
+                            <span class="ksimage" id="ks7"></span>
+                            <span class="ksimage" id="ks8"></span>
+                            <span class="ksimage" id="ks9"></span>
+                            <span class="ksimage" id="ks10"></span>
+                            <span class="ksimage" id="ks11"></span>
+                            <span class="ksimage" id="ks12"></span>
+                            <span class="ksimage" id="ks13"></span>
+                            <span class="ksimage" id="ks14"></span>
+                            <span class="ksimage" id="ks15"></span>
+                            <span class="ksimage" id="ks16"></span>
+                            <span class="ksimage" id="ks17"></span>
+                            <span class="ksimage" id="ks18"></span>
+                            <span class="ksimage" id="ks19"></span>
+                        </div>
+                    </div>
+
+                </div>
 
 
-            <script src="primaries.js"></script>
-            <script src="killstreaks.js"></script>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <br>
+
+                <br><br><br>
+                <div id="footerBG"></div>
+                <!-- <footer id="footer" class="py-4 footerBG text-white-50">
+
+                    <div class="container text-center">
+                        <small></small><a href="https://www.youtube.com/user/Blaker4198">Blake Riding / UJGA</a> <br>
+                            <a href="https://github.com/UJGA">Github </a> <a href="https://twitter.com/riding">
+                                Twitter</a>
+                            <br><br>
+                            <a href="contact.html"><button class="btn btn-primary">Found a Bug?</button></a><a href="bugs.html"><button class="btn btn-primary">Bug Fixes</button></a> <br> <br>
+
+                        </small>
+
+                </footer> -->
+
+
+                <script src="primaries.js"></script>
+                <script src="killstreaks.js"></script>
+            </div>
         </div>
 </body>
 
