@@ -38,5 +38,11 @@ body {
 
 .bugContent{
     padding-top: 5%;
-    text-align: center;
 }
+
+.bugCenter{
+    text-align: center;
+    padding-top: 2%;
+
+}
+
