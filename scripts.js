@@ -174,48 +174,91 @@ var primarysArray = [{
 // ];
 
 
-//----------------------------------------------------------------------------------------------------------------End testing
 var secondarysArray = [{
-    name: '.50 GS',
-    image: 'Secondary/50GS.png'
-  },
-  {
-    name: '.357',
-    image: 'Secondary/357.png'
-  },
-  {
-    name: '1911',
-    image: 'Secondary/1911.png'
-  },
-  {
-    name: 'Combat Knife',
-    image: 'Secondary/CombatKnife.png'
-  },
-  {
-    name: 'JOKR',
-    image: 'Secondary/JOKR.png'
-  },
-  {
-    name: 'M19',
-    image: 'Secondary/M19.png'
-  },
-  {
-    name: 'PILA',
-    image: 'Secondary/PILA.png'
-  },
-  {
-    name: 'RPG-7',
-    image: 'Secondary/RPG7.png'
-  },
-  {
-    name: 'Strela-P',
-    image: 'Secondary/StrelaP.png'
-  },
-  {
-    name: 'X16',
-    image: 'Secondary/X16.png'
-  }
+  name: '.50 GS',
+  image: 'Secondary/50GS.png'
+},
+{
+  name: '.357',
+  image: 'Secondary/357.png'
+},
+{
+  name: '1911',
+  image: 'Secondary/1911.png'
+},
+{
+  name: 'Combat Knife',
+  image: 'Secondary/CombatKnife.png'
+},
+{
+  name: 'JOKR',
+  image: 'Secondary/JOKR.png'
+},
+{
+  name: 'M19',
+  image: 'Secondary/M19.png'
+},
+{
+  name: 'PILA',
+  image: 'Secondary/PILA.png'
+},
+{
+  name: 'RPG-7',
+  image: 'Secondary/RPG7.png'
+},
+{
+  name: 'Strela-P',
+  image: 'Secondary/StrelaP.png'
+},
+{
+  name: 'X16',
+  image: 'Secondary/X16.png'
+}
 ];
+
+
+//----------------------------------------------------------------------------------------------------------------End testing
+// var secondarysArray = [{
+//     name: '.50 GS',
+//     image: 'Secondary/50GS.png'
+//   },
+//   {
+//     name: '.357',
+//     image: 'Secondary/357.png'
+//   },
+//   {
+//     name: '1911',
+//     image: 'Secondary/1911.png'
+//   },
+//   {
+//     name: 'Combat Knife',
+//     image: 'Secondary/CombatKnife.png'
+//   },
+//   {
+//     name: 'JOKR',
+//     image: 'Secondary/JOKR.png'
+//   },
+//   {
+//     name: 'M19',
+//     image: 'Secondary/M19.png'
+//   },
+//   {
+//     name: 'PILA',
+//     image: 'Secondary/PILA.png'
+//   },
+//   {
+//     name: 'RPG-7',
+//     image: 'Secondary/RPG7.png'
+//   },
+//   {
+//     name: 'Strela-P',
+//     image: 'Secondary/StrelaP.png'
+//   },
+//   {
+//     name: 'X16',
+//     image: 'Secondary/X16.png'
+//   }
+// ];
 
 var perk1Array = [{
     name: 'Cold Blooded',
@@ -614,11 +657,132 @@ function random_item() {
   if (randomPrimary.name == "Riot Shield") {
     riot();
   }
-  if ((randomPrimary.name == "M4A1") || (randomPrimary.name == "Kilo 141") || (randomPrimary.name == "FAL") || (randomPrimary.name == "FR 5.56") || (randomPrimary.name == "Oden") ||
-    (randomPrimary.name == "M13") || (randomPrimary.name == "FN Scar 17") || (randomPrimary.name == "AK-47")) {
-    isAR = true;
-    //console.log("------------------------------ " + isAR);
-  }
+
+
+
+
+  // if (randomSecondary.name == "M4A1") {
+  //   m4a1();
+  // }
+
+  // if (randomSecondary.name == "Kilo 141") {
+  //   kilo141();
+  // }
+
+  // if (randomSecondary.name == "FAL") {
+  //   fal();
+  // }
+
+  // if (randomSecondary.name == "FR 5.56") {
+  //   fr556();
+  // }
+
+  // if (randomSecondary.name == "Oden") {
+  //   oden();
+  // }
+
+  // if (randomSecondary.name == "M13") {
+  //   m13();
+  // }
+
+  // if (randomSecondary.name == "FN Scar 17") {
+  //   fnscar17();
+  // }
+
+  // if (randomSecondary.name == "AK-47") {
+  //   ak47();
+  // }
+  // if (randomSecondary.name == "RAM-7") {
+  //   ram7();
+  // }
+
+  // if (randomSecondary.name == "AUG") {
+  //   aug();
+  // }
+
+  // if (randomSecondary.name == "P90") {
+  //   p90();
+  // }
+
+  // if (randomSecondary.name == "MP5") {
+  //   mp5();
+  // }
+
+  // if (randomSecondary.name == "Uzi") {
+  //   uzi();
+  // }
+
+  // if (randomSecondary.name == "PP19 Bizon") {
+  //   pp19();
+  // }
+
+  // if (randomSecondary.name == "MP7") {
+  //   mp7();
+  // }
+
+  // if (randomSecondary.name == "Model 680") {
+  //   model680();
+  // }
+
+  // if (randomSecondary.name == "R9-0 Shotgun") {
+  //   r90();
+  // }
+
+  // if (randomSecondary.name == "725") {
+  //   s725();
+  // }
+
+  // if (randomSecondary.name == "Origin 12 Shotgun") {
+  //   origin12();
+  // }
+
+  // if (randomSecondary.name == "PKM") {
+  //   pkm();
+  // }
+  // if (randomSecondary.name == "SA87") {
+  //   sa87();
+  // }
+  // if (randomSecondary.name == "M91") {
+  //   m91();
+  // }
+  // if (randomSecondary.name == "MG34") {
+  //   mg34();
+  // }
+  // if (randomSecondary.name == "Holger-26") {
+  //   holger();
+  // }
+
+  // if (randomSecondary.name == "EBR-14") {
+  //   ebr();
+  // }
+  // if (randomSecondary.name == "MK2 Carbine") {
+  //   mk2();
+  // }
+  // if (randomSecondary.name == "Kar98k") {
+  //   kar();
+  // }
+
+  // if (randomSecondary.name == "Dragunov") {
+  //   dragunov();
+  // }
+  // if (randomSecondary.name == "HDR") {
+  //   hdr();
+  // }
+  // if (randomSecondary.name == "AX-50") {
+  //   ax50();
+  // }
+
+  // if (randomSecondary.name == "Riot Shield") {
+  //   riot();
+  // }
+
+
+
+  // if ((randomPrimary.name == "M4A1") || (randomPrimary.name == "Kilo 141") || (randomPrimary.name == "FAL") || (randomPrimary.name == "FR 5.56") || (randomPrimary.name == "Oden") ||
+  //   (randomPrimary.name == "M13") || (randomPrimary.name == "FN Scar 17") || (randomPrimary.name == "AK-47")) {
+  //   isAR = true;
+  //   //console.log("------------------------------ " + isAR);
+  // }
 
   document.getElementById("killstreaks").innerHTML = "Killstreaks";
 
