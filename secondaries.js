@@ -1,4 +1,4 @@
-function ak47() {
+function gs50() {
     var numAttachments = [0, 1, 2, 3, 4, 5, 6, 7, 8];
     var totalCount = 9;
     var ran = Math.floor(Math.random() * 5) + 0;
@@ -10,44 +10,45 @@ function ak47() {
         totalCount--;
     }
     //console.log(attArr);
+    console.log("Inside the secondary js");
     var underbarrel = false;
 
     //Muzzles
 
     var muzzles = [{
             name: 'Flash Guard',
-            image: 'attachments/muzzles/flashguard.png'
-        },
-        {
-            name: 'Bayonet',
-            image: 'attachments/muzzles/bayonet.png'
-        },
-        {
-            name: 'Tactical Suppressor',
-            image: 'attachments/muzzles/tacticalsuppressor.png'
+            image: 'attachments/secondaries/comingsoon.png'
         },
         {
             name: 'Muzzle Brake',
-            image: 'attachments/muzzles/muzzlebrake.png'
-        },
-        {
-            name: 'Lightweight Suppressor',
-            image: 'attachments/muzzles/lightweightsuppressor.png'
-        },
-        {
-            name: 'Compensator',
-            image: 'attachments/muzzles/compensator.png'
+            image: 'attachments/secondaries/comingsoon.png'
         },
         {
             name: 'Monolithic Suppressor',
-            image: 'attachments/muzzles/monolithicsuppressor.png'
+            image: 'attachments/secondaries/comingsoon.png'
+        },
+        {
+            name: 'Oil Can Suppressor',
+            image: 'attachments/secondaries/comingsoon.png'
+        },
+        {
+            name: 'Compensator',
+            image: 'attachments/secondaries/comingsoon.png'
+        },
+        {
+            name: 'Lightweight Suppressor',
+            image: 'attachments/secondaries/comingsoon.png'
+        },
+        {
+            name: 'Tactical Suppressor',
+            image: 'attachments/secondaries/comingsoon.png'
         }
     ];
 
 
     var muzzle = false;
-    document.getElementById("primaryAttH2").innerHTML = "";
-    document.getElementById("primaryAtt1").innerHTML = "";
+    document.getElementById("secondaryAttH2").innerHTML = "";
+    document.getElementById("secondaryAtt1").innerHTML = "";
 
     if (attArr.includes(0)) {
         muzzle = true;
@@ -59,34 +60,26 @@ function ak47() {
 
         var muzzlePick = muzzles[ranMuzzle];
         //console.log(muzzlePick.name);
-        document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img  style="width:250px;"  src="' + muzzlePick.image + '">';
+        document.getElementById("secondaryAttH2").innerHTML = "";
+        document.getElementById("secondaryAtt1").innerHTML = '<b>' + "Muzzle -  " + '</b>' + muzzlePick.name + '<br>' + '<img  style="width:250px;"  src="' + muzzlePick.image + '">';
     }
 
     //Barrel
 
     var barrels = [{
-            name: 'Spetsnaz Elite',
-            image: 'attachments/barrels/spetsnazelite.png'
+            name: 'FORGE TAC Extended',
+            image: 'attachments/secondaries/comingsoon.png'
         },
         {
-            name: '23.0 RPK Barrel',
-            image: 'attachments/barrels/230rpkbarrel.png'
-        },
-        {
-            name: '8.1 Compact Barrel',
-            image: 'attachments/barrels/81compactbarrel.png'
-        },
-        {
-            name: '23.0 Romanian',
-            image: 'attachments/barrels/230romanian.png'
-        },
+            name: 'FORGE TAC Enforcer',
+            image: 'attachments/secondaries/comingsoon.png'
+        }
     ];
 
 
     var barrel = false;
-    document.getElementById("primaryAttH2").innerHTML = "";
-    document.getElementById("primaryAtt2").innerHTML = "";
+    document.getElementById("secondaryAttH2").innerHTML = "";
+    document.getElementById("secondaryAtt2").innerHTML = "";
 
     if (attArr.includes(1)) {
         barrel = true;
@@ -94,12 +87,12 @@ function ak47() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 4) + 0;
+        var ranBarrel = Math.floor(Math.random() * 2) + 0;
 
         var barrelPick = barrels[ranBarrel];
         //console.log(barrelPick.name);
-        document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + barrelPick.image + '">';
+        document.getElementById("secondaryAttH2").innerHTML = "";
+        document.getElementById("secondaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + barrelPick.image + '">';
     }
 
 
@@ -123,8 +116,8 @@ function ak47() {
 
 
     var laser = false;
-    document.getElementById("primaryAttH2").innerHTML = "";
-    document.getElementById("primaryAtt3").innerHTML = "";
+    document.getElementById("secondaryAttH2").innerHTML = "";
+    document.getElementById("secondaryAtt3").innerHTML = "";
 
     if (attArr.includes(2)) {
         laser = true;
@@ -136,15 +129,16 @@ function ak47() {
 
         var laserPick = lasers[ranLaser];
         //console.log(laserPick.name);
-        document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img  style="width:250px;"  src="' + laserPick.image + '">';
+        document.getElementById("secondaryAttH2").innerHTML = "";
+        document.getElementById("secondaryAtt3").innerHTML = '<b>' + "Laser -  " + '</b>' + laserPick.name + '<br>' + '<img  style="width:250px;"  src="' + laserPick.image + '">';
     }
 
 
 
     //Optic
 
-    var optics = [{
+    var optics = [
+        {
             name: 'Cronen LP945 Mini Reflex',
             image: 'attachments/optics/cronenlp945.png'
         },
@@ -169,21 +163,10 @@ function ak47() {
             image: 'attachments/optics/apx5.png'
         },
         {
-            name: 'Integral Hybrid',
-            image: 'attachments/optics/integral.png'
-        },
-        {
-            name: 'Solozero NVG Enhanced',
-            image: 'attachments/optics/solozero.png'
-        },
-        {
             name: 'VLK 3.0x Optic',
             image: 'attachments/optics/vlk.png'
         },
-        {
-            name: 'Sniper Scope',
-            image: 'attachments/optics/sniperscope.png'
-        },
+ 
         {
             name: 'Viper Reflex Sight',
             image: 'attachments/optics/viper.png'
@@ -201,22 +184,6 @@ function ak47() {
             image: 'attachments/optics/monocle.png'
         },
         {
-            name: 'Variable Zoom Scope',
-            image: 'attachments/optics/variable.png'
-        },
-        {
-            name: 'Canted Hybrid',
-            image: 'attachments/optics/canted.png'
-        },
-        {
-            name: 'Merc Thermal Optic',
-            image: 'attachments/optics/merc.png'
-        },
-        {
-            name: 'Thermal Hybrid',
-            image: 'attachments/optics/thermal.png'
-        },
-        {
             name: 'Solozero Optics Mini Reflex ',
             image: 'attachments/optics/solozeromini.png'
         }
@@ -224,8 +191,8 @@ function ak47() {
 
 
     var optic = false;
-    document.getElementById("primaryAttH2").innerHTML = "";
-    document.getElementById("primaryAtt4").innerHTML = "";
+    document.getElementById("secondaryAttH2").innerHTML = "";
+    document.getElementById("secondaryAtt4").innerHTML = "";
 
     if (attArr.includes(3)) {
         optic = true;
@@ -233,163 +200,69 @@ function ak47() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 19) + 0;
+        var ranOptic = Math.floor(Math.random() * 12) + 0;
 
         var opticPick = optics[ranOptic];
         //console.log(opticPick.name);
-        document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img  style="width:250px;"  src="' + opticPick.image + '">';
+        document.getElementById("secondaryAttH2").innerHTML = "";
+        document.getElementById("secondaryAtt4").innerHTML = '<b>' + "Optic -  " + '</b>' + opticPick.name + '<br>' + '<img  style="width:250px;"  src="' + opticPick.image + '">';
     }
 
 
 
-    //Stock
+    //Trigger Action
 
-    var stocks = [{
-            name: 'Field LMG Stock',
-            image: 'attachments/stocks/fieldlmgstock.png'
+    var triggers = [{
+            name: 'Lightweight Trigger',
+            image: 'attachments/secondaries/comingsoon.png'
         },
         {
-            name: 'Skeleton Stock',
-            image: 'attachments/stocks/skeletonstock.png'
+            name: 'Heavy Duty Trigger',
+            image: 'attachments/secondaries/comingsoon.png'
         },
         {
-            name: 'No Stock',
-            image: 'attachments/stocks/nostockak47.png'
-        },
-        {
-            name: 'FSS Close Quarters Stock',
-            image: 'attachments/stocks/closequartersfal.png'
-        },
-        {
-            name: 'FORGE TAC Ultralight',
-            image: 'attachments/stocks/ultralight.png'
+            name: 'Match Grade Trigger',
+            image: 'attachments/secondaries/comingsoon.png'
         }
     ];
 
 
-    var stock = false;
-    document.getElementById("primaryAttH2").innerHTML = "";
-    document.getElementById("primaryAtt5").innerHTML = "";
+    var trigger = false;
+    document.getElementById("secondaryAttH2").innerHTML = "";
+    document.getElementById("secondaryAtt5").innerHTML = "";
 
     if (attArr.includes(4)) {
-        stock = true;
+        trigger = true;
         //console.log("stock is true");
     }
 
-    if (stock != false) {
-        var ranStock = Math.floor(Math.random() * 5) + 0;
+    if (trigger != false) {
+        var ranTrigger = Math.floor(Math.random() * 3) + 0;
 
-        var stockPick = stocks[ranStock];
+        var triggerPick = triggers[ranTrigger];
         //console.log(stockPick.name);
-        document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt5").innerHTML = '<b>' + "Stock -  " + '</b>' + stockPick.name + '<br>' + '<img  style="width:250px;"  src="' + stockPick.image + '">';
+        document.getElementById("secondaryAttH2").innerHTML = "";
+        document.getElementById("secondaryAtt5").innerHTML = '<b>' + "Trigger -  " + '</b>' + triggerPick.name + '<br>' + '<img  style="width:250px;"  src="' + triggerPick.image + '">';
     }
-
-
-
-
-    //Underbarrel
-
-    var underbarrels = [{
-            name: 'Commando Foregrip',
-            image: 'attachments/underbarrels/commando.png'
-        },
-        {
-            name: 'GP25 40mm High-explosive',
-            image: 'attachments/underbarrels/GP25explosive.png'
-        },
-        {
-            name: 'GP25 40mm Incendiary',
-            image: 'attachments/underbarrels/GP25incendiary.png'
-        },
-        {
-            name: '12 Gauge Deputy',
-            image: 'attachments/underbarrels/12gauge.png'
-        },
-        {
-            name: 'Merc Foregrip',
-            image: 'attachments/underbarrels/merc.png'
-        },
-        {
-            name: 'GP25 40mm Smokescreen',
-            image: 'attachments/underbarrels/GP25smokescreen.png'
-        },
-        {
-            name: 'Tactical Foregrip',
-            image: 'attachments/underbarrels/tactical.png'
-        },
-        {
-            name: 'GP25 40mm Recon',
-            image: 'attachments/underbarrels/GP25recon.png'
-        },
-        {
-            name: 'Bipod',
-            image: 'attachments/underbarrels/bipodak47.png'
-        },
-        {
-            name: 'GP25 40mm Flash',
-            image: 'attachments/underbarrels/GP25flash.png'
-        },
-        {
-            name: 'Ranger Foregrip',
-            image: 'attachments/underbarrels/ranger.png'
-        },
-        {
-            name: 'GP25 40mm Concussive',
-            image: 'attachments/underbarrels/GP25concussive.png'
-        },
-        {
-            name: 'Operator Foregrip',
-            image: 'attachments/underbarrels/operator.png'
-        }
-    ];
-
-
-    var underbarrel = false;
-    document.getElementById("primaryAttH2").innerHTML = "";
-    document.getElementById("primaryAtt6").innerHTML = "";
-
-    if (attArr.includes(5)) {
-        underbarrel = true;
-        //console.log("underbarrel is true");
-    }
-
-    if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 13) + 0;
-
-        var underbarrelPick = underbarrels[ranUnderbarrel];
-        //console.log(underbarrelPick.name);
-        document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt6").innerHTML = '<b>' + "Underbarrel -  " + '</b>' + underbarrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + underbarrelPick.image + '">';
-    }
-
-
-
-
 
 
 
     //Ammunation
 
     var ammunations = [{
-            name: '40 Round Mags',
-            image: 'attachments/ammunations/40.png'
+            name: '10 Round Mags (.50 GS)',
+            image: 'attachments/secondaries/comingsoon.png'
         },
         {
-            name: '5.45x39mm 30-Round Mags',
-            image: 'attachments/ammunations/30ak.png'
-        },
-        {
-            name: '75 Round Drum Mags',
-            image: 'attachments/ammunations/75.png'
+            name: '13 Round Mags',
+            image: 'attachments/secondaries/comingsoon.png'
         }
     ];
 
 
     var ammunation = false;
-    document.getElementById("primaryAttH2").innerHTML = "";
-    document.getElementById("primaryAtt7").innerHTML = "";
+    document.getElementById("secondaryAttH2").innerHTML = "";
+    document.getElementById("secondaryAtt7").innerHTML = "";
 
     if (attArr.includes(6)) {
         ammunation = true;
@@ -401,8 +274,8 @@ function ak47() {
 
         var ammunationPick = ammunations[ranAmmunation];
         //console.log(ammunationPick.name);
-        document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img  style="width:250px;"  src="' + ammunationPick.image + '">';
+        document.getElementById("secondaryAttH2").innerHTML = "";
+        document.getElementById("secondaryAtt7").innerHTML = '<b>' + "Ammunation -  " + '</b>' + ammunationPick.name + '<br>' + '<img  style="width:250px;"  src="' + ammunationPick.image + '">';
     }
 
 
@@ -412,22 +285,22 @@ function ak47() {
 
     var reargrips = [{
             name: 'Granulated Grip Tape',
-            image: 'attachments/reargrips/granulated.png'
+            image: 'attachments/secondaries/comingsoon.png'
         },
         {
             name: 'Rubberized Grip Tape',
-            image: 'attachments/reargrips/rubberized.png'
+            image: 'attachments/secondaries/comingsoon.png'
         },
         {
             name: 'Stippled Grip Tape',
-            image: 'attachments/reargrips/stippled.png'
+            image: 'attachments/secondaries/comingsoon.png'
         }
     ];
 
 
     var reargrip = false;
-    document.getElementById("primaryAttH2").innerHTML = "";
-    document.getElementById("primaryAtt8").innerHTML = "";
+    document.getElementById("secondaryAttH2").innerHTML = "";
+    document.getElementById("secondaryAtt8").innerHTML = "";
 
     if (attArr.includes(7)) {
         reargrip = true;
@@ -439,14 +312,15 @@ function ak47() {
 
         var rearGripPick = reargrips[ranRearGrip];
         //console.log(rearGripPick.name);
-        document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img  style="width:250px;"  src="' + rearGripPick.image + '">';
+        document.getElementById("secondaryAttH2").innerHTML = "";
+        document.getElementById("secondaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img  style="width:250px;"  src="' + rearGripPick.image + '">';
     }
 
 
     //Perks
 
-    var perks = [{
+    var perks = [
+        {
             name: 'FMJ',
             image: 'attachments/perks/fmj.png'
         },
@@ -481,17 +355,13 @@ function ak47() {
         {
             name: 'Frangible - Disabling',
             image: 'attachments/perks/disabling.png'
-        },
-        {
-            name: 'Presence of Mind',
-            image: 'attachments/perks/mind.png'
         }
     ];
 
 
     var perk = false;
-    document.getElementById("primaryAttH2").innerHTML = "";
-    document.getElementById("primaryAtt9").innerHTML = "";
+    document.getElementById("secondaryAttH2").innerHTML = "";
+    document.getElementById("secondaryAtt9").innerHTML = "";
 
     if (attArr.includes(8)) {
         perk = true;
@@ -499,12 +369,12 @@ function ak47() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 10) + 0;
+        var ranPerk = Math.floor(Math.random() * 9) + 0;
 
         var perkPick = perks[ranPerk];
         //console.log(perkPick.name);
-        document.getElementById("primaryAttH2").innerHTML = "";
-        document.getElementById("primaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img  style="width:250px;"  src="' + perkPick.image + '" "' + '">';
+        document.getElementById("secondaryAttH2").innerHTML = "";
+        document.getElementById("secondaryAtt9").innerHTML = '<b>' + "Perk -  " + '</b>' + perkPick.name + '<br>' + ' <img  style="width:250px;"  src="' + perkPick.image + '" "' + '">';
     }
 
 }

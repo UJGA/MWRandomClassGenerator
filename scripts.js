@@ -178,42 +178,42 @@ var secondarysArray = [{
   name: '.50 GS',
   image: 'Secondary/50GS.png'
 },
-{
-  name: '.357',
-  image: 'Secondary/357.png'
-},
-{
-  name: '1911',
-  image: 'Secondary/1911.png'
-},
-{
-  name: 'Combat Knife',
-  image: 'Secondary/CombatKnife.png'
-},
-{
-  name: 'JOKR',
-  image: 'Secondary/JOKR.png'
-},
-{
-  name: 'M19',
-  image: 'Secondary/M19.png'
-},
-{
-  name: 'PILA',
-  image: 'Secondary/PILA.png'
-},
-{
-  name: 'RPG-7',
-  image: 'Secondary/RPG7.png'
-},
-{
-  name: 'Strela-P',
-  image: 'Secondary/StrelaP.png'
-},
-{
-  name: 'X16',
-  image: 'Secondary/X16.png'
-}
+// {
+//   name: '.357',
+//   image: 'Secondary/357.png'
+// },
+// {
+//   name: '1911',
+//   image: 'Secondary/1911.png'
+// },
+// {
+//   name: 'Combat Knife',
+//   image: 'Secondary/CombatKnife.png'
+// },
+// {
+//   name: 'JOKR',
+//   image: 'Secondary/JOKR.png'
+// },
+// {
+//   name: 'M19',
+//   image: 'Secondary/M19.png'
+// },
+// {
+//   name: 'PILA',
+//   image: 'Secondary/PILA.png'
+// },
+// {
+//   name: 'RPG-7',
+//   image: 'Secondary/RPG7.png'
+// },
+// {
+//   name: 'Strela-P',
+//   image: 'Secondary/StrelaP.png'
+// },
+// {
+//   name: 'X16',
+//   image: 'Secondary/X16.png'
+// }
 ];
 
 
@@ -539,7 +539,7 @@ function random_item() {
   document.getElementById("secondaryAtt9").innerHTML = "";
 
   document.getElementById("secondaryAttH3").innerHTML = "Secondary Attachments";
-  document.getElementById("secondaryAttH2").innerHTML = "Coming";
+  // document.getElementById("secondaryAttH2").innerHTML = "Coming";
 
 
   // Call to weapon functions
@@ -658,7 +658,10 @@ function random_item() {
     riot();
   }
 
-
+ //-------------------------------------------------------- Secondaries
+ if (randomSecondary.name == ".50 GS") {
+  gs50();
+}
 
 
   // if (randomSecondary.name == "M4A1") {
