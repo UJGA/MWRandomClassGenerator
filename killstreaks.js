@@ -142,11 +142,21 @@ function randomKillstreaks() {
   var totalSections = 9;
   var ran = 2;
   var ksArr = [];
-  for (var i = 0; i <= ran; i++) {
+ var count = 0;
+  while(count != 3){
+  // for (var i = 0; i <= 2; i++) {
     var rand = numKsSections[Math.floor(Math.random() * totalSections)];
     ksArr.push(rand);
-    numKsSections.splice(rand, 1);
+    for( var i = 0; i < numKsSections.length; i++){ 
+      if ( numKsSections[i] === rand) {
+        numKsSections.splice(i, 1); 
+      }
+    }
+    // numKsSections.splice(rand, 1);
     totalSections--;
+    //console.log("The KS Rand is " + " " + rand);
+    //console.log("The KS Num array is " + " " + numKsSections);
+    count++;
   }
   //console.log(ksArr);
 
