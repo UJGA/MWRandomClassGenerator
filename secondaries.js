@@ -270,7 +270,7 @@ function gs50() {
     }
 
     if (ammunation != false) {
-        var ranAmmunation = Math.floor(Math.random() * 3) + 0;
+        var ranAmmunation = Math.floor(Math.random() * 2) + 0;
 
         var ammunationPick = ammunations[ranAmmunation];
         //console.log(ammunationPick.name);
