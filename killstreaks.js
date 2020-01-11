@@ -158,7 +158,30 @@ function randomKillstreaks() {
     //console.log("The KS Num array is " + " " + numKsSections);
     count++;
   }
-  //console.log(ksArr);
+
+  // var rand = numKsSections[Math.floor(Math.random() * totalSections)];
+  // ksArr.push(rand);
+  // numKsSections.splice(rand, 1);
+  // totalSections--;
+  // console.log("The KS Rand is " + " " + rand);
+  // console.log("The KS Num array is " + " " + numKsSections);
+
+  // var rand = numKsSections[Math.floor(Math.random() * totalSections)];
+  // ksArr.push(rand);
+  // numKsSections.splice(rand-1, 1);
+  // totalSections--;
+  // console.log("The KS Rand is " + " " + rand);
+  // console.log("The KS Num array is " + " " + numKsSections);
+
+
+  // var rand = numKsSections[Math.floor(Math.random() * totalSections)];
+  // ksArr.push(rand);
+  // numKsSections.splice(rand-2, 1);
+  // totalSections--;
+  // console.log("The KS Rand is " + " " + rand);
+  // console.log("The KS Num array is " + " " + numKsSections);
+
+  console.log(ksArr);
 
   if (ksArr.includes(0)) {
     //console.log("ks3");

@@ -174,6 +174,49 @@ var primarysArray = [{
 // ];
 
 
+// var secondarysArray = [{
+//   name: '.50 GS',
+//   image: 'Secondary/50GS.png'
+// },
+// {
+//   name: '.357',
+//   image: 'Secondary/357.png'
+// },
+// {
+//   name: '1911',
+//   image: 'Secondary/1911.png'
+// },
+// {
+//   name: 'Combat Knife',
+//   image: 'Secondary/CombatKnife.png'
+// },
+// {
+//   name: 'JOKR',
+//   image: 'Secondary/JOKR.png'
+// },
+// {
+//   name: 'M19',
+//   image: 'Secondary/M19.png'
+// },
+// {
+//   name: 'PILA',
+//   image: 'Secondary/PILA.png'
+// },
+// {
+//   name: 'RPG-7',
+//   image: 'Secondary/RPG7.png'
+// },
+// {
+//   name: 'Strela-P',
+//   image: 'Secondary/StrelaP.png'
+// },
+// {
+//   name: 'X16',
+//   image: 'Secondary/X16.png'
+// }
+// ];
+
+
 //----------------------------------------------------------------------------------------------------------------End testing
 var secondarysArray = [{
     name: '.50 GS',
@@ -217,7 +260,8 @@ var secondarysArray = [{
   }
 ];
 
-var perk1Array = [{
+var perk1Array = [
+  {
     name: 'Cold Blooded',
     image: 'perk1/ColdBlooded.png'
   },
@@ -496,7 +540,7 @@ function random_item() {
   document.getElementById("secondaryAtt9").innerHTML = "";
 
   document.getElementById("secondaryAttH3").innerHTML = "Secondary Attachments";
-  document.getElementById("secondaryAttH2").innerHTML = "Coming";
+  // document.getElementById("secondaryAttH2").innerHTML = "Coming";
 
 
   // Call to weapon functions
@@ -614,11 +658,152 @@ function random_item() {
   if (randomPrimary.name == "Riot Shield") {
     riot();
   }
-  if ((randomPrimary.name == "M4A1") || (randomPrimary.name == "Kilo 141") || (randomPrimary.name == "FAL") || (randomPrimary.name == "FR 5.56") || (randomPrimary.name == "Oden") ||
-    (randomPrimary.name == "M13") || (randomPrimary.name == "FN Scar 17") || (randomPrimary.name == "AK-47")) {
-    isAR = true;
-    //console.log("------------------------------ " + isAR);
-  }
+
+ //-------------------------------------------------------- Secondaries
+ if (randomSecondary.name == ".50 GS") {
+  gs50();
+}
+
+if (randomSecondary.name == "X16") {
+  x16();
+}
+
+if (randomSecondary.name == "1911") {
+  s1911();
+}
+
+if (randomSecondary.name == ".357") {
+  s357();
+}
+
+if (randomSecondary.name == "M19") {
+  m19();
+}
+
+
+
+
+//--------------------------------------------------------------Overkill 
+if (randomSecondary.name == "M4A1") {
+  m4a1o();
+}
+
+if (randomSecondary.name == "Kilo 141") {
+  kilo141o();
+}
+
+if (randomSecondary.name == "FAL") {
+  falo();
+}
+
+if (randomSecondary.name == "FR 5.56") {
+  fr556o();
+}
+
+if (randomSecondary.name == "Oden") {
+  odeno();
+}
+
+if (randomSecondary.name == "M13") {
+  m13o();
+}
+
+if (randomSecondary.name == "FN Scar 17") {
+  fnscar17o();
+}
+
+if (randomSecondary.name == "AK-47") {
+  ak47o();
+}
+if (randomSecondary.name == "RAM-7") {
+  ram7o();
+}
+
+if (randomSecondary.name == "AUG") {
+  augo();
+}
+
+if (randomSecondary.name == "P90") {
+  p90o();
+}
+
+if (randomSecondary.name == "MP5") {
+  mp5o();
+}
+
+if (randomSecondary.name == "Uzi") {
+  uzio();
+}
+
+if (randomSecondary.name == "PP19 Bizon") {
+  pp19o();
+}
+
+if (randomSecondary.name == "MP7") {
+  mp7o();
+}
+
+if (randomSecondary.name == "Model 680") {
+  model680o();
+}
+
+if (randomSecondary.name == "R9-0 Shotgun") {
+  r90o();
+}
+
+if (randomSecondary.name == "725") {
+  s725o();
+}
+
+if (randomSecondary.name == "Origin 12 Shotgun") {
+  origin12o();
+}
+
+if (randomSecondary.name == "PKM") {
+  pkmo();
+}
+if (randomSecondary.name == "SA87") {
+  sa87o();
+}
+if (randomSecondary.name == "M91") {
+  m91o();
+}
+if (randomSecondary.name == "MG34") {
+  mg34o();
+}
+if (randomSecondary.name == "Holger-26") {
+  holgero();
+}
+
+if (randomSecondary.name == "EBR-14") {
+  ebro();
+}
+if (randomSecondary.name == "MK2 Carbine") {
+  mk2o();
+}
+if (randomSecondary.name == "Kar98k") {
+  karo();
+}
+
+if (randomSecondary.name == "Dragunov") {
+  dragunovo();
+}
+if (randomSecondary.name == "HDR") {
+  hdro();
+}
+if (randomSecondary.name == "AX-50") {
+  ax50o();
+}
+
+if (randomSecondary.name == "Riot Shield") {
+  rioto();
+}
+
+//-------------------------------------------------------------------------
+
+
+
+
 
   document.getElementById("killstreaks").innerHTML = "Killstreaks";
 
