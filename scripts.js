@@ -174,10 +174,10 @@ var primarysArray = [{
 // ];
 
 
-var secondarysArray = [{
-  name: '.50 GS',
-  image: 'Secondary/50GS.png'
-},
+// var secondarysArray = [{
+//   name: '.50 GS',
+//   image: 'Secondary/50GS.png'
+// },
 // {
 //   name: '.357',
 //   image: 'Secondary/357.png'
@@ -214,51 +214,51 @@ var secondarysArray = [{
 //   name: 'X16',
 //   image: 'Secondary/X16.png'
 // }
-];
+// ];
 
 
 //----------------------------------------------------------------------------------------------------------------End testing
-// var secondarysArray = [{
-//     name: '.50 GS',
-//     image: 'Secondary/50GS.png'
-//   },
-//   {
-//     name: '.357',
-//     image: 'Secondary/357.png'
-//   },
-//   {
-//     name: '1911',
-//     image: 'Secondary/1911.png'
-//   },
-//   {
-//     name: 'Combat Knife',
-//     image: 'Secondary/CombatKnife.png'
-//   },
-//   {
-//     name: 'JOKR',
-//     image: 'Secondary/JOKR.png'
-//   },
-//   {
-//     name: 'M19',
-//     image: 'Secondary/M19.png'
-//   },
-//   {
-//     name: 'PILA',
-//     image: 'Secondary/PILA.png'
-//   },
-//   {
-//     name: 'RPG-7',
-//     image: 'Secondary/RPG7.png'
-//   },
-//   {
-//     name: 'Strela-P',
-//     image: 'Secondary/StrelaP.png'
-//   },
-//   {
-//     name: 'X16',
-//     image: 'Secondary/X16.png'
-//   }
-// ];
+var secondarysArray = [{
+    name: '.50 GS',
+    image: 'Secondary/50GS.png'
+  },
+  {
+    name: '.357',
+    image: 'Secondary/357.png'
+  },
+  {
+    name: '1911',
+    image: 'Secondary/1911.png'
+  },
+  {
+    name: 'Combat Knife',
+    image: 'Secondary/CombatKnife.png'
+  },
+  {
+    name: 'JOKR',
+    image: 'Secondary/JOKR.png'
+  },
+  {
+    name: 'M19',
+    image: 'Secondary/M19.png'
+  },
+  {
+    name: 'PILA',
+    image: 'Secondary/PILA.png'
+  },
+  {
+    name: 'RPG-7',
+    image: 'Secondary/RPG7.png'
+  },
+  {
+    name: 'Strela-P',
+    image: 'Secondary/StrelaP.png'
+  },
+  {
+    name: 'X16',
+    image: 'Secondary/X16.png'
+  }
+];
 
 var perk1Array = [{
     name: 'Cold Blooded',
@@ -661,6 +661,22 @@ function random_item() {
  //-------------------------------------------------------- Secondaries
  if (randomSecondary.name == ".50 GS") {
   gs50();
+}
+
+if (randomSecondary.name == "X16") {
+  x16();
+}
+
+if (randomSecondary.name == "1911") {
+  s1911();
+}
+
+if (randomSecondary.name == ".357") {
+  s357();
+}
+
+if (randomSecondary.name == "m19") {
+  m19();
 }
 
 
