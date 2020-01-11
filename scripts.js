@@ -260,7 +260,8 @@ var secondarysArray = [{
   }
 ];
 
-var perk1Array = [{
+var perk1Array = [
+  {
     name: 'Cold Blooded',
     image: 'perk1/ColdBlooded.png'
   },
@@ -675,133 +676,134 @@ if (randomSecondary.name == ".357") {
   s357();
 }
 
-if (randomSecondary.name == "m19") {
+if (randomSecondary.name == "M19") {
   m19();
 }
 
 
-  // if (randomSecondary.name == "M4A1") {
-  //   m4a1();
-  // }
-
-  // if (randomSecondary.name == "Kilo 141") {
-  //   kilo141();
-  // }
-
-  // if (randomSecondary.name == "FAL") {
-  //   fal();
-  // }
-
-  // if (randomSecondary.name == "FR 5.56") {
-  //   fr556();
-  // }
-
-  // if (randomSecondary.name == "Oden") {
-  //   oden();
-  // }
-
-  // if (randomSecondary.name == "M13") {
-  //   m13();
-  // }
-
-  // if (randomSecondary.name == "FN Scar 17") {
-  //   fnscar17();
-  // }
-
-  // if (randomSecondary.name == "AK-47") {
-  //   ak47();
-  // }
-  // if (randomSecondary.name == "RAM-7") {
-  //   ram7();
-  // }
-
-  // if (randomSecondary.name == "AUG") {
-  //   aug();
-  // }
-
-  // if (randomSecondary.name == "P90") {
-  //   p90();
-  // }
-
-  // if (randomSecondary.name == "MP5") {
-  //   mp5();
-  // }
-
-  // if (randomSecondary.name == "Uzi") {
-  //   uzi();
-  // }
-
-  // if (randomSecondary.name == "PP19 Bizon") {
-  //   pp19();
-  // }
-
-  // if (randomSecondary.name == "MP7") {
-  //   mp7();
-  // }
-
-  // if (randomSecondary.name == "Model 680") {
-  //   model680();
-  // }
-
-  // if (randomSecondary.name == "R9-0 Shotgun") {
-  //   r90();
-  // }
-
-  // if (randomSecondary.name == "725") {
-  //   s725();
-  // }
-
-  // if (randomSecondary.name == "Origin 12 Shotgun") {
-  //   origin12();
-  // }
-
-  // if (randomSecondary.name == "PKM") {
-  //   pkm();
-  // }
-  // if (randomSecondary.name == "SA87") {
-  //   sa87();
-  // }
-  // if (randomSecondary.name == "M91") {
-  //   m91();
-  // }
-  // if (randomSecondary.name == "MG34") {
-  //   mg34();
-  // }
-  // if (randomSecondary.name == "Holger-26") {
-  //   holger();
-  // }
-
-  // if (randomSecondary.name == "EBR-14") {
-  //   ebr();
-  // }
-  // if (randomSecondary.name == "MK2 Carbine") {
-  //   mk2();
-  // }
-  // if (randomSecondary.name == "Kar98k") {
-  //   kar();
-  // }
-
-  // if (randomSecondary.name == "Dragunov") {
-  //   dragunov();
-  // }
-  // if (randomSecondary.name == "HDR") {
-  //   hdr();
-  // }
-  // if (randomSecondary.name == "AX-50") {
-  //   ax50();
-  // }
-
-  // if (randomSecondary.name == "Riot Shield") {
-  //   riot();
-  // }
 
 
+//--------------------------------------------------------------Overkill 
+if (randomSecondary.name == "M4A1") {
+  m4a1o();
+}
 
-  // if ((randomPrimary.name == "M4A1") || (randomPrimary.name == "Kilo 141") || (randomPrimary.name == "FAL") || (randomPrimary.name == "FR 5.56") || (randomPrimary.name == "Oden") ||
-  //   (randomPrimary.name == "M13") || (randomPrimary.name == "FN Scar 17") || (randomPrimary.name == "AK-47")) {
-  //   isAR = true;
-  //   //console.log("------------------------------ " + isAR);
-  // }
+if (randomSecondary.name == "Kilo 141") {
+  kilo141o();
+}
+
+if (randomSecondary.name == "FAL") {
+  falo();
+}
+
+if (randomSecondary.name == "FR 5.56") {
+  fr556o();
+}
+
+if (randomSecondary.name == "Oden") {
+  odeno();
+}
+
+if (randomSecondary.name == "M13") {
+  m13o();
+}
+
+if (randomSecondary.name == "FN Scar 17") {
+  fnscar17o();
+}
+
+if (randomSecondary.name == "AK-47") {
+  ak47o();
+}
+if (randomSecondary.name == "RAM-7") {
+  ram7o();
+}
+
+if (randomSecondary.name == "AUG") {
+  augo();
+}
+
+if (randomSecondary.name == "P90") {
+  p90o();
+}
+
+if (randomSecondary.name == "MP5") {
+  mp5o();
+}
+
+if (randomSecondary.name == "Uzi") {
+  uzio();
+}
+
+if (randomSecondary.name == "PP19 Bizon") {
+  pp19o();
+}
+
+if (randomSecondary.name == "MP7") {
+  mp7o();
+}
+
+if (randomSecondary.name == "Model 680") {
+  model680o();
+}
+
+if (randomSecondary.name == "R9-0 Shotgun") {
+  r90o();
+}
+
+if (randomSecondary.name == "725") {
+  s725o();
+}
+
+if (randomSecondary.name == "Origin 12 Shotgun") {
+  origin12o();
+}
+
+if (randomSecondary.name == "PKM") {
+  pkmo();
+}
+if (randomSecondary.name == "SA87") {
+  sa87o();
+}
+if (randomSecondary.name == "M91") {
+  m91o();
+}
+if (randomSecondary.name == "MG34") {
+  mg34o();
+}
+if (randomSecondary.name == "Holger-26") {
+  holgero();
+}
+
+if (randomSecondary.name == "EBR-14") {
+  ebro();
+}
+if (randomSecondary.name == "MK2 Carbine") {
+  mk2o();
+}
+if (randomSecondary.name == "Kar98k") {
+  karo();
+}
+
+if (randomSecondary.name == "Dragunov") {
+  dragunovo();
+}
+if (randomSecondary.name == "HDR") {
+  hdro();
+}
+if (randomSecondary.name == "AX-50") {
+  ax50o();
+}
+
+if (randomSecondary.name == "Riot Shield") {
+  rioto();
+}
+
+//-------------------------------------------------------------------------
+
+
+
+
 
   document.getElementById("killstreaks").innerHTML = "Killstreaks";
 

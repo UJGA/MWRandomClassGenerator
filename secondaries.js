@@ -916,7 +916,7 @@ function s1911() {
 
     var triggers = [{
             name: 'Lightweight Trigger',
-            image: 'attachments/secondaries/lightweighttrigger1911.png'
+            image: 'attachments/secondaries/ligthweighttrigger1911.png'
         },
         {
             name: 'Heavy Duty Trigger',
