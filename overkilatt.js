@@ -6171,7 +6171,7 @@ function mk2o() {
         {
             name: 'Solozero Optics Mini Reflex',
             image: 'attachments/optics/solozeromini.png'
-        }
+        },
         {
             name: 'Merc Thermal Optic',
             image: 'attachments/optics/merc.png'
