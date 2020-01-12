@@ -6100,7 +6100,8 @@ function mk2() {
 
     //Optic
 
-    var optics = [{
+    var optics = [
+        {
             name: 'Cronen Lp945 Mini Reflex',
             image: 'attachments/optics/cronenlp945.png'
         },
@@ -6169,16 +6170,16 @@ function mk2() {
             image: 'attachments/optics/variable.png'
         },
         {
-            name: 'Canted Hybrid',
-            image: 'attachments/optics/canted.png'
-        },
-        {
             name: 'Merc Thermal Optic',
             image: 'attachments/optics/merc.png'
         },
         {
             name: 'Thermal Hybrid',
             image: 'attachments/optics/thermal.png'
+        },
+        {
+            name: 'Solozero Optics Mini Reflex',
+            image: 'attachments/optics/solozeromini.png'
         }
     ];
 

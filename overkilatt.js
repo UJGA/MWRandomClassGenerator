@@ -6169,9 +6169,9 @@ function mk2o() {
             image: 'attachments/optics/variable.png'
         },
         {
-            name: 'Canted Hybrid',
-            image: 'attachments/optics/canted.png'
-        },
+            name: 'Solozero Optics Mini Reflex',
+            image: 'attachments/optics/solozeromini.png'
+        }
         {
             name: 'Merc Thermal Optic',
             image: 'attachments/optics/merc.png'

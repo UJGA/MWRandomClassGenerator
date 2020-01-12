@@ -1,4 +1,5 @@
-var primarysArray = [{
+var primarysArray = [
+  {
     name: '725',
     image: 'primary/725.png'
   },
