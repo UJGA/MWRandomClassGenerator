@@ -1142,8 +1142,8 @@ function ram7() {
             image: 'attachments/optics/pbx.png'
         },
         {
-            name: 'Cronen C480 Pro Optic',
-            image: 'attachments/optics/cronenc480.png'
+            name: 'Cronen 2x2 Elite',
+            image: 'attachments/optics/cronen2x2elite.png'
         },
         {
             name: 'Monocle Reflex Sight',
