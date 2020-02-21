@@ -219,7 +219,8 @@ var primarysArray = [
 
 
 //----------------------------------------------------------------------------------------------------------------End testing
-var secondarysArray = [{
+var secondarysArray = [
+  {
     name: '.50 GS',
     image: 'Secondary/50GS.png'
   },

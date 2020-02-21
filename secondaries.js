@@ -1293,7 +1293,7 @@ function s357() {
 
     var triggers = [{
             name: 'Lightweight Trigger',
-            image: 'attachments/secondaries/lightweighttrigger357.png'
+            image: 'attachments/secondaries/lightweightrigger357.png'
         },
         {
             name: 'Heavy Duty Trigger',
