@@ -1142,8 +1142,8 @@ function ram7() {
             image: 'attachments/optics/pbx.png'
         },
         {
-            name: 'Cronen C480 Pro Optic',
-            image: 'attachments/optics/cronenc480.png'
+            name: 'Cronen 2x2 Elite',
+            image: 'attachments/optics/cronen2x2elite.png'
         },
         {
             name: 'Monocle Reflex Sight',
@@ -6100,7 +6100,8 @@ function mk2() {
 
     //Optic
 
-    var optics = [{
+    var optics = [
+        {
             name: 'Cronen Lp945 Mini Reflex',
             image: 'attachments/optics/cronenlp945.png'
         },
@@ -6169,16 +6170,16 @@ function mk2() {
             image: 'attachments/optics/variable.png'
         },
         {
-            name: 'Canted Hybrid',
-            image: 'attachments/optics/canted.png'
-        },
-        {
             name: 'Merc Thermal Optic',
             image: 'attachments/optics/merc.png'
         },
         {
             name: 'Thermal Hybrid',
             image: 'attachments/optics/thermal.png'
+        },
+        {
+            name: 'Solozero Optics Mini Reflex',
+            image: 'attachments/optics/solozeromini.png'
         }
     ];
 

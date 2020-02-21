@@ -1142,8 +1142,8 @@ function ram7o() {
             image: 'attachments/optics/pbx.png'
         },
         {
-            name: 'Cronen C480 Pro Optic',
-            image: 'attachments/optics/cronenc480.png'
+            name: 'Cronen 2x2 Elite',
+            image: 'attachments/optics/cronen2x2elite.png'
         },
         {
             name: 'Monocle Reflex Sight',
@@ -6169,8 +6169,8 @@ function mk2o() {
             image: 'attachments/optics/variable.png'
         },
         {
-            name: 'Canted Hybrid',
-            image: 'attachments/optics/canted.png'
+            name: 'Solozero Optics Mini Reflex',
+            image: 'attachments/optics/solozeromini.png'
         },
         {
             name: 'Merc Thermal Optic',

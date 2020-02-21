@@ -142,7 +142,7 @@ function randomKillstreaks() {
   var totalSections = 9;
   var ran = 2;
   var ksArr = [];
-  var count = 0;
+ var count = 0;
   while(count != 3){
   // for (var i = 0; i <= 2; i++) {
     var rand = numKsSections[Math.floor(Math.random() * totalSections)];
@@ -154,8 +154,8 @@ function randomKillstreaks() {
     }
     // numKsSections.splice(rand, 1);
     totalSections--;
-    console.log("The KS Rand is " + " " + rand);
-    console.log("The KS Num array is " + " " + numKsSections);
+    //console.log("The KS Rand is " + " " + rand);
+    //console.log("The KS Num array is " + " " + numKsSections);
     count++;
   }
 
