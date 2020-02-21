@@ -274,8 +274,8 @@ var perk1Array = [
     image: 'perk1/EOD.png'
   },
   {
-    name: 'Overkill',
-    image: 'perk1/Overkill.png'
+    name: 'Kill Chain',
+    image: 'perk2/KillChainnew.png'
   },
   {
     name: 'Quick Fix',
@@ -300,8 +300,8 @@ var perk2Array = [{
     image: 'perk2/HighAlert.png'
   },
   {
-    name: 'Kill Chain',
-    image: 'perk2/KillChain.png'
+    name: 'Overkill',
+    image: 'perk1/Overkillnew.png'
   },
   {
     name: 'Pointman',
@@ -476,7 +476,7 @@ function random_item() {
   document.getElementById("perk1").innerHTML = randomPerk1.name + '<br>' + '<img style="width:100px;" src="' + randomPerk1.image + '">';
   document.getElementById("perk1H3").innerHTML = "Perk 1";
 
-  if (randomPerk1.name == 'Overkill') {
+  if (randomPerk2.name == 'Overkill') {
     var randomSecondary = primarysArray[Math.floor(Math.random() * primarysArray.length)];
     document.getElementById("secondary").innerHTML = randomSecondary.name + '<br>' + '<img  style="height:70px;"  src="' + randomSecondary.image + '">';
     document.getElementById("secondaryH3").innerHTML = "Secondary";
