@@ -477,6 +477,13 @@ function random_item() {
   document.getElementById("perk1").innerHTML = randomPerk1.name + '<br>' + '<img style="width:100px;" src="' + randomPerk1.image + '">';
   document.getElementById("perk1H3").innerHTML = "Perk 1";
 
+ 
+
+  //Perk 2
+  var randomPerk2 = perk2Array[Math.floor(Math.random() * perk2Array.length)];
+  document.getElementById("perk2").innerHTML = randomPerk2.name + '<br>' + '<img style="width:100px;" src="' + randomPerk2.image + '">';
+  document.getElementById("perk2H3").innerHTML = "Perk 2";
+
   if (randomPerk2.name == 'Overkill') {
     var randomSecondary = primarysArray[Math.floor(Math.random() * primarysArray.length)];
     document.getElementById("secondary").innerHTML = randomSecondary.name + '<br>' + '<img  style="height:70px;"  src="' + randomSecondary.image + '">';
@@ -488,11 +495,6 @@ function random_item() {
       document.getElementById("secondaryH3").innerHTML = "Secondary";
     }
   }
-
-  //Perk 2
-  var randomPerk2 = perk2Array[Math.floor(Math.random() * perk2Array.length)];
-  document.getElementById("perk2").innerHTML = randomPerk2.name + '<br>' + '<img style="width:100px;" src="' + randomPerk2.image + '">';
-  document.getElementById("perk2H3").innerHTML = "Perk 2";
 
   //Perk 3
   var randomPerk3 = perk3Array[Math.floor(Math.random() * perk3Array.length)];
