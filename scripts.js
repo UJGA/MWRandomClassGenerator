@@ -44,6 +44,10 @@ var primarysArray = [
     image: 'primary/Kar98k.png'
   },
   {
+      name: 'Crossbow',
+      image: 'primary/crossbow.png'
+    },
+  {
     name: 'Kilo 141',
     image: 'primary/Kilo141.png'
   },
@@ -78,6 +82,9 @@ var primarysArray = [
   {
     name: 'MP7',
     image: 'primary/MP7.png'
+  },{
+    name: 'Striker 45',
+    image: 'primary/striker45.png'
   },
   {
     name: 'Oden',
@@ -122,30 +129,37 @@ var primarysArray = [
   {
     name: 'Holger-26',
     image: 'primary/holger26.png'
+  },
+  {
+    name: ' Grau 5.56',
+    image: 'primary/grau556.png'
   }
+
 
 ];
 
 // //----------------------------------------------------------------------------------------------------------------Testing purposes only
 // var primarysArray = [
-//   { name: 'Kilo 141', image: 'primary/Kilo141.png' },
-//   { name: 'FAL', image: 'primary/FAL.png' },
-//   { name: 'M4A1', image: 'primary/M4A1.png' },
-//   { name: 'FR 5.56', image: 'primary/FR556.png' },
-//   { name: 'Oden', image: 'primary/Oden.png' },
-//   { name: 'M13', image: 'primary/M13.png' },
-//   { name: 'FN Scar 17', image: 'primary/FNScar17.png' },
-//   { name: 'AK-47', image: 'primary/AK47.png' },
-//   { name: 'RAM-7', image: 'primary/RAM7.png' },
+  // { name: 'Kilo 141', image: 'primary/Kilo141.png' },
+  // { name: 'FAL', image: 'primary/FAL.png' },
+  // { name: 'M4A1', image: 'primary/M4A1.png' },
+  // { name: 'FR 5.56', image: 'primary/FR556.png' },
+  // { name: 'Oden', image: 'primary/Oden.png' },
+  // { name: 'M13', image: 'primary/M13.png' },
+  // { name: 'FN Scar 17', image: 'primary/FNScar17.png' },
+  // { name: 'AK-47', image: 'primary/AK47.png' },
+  // { name: 'RAM-7', image: 'primary/RAM7.png' },
+  // { name: 'Grau 5.56', image: 'primary/grau556.png' },
 // ];
 
 // var primarysArray = [
-//   { name: 'AUG', image: 'primary/AUG.png' },
-//   { name: 'P90', image: 'primary/P90.png' },
-//   { name: 'MP5', image: 'primary/MP5.png' },
-//   { name: 'Uzi', image: 'primary/Uzi.png' },
-//   { name: 'PP19 Bizon', image: 'primary/PP19Bizon.png' },
-//   { name: 'MP7', image: 'primary/MP7.png' },
+  // { name: 'AUG', image: 'primary/AUG.png' },
+  // { name: 'P90', image: 'primary/P90.png' },
+  // { name: 'MP5', image: 'primary/MP5.png' },
+  // { name: 'Uzi', image: 'primary/Uzi.png' },
+  // { name: 'PP19 Bizon', image: 'primary/PP19Bizon.png' },
+  // { name: 'MP7', image: 'primary/MP7.png' },
+//   // { name: 'Striker 45', image: 'primary/striker45.png' },
 // ];
 
 // var primarysArray = [
@@ -167,6 +181,10 @@ var primarysArray = [
 //   { name: 'Dragunov', image: 'primary/Dragunov.png' },
 //   { name: 'HDR', image: 'primary/HDR.png' },
 //   { name: 'AX-50', image: 'primary/AX50.png' },
+// ];
+
+// var primarysArray = [
+//   { name: 'Crossbow', image: 'primary/crossbow.png' },
 // ];
 
 
@@ -454,14 +472,14 @@ function random_item() {
     var element = document.getElementById("classContent");
     element.classList.add("classContent");
 
-    document.getElementById("footerBG").innerHTML= '<footer id="footer" class="py-4 footerBG text-white-50"><div class="container text-center"><small></small><a href="http://www.youtube.com/c/PresidentWiFi">Blake Riding / PresidentWiFi</a> <br><a href="https://github.com/UJGA">Github </a> <a href="https://twitter.com/riding">Twitter</a><br><a href="contact.html"><button class="btn btn-primary">Found a Bug?</button></a><a href="bugs.html"> ' + " " + '<button class="btn btn-primary">Bug Fixes</button></a></small></footer>';
+    document.getElementById("footerBG").innerHTML= '<footer id="footer" class="py-4 footerBG text-white-50"><div class="container text-center"><small></small><a href="http://www.youtube.com/c/PresidentWiFi">Blake Riding / PresidentWiFi</a> <br><a href="https://github.com/UJGA">Github </a> <a href="https://twitter.com/riding">Twitter</a><br><a href="contact.html"><button class="btn btn-primary">Found a Bug?</button></a><a href="bugs.html"> ';
 
   var primayLength = primarysArray.length;
   //Primary
   var randomPrimaryNumber = Math.floor(Math.random() * primayLength) + 0;
   var randomPrimary = primarysArray[randomPrimaryNumber];
   //console.log("The Random primary number is-------------------------" + randomPrimaryNumber);
-  //console.log("The name is -----------------------------------------" + randomPrimary.name);
+  // console.log("The name is -----------------------------------------" + randomPrimary.name);
   //console.log("The image is -----------------------------------------" + randomPrimary.image);
   document.getElementById("primary").innerHTML = randomPrimary.name + '<br>' + '<img style="height:75px;"  src="' + randomPrimary.image + '">';
   document.getElementById("primaryH3").innerHTML = "Primary";
@@ -475,14 +493,14 @@ function random_item() {
 
   //Perk 1
   var randomPerk1 = perk1Array[Math.floor(Math.random() * perk1Array.length)];
-  document.getElementById("perk1").innerHTML = randomPerk1.name + '<br>' + '<img style="width:100px;" src="' + randomPerk1.image + '">';
+  document.getElementById("perk1").innerHTML = randomPerk1.name + '<br>' + '<img style="width:90px;" src="' + randomPerk1.image + '">';
   document.getElementById("perk1H3").innerHTML = "Perk 1";
 
  
 
   //Perk 2
   var randomPerk2 = perk2Array[Math.floor(Math.random() * perk2Array.length)];
-  document.getElementById("perk2").innerHTML = randomPerk2.name + '<br>' + '<img style="width:100px;" src="' + randomPerk2.image + '">';
+  document.getElementById("perk2").innerHTML = randomPerk2.name + '<br>' + '<img style="width:90px;" src="' + randomPerk2.image + '">';
   document.getElementById("perk2H3").innerHTML = "Perk 2";
 
   if (randomPerk2.name == 'Overkill') {
@@ -499,7 +517,7 @@ function random_item() {
 
   //Perk 3
   var randomPerk3 = perk3Array[Math.floor(Math.random() * perk3Array.length)];
-  document.getElementById("perk3").innerHTML = randomPerk3.name + '<br>' + '<img style="width:100px;" src="' + randomPerk3.image + '">';
+  document.getElementById("perk3").innerHTML = randomPerk3.name + '<br>' + '<img style="width:90px;" src="' + randomPerk3.image + '">';
   document.getElementById("perk3H3").innerHTML = "Perk 3";
 
   //Lethal
@@ -514,7 +532,7 @@ function random_item() {
 
   //Field Upgrade
   var randomUpgrade = fieldUpgradesArray[Math.floor(Math.random() * fieldUpgradesArray.length)];
-  document.getElementById("upgrade").innerHTML = '<img style="width:60px;" src="' + randomUpgrade.image + '">';
+  document.getElementById("upgrade").innerHTML = '<img style="width:45px; margin-top: -30px;" src="' + randomUpgrade.image + '">';
   document.getElementById("upgradeH3").innerHTML = "Field Upgrade";
 
   //Moves Button and Revmoves top text
@@ -582,6 +600,9 @@ function random_item() {
   if (randomPrimary.name == "RAM-7") {
     ram7();
   }
+  if (randomPrimary.name == "Grau 5.56") {
+    grau();
+  }
 
   if (randomPrimary.name == "AUG") {
     aug();
@@ -605,6 +626,10 @@ function random_item() {
 
   if (randomPrimary.name == "MP7") {
     mp7();
+  }
+
+  if (randomPrimary.name == "Striker 45") {
+    striker45();
   }
 
   if (randomPrimary.name == "Model 680") {
@@ -647,6 +672,9 @@ function random_item() {
   }
   if (randomPrimary.name == "Kar98k") {
     kar();
+  }
+  if (randomPrimary.name == "Crossbow") {
+    crossbow();
   }
 
   if (randomPrimary.name == "Dragunov") {
@@ -722,6 +750,9 @@ if (randomSecondary.name == "AK-47") {
 if (randomSecondary.name == "RAM-7") {
   ram7o();
 }
+if (randomSecondary.name == "Grau 5.56") {
+  grauo();
+}
 
 if (randomSecondary.name == "AUG") {
   augo();
@@ -745,6 +776,10 @@ if (randomSecondary.name == "PP19 Bizon") {
 
 if (randomSecondary.name == "MP7") {
   mp7o();
+}
+
+if (randomSecondary.name == "Striker 45") {
+  striker45o();
 }
 
 if (randomSecondary.name == "Model 680") {
@@ -787,6 +822,9 @@ if (randomSecondary.name == "MK2 Carbine") {
 }
 if (randomSecondary.name == "Kar98k") {
   karo();
+}
+if (randomPrimary.name == "Crossbow") {
+  crossbowo();
 }
 
 if (randomSecondary.name == "Dragunov") {
@@ -837,18 +875,7 @@ if (randomSecondary.name == "Riot Shield") {
 
   randomKillstreaks();
 
-  // if(isAR != true){
-  //   //console.log("------------------------------ " + isAR)
 
-  //   document.getElementById("primaryAttH2").innerHTML = "None - Sorry Coming soon";
-  //   document.getElementById("primaryAtt1").innerHTML = "";
-  //   document.getElementById("primaryAtt2").innerHTML = "";
-  //   document.getElementById("primaryAtt3").innerHTML = "";
-  //   document.getElementById("primaryAtt4").innerHTML = "";
-  //   document.getElementById("primaryAtt5").innerHTML = "";
-  //   document.getElementById("primaryAtt6").innerHTML = "";
-  //   document.getElementById("primaryAtt7").innerHTML = "";
-  //   document.getElementById("primaryAtt8").innerHTML = "";
-  //   document.getElementById("primaryAtt9").innerHTML = "";
-  // }
+
+
 }
