@@ -10,7 +10,7 @@ function gs50() {
         totalCount--;
     }
     //console.log(attArr);
-    console.log("Inside the secondary js");
+    // console.log("Inside the secondary js");
     var underbarrel = false;
 
     //Muzzles
@@ -355,6 +355,10 @@ function gs50() {
         {
             name: 'Frangible - Disabling',
             image: 'attachments/perks/disabling.png'
+        },
+        {
+            name: 'Akimbo',
+            image: 'attachments/perks/akimbo.png'
         }
     ];
 
@@ -369,7 +373,7 @@ function gs50() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 9) + 0;
+        var ranPerk = Math.floor(Math.random() * 10) + 0;
 
         var perkPick = perks[ranPerk];
         //console.log(perkPick.name);
@@ -392,7 +396,7 @@ function x16() {
         totalCount--;
     }
     //console.log(attArr);
-    console.log("Inside the secondary js");
+    // console.log("Inside the secondary js");
     var underbarrel = false;
 
     //Muzzles
@@ -708,6 +712,10 @@ function x16() {
         {
             name: 'Frangible - Disabling',
             image: 'attachments/perks/disabling.png'
+        },
+        {
+            name: 'Akimbo',
+            image: 'attachments/perks/akimbo.png'
         }
     ];
 
@@ -722,7 +730,7 @@ function x16() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 9) + 0;
+        var ranPerk = Math.floor(Math.random() * 10) + 0;
 
         var perkPick = perks[ranPerk];
         //console.log(perkPick.name);
@@ -745,7 +753,7 @@ function s1911() {
         totalCount--;
     }
     //console.log(attArr);
-    console.log("Inside the secondary js");
+    // console.log("Inside the secondary js");
     var underbarrel = false;
 
     //Muzzles
@@ -1057,6 +1065,10 @@ function s1911() {
         {
             name: 'Frangible - Disabling',
             image: 'attachments/perks/disabling.png'
+        },
+        {
+            name: 'Akimbo',
+            image: 'attachments/perks/akimbo.png'
         }
     ];
 
@@ -1071,7 +1083,7 @@ function s1911() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 9) + 0;
+        var ranPerk = Math.floor(Math.random() * 10) + 0;
 
         var perkPick = perks[ranPerk];
         //console.log(perkPick.name);
@@ -1097,7 +1109,7 @@ function s357() {
         totalCount--;
     }
     //console.log(attArr);
-    console.log("Inside the secondary js");
+    // console.log("Inside the secondary js");
     var underbarrel = false;
 
     //Muzzles
@@ -1374,7 +1386,6 @@ function s357() {
             name: 'Lockwood .357 Custom Stock',
             image: 'attachments/secondaries/lockwood357.png'
         },
-        ,
         {
             name: 'FSS Raider Stock',
             image: 'attachments/secondaries/fssraider.png'
@@ -1439,6 +1450,10 @@ function s357() {
         {
             name: 'Frangible - Disabling',
             image: 'attachments/perks/disabling.png'
+        },
+        {
+            name: 'Akimbo',
+            image: 'attachments/perks/akimbo.png'
         }
     ];
 
@@ -1453,7 +1468,7 @@ function s357() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 9) + 0;
+        var ranPerk = Math.floor(Math.random() * 10) + 0;
 
         var perkPick = perks[ranPerk];
         //console.log(perkPick.name);
@@ -1479,7 +1494,7 @@ function m19() {
         totalCount--;
     }
     //console.log(attArr);
-    console.log("Inside the secondary js");
+    // console.log("Inside the secondary js");
     var underbarrel = false;
 
     //Muzzles
@@ -1791,6 +1806,10 @@ function m19() {
         {
             name: 'Frangible - Disabling',
             image: 'attachments/perks/disabling.png'
+        },
+        {
+            name: 'Akimbo',
+            image: 'attachments/perks/akimbo.png'
         }
     ];
 
@@ -1805,7 +1824,7 @@ function m19() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 9) + 0;
+        var ranPerk = Math.floor(Math.random() * 10) + 0;
 
         var perkPick = perks[ranPerk];
         //console.log(perkPick.name);

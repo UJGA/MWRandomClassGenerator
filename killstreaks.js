@@ -181,7 +181,7 @@ function randomKillstreaks() {
   // console.log("The KS Rand is " + " " + rand);
   // console.log("The KS Num array is " + " " + numKsSections);
 
-  console.log(ksArr);
+  // console.log(ksArr);
 
   if (ksArr.includes(0)) {
     //console.log("ks3");
