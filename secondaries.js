@@ -163,8 +163,8 @@ function gs50() {
             image: 'attachments/optics/apx5.png'
         },
         {
-            name: 'VLK 3.0x Optic',
-            image: 'attachments/optics/vlk.png'
+            name: 'VLK 2.5x Optic',
+            image: 'attachments/optics/vlk25.png'
         },
  
         {
