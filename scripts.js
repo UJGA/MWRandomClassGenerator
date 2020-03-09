@@ -130,26 +130,23 @@ var primarysArray = [
     name: 'Holger-26',
     image: 'primary/holger26.png'
   },
-  {
-    name: ' Grau 5.56',
-    image: 'primary/grau556.png'
-  }
+  { name: 'Grau 5.56', image: 'primary/grau556.png' },
 
 
 ];
 
 // //----------------------------------------------------------------------------------------------------------------Testing purposes only
 // var primarysArray = [
-  // { name: 'Kilo 141', image: 'primary/Kilo141.png' },
-  // { name: 'FAL', image: 'primary/FAL.png' },
-  // { name: 'M4A1', image: 'primary/M4A1.png' },
-  // { name: 'FR 5.56', image: 'primary/FR556.png' },
-  // { name: 'Oden', image: 'primary/Oden.png' },
-  // { name: 'M13', image: 'primary/M13.png' },
-  // { name: 'FN Scar 17', image: 'primary/FNScar17.png' },
-  // { name: 'AK-47', image: 'primary/AK47.png' },
-  // { name: 'RAM-7', image: 'primary/RAM7.png' },
-  // { name: 'Grau 5.56', image: 'primary/grau556.png' },
+//   { name: 'Kilo 141', image: 'primary/Kilo141.png' },
+//   { name: 'FAL', image: 'primary/FAL.png' },
+//   { name: 'M4A1', image: 'primary/M4A1.png' },
+//   { name: 'FR 5.56', image: 'primary/FR556.png' },
+//   { name: 'Oden', image: 'primary/Oden.png' },
+//   { name: 'M13', image: 'primary/M13.png' },
+//   { name: 'FN Scar 17', image: 'primary/FNScar17.png' },
+//   { name: 'AK-47', image: 'primary/AK47.png' },
+//   { name: 'RAM-7', image: 'primary/RAM7.png' },
+//   { name: 'Grau 5.56', image: 'primary/grau556.png' },
 // ];
 
 // var primarysArray = [
@@ -468,6 +465,26 @@ var fieldUpgradesArray = [{
 
 
 function random_item() {
+  document.getElementById("primaryAtt1").innerHTML = "";
+  document.getElementById("primaryAtt2").innerHTML = "";
+  document.getElementById("primaryAtt3").innerHTML = "";
+  document.getElementById("primaryAtt4").innerHTML = "";
+  document.getElementById("primaryAtt5").innerHTML = "";
+  document.getElementById("primaryAtt6").innerHTML = "";
+  document.getElementById("primaryAtt7").innerHTML = "";
+  document.getElementById("primaryAtt8").innerHTML = "";
+  document.getElementById("primaryAtt9").innerHTML = "";
+
+  document.getElementById("secondaryAtt1").innerHTML = "";
+  document.getElementById("secondaryAtt2").innerHTML = "";
+  document.getElementById("secondaryAtt3").innerHTML = "";
+  document.getElementById("secondaryAtt4").innerHTML = "";
+  document.getElementById("secondaryAtt5").innerHTML = "";
+  document.getElementById("secondaryAtt6").innerHTML = "";
+  document.getElementById("secondaryAtt7").innerHTML = "";
+  document.getElementById("secondaryAtt8").innerHTML = "";
+  document.getElementById("secondaryAtt9").innerHTML = "";
+
 
     var element = document.getElementById("classContent");
     element.classList.add("classContent");
@@ -484,7 +501,7 @@ function random_item() {
   document.getElementById("primary").innerHTML = randomPrimary.name + '<br>' + '<img style="height:75px;"  src="' + randomPrimary.image + '">';
   document.getElementById("primaryH3").innerHTML = "Primary";
   document.getElementById("primaryAttH3").innerHTML = "Primary Attachments";
-  document.getElementById("primaryAttH2").innerHTML = "None";
+  // document.getElementById("primaryAttH2").innerHTML = "None";
 
   //Secondary
   var randomSecondary = secondarysArray[Math.floor(Math.random() * secondarysArray.length)];
