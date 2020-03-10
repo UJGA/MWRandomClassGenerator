@@ -1306,8 +1306,8 @@ function ram7() {
     //Ammunation
 
     var ammunations = [{
-            name: '45 Round Mags',
-            image: 'attachments/ammunations/45.png'
+            name: '50 Round Mags',
+            image: 'attachments/ammunations/50.png'
         },
 
     ];
