@@ -182,6 +182,7 @@ var primarysArray = [
 
 // var primarysArray = [
 //   { name: 'Crossbow', image: 'primary/crossbow.png' },
+//   { name: 'Grau 5.56', image: 'primary/grau556.png' },
 // ];
 
 
@@ -840,7 +841,7 @@ if (randomSecondary.name == "MK2 Carbine") {
 if (randomSecondary.name == "Kar98k") {
   karo();
 }
-if (randomPrimary.name == "Crossbow") {
+if (randomSecondary.name == "Crossbow") {
   crossbowo();
 }
 
