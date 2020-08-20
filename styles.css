@@ -103,3 +103,20 @@ margin-top: -6%;
 li{
     padding: 5px;
 }
+
+#primary{
+    max-width: 100%;
+}
+
+#secondary{
+    max-width: 100%;
+}
+
+.ksimage{
+    width: 45px;
+}
+
+#classContent{
+    max-width: 100%;
+    padding: 50px;
+}
