@@ -1,3 +1,4 @@
+document.getElementById("primary").innerHTML = "";
 function ak47() {
     var numAttachments = [0, 1, 2, 3, 4, 5, 6, 7, 8];
     var totalCount = 9;
@@ -14737,6 +14738,8 @@ function striker45() {
         document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img  style="width:250px;"  src="' + rearGripPick.image + '">';
     }
 
+    if (stockPick.name == "FSS Guardian")
+    document.getElementById("primaryAtt8").innerHTML = "";
 
     //Perks
 

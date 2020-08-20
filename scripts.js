@@ -627,7 +627,7 @@ function random_item() {
   document.getElementById("myTitle").innerHTML = "";
   document.getElementById("goAgain").innerHTML = '<button id="mybtn" class="btn btn-primary" onclick="random_item();">Generate Again</button>';
 
-
+  // document.getElementById("primary").innerHTML = "";
   document.getElementById("primaryAtt1").innerHTML = "";
   document.getElementById("primaryAtt2").innerHTML = "";
   document.getElementById("primaryAtt3").innerHTML = "";
@@ -638,6 +638,7 @@ function random_item() {
   document.getElementById("primaryAtt8").innerHTML = "";
   document.getElementById("primaryAtt9").innerHTML = "";
 
+  // document.getElementById("secondary").innerHTML = "";
   document.getElementById("secondaryAtt1").innerHTML = "";
   document.getElementById("secondaryAtt2").innerHTML = "";
   document.getElementById("secondaryAtt3").innerHTML = "";
