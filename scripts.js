@@ -626,6 +626,7 @@ function random_item() {
 
   document.getElementById("myTitle").innerHTML = "";
   document.getElementById("goAgain").innerHTML = '<button id="mybtn" class="btn btn-primary" onclick="random_item();">Generate Again</button><br><br>';
+  document.getElementById("playButton").innerHTML = "";
 
   // document.getElementById("primary").innerHTML = "";
   document.getElementById("primaryAtt1").innerHTML = "";
