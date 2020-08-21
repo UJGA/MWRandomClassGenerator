@@ -122,10 +122,10 @@ li{
 }
 
 .Blue{
-    color: #3BD0E2;
-    font-weight: bold;
+    color: #3BD0E2 !important;
+    font-weight: bold !important;
 }
 
 .White{
-    color: white;
+    color: white !important;
 }
