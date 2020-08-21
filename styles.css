@@ -120,3 +120,12 @@ li{
     max-width: 100%;
     padding: 50px;
 }
+
+.Blue{
+    color: #3BD0E2;
+    font-weight: bold;
+}
+
+.White{
+    color: white;
+}

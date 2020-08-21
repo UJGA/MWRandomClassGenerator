@@ -559,7 +559,7 @@ function random_item() {
     var element = document.getElementById("classContent");
     element.classList.add("classContent");
 
-    document.getElementById("footerBG").innerHTML= '<footer id="footer" class="py-4 footerBG text-white-50"><div class="container text-center"><small></small><a href="http://www.youtube.com/c/PresidentWiFi">Blake Riding / PresidentWiFi</a> <br><a href="https://github.com/UJGA">Github </a> <a href="https://twitter.com/riding">Twitter</a><br><a href="contact.html"><button class="btn btn-primary">Found a Bug?</button></a><a href="bugs.html"> ';
+    // document.getElementById("footerBG").innerHTML= '<footer id="footer" class="py-4 footerBG text-white-50"><div class="container text-center"><small></small><a href="http://www.youtube.com/c/PresidentWiFi">Blake Riding / PresidentWiFi</a> <br><a href="https://github.com/UJGA">Github </a> <a href="https://twitter.com/riding">Twitter</a><br><a href="contact.html"><button class="btn btn-primary">Found a Bug?</button></a><a href="bugs.html"> ';
 
   var primayLength = primarysArray.length;
   //Primary
@@ -625,7 +625,7 @@ function random_item() {
   //Moves Button and Revmoves top text
 
   document.getElementById("myTitle").innerHTML = "";
-  document.getElementById("goAgain").innerHTML = '<button id="mybtn" class="btn btn-primary" onclick="random_item();">Generate Again</button>';
+  document.getElementById("goAgain").innerHTML = '<button id="mybtn" class="btn btn-primary" onclick="random_item();">Generate Again</button><br><br>';
 
   // document.getElementById("primary").innerHTML = "";
   document.getElementById("primaryAtt1").innerHTML = "";
