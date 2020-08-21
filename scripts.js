@@ -619,7 +619,7 @@ function random_item() {
 
   //Field Upgrade
   var randomUpgrade = fieldUpgradesArray[Math.floor(Math.random() * fieldUpgradesArray.length)];
-  document.getElementById("upgrade").innerHTML = '<img style="width:45px; margin-top: -30px;" src="' + randomUpgrade.image + '">';
+  document.getElementById("upgrade").innerHTML = randomUpgrade.name + '<br>' + '<img style="width:45px;" src="' + randomUpgrade.image + '">';
   document.getElementById("upgradeH3").innerHTML = "Field Upgrade";
 
   //Moves Button and Revmoves top text
