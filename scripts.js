@@ -386,10 +386,10 @@ var perk2Array = [{
     name: 'High Alert',
     image: 'perk2/HighAlert.png'
   },
-  {
-    name: 'Overkill',
-    image: 'perk1/Overkillnew.png'
-  },
+//   {
+//     name: 'Overkill',
+//     image: 'perk1/Overkillnew.png'
+//   },
   {
     name: 'Pointman',
     image: 'perk2/Pointman.png'
