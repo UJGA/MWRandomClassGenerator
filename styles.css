@@ -22,7 +22,8 @@
 body {
     background-color: #343A40;
     color: white;
-    background-image: url("mwbg.jpg");
+    /* background-image: url("mwbg.jpg"); */
+    background-image: url("warzonebg.jpg");
     background-size: auto;
     
     background-repeat: no-repeat;
@@ -79,7 +80,7 @@ margin-top: -6%;
 }
 
 .ksimage{
-    width: 10%;;
+    width: 20%;;
     margin-top: -30px;
 }
 
@@ -101,4 +102,30 @@ margin-top: -6%;
 
 li{
     padding: 5px;
+}
+
+#primary{
+    max-width: 100%;
+}
+
+#secondary{
+    max-width: 100%;
+}
+
+.ksimage{
+    width: 45px;
+}
+
+#classContent{
+    max-width: 100%;
+    padding: 50px;
+}
+
+.blue{
+    color: #3BD0E2 !important;
+    font-weight: bold !important;
+}
+
+.white{
+    color: white !important;
 }

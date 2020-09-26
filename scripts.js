@@ -87,6 +87,38 @@ var primarysArray = [
     image: 'primary/striker45.png'
   },
   {
+    name: 'Fennec',
+    image: 'primary/fennec.png'
+  },
+  {
+    name: 'ISO',
+    image: 'primary/iso.png'
+  },
+  {
+    name: 'Rytec AMR',
+    image: 'primary/rytec.png'
+  },
+  {
+    name: 'SKS',
+    image: 'primary/sks.png'
+  },
+  {
+    name: 'Bruen Mk9',
+    image: 'primary/bruen.png'
+  },
+  {
+    name: 'VLK Rouge',
+    image: 'primary/vlk.png'
+  },
+  {
+    name: 'AN-94',
+    image: 'primary/an.png'
+  },
+  {
+    name: 'CR-56 AMAX',
+    image: 'primary/cr.png'
+  },
+  {
     name: 'Oden',
     image: 'primary/Oden.png'
   },
@@ -156,7 +188,20 @@ var primarysArray = [
   // { name: 'Uzi', image: 'primary/Uzi.png' },
   // { name: 'PP19 Bizon', image: 'primary/PP19Bizon.png' },
   // { name: 'MP7', image: 'primary/MP7.png' },
-//   // { name: 'Striker 45', image: 'primary/striker45.png' },
+  // { name: 'Striker 45', image: 'primary/striker45.png' },
+
+
+// { name: 'Fennec', image: 'primary/fennec.png' },
+// { name: 'ISO', image: 'primary/iso.png' },
+// { name: 'Rytec AMR', image: 'primary/rytec.png' },
+// { name: 'SKS', image: 'primary/sks.png' },
+// { name: 'CR-56 AMAX', image: 'primary/cr.png' },
+// { name: 'AN-94', image: 'primary/an.png' },
+// { name: 'VLK Rogue', image: 'primary/vlk.png' },
+// { name: 'Bruen Mk9', image: 'primary/bruen.png' },
+
+
+
 // ];
 
 // var primarysArray = [
@@ -208,12 +253,24 @@ var primarysArray = [
 //   image: 'Secondary/CombatKnife.png'
 // },
 // {
+//   name: 'Kali Sticks',
+//   image: 'Secondary/kalisticks.png'
+// },
+// {
+//   name: 'Dual Kodachis',
+//   image: 'Secondary/kodachis.png'
+// },
+// {
 //   name: 'JOKR',
 //   image: 'Secondary/JOKR.png'
 // },
 // {
 //   name: 'M19',
 //   image: 'Secondary/M19.png'
+// },
+// {
+//   name: 'Renetti',
+//   image: 'Secondary/renetti.png'
 // },
 // {
 //   name: 'PILA',
@@ -253,12 +310,24 @@ var secondarysArray = [
     image: 'Secondary/CombatKnife.png'
   },
   {
+    name: 'Kali Sticks',
+    image: 'Secondary/kalisticks.png'
+  },
+  {
+    name: 'Dual Kodachis',
+    image: 'Secondary/kodachis.png'
+  },
+  {
     name: 'JOKR',
     image: 'Secondary/JOKR.png'
   },
   {
     name: 'M19',
     image: 'Secondary/M19.png'
+  },
+  {
+    name: 'Renetti',
+    image: 'Secondary/renetti.png'
   },
   {
     name: 'PILA',
@@ -317,10 +386,10 @@ var perk2Array = [{
     name: 'High Alert',
     image: 'perk2/HighAlert.png'
   },
-  {
-    name: 'Overkill',
-    image: 'perk1/Overkillnew.png'
-  },
+//   {
+//     name: 'Overkill',
+//     image: 'perk1/Overkillnew.png'
+//   },
   {
     name: 'Pointman',
     image: 'perk2/Pointman.png'
@@ -490,7 +559,7 @@ function random_item() {
     var element = document.getElementById("classContent");
     element.classList.add("classContent");
 
-    document.getElementById("footerBG").innerHTML= '<footer id="footer" class="py-4 footerBG text-white-50"><div class="container text-center"><small></small><a href="http://www.youtube.com/c/PresidentWiFi">Blake Riding / PresidentWiFi</a> <br><a href="https://github.com/UJGA">Github </a> <a href="https://twitter.com/riding">Twitter</a><br><a href="contact.html"><button class="btn btn-primary">Found a Bug?</button></a><a href="bugs.html"> ';
+    // document.getElementById("footerBG").innerHTML= '<footer id="footer" class="py-4 footerBG text-white-50"><div class="container text-center"><small></small><a href="http://www.youtube.com/c/PresidentWiFi">Blake Riding / PresidentWiFi</a> <br><a href="https://github.com/UJGA">Github </a> <a href="https://twitter.com/riding">Twitter</a><br><a href="contact.html"><button class="btn btn-primary">Found a Bug?</button></a><a href="bugs.html"> ';
 
   var primayLength = primarysArray.length;
   //Primary
@@ -550,15 +619,16 @@ function random_item() {
 
   //Field Upgrade
   var randomUpgrade = fieldUpgradesArray[Math.floor(Math.random() * fieldUpgradesArray.length)];
-  document.getElementById("upgrade").innerHTML = '<img style="width:45px; margin-top: -30px;" src="' + randomUpgrade.image + '">';
+  document.getElementById("upgrade").innerHTML = randomUpgrade.name + '<br>' + '<img style="width:45px;" src="' + randomUpgrade.image + '">';
   document.getElementById("upgradeH3").innerHTML = "Field Upgrade";
 
   //Moves Button and Revmoves top text
 
   document.getElementById("myTitle").innerHTML = "";
-  document.getElementById("goAgain").innerHTML = '<button id="mybtn" class="btn btn-primary" onclick="random_item();">Generate Again</button>';
+  document.getElementById("goAgain").innerHTML = '<button id="mybtn" class="btn btn-primary" onclick="random_item();">Generate Again</button><br><br>';
+  document.getElementById("playButton").innerHTML = "";
 
-
+  // document.getElementById("primary").innerHTML = "";
   document.getElementById("primaryAtt1").innerHTML = "";
   document.getElementById("primaryAtt2").innerHTML = "";
   document.getElementById("primaryAtt3").innerHTML = "";
@@ -569,6 +639,7 @@ function random_item() {
   document.getElementById("primaryAtt8").innerHTML = "";
   document.getElementById("primaryAtt9").innerHTML = "";
 
+  // document.getElementById("secondary").innerHTML = "";
   document.getElementById("secondaryAtt1").innerHTML = "";
   document.getElementById("secondaryAtt2").innerHTML = "";
   document.getElementById("secondaryAtt3").innerHTML = "";
@@ -648,6 +719,31 @@ function random_item() {
 
   if (randomPrimary.name == "Striker 45") {
     striker45();
+  }
+
+  if (randomPrimary.name == "Fennec") {
+    fennec();
+  }
+  if (randomPrimary.name == "ISO") {
+    iso();
+  }
+  if (randomPrimary.name == "Rytec AMR") {
+    rytec();
+  }
+  if (randomPrimary.name == "SKS") {
+    sks();
+  }
+  if (randomPrimary.name == "Bruen Mk9") {
+    bruen();
+  }
+  if (randomPrimary.name == "VLK Rogue") {
+    vlk();
+  }
+  if (randomPrimary.name == "AN-94") {
+    an94();
+  }
+  if (randomPrimary.name == "CR-56 AMAX") {
+    cr56();
   }
 
   if (randomPrimary.name == "Model 680") {
@@ -731,6 +827,10 @@ if (randomSecondary.name == "M19") {
 }
 
 
+if (randomSecondary.name == "Renetti") {
+  renetti();
+}
+
 
 
 //--------------------------------------------------------------Overkill 
@@ -800,6 +900,31 @@ if (randomSecondary.name == "Striker 45") {
   striker45o();
 }
 
+if (randomSecondary.name == "Fennec") {
+  fennec();
+}
+if (randomSecondary.name == "ISO") {
+  iso();
+}
+if (randomSecondary.name == "Rytec AMR") {
+  rytec();
+}
+if (randomSecondary.name == "SKS") {
+  sks();
+}
+if (randomSecondary.name == "Bruen Mk9") {
+  bruen();
+}
+if (randomSecondary.name == "VLK Rogue") {
+  vlk();
+}
+if (randomSecondary.name == "AN-94") {
+  an94();
+}
+if (randomSecondary.name == "CR-56 AMAX") {
+  cr56();
+}
+
 if (randomSecondary.name == "Model 680") {
   model680o();
 }
@@ -858,6 +983,32 @@ if (randomSecondary.name == "AX-50") {
 if (randomSecondary.name == "Riot Shield") {
   rioto();
 }
+
+if (randomSecondary.name == "Fennec") {
+  fenneco();
+}
+if (randomSecondary.name == "ISO") {
+  isoo();
+}
+if (randomSecondary.name == "Rytec AMR") {
+  ryteco();
+}
+if (randomSecondary.name == "SKS") {
+  skso();
+}
+if (randomSecondary.name == "Bruen Mk9") {
+  brueno();
+}
+if (randomSecondary.name == "VLK Rogue") {
+  vlko();
+}
+if (randomSecondary.name == "AN-94") {
+  an94o();
+}
+if (randomSecondary.name == "CR-56 AMAX") {
+  cr56o();
+}
+
 
 //-------------------------------------------------------------------------
 
