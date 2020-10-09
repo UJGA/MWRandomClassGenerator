@@ -18051,7 +18051,7 @@ function bruen() {
         },
         {
             name: '60 Round Mags',
-            image: 'attachments/lmgs/ammunations/30.png'
+            image: 'attachments/lmgs/ammunations/60.png'
         },
 
     ];
