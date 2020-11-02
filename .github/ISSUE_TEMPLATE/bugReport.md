@@ -1,6 +1,6 @@
 ---
 name: Bug Report
-about: Suggest an idea for this project
+about: Report a bug with the generator
 title: ''
 labels: bug
 assignees: UJGA
