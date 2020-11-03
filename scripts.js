@@ -374,7 +374,8 @@ var perk1Array = [
   }
 ];
 
-var perk2Array = [{
+var perk2Array = [
+  {
     name: 'Ghost',
     image: 'perk2/Ghost.png'
   },
@@ -386,10 +387,11 @@ var perk2Array = [{
     name: 'High Alert',
     image: 'perk2/HighAlert.png'
   },
-//   {
-//     name: 'Overkill',
-//     image: 'perk1/Overkillnew.png'
-//   },
+  {
+    name: 'Overkill',
+    image: 'perk1/Overkillnew.png'
+  }
+  ,
   {
     name: 'Pointman',
     image: 'perk2/Pointman.png'
@@ -590,17 +592,36 @@ function random_item() {
   document.getElementById("perk2").innerHTML = randomPerk2.name + '<br>' + '<img style="width:90px;" src="' + randomPerk2.image + '">';
   document.getElementById("perk2H3").innerHTML = "Perk 2";
 
-  if (randomPerk2.name == 'Overkill') {
+
+  // const randomSecondary = null;
+
+  if (randomPerk2.name === 'Overkill') {
+  while (randomSecondary === null || randomSecondary.name === randomPrimary.name) {
+    // TODO Set 'randomSecondary' to a random primary weapon
     var randomSecondary = primarysArray[Math.floor(Math.random() * primarysArray.length)];
     document.getElementById("secondary").innerHTML = randomSecondary.name + '<br>' + '<img  style="height:70px;"  src="' + randomSecondary.image + '">';
     document.getElementById("secondaryH3").innerHTML = "Secondary";
-
-    if (randomPrimary.name == randomSecondary.name) {
-      var randomSecondary = primarysArray[Math.floor(Math.random() * primarysArray.length)];
-      document.getElementById("secondary").innerHTML = randomSecondary.name + '<br>' + '<img  style="height:70px;"  src="' + randomSecondary.image + '">';
-      document.getElementById("secondaryH3").innerHTML = "Secondary";
-    }
   }
+  
+    var randomSecondary = primarysArray[Math.floor(Math.random() * primarysArray.length)];
+    document.getElementById("secondary").innerHTML = randomSecondary.name + '<br>' + '<img  style="height:70px;"  src="' + randomSecondary.image + '">';
+    document.getElementById("secondaryH3").innerHTML = "Secondary";
+}
+
+
+
+
+  // if (randomPerk2.name == 'Overkill') {
+  //   var randomSecondary = primarysArray[Math.floor(Math.random() * primarysArray.length)];
+  //   document.getElementById("secondary").innerHTML = randomSecondary.name + '<br>' + '<img  style="height:70px;"  src="' + randomSecondary.image + '">';
+  //   document.getElementById("secondaryH3").innerHTML = "Secondary";
+
+  //   if (randomPrimary.name == randomSecondary.name) {
+  //     var randomSecondary = primarysArray[Math.floor(Math.random() * primarysArray.length)];
+  //     document.getElementById("secondary").innerHTML = randomSecondary.name + '<br>' + '<img  style="height:70px;"  src="' + randomSecondary.image + '">';
+  //     document.getElementById("secondaryH3").innerHTML = "Secondary";
+  //   }
+  // }
 
   //Perk 3
   var randomPerk3 = perk3Array[Math.floor(Math.random() * perk3Array.length)];
