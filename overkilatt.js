@@ -55,7 +55,7 @@ function ak47o() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 7) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         ////console.log(muzzlePick.name);
@@ -94,7 +94,7 @@ function ak47o() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 4) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
         ////console.log(barrelPick.name);
@@ -132,7 +132,7 @@ function ak47o() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 3) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         ////console.log(laserPick.name);
@@ -233,7 +233,7 @@ function ak47o() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 19) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         ////console.log(opticPick.name);
@@ -278,7 +278,7 @@ function ak47o() {
     }
 
     if (stock != false) {
-        var ranStock = Math.floor(Math.random() * 5) + 0;
+        var ranStock = Math.floor(Math.random() * stocks.length) + 0;
 
         var stockPick = stocks[ranStock];
         ////console.log(stockPick.name);
@@ -356,7 +356,7 @@ function ak47o() {
     }
 
     if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 13) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * underbarrels.length) + 0;
 
         var underbarrelPick = underbarrels[ranUnderbarrel];
         ////console.log(underbarrelPick.name);
@@ -397,7 +397,7 @@ function ak47o() {
     }
 
     if (ammunation != false) {
-        var ranAmmunation = Math.floor(Math.random() * 3) + 0;
+        var ranAmmunation = Math.floor(Math.random() * ammunations.length) + 0;
 
         var ammunationPick = ammunations[ranAmmunation];
         ////console.log(ammunationPick.name);
@@ -435,7 +435,7 @@ function ak47o() {
     }
 
     if (reargrip != false) {
-        var ranRearGrip = Math.floor(Math.random() * 3) + 0;
+        var ranRearGrip = Math.floor(Math.random() * reargrips.length) + 0;
 
         var rearGripPick = reargrips[ranRearGrip];
         ////console.log(rearGripPick.name);
@@ -499,7 +499,7 @@ function ak47o() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 10) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         ////console.log(perkPick.name);
@@ -572,7 +572,7 @@ function r90o() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 8) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         // //console.log(muzzlePick.name);
@@ -603,7 +603,7 @@ function r90o() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 2) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
         // //console.log(barrelPick.name);
@@ -641,7 +641,7 @@ function r90o() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 3) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         // //console.log(laserPick.name);
@@ -722,7 +722,7 @@ function r90o() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 14) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         // //console.log(opticPick.name);
@@ -759,7 +759,8 @@ function r90o() {
     }
 
     if (pump != false) {
-        var ranPump = Math.floor(Math.random() * 3) + 0;
+        var ranPump = Math.floor(Math.random() * pumps.length) + 0;
+        
 
         var pumpPick = pumps[ranPump];
         // //console.log(pumpPick.name);
@@ -797,7 +798,7 @@ function r90o() {
     }
 
     if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 3) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * underbarrels.length) + 0;
 
         var underbarrelPick = underbarrels[ranUnderbarrel];
         // //console.log(underbarrelPick.name);
@@ -834,7 +835,7 @@ function r90o() {
     }
 
     if (ammunation != false) {
-        var ranAmmunation = Math.floor(Math.random() * 2) + 0;
+        var ranAmmunation = Math.floor(Math.random() * ammunations.length) + 0;
 
         var ammunationPick = ammunations[ranAmmunation];
         // //console.log(ammunationPick.name);
@@ -869,7 +870,7 @@ function r90o() {
     }
 
     if (reargrip != false) {
-        var ranRearGrip = Math.floor(Math.random() * 3) + 0;
+        var ranRearGrip = Math.floor(Math.random() * reargrips.length) + 0;
 
         var rearGripPick = reargrips[ranRearGrip];
         // //console.log(rearGripPick.name);
@@ -928,7 +929,7 @@ function r90o() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 9) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         // //console.log(perkPick.name);
@@ -997,7 +998,7 @@ function ram7o() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 7) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         ////console.log(muzzlePick.name);
@@ -1032,7 +1033,7 @@ function ram7o() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 3) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
         ////console.log(barrelPick.name);
@@ -1073,7 +1074,7 @@ function ram7o() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 3) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         ////console.log(laserPick.name);
@@ -1178,7 +1179,7 @@ function ram7o() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 20) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         ////console.log(opticPick.name);
@@ -1215,7 +1216,7 @@ function ram7o() {
     }
 
     if (stock != false) {
-        var ranStock = Math.floor(Math.random() * 3) + 0;
+        var ranStock = Math.floor(Math.random() * stocks.length) + 0;
 
         var stockPick = stocks[ranStock];
         ////console.log(stockPick.name);
@@ -1289,7 +1290,7 @@ function ram7o() {
     }
 
     if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 12) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * underbarrels.length) + 0;
 
         var underbarrelPick = underbarrels[ranUnderbarrel];
         ////console.log(underbarrelPick.name);
@@ -1323,7 +1324,7 @@ function ram7o() {
     }
 
     if (ammunation != false) {
-        var ranAmmunation = Math.floor(Math.random() * 1) + 0;
+        var ranAmmunation = Math.floor(Math.random() * ammunations.length) + 0;
 
         var ammunationPick = ammunations[ranAmmunation];
         ////console.log(ammunationPick.name);
@@ -1361,7 +1362,7 @@ function ram7o() {
     }
 
     if (reargrip != false) {
-        var ranRearGrip = Math.floor(Math.random() * 3) + 0;
+        var ranRearGrip = Math.floor(Math.random() * reargrips.length) + 0;
 
         var rearGripPick = reargrips[ranRearGrip];
         ////console.log(rearGripPick.name);
@@ -1429,7 +1430,7 @@ function ram7o() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 11) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         ////console.log(perkPick.name);
@@ -1497,7 +1498,7 @@ function sa87o() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 7) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         ////console.log(muzzlePick.name);
@@ -1533,7 +1534,7 @@ function sa87o() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 3) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
         ////console.log(barrelPick.name);
@@ -1572,7 +1573,7 @@ function sa87o() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 3) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         ////console.log(laserPick.name);
@@ -1673,7 +1674,7 @@ function sa87o() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 19) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         ////console.log(opticPick.name);
@@ -1711,7 +1712,7 @@ function sa87o() {
     }
 
     if (stock != false) {
-        var ranStock = Math.floor(Math.random() * 3) + 0;
+        var ranStock = Math.floor(Math.random() * stocks.length) + 0;
 
         var stockPick = stocks[ranStock];
         ////console.log(stockPick.name);
@@ -1759,7 +1760,7 @@ function sa87o() {
     }
 
     if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 6) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * underbarrels.length) + 0;
 
         var underbarrelPick = underbarrels[ranUnderbarrel];
         ////console.log(underbarrelPick.name);
@@ -1797,7 +1798,7 @@ function sa87o() {
     }
 
     if (ammunation != false) {
-        var ranAmmunation = Math.floor(Math.random() * 2) + 0;
+        var ranAmmunation = Math.floor(Math.random() * ammunations.length) + 0;
 
         var ammunationPick = ammunations[ranAmmunation];
         ////console.log(ammunationPick.name);
@@ -1836,7 +1837,7 @@ function sa87o() {
     }
 
     if (reargrip != false) {
-        var ranRearGrip = Math.floor(Math.random() * 3) + 0;
+        var ranRearGrip = Math.floor(Math.random() * reargrips.length) + 0;
 
         var rearGripPick = reargrips[ranRearGrip];
         ////console.log(rearGripPick.name);
@@ -1896,7 +1897,7 @@ function sa87o() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 9) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         ////console.log(perkPick.name);
@@ -1965,7 +1966,7 @@ function uzio() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 7) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         // //console.log(muzzlePick.name);
@@ -2000,7 +2001,7 @@ function uzio() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 3) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
         // //console.log(barrelPick.name);
@@ -2038,7 +2039,7 @@ function uzio() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 3) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         // //console.log(laserPick.name);
@@ -2135,7 +2136,7 @@ function uzio() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 18) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         // //console.log(opticPick.name);
@@ -2176,7 +2177,7 @@ function uzio() {
     }
 
     if (stock != false) {
-        var ranStock = Math.floor(Math.random() * 3) + 0;
+        var ranStock = Math.floor(Math.random() * stocks.length) + 0;
 
         var stockPick = stocks[ranStock];
         // //console.log(stockPick.name);
@@ -2222,7 +2223,7 @@ function uzio() {
     }
 
     if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 5) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * underbarrels.length) + 0;
 
         var underbarrelPick = underbarrels[ranUnderbarrel];
         // //console.log(underbarrelPick.name);
@@ -2259,7 +2260,7 @@ function uzio() {
     }
 
     if (ammunation != false) {
-        var ranAmmunation = Math.floor(Math.random() * 2) + 0;
+        var ranAmmunation = Math.floor(Math.random() * ammunations.length) + 0;
 
         var ammunationPick = ammunations[ranAmmunation];
         // //console.log(ammunationPick.name);
@@ -2297,7 +2298,7 @@ function uzio() {
     }
 
     if (reargrip != false) {
-        var ranRearGrip = Math.floor(Math.random() * 3) + 0;
+        var ranRearGrip = Math.floor(Math.random() * reargrips.length) + 0;
 
         var rearGripPick = reargrips[ranRearGrip];
         // //console.log(rearGripPick.name);
@@ -2361,7 +2362,7 @@ function uzio() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 9) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         // //console.log(perkPick.name);
@@ -2429,7 +2430,7 @@ function pp19o() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 7) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         // //console.log(muzzlePick.name);
@@ -2464,7 +2465,7 @@ function pp19o() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 3) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
         // //console.log(barrelPick.name);
@@ -2502,7 +2503,7 @@ function pp19o() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 3) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         // //console.log(laserPick.name);
@@ -2599,7 +2600,7 @@ function pp19o() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 18) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         // //console.log(opticPick.name);
@@ -2640,7 +2641,7 @@ function pp19o() {
     }
 
     if (stock != false) {
-        var ranStock = Math.floor(Math.random() * 3) + 0;
+        var ranStock = Math.floor(Math.random() * stocks.length) + 0;
 
         var stockPick = stocks[ranStock];
         // //console.log(stockPick.name);
@@ -2671,7 +2672,7 @@ function pp19o() {
     }
 
     if (ammunation != false) {
-        var ranAmmunation = Math.floor(Math.random() * 1) + 0;
+        var ranAmmunation = Math.floor(Math.random() * ammunations.length) + 0;
 
         var ammunationPick = ammunations[ranAmmunation];
         // //console.log(ammunationPick.name);
@@ -2709,7 +2710,7 @@ function pp19o() {
     }
 
     if (reargrip != false) {
-        var ranRearGrip = Math.floor(Math.random() * 3) + 0;
+        var ranRearGrip = Math.floor(Math.random() * reargrips.length) + 0;
 
         var rearGripPick = reargrips[ranRearGrip];
         // //console.log(rearGripPick.name);
@@ -2769,7 +2770,7 @@ function pp19o() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 9) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         // //console.log(perkPick.name);
@@ -2837,7 +2838,7 @@ function pkmo() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 7) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         ////console.log(muzzlePick.name);
@@ -2873,7 +2874,7 @@ function pkmo() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 3) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
         ////console.log(barrelPick.name);
@@ -2912,7 +2913,7 @@ function pkmo() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 3) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         ////console.log(laserPick.name);
@@ -3013,7 +3014,7 @@ function pkmo() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 19) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         ////console.log(opticPick.name);
@@ -3054,7 +3055,7 @@ function pkmo() {
     }
 
     if (stock != false) {
-        var ranStock = Math.floor(Math.random() * 4) + 0;
+        var ranStock = Math.floor(Math.random() * stocks.length) + 0;
 
         var stockPick = stocks[ranStock];
         ////console.log(stockPick.name);
@@ -3102,7 +3103,7 @@ function pkmo() {
     }
 
     if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 6) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * underbarrels.length) + 0;
 
         var underbarrelPick = underbarrels[ranUnderbarrel];
         ////console.log(underbarrelPick.name);
@@ -3140,7 +3141,7 @@ function pkmo() {
     }
 
     if (ammunation != false) {
-        var ranAmmunation = Math.floor(Math.random() * 2) + 0;
+        var ranAmmunation = Math.floor(Math.random() * ammunations.length) + 0;
 
         var ammunationPick = ammunations[ranAmmunation];
         ////console.log(ammunationPick.name);
@@ -3179,7 +3180,7 @@ function pkmo() {
     }
 
     if (reargrip != false) {
-        var ranRearGrip = Math.floor(Math.random() * 3) + 0;
+        var ranRearGrip = Math.floor(Math.random() * reargrips.length) + 0;
 
         var rearGripPick = reargrips[ranRearGrip];
         ////console.log(rearGripPick.name);
@@ -3239,7 +3240,7 @@ function pkmo() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 9) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         ////console.log(perkPick.name);
@@ -3311,7 +3312,7 @@ function p90o() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 7) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         // //console.log(muzzlePick.name);
@@ -3342,7 +3343,7 @@ function p90o() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 2) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
         // //console.log(barrelPick.name);
@@ -3380,7 +3381,7 @@ function p90o() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 3) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         // //console.log(laserPick.name);
@@ -3481,7 +3482,7 @@ function p90o() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 19) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         // //console.log(opticPick.name);
@@ -3518,7 +3519,7 @@ function p90o() {
     }
 
     if (stock != false) {
-        var ranStock = Math.floor(Math.random() * 3) + 0;
+        var ranStock = Math.floor(Math.random() * stocks.length) + 0;
 
         var stockPick = stocks[ranStock];
         // //console.log(stockPick.name);
@@ -3556,7 +3557,7 @@ function p90o() {
     }
 
     if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 3) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * underbarrels.length) + 0;
 
         var underbarrelPick = underbarrels[ranUnderbarrel];
         // //console.log(underbarrelPick.name);
@@ -3595,7 +3596,7 @@ function p90o() {
     }
 
     if (reargrip != false) {
-        var ranRearGrip = Math.floor(Math.random() * 3) + 0;
+        var ranRearGrip = Math.floor(Math.random() * reargrips.length) + 0;
 
         var rearGripPick = reargrips[ranRearGrip];
         // //console.log(rearGripPick.name);
@@ -3655,7 +3656,7 @@ function p90o() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 9) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         // //console.log(perkPick.name);
@@ -3727,7 +3728,7 @@ function origin12o() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 7) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         // //console.log(muzzlePick.name);
@@ -3762,7 +3763,7 @@ function origin12o() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 3) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
         // //console.log(barrelPick.name);
@@ -3800,7 +3801,7 @@ function origin12o() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 3) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         // //console.log(laserPick.name);
@@ -3881,7 +3882,7 @@ function origin12o() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 14) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         // //console.log(opticPick.name);
@@ -3922,7 +3923,7 @@ function origin12o() {
     }
 
     if (pump != false) {
-        var ranPump = Math.floor(Math.random() * 4) + 0;
+        var ranPump = Math.floor(Math.random() * pumps.length) + 0;
 
         var pumpPick = pumps[ranPump];
         // //console.log(pumpPick.name);
@@ -3956,7 +3957,7 @@ function origin12o() {
     }
 
     if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 2) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * underbarrels.length) + 0;
 
         var underbarrelPick = underbarrels[ranUnderbarrel];
         // //console.log(underbarrelPick.name);
@@ -3997,7 +3998,7 @@ function origin12o() {
     }
 
     if (ammunation != false) {
-        var ranAmmunation = Math.floor(Math.random() * 3) + 0;
+        var ranAmmunation = Math.floor(Math.random() * ammunations.length) + 0;
 
         var ammunationPick = ammunations[ranAmmunation];
         // //console.log(ammunationPick.name);
@@ -4032,7 +4033,7 @@ function origin12o() {
     }
 
     if (reargrip != false) {
-        var ranRearGrip = Math.floor(Math.random() * 3) + 0;
+        var ranRearGrip = Math.floor(Math.random() * reargrips.length) + 0;
 
         var rearGripPick = reargrips[ranRearGrip];
         // //console.log(rearGripPick.name);
@@ -4091,7 +4092,7 @@ function origin12o() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 9) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         // //console.log(perkPick.name);
@@ -4162,7 +4163,7 @@ function odeno() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 7) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         // //console.log(muzzlePick.name);
@@ -4201,7 +4202,7 @@ function odeno() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 3) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
         // //console.log(barrelPick.name);
@@ -4238,7 +4239,7 @@ function odeno() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 3) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         // //console.log(laserPick.name);
@@ -4343,7 +4344,7 @@ function odeno() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 20) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         // //console.log(opticPick.name);
@@ -4380,7 +4381,7 @@ function odeno() {
     }
 
     if (stock != false) {
-        var ranStock = Math.floor(Math.random() * 3) + 0;
+        var ranStock = Math.floor(Math.random() * stocks.length) + 0;
 
         var stockPick = stocks[ranStock];
         // //console.log(stockPick.name);
@@ -4458,7 +4459,7 @@ function odeno() {
     }
 
     if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 13) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * underbarrels.length) + 0;
 
         var underbarrelPick = underbarrels[ranUnderbarrel];
         // //console.log(underbarrelPick.name);
@@ -4495,7 +4496,7 @@ function odeno() {
     }
 
     if (ammunation != false) {
-        var ranAmmunation = Math.floor(Math.random() * 2) + 0;
+        var ranAmmunation = Math.floor(Math.random() * ammunations.length) + 0;
 
         var ammunationPick = ammunations[ranAmmunation];
         // //console.log(ammunationPick.name);
@@ -4533,7 +4534,7 @@ function odeno() {
     }
 
     if (reargrip != false) {
-        var ranRearGrip = Math.floor(Math.random() * 3) + 0;
+        var ranRearGrip = Math.floor(Math.random() * reargrips.length) + 0;
 
         var rearGripPick = reargrips[ranRearGrip];
         // //console.log(rearGripPick.name);
@@ -4601,7 +4602,7 @@ function odeno() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 11) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         // //console.log(perkPick.name);
@@ -4673,7 +4674,7 @@ function mp7o() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 7) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         // //console.log(muzzlePick.name);
@@ -4708,7 +4709,7 @@ function mp7o() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 3) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
         // //console.log(barrelPick.name);
@@ -4746,7 +4747,7 @@ function mp7o() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 3) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         // //console.log(laserPick.name);
@@ -4839,7 +4840,7 @@ function mp7o() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 17) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         // //console.log(opticPick.name);
@@ -4880,7 +4881,7 @@ function mp7o() {
     }
 
     if (stock != false) {
-        var ranStock = Math.floor(Math.random() * 3) + 0;
+        var ranStock = Math.floor(Math.random() * stocks.length) + 0;
 
         var stockPick = stocks[ranStock];
         // //console.log(stockPick.name);
@@ -4926,7 +4927,7 @@ function mp7o() {
     }
 
     if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 5) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * underbarrels.length) + 0;
 
         var underbarrelPick = underbarrels[ranUnderbarrel];
         // //console.log(underbarrelPick.name);
@@ -4963,7 +4964,7 @@ function mp7o() {
     }
 
     if (ammunation != false) {
-        var ranAmmunation = Math.floor(Math.random() * 2) + 0;
+        var ranAmmunation = Math.floor(Math.random() * ammunations.length) + 0;
 
         var ammunationPick = ammunations[ranAmmunation];
         // //console.log(ammunationPick.name);
@@ -5001,7 +5002,7 @@ function mp7o() {
     }
 
     if (reargrip != false) {
-        var ranRearGrip = Math.floor(Math.random() * 3) + 0;
+        var ranRearGrip = Math.floor(Math.random() * reargrips.length) + 0;
 
         var rearGripPick = reargrips[ranRearGrip];
         // //console.log(rearGripPick.name);
@@ -5061,7 +5062,7 @@ function mp7o() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 9) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         // //console.log(perkPick.name);
@@ -5132,7 +5133,7 @@ function mp5o() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 7) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         // //console.log(muzzlePick.name);
@@ -5167,7 +5168,7 @@ function mp5o() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 2) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
 
@@ -5211,7 +5212,7 @@ function mp5o() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 3) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         // //console.log(laserPick.name);
@@ -5308,7 +5309,7 @@ function mp5o() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 18) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         // //console.log(opticPick.name);
@@ -5345,7 +5346,7 @@ function mp5o() {
     }
 
     if (stock != false) {
-        var ranStock = Math.floor(Math.random() * 3) + 0;
+        var ranStock = Math.floor(Math.random() * stocks.length) + 0;
 
         var stockPick = stocks[ranStock];
         // //console.log(stockPick.name);
@@ -5391,7 +5392,7 @@ function mp5o() {
     }
 
     if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 5) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * underbarrels.length) + 0;
 
         var underbarrelPick = underbarrels[ranUnderbarrel];
         // //console.log(underbarrelPick.name);
@@ -5428,7 +5429,7 @@ function mp5o() {
     }
 
     if (ammunation != false) {
-        var ranAmmunation = Math.floor(Math.random() * 2) + 0;
+        var ranAmmunation = Math.floor(Math.random() * ammunations.length) + 0;
 
         var ammunationPick = ammunations[ranAmmunation];
         // //console.log(ammunationPick.name);
@@ -5466,7 +5467,7 @@ function mp5o() {
     }
 
     if (reargrip != false) {
-        var ranRearGrip = Math.floor(Math.random() * 3) + 0;
+        var ranRearGrip = Math.floor(Math.random() * reargrips.length) + 0;
 
         var rearGripPick = reargrips[ranRearGrip];
         // //console.log(rearGripPick.name);
@@ -5530,7 +5531,7 @@ function mp5o() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 10) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         // //console.log(perkPick.name);
@@ -5606,7 +5607,7 @@ function model680o() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 8) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         // //console.log(muzzlePick.name);
@@ -5641,7 +5642,7 @@ function model680o() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 3) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
         // //console.log(barrelPick.name);
@@ -5679,7 +5680,7 @@ function model680o() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 3) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         // //console.log(laserPick.name);
@@ -5760,7 +5761,7 @@ function model680o() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 14) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         // //console.log(opticPick.name);
@@ -5805,7 +5806,7 @@ function model680o() {
     }
 
     if (stock != false) {
-        var ranStock = Math.floor(Math.random() * 5) + 0;
+        var ranStock = Math.floor(Math.random() * stocks.length) + 0;
 
         var stockPick = stocks[ranStock];
         // //console.log(stockPick.name);
@@ -5855,7 +5856,7 @@ function model680o() {
     }
 
     if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 6) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * underbarrels.length) + 0;
 
         var underbarrelPick = underbarrels[ranUnderbarrel];
         // //console.log(underbarrelPick.name);
@@ -5892,7 +5893,7 @@ function model680o() {
     }
 
     if (ammunation != false) {
-        var ranAmmunation = Math.floor(Math.random() * 2) + 0;
+        var ranAmmunation = Math.floor(Math.random() * ammunations.length) + 0;
 
         var ammunationPick = ammunations[ranAmmunation];
         // //console.log(ammunationPick.name);
@@ -5949,7 +5950,7 @@ function model680o() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 8) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         // //console.log(perkPick.name);
@@ -6020,7 +6021,7 @@ function mk2o() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 7) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         ////console.log(muzzlePick.name);
@@ -6055,7 +6056,7 @@ function mk2o() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 3) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
         ////console.log(barrelPick.name);
@@ -6088,7 +6089,7 @@ function mk2o() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 1) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         ////console.log(laserPick.name);
@@ -6193,7 +6194,7 @@ function mk2o() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 20) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         ////console.log(opticPick.name);
@@ -6234,7 +6235,7 @@ function mk2o() {
     }
 
     if (stock != false) {
-        var ranStock = Math.floor(Math.random() * 4) + 0;
+        var ranStock = Math.floor(Math.random() * stocks.length) + 0;
 
         var stockPick = stocks[ranStock];
         ////console.log(stockPick.name);
@@ -6270,7 +6271,7 @@ function mk2o() {
     }
 
     if (reargrip != false) {
-        var ranRearGrip = Math.floor(Math.random() * 3) + 0;
+        var ranRearGrip = Math.floor(Math.random() * reargrips.length) + 0;
 
         var rearGripPick = reargrips[ranRearGrip];
         ////console.log(rearGripPick.name);
@@ -6339,7 +6340,7 @@ function mk2o() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 11) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         ////console.log(perkPick.name);
@@ -6411,7 +6412,7 @@ function mg34o() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 7) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         ////console.log(muzzlePick.name);
@@ -6447,7 +6448,7 @@ function mg34o() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 3) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
         ////console.log(barrelPick.name);
@@ -6486,7 +6487,7 @@ function mg34o() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 3) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         ////console.log(laserPick.name);
@@ -6587,7 +6588,7 @@ function mg34o() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 19) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         ////console.log(opticPick.name);
@@ -6629,7 +6630,7 @@ function mg34o() {
     }
 
     if (stock != false) {
-        var ranStock = Math.floor(Math.random() * 4) + 0;
+        var ranStock = Math.floor(Math.random() * stocks.length) + 0;
 
         var stockPick = stocks[ranStock];
         ////console.log(stockPick.name);
@@ -6677,7 +6678,7 @@ function mg34o() {
     }
 
     if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 6) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * underbarrels.length) + 0;
 
         var underbarrelPick = underbarrels[ranUnderbarrel];
         ////console.log(underbarrelPick.name);
@@ -6715,7 +6716,7 @@ function mg34o() {
     }
 
     if (ammunation != false) {
-        var ranAmmunation = Math.floor(Math.random() * 2) + 0;
+        var ranAmmunation = Math.floor(Math.random() * ammunations.length) + 0;
 
         var ammunationPick = ammunations[ranAmmunation];
         ////console.log(ammunationPick.name);
@@ -6754,7 +6755,7 @@ function mg34o() {
     }
 
     if (reargrip != false) {
-        var ranRearGrip = Math.floor(Math.random() * 3) + 0;
+        var ranRearGrip = Math.floor(Math.random() * reargrips.length) + 0;
 
         var rearGripPick = reargrips[ranRearGrip];
         ////console.log(rearGripPick.name);
@@ -6814,7 +6815,7 @@ function mg34o() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 9) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         ////console.log(perkPick.name);
@@ -6886,7 +6887,7 @@ function m91o() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 7) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         ////console.log(muzzlePick.name);
@@ -6922,7 +6923,7 @@ function m91o() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 3) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
         ////console.log(barrelPick.name);
@@ -6961,7 +6962,7 @@ function m91o() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 3) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         ////console.log(laserPick.name);
@@ -7066,7 +7067,7 @@ function m91o() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 20) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         ////console.log(opticPick.name);
@@ -7108,7 +7109,7 @@ function m91o() {
     }
 
     if (stock != false) {
-        var ranStock = Math.floor(Math.random() * 4) + 0;
+        var ranStock = Math.floor(Math.random() * stocks.length) + 0;
 
         var stockPick = stocks[ranStock];
         ////console.log(stockPick.name);
@@ -7156,7 +7157,7 @@ function m91o() {
     }
 
     if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 6) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * underbarrels.length) + 0;
 
         var underbarrelPick = underbarrels[ranUnderbarrel];
         ////console.log(underbarrelPick.name);
@@ -7194,7 +7195,7 @@ function m91o() {
     }
 
     if (ammunation != false) {
-        var ranAmmunation = Math.floor(Math.random() * 2) + 0;
+        var ranAmmunation = Math.floor(Math.random() * ammunations.length) + 0;
 
         var ammunationPick = ammunations[ranAmmunation];
         ////console.log(ammunationPick.name);
@@ -7233,7 +7234,7 @@ function m91o() {
     }
 
     if (reargrip != false) {
-        var ranRearGrip = Math.floor(Math.random() * 3) + 0;
+        var ranRearGrip = Math.floor(Math.random() * reargrips.length) + 0;
 
         var rearGripPick = reargrips[ranRearGrip];
         ////console.log(rearGripPick.name);
@@ -7293,7 +7294,7 @@ function m91o() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 9) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         ////console.log(perkPick.name);
@@ -7365,7 +7366,7 @@ function m13o() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 7) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         ////console.log(muzzlePick.name);
@@ -7404,7 +7405,7 @@ function m13o() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 3) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
 
@@ -7445,7 +7446,7 @@ function m13o() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 3) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         ////console.log(laserPick.name);
@@ -7554,7 +7555,7 @@ function m13o() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 21) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         ////console.log(opticPick.name);
@@ -7595,7 +7596,7 @@ function m13o() {
     }
 
     if (stock != false) {
-        var ranStock = Math.floor(Math.random() * 4) + 0;
+        var ranStock = Math.floor(Math.random() * stocks.length) + 0;
 
         var stockPick = stocks[ranStock];
         ////console.log(stockPick.name);
@@ -7673,7 +7674,7 @@ function m13o() {
     }
 
     if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 13) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * underbarrels.length) + 0;
 
         var underbarrelPick = underbarrels[ranUnderbarrel];
         ////console.log(underbarrelPick.name);
@@ -7714,7 +7715,7 @@ function m13o() {
     }
 
     if (ammunation != false) {
-        var ranAmmunation = Math.floor(Math.random() * 3) + 0;
+        var ranAmmunation = Math.floor(Math.random() * ammunations.length) + 0;
 
         var ammunationPick = ammunations[ranAmmunation];
         ////console.log(ammunationPick.name);
@@ -7752,7 +7753,7 @@ function m13o() {
     }
 
     if (reargrip != false) {
-        var ranRearGrip = Math.floor(Math.random() * 3) + 0;
+        var ranRearGrip = Math.floor(Math.random() * reargrips.length) + 0;
 
         var rearGripPick = reargrips[ranRearGrip];
         ////console.log(rearGripPick.name);
@@ -7820,7 +7821,7 @@ function m13o() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 11) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         ////console.log(perkPick.name);
@@ -7892,7 +7893,7 @@ function m4a1o() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 7) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         ////console.log(muzzlePick.name);
@@ -7935,7 +7936,7 @@ function m4a1o() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 5) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
         ////console.log(barrelPick.name);
@@ -7976,7 +7977,7 @@ function m4a1o() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 3) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         ////console.log(laserPick.name);
@@ -8081,7 +8082,7 @@ function m4a1o() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 20) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         ////console.log(opticPick.name);
@@ -8122,7 +8123,7 @@ function m4a1o() {
     }
 
     if (stock != false) {
-        var ranStock = Math.floor(Math.random() * 4) + 0;
+        var ranStock = Math.floor(Math.random() * stocks.length) + 0;
 
         var stockPick = stocks[ranStock];
         ////console.log(stockPick.name);
@@ -8200,7 +8201,7 @@ function m4a1o() {
     }
 
     if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 13) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * underbarrels.length) + 0;
 
         var underbarrelPick = underbarrels[ranUnderbarrel];
         ////console.log(underbarrelPick.name);
@@ -8245,7 +8246,7 @@ function m4a1o() {
     }
 
     if (ammunation != false) {
-        var ranAmmunation = Math.floor(Math.random() * 4) + 0;
+        var ranAmmunation = Math.floor(Math.random() * ammunations.length) + 0;
 
         var ammunationPick = ammunations[ranAmmunation];
         ////console.log(ammunationPick.name);
@@ -8283,7 +8284,7 @@ function m4a1o() {
     }
 
     if (reargrip != false) {
-        var ranRearGrip = Math.floor(Math.random() * 3) + 0;
+        var ranRearGrip = Math.floor(Math.random() * reargrips.length) + 0;
 
         var rearGripPick = reargrips[ranRearGrip];
         ////console.log(rearGripPick.name);
@@ -8351,7 +8352,7 @@ function m4a1o() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 11) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         ////console.log(perkPick.name);
@@ -8423,7 +8424,7 @@ function kilo141o() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 7) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         ////console.log(muzzlePick.name);
@@ -8457,7 +8458,7 @@ function kilo141o() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 3) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
 
@@ -8499,7 +8500,7 @@ function kilo141o() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 3) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         ////console.log(laserPick.name);
@@ -8608,7 +8609,7 @@ function kilo141o() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 21) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         ////console.log(opticPick.name);
@@ -8649,7 +8650,7 @@ function kilo141o() {
     }
 
     if (stock != false) {
-        var ranStock = Math.floor(Math.random() * 4) + 0;
+        var ranStock = Math.floor(Math.random() * stocks.length) + 0;
 
         var stockPick = stocks[ranStock];
         ////console.log(stockPick.name);
@@ -8727,7 +8728,7 @@ function kilo141o() {
     }
 
     if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 13) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * underbarrels.length) + 0;
 
         var underbarrelPick = underbarrels[ranUnderbarrel];
         ////console.log(underbarrelPick.name);
@@ -8768,7 +8769,7 @@ function kilo141o() {
     }
 
     if (ammunation != false) {
-        var ranAmmunation = Math.floor(Math.random() * 3) + 0;
+        var ranAmmunation = Math.floor(Math.random() * ammunations.length) + 0;
 
         var ammunationPick = ammunations[ranAmmunation];
         ////console.log(ammunationPick.name);
@@ -8806,7 +8807,7 @@ function kilo141o() {
     }
 
     if (reargrip != false) {
-        var ranRearGrip = Math.floor(Math.random() * 3) + 0;
+        var ranRearGrip = Math.floor(Math.random() * reargrips.length) + 0;
 
         var rearGripPick = reargrips[ranRearGrip];
         ////console.log(rearGripPick.name);
@@ -8874,7 +8875,7 @@ function kilo141o() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 11) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         ////console.log(perkPick.name);
@@ -8946,7 +8947,7 @@ function karo() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 7) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         ////console.log(muzzlePick.name);
@@ -8981,7 +8982,7 @@ function karo() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 3) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
         ////console.log(barrelPick.name);
@@ -9014,7 +9015,7 @@ function karo() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 1) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         ////console.log(laserPick.name);
@@ -9119,7 +9120,7 @@ function karo() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 20) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         ////console.log(opticPick.name);
@@ -9156,7 +9157,7 @@ function karo() {
     }
 
     if (stock != false) {
-        var ranStock = Math.floor(Math.random() * 3) + 0;
+        var ranStock = Math.floor(Math.random() * stocks.length) + 0;
 
         var stockPick = stocks[ranStock];
         ////console.log(stockPick.name);
@@ -9185,7 +9186,7 @@ function karo() {
     }
 
     if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 1) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * underbarrels.length) + 0;
 
         var underbarrelPick = underbarrels[ranUnderbarrel];
         ////console.log(underbarrelPick.name);
@@ -9224,7 +9225,7 @@ function karo() {
     }
 
     if (reargrip != false) {
-        var ranRearGrip = Math.floor(Math.random() * 3) + 0;
+        var ranRearGrip = Math.floor(Math.random() * reargrips.length) + 0;
 
         var rearGripPick = reargrips[ranRearGrip];
         ////console.log(rearGripPick.name);
@@ -9293,7 +9294,7 @@ function karo() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 11) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         ////console.log(perkPick.name);
@@ -9365,7 +9366,7 @@ function holgero() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 7) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         ////console.log(muzzlePick.name);
@@ -9398,7 +9399,7 @@ function holgero() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 2) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
         ////console.log(barrelPick.name);
@@ -9437,7 +9438,7 @@ function holgero() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 3) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         ////console.log(laserPick.name);
@@ -9550,7 +9551,7 @@ function holgero() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 19) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         ////console.log(opticPick.name);
@@ -9592,7 +9593,7 @@ function holgero() {
     }
 
     if (stock != false) {
-        var ranStock = Math.floor(Math.random() * 4) + 0;
+        var ranStock = Math.floor(Math.random() * stocks.length) + 0;
 
         var stockPick = stocks[ranStock];
         ////console.log(stockPick.name);
@@ -9636,7 +9637,7 @@ function holgero() {
     }
 
     if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 5) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * underbarrels.length) + 0;
 
         var underbarrelPick = underbarrels[ranUnderbarrel];
         ////console.log(underbarrelPick.name);
@@ -9670,7 +9671,7 @@ function holgero() {
     }
 
     if (ammunation != false) {
-        var ranAmmunation = Math.floor(Math.random() * 1) + 0;
+        var ranAmmunation = Math.floor(Math.random() * ammunations.length) + 0;
 
         var ammunationPick = ammunations[ranAmmunation];
         ////console.log(ammunationPick.name);
@@ -9709,7 +9710,7 @@ function holgero() {
     }
 
     if (reargrip != false) {
-        var ranRearGrip = Math.floor(Math.random() * 3) + 0;
+        var ranRearGrip = Math.floor(Math.random() * reargrips.length) + 0;
 
         var rearGripPick = reargrips[ranRearGrip];
         ////console.log(rearGripPick.name);
@@ -9769,7 +9770,7 @@ function holgero() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 9) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         ////console.log(perkPick.name);
@@ -9841,7 +9842,7 @@ function hdro() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 7) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         ////console.log(muzzlePick.name);
@@ -9876,7 +9877,7 @@ function hdro() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 3) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
         ////console.log(barrelPick.name);
@@ -9907,7 +9908,7 @@ function hdro() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 1) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         ////console.log(laserPick.name);
@@ -9960,7 +9961,7 @@ function hdro() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 7) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         ////console.log(opticPick.name);
@@ -10001,7 +10002,7 @@ function hdro() {
     }
 
     if (stock != false) {
-        var ranStock = Math.floor(Math.random() * 4) + 0;
+        var ranStock = Math.floor(Math.random() * stocks.length) + 0;
 
         var stockPick = stocks[ranStock];
         ////console.log(stockPick.name);
@@ -10030,7 +10031,7 @@ function hdro() {
     }
 
     if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 1) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * underbarrels.length) + 0;
 
         var underbarrelPick = underbarrels[ranUnderbarrel];
         ////console.log(underbarrelPick.name);
@@ -10067,7 +10068,7 @@ function hdro() {
     }
 
     if (ammunation != false) {
-        var ranAmmunation = Math.floor(Math.random() * 2) + 0;
+        var ranAmmunation = Math.floor(Math.random() * ammunations.length) + 0;
 
         var ammunationPick = ammunations[ranAmmunation];
         ////console.log(ammunationPick.name);
@@ -10135,7 +10136,7 @@ function hdro() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 11) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         ////console.log(perkPick.name);
@@ -10203,7 +10204,7 @@ function fr556o() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 6) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         ////console.log(muzzlePick.name);
@@ -10241,7 +10242,7 @@ function fr556o() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 3) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
         ////console.log(barrelPick.name);
@@ -10278,7 +10279,7 @@ function fr556o() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 3) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         ////console.log(laserPick.name);
@@ -10387,7 +10388,7 @@ function fr556o() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 21) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         ////console.log(opticPick.name);
@@ -10424,7 +10425,7 @@ function fr556o() {
     }
 
     if (stock != false) {
-        var ranStock = Math.floor(Math.random() * 3) + 0;
+        var ranStock = Math.floor(Math.random() * stocks.length) + 0;
 
         var stockPick = stocks[ranStock];
         ////console.log(stockPick.name);
@@ -10502,7 +10503,7 @@ function fr556o() {
     }
 
     if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 13) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * underbarrels.length) + 0;
 
         var underbarrelPick = underbarrels[ranUnderbarrel];
         ////console.log(underbarrelPick.name);
@@ -10539,7 +10540,7 @@ function fr556o() {
     }
 
     if (ammunation != false) {
-        var ranAmmunation = Math.floor(Math.random() * 2) + 0;
+        var ranAmmunation = Math.floor(Math.random() * ammunations.length) + 0;
 
         var ammunationPick = ammunations[ranAmmunation];
         ////console.log(ammunationPick.name);
@@ -10577,7 +10578,7 @@ function fr556o() {
     }
 
     if (reargrip != false) {
-        var ranRearGrip = Math.floor(Math.random() * 3) + 0;
+        var ranRearGrip = Math.floor(Math.random() * reargrips.length) + 0;
 
         var rearGripPick = reargrips[ranRearGrip];
         ////console.log(rearGripPick.name);
@@ -10641,7 +10642,7 @@ function fr556o() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 10) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         ////console.log(perkPick.name);
@@ -10713,7 +10714,7 @@ function fnscar17o() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 7) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         ////console.log(muzzlePick.name);
@@ -10752,7 +10753,7 @@ function fnscar17o() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 3) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
         ////console.log(barrelPick.name);
@@ -10789,7 +10790,7 @@ function fnscar17o() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 3) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         ////console.log(laserPick.name);
@@ -10898,7 +10899,7 @@ function fnscar17o() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 20) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         ////console.log(opticPick.name);
@@ -10939,7 +10940,7 @@ function fnscar17o() {
     }
 
     if (stock != false) {
-        var ranStock = Math.floor(Math.random() * 4) + 0;
+        var ranStock = Math.floor(Math.random() * stocks.length) + 0;
 
         var stockPick = stocks[ranStock];
         ////console.log(stockPick.name);
@@ -11013,7 +11014,7 @@ function fnscar17o() {
     }
 
     if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 12) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * underbarrels.length) + 0;
 
         var underbarrelPick = underbarrels[ranUnderbarrel];
         ////console.log(underbarrelPick.name);
@@ -11050,7 +11051,7 @@ function fnscar17o() {
     }
 
     if (ammunation != false) {
-        var ranAmmunation = Math.floor(Math.random() * 2) + 0;
+        var ranAmmunation = Math.floor(Math.random() * ammunations.length) + 0;
 
         var ammunationPick = ammunations[ranAmmunation];
         ////console.log(ammunationPick.name);
@@ -11088,7 +11089,7 @@ function fnscar17o() {
     }
 
     if (reargrip != false) {
-        var ranRearGrip = Math.floor(Math.random() * 3) + 0;
+        var ranRearGrip = Math.floor(Math.random() * reargrips.length) + 0;
 
         var rearGripPick = reargrips[ranRearGrip];
         ////console.log(rearGripPick.name);
@@ -11148,7 +11149,7 @@ function fnscar17o() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 9) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         ////console.log(perkPick.name);
@@ -11220,7 +11221,7 @@ function falo() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 7) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         ////console.log(muzzlePick.name);
@@ -11259,7 +11260,7 @@ function falo() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 3) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
         ////console.log(barrelPick.name);
@@ -11296,7 +11297,7 @@ function falo() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 3) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         ////console.log(laserPick.name);
@@ -11405,7 +11406,7 @@ function falo() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 21) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         ////console.log(opticPick.name);
@@ -11446,7 +11447,7 @@ function falo() {
     }
 
     if (stock != false) {
-        var ranStock = Math.floor(Math.random() * 4) + 0;
+        var ranStock = Math.floor(Math.random() * stocks.length) + 0;
 
         var stockPick = stocks[ranStock];
         ////console.log(stockPick.name);
@@ -11524,7 +11525,7 @@ function falo() {
     }
 
     if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 13) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * underbarrels.length) + 0;
 
         var underbarrelPick = underbarrels[ranUnderbarrel];
         ////console.log(underbarrelPick.name);
@@ -11561,7 +11562,7 @@ function falo() {
     }
 
     if (ammunation != false) {
-        var ranAmmunation = Math.floor(Math.random() * 2) + 0;
+        var ranAmmunation = Math.floor(Math.random() * ammunations.length) + 0;
 
         var ammunationPick = ammunations[ranAmmunation];
         ////console.log(ammunationPick.name);
@@ -11599,7 +11600,7 @@ function falo() {
     }
 
     if (reargrip != false) {
-        var ranRearGrip = Math.floor(Math.random() * 3) + 0;
+        var ranRearGrip = Math.floor(Math.random() * reargrips.length) + 0;
 
         var rearGripPick = reargrips[ranRearGrip];
         ////console.log(rearGripPick.name);
@@ -11667,7 +11668,7 @@ function falo() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 11) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         ////console.log(perkPick.name);
@@ -11739,7 +11740,7 @@ function ebro() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 7) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         ////console.log(muzzlePick.name);
@@ -11774,7 +11775,7 @@ function ebro() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 3) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
         ////console.log(barrelPick.name);
@@ -11807,7 +11808,7 @@ function ebro() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 1) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         ////console.log(laserPick.name);
@@ -11908,7 +11909,7 @@ function ebro() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 19) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         ////console.log(opticPick.name);
@@ -11949,7 +11950,7 @@ function ebro() {
     }
 
     if (stock != false) {
-        var ranStock = Math.floor(Math.random() * 4) + 0;
+        var ranStock = Math.floor(Math.random() * stocks.length) + 0;
 
         var stockPick = stocks[ranStock];
         ////console.log(stockPick.name);
@@ -11999,7 +12000,7 @@ function ebro() {
     }
 
     if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 6) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * underbarrels.length) + 0;
 
         var underbarrelPick = underbarrels[ranUnderbarrel];
         ////console.log(underbarrelPick.name);
@@ -12037,7 +12038,7 @@ function ebro() {
     }
 
     if (ammunation != false) {
-        var ranAmmunation = Math.floor(Math.random() * 2) + 0;
+        var ranAmmunation = Math.floor(Math.random() * ammunations.length) + 0;
 
         var ammunationPick = ammunations[ranAmmunation];
         ////console.log(ammunationPick.name);
@@ -12107,7 +12108,7 @@ function ebro() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 11) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         ////console.log(perkPick.name);
@@ -12179,7 +12180,7 @@ function dragunovo() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 7) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         ////console.log(muzzlePick.name);
@@ -12210,7 +12211,7 @@ function dragunovo() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 2) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
         ////console.log(barrelPick.name);
@@ -12241,7 +12242,7 @@ function dragunovo() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 1) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         ////console.log(laserPick.name);
@@ -12294,7 +12295,7 @@ function dragunovo() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 7) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         ////console.log(opticPick.name);
@@ -12336,7 +12337,7 @@ function dragunovo() {
     }
 
     if (stock != false) {
-        var ranStock = Math.floor(Math.random() * 4) + 0;
+        var ranStock = Math.floor(Math.random() * stocks.length) + 0;
 
         var stockPick = stocks[ranStock];
         ////console.log(stockPick.name);
@@ -12365,7 +12366,7 @@ function dragunovo() {
     }
 
     if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 1) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * underbarrels.length) + 0;
 
         var underbarrelPick = underbarrels[ranUnderbarrel];
         ////console.log(underbarrelPick.name);
@@ -12402,7 +12403,7 @@ function dragunovo() {
     }
 
     if (ammunation != false) {
-        var ranAmmunation = Math.floor(Math.random() * 2) + 0;
+        var ranAmmunation = Math.floor(Math.random() * ammunations.length) + 0;
 
         var ammunationPick = ammunations[ranAmmunation];
         ////console.log(ammunationPick.name);
@@ -12470,7 +12471,7 @@ function dragunovo() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 11) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         ////console.log(perkPick.name);
@@ -12542,7 +12543,7 @@ function ax50o() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 7) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         ////console.log(muzzlePick.name);
@@ -12577,7 +12578,7 @@ function ax50o() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 3) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
         ////console.log(barrelPick.name);
@@ -12608,7 +12609,7 @@ function ax50o() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 1) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         ////console.log(laserPick.name);
@@ -12661,7 +12662,7 @@ function ax50o() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 7) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         ////console.log(opticPick.name);
@@ -12698,7 +12699,7 @@ function ax50o() {
     }
 
     if (stock != false) {
-        var ranStock = Math.floor(Math.random() * 3) + 0;
+        var ranStock = Math.floor(Math.random() * stocks.length) + 0;
 
         var stockPick = stocks[ranStock];
         ////console.log(stockPick.name);
@@ -12727,7 +12728,7 @@ function ax50o() {
     }
 
     if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 1) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * underbarrels.length) + 0;
 
         var underbarrelPick = underbarrels[ranUnderbarrel];
         ////console.log(underbarrelPick.name);
@@ -12764,7 +12765,7 @@ function ax50o() {
     }
 
     if (ammunation != false) {
-        var ranAmmunation = Math.floor(Math.random() * 2) + 0;
+        var ranAmmunation = Math.floor(Math.random() * ammunations.length) + 0;
 
         var ammunationPick = ammunations[ranAmmunation];
         ////console.log(ammunationPick.name);
@@ -12799,7 +12800,7 @@ function ax50o() {
     }
 
     if (reargrip != false) {
-        var ranRearGrip = Math.floor(Math.random() * 3) + 0;
+        var ranRearGrip = Math.floor(Math.random() * reargrips.length) + 0;
 
         var rearGripPick = reargrips[ranRearGrip];
         ////console.log(rearGripPick.name);
@@ -12866,7 +12867,7 @@ function ax50o() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 11) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         ////console.log(perkPick.name);
@@ -12938,7 +12939,7 @@ function augo() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 7) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         // //console.log(muzzlePick.name);
@@ -12973,7 +12974,7 @@ function augo() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 3) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
         // //console.log(barrelPick.name);
@@ -13011,7 +13012,7 @@ function augo() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 3) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         // //console.log(laserPick.name);
@@ -13112,7 +13113,7 @@ function augo() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 19) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         // //console.log(opticPick.name);
@@ -13149,7 +13150,7 @@ function augo() {
     }
 
     if (stock != false) {
-        var ranStock = Math.floor(Math.random() * 3) + 0;
+        var ranStock = Math.floor(Math.random() * stocks.length) + 0;
 
         var stockPick = stocks[ranStock];
         // //console.log(stockPick.name);
@@ -13195,7 +13196,7 @@ function augo() {
     }
 
     if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 5) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * underbarrels.length) + 0;
 
         var underbarrelPick = underbarrels[ranUnderbarrel];
         // //console.log(underbarrelPick.name);
@@ -13236,7 +13237,7 @@ function augo() {
     }
 
     if (ammunation != false) {
-        var ranAmmunation = Math.floor(Math.random() * 3) + 0;
+        var ranAmmunation = Math.floor(Math.random() * ammunations.length) + 0;
 
         var ammunationPick = ammunations[ranAmmunation];
         // //console.log(ammunationPick.name);
@@ -13274,7 +13275,7 @@ function augo() {
     }
 
     if (reargrip != false) {
-        var ranRearGrip = Math.floor(Math.random() * 3) + 0;
+        var ranRearGrip = Math.floor(Math.random() * reargrips.length) + 0;
 
         var rearGripPick = reargrips[ranRearGrip];
         // //console.log(rearGripPick.name);
@@ -13338,7 +13339,7 @@ function augo() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 10) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         // //console.log(perkPick.name);
@@ -13414,7 +13415,7 @@ function s725o() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 8) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         // //console.log(muzzlePick.name);
@@ -13449,7 +13450,7 @@ function s725o() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 3) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
         // //console.log(barrelPick.name);
@@ -13487,7 +13488,7 @@ function s725o() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 3) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         // //console.log(laserPick.name);
@@ -13571,7 +13572,7 @@ function s725o() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 15) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         // //console.log(opticPick.name);
@@ -13612,7 +13613,7 @@ function s725o() {
     }
 
     if (stock != false) {
-        var ranStock = Math.floor(Math.random() * 4) + 0;
+        var ranStock = Math.floor(Math.random() * stocks.length) + 0;
 
         var stockPick = stocks[ranStock];
         // //console.log(stockPick.name);
@@ -13658,7 +13659,7 @@ function s725o() {
     }
 
     if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 5) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * underbarrels.length) + 0;
 
         var underbarrelPick = underbarrels[ranUnderbarrel];
         // //console.log(underbarrelPick.name);
@@ -13690,7 +13691,7 @@ function s725o() {
     }
 
     if (ammunation != false) {
-        var ranAmmunation = Math.floor(Math.random() * 1) + 0;
+        var ranAmmunation = Math.floor(Math.random() * ammunations.length) + 0;
 
         var ammunationPick = ammunations[ranAmmunation];
         // //console.log(ammunationPick.name);
@@ -13725,7 +13726,7 @@ function s725o() {
     }
 
     if (reargrip != false) {
-        var ranRearGrip = Math.floor(Math.random() * 3) + 0;
+        var ranRearGrip = Math.floor(Math.random() * reargrips.length) + 0;
 
         var rearGripPick = reargrips[ranRearGrip];
         // //console.log(rearGripPick.name);
@@ -13784,7 +13785,7 @@ function s725o() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 9) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         // //console.log(perkPick.name);
@@ -13872,7 +13873,7 @@ function grauo() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 7) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         ////console.log(muzzlePick.name);
@@ -13911,7 +13912,7 @@ function grauo() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 4) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
         ////console.log(barrelPick.name);
@@ -13952,7 +13953,7 @@ function grauo() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 3) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         ////console.log(laserPick.name);
@@ -14057,7 +14058,7 @@ function grauo() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 20) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         ////console.log(opticPick.name);
@@ -14094,7 +14095,7 @@ function grauo() {
     }
 
     if (stock != false) {
-        var ranStock = Math.floor(Math.random() * 3) + 0;
+        var ranStock = Math.floor(Math.random() * stocks.length) + 0;
 
         var stockPick = stocks[ranStock];
         ////console.log(stockPick.name);
@@ -14168,7 +14169,7 @@ function grauo() {
     }
 
     if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 12) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * underbarrels.length) + 0;
 
         var underbarrelPick = underbarrels[ranUnderbarrel];
         ////console.log(underbarrelPick.name);
@@ -14205,7 +14206,7 @@ function grauo() {
     }
 
     if (ammunation != false) {
-        var ranAmmunation = Math.floor(Math.random() * 2) + 0;
+        var ranAmmunation = Math.floor(Math.random() * ammunations.length) + 0;
 
         var ammunationPick = ammunations[ranAmmunation];
         ////console.log(ammunationPick.name);
@@ -14243,7 +14244,7 @@ function grauo() {
     }
 
     if (reargrip != false) {
-        var ranRearGrip = Math.floor(Math.random() * 3) + 0;
+        var ranRearGrip = Math.floor(Math.random() * reargrips.length) + 0;
 
         var rearGripPick = reargrips[ranRearGrip];
         ////console.log(rearGripPick.name);
@@ -14311,7 +14312,7 @@ function grauo() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 11) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         ////console.log(perkPick.name);
@@ -14380,7 +14381,7 @@ function striker45o() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 7) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         // //console.log(muzzlePick.name);
@@ -14415,7 +14416,7 @@ function striker45o() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 3) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
         // //console.log(barrelPick.name);
@@ -14453,7 +14454,7 @@ function striker45o() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 3) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         // //console.log(laserPick.name);
@@ -14555,7 +14556,7 @@ function striker45o() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 19) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         // //console.log(opticPick.name);
@@ -14592,7 +14593,7 @@ function striker45o() {
     }
 
     if (stock != false) {
-        var ranStock = Math.floor(Math.random() * 3) + 0;
+        var ranStock = Math.floor(Math.random() * stocks.length) + 0;
 
         var stockPick = stocks[ranStock];
         // //console.log(stockPick.name);
@@ -14638,7 +14639,7 @@ function striker45o() {
     }
 
     if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 5) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * underbarrels.length) + 0;
 
         var underbarrelPick = underbarrels[ranUnderbarrel];
         // //console.log(underbarrelPick.name);
@@ -14675,7 +14676,7 @@ function striker45o() {
     }
 
     if (ammunation != false) {
-        var ranAmmunation = Math.floor(Math.random() * 2) + 0;
+        var ranAmmunation = Math.floor(Math.random() * ammunations.length) + 0;
 
         var ammunationPick = ammunations[ranAmmunation];
         // //console.log(ammunationPick.name);
@@ -14713,7 +14714,7 @@ function striker45o() {
     }
 
     if (reargrip != false) {
-        var ranRearGrip = Math.floor(Math.random() * 3) + 0;
+        var ranRearGrip = Math.floor(Math.random() * reargrips.length) + 0;
 
         var rearGripPick = reargrips[ranRearGrip];
         // //console.log(rearGripPick.name);
@@ -14773,7 +14774,7 @@ function striker45o() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 9) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         // //console.log(perkPick.name);
@@ -14845,7 +14846,7 @@ function crossbowo() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 2) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         ////console.log(muzzlePick.name);
@@ -14880,7 +14881,7 @@ function crossbowo() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 3) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
         ////console.log(barrelPick.name);
@@ -14913,7 +14914,7 @@ function crossbowo() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 1) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         ////console.log(laserPick.name);
@@ -15007,7 +15008,7 @@ function crossbowo() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 17) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         ////console.log(opticPick.name);
@@ -15044,7 +15045,7 @@ function crossbowo() {
     }
 
     if (stock != false) {
-        var ranStock = Math.floor(Math.random() * 3) + 0;
+        var ranStock = Math.floor(Math.random() * stocks.length) + 0;
 
         var stockPick = stocks[ranStock];
         ////console.log(stockPick.name);
@@ -15081,7 +15082,7 @@ function crossbowo() {
     }
 
     if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 1) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * underbarrels.length) + 0;
 
         var underbarrelPick = underbarrels[ranUnderbarrel];
         ////console.log(underbarrelPick.name);
@@ -15120,7 +15121,7 @@ function crossbowo() {
     }
 
     if (reargrip != false) {
-        var ranRearGrip = Math.floor(Math.random() * 3) + 0;
+        var ranRearGrip = Math.floor(Math.random() * reargrips.length) + 0;
 
         var rearGripPick = reargrips[ranRearGrip];
         ////console.log(rearGripPick.name);
@@ -15186,7 +15187,7 @@ function crossbowo() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 11) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         ////console.log(perkPick.name);
@@ -15259,7 +15260,7 @@ function fenneco() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 7) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         // //console.log(muzzlePick.name);
@@ -15290,7 +15291,7 @@ function fenneco() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 2) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
         // //console.log(barrelPick.name);
@@ -15328,7 +15329,7 @@ function fenneco() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 3) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         // //console.log(laserPick.name);
@@ -15426,7 +15427,7 @@ function fenneco() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 18) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         // //console.log(opticPick.name);
@@ -15467,7 +15468,7 @@ function fenneco() {
     }
 
     if (stock != false) {
-        var ranStock = Math.floor(Math.random() * 4) + 0;
+        var ranStock = Math.floor(Math.random() * stocks.length) + 0;
 
         var stockPick = stocks[ranStock];
         // //console.log(stockPick.name);
@@ -15513,7 +15514,7 @@ function fenneco() {
     }
 
     if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 5) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * underbarrels.length) + 0;
 
         var underbarrelPick = underbarrels[ranUnderbarrel];
         // //console.log(underbarrelPick.name);
@@ -15550,7 +15551,7 @@ function fenneco() {
     }
 
     if (ammunation != false) {
-        var ranAmmunation = Math.floor(Math.random() * 2) + 0;
+        var ranAmmunation = Math.floor(Math.random() * ammunations.length) + 0;
 
         var ammunationPick = ammunations[ranAmmunation];
         // //console.log(ammunationPick.name);
@@ -15588,7 +15589,7 @@ function fenneco() {
     }
 
     if (reargrip != false) {
-        var ranRearGrip = Math.floor(Math.random() * 3) + 0;
+        var ranRearGrip = Math.floor(Math.random() * reargrips.length) + 0;
 
         var rearGripPick = reargrips[ranRearGrip];
         // //console.log(rearGripPick.name);
@@ -15648,7 +15649,7 @@ function fenneco() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 9) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         // //console.log(perkPick.name);
@@ -15721,7 +15722,7 @@ function isoo() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 7) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         // //console.log(muzzlePick.name);
@@ -15760,7 +15761,7 @@ function isoo() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 4) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
         // //console.log(barrelPick.name);
@@ -15798,7 +15799,7 @@ function isoo() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 3) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         // //console.log(laserPick.name);
@@ -15892,7 +15893,7 @@ function isoo() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 17) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         // //console.log(opticPick.name);
@@ -15933,7 +15934,7 @@ function isoo() {
     }
 
     if (stock != false) {
-        var ranStock = Math.floor(Math.random() * 4) + 0;
+        var ranStock = Math.floor(Math.random() * stocks.length) + 0;
 
         var stockPick = stocks[ranStock];
         // //console.log(stockPick.name);
@@ -15979,7 +15980,7 @@ function isoo() {
     }
 
     if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 5) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * underbarrels.length) + 0;
 
         var underbarrelPick = underbarrels[ranUnderbarrel];
         // //console.log(underbarrelPick.name);
@@ -16016,7 +16017,7 @@ function isoo() {
     }
 
     if (ammunation != false) {
-        var ranAmmunation = Math.floor(Math.random() * 2) + 0;
+        var ranAmmunation = Math.floor(Math.random() * ammunations.length) + 0;
 
         var ammunationPick = ammunations[ranAmmunation];
         // //console.log(ammunationPick.name);
@@ -16054,7 +16055,7 @@ function isoo() {
     }
 
     if (reargrip != false) {
-        var ranRearGrip = Math.floor(Math.random() * 3) + 0;
+        var ranRearGrip = Math.floor(Math.random() * reargrips.length) + 0;
 
         var rearGripPick = reargrips[ranRearGrip];
         // //console.log(rearGripPick.name);
@@ -16114,7 +16115,7 @@ function isoo() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 9) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         // //console.log(perkPick.name);
@@ -16193,7 +16194,7 @@ function cr56o() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 6) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         ////console.log(muzzlePick.name);
@@ -16228,7 +16229,7 @@ function cr56o() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 3) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
         ////console.log(barrelPick.name);
@@ -16269,7 +16270,7 @@ function cr56o() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 3) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         ////console.log(laserPick.name);
@@ -16379,7 +16380,7 @@ function cr56o() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 21) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         ////console.log(opticPick.name);
@@ -16428,7 +16429,7 @@ function cr56o() {
     }
 
     if (stock != false) {
-        var ranStock = Math.floor(Math.random() * 6) + 0;
+        var ranStock = Math.floor(Math.random() * stocks.length) + 0;
 
         var stockPick = stocks[ranStock];
         ////console.log(stockPick.name);
@@ -16507,7 +16508,7 @@ function cr56o() {
     }
 
     if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 13) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * underbarrels.length) + 0;
 
         var underbarrelPick = underbarrels[ranUnderbarrel];
         ////console.log(underbarrelPick.name);
@@ -16544,7 +16545,7 @@ function cr56o() {
     }
 
     if (ammunation != false) {
-        var ranAmmunation = Math.floor(Math.random() * 2) + 0;
+        var ranAmmunation = Math.floor(Math.random() * ammunations.length) + 0;
 
         var ammunationPick = ammunations[ranAmmunation];
         ////console.log(ammunationPick.name);
@@ -16582,7 +16583,7 @@ function cr56o() {
     }
 
     if (reargrip != false) {
-        var ranRearGrip = Math.floor(Math.random() * 3) + 0;
+        var ranRearGrip = Math.floor(Math.random() * reargrips.length) + 0;
 
         var rearGripPick = reargrips[ranRearGrip];
         ////console.log(rearGripPick.name);
@@ -16648,7 +16649,7 @@ function cr56o() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 10) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         ////console.log(perkPick.name);
@@ -16719,7 +16720,7 @@ function an94o() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 6) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         ////console.log(muzzlePick.name);
@@ -16754,7 +16755,7 @@ function an94o() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 3) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
         ////console.log(barrelPick.name);
@@ -16795,7 +16796,7 @@ function an94o() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 3) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         ////console.log(laserPick.name);
@@ -16909,7 +16910,7 @@ function an94o() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 22) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         ////console.log(opticPick.name);
@@ -16954,7 +16955,7 @@ function an94o() {
     }
 
     if (stock != false) {
-        var ranStock = Math.floor(Math.random() * 5) + 0;
+        var ranStock = Math.floor(Math.random() * stocks.length) + 0;
 
         var stockPick = stocks[ranStock];
         ////console.log(stockPick.name);
@@ -17033,7 +17034,7 @@ function an94o() {
     }
 
     if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 13) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * underbarrels.length) + 0;
 
         var underbarrelPick = underbarrels[ranUnderbarrel];
         ////console.log(underbarrelPick.name);
@@ -17070,7 +17071,7 @@ function an94o() {
     }
 
     if (ammunation != false) {
-        var ranAmmunation = Math.floor(Math.random() * 2) + 0;
+        var ranAmmunation = Math.floor(Math.random() * ammunations.length) + 0;
 
         var ammunationPick = ammunations[ranAmmunation];
         ////console.log(ammunationPick.name);
@@ -17108,7 +17109,7 @@ function an94o() {
     }
 
     if (reargrip != false) {
-        var ranRearGrip = Math.floor(Math.random() * 3) + 0;
+        var ranRearGrip = Math.floor(Math.random() * reargrips.length) + 0;
 
         var rearGripPick = reargrips[ranRearGrip];
         ////console.log(rearGripPick.name);
@@ -17174,7 +17175,7 @@ function an94o() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 10) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         ////console.log(perkPick.name);
@@ -17262,7 +17263,7 @@ function vlko() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 8) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         // //console.log(muzzlePick.name);
@@ -17297,7 +17298,7 @@ function vlko() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 3) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
         // //console.log(barrelPick.name);
@@ -17335,7 +17336,7 @@ function vlko() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 3) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         // //console.log(laserPick.name);
@@ -17417,7 +17418,7 @@ function vlko() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 14) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         // //console.log(opticPick.name);
@@ -17458,7 +17459,7 @@ function vlko() {
     }
 
     if (pump != false) {
-        var ranPump = Math.floor(Math.random() * 4) + 0;
+        var ranPump = Math.floor(Math.random() * pumps.length) + 0;
 
         var pumpPick = pumps[ranPump];
         // //console.log(pumpPick.name);
@@ -17496,7 +17497,7 @@ function vlko() {
     }
 
     if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 3) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * underbarrels.length) + 0;
 
         var underbarrelPick = underbarrels[ranUnderbarrel];
         // //console.log(underbarrelPick.name);
@@ -17541,7 +17542,7 @@ function vlko() {
     }
 
     if (ammunation != false) {
-        var ranAmmunation = Math.floor(Math.random() * 4) + 0;
+        var ranAmmunation = Math.floor(Math.random() * ammunations.length) + 0;
 
         var ammunationPick = ammunations[ranAmmunation];
         // //console.log(ammunationPick.name);
@@ -17576,7 +17577,7 @@ function vlko() {
     }
 
     if (reargrip != false) {
-        var ranRearGrip = Math.floor(Math.random() * 3) + 0;
+        var ranRearGrip = Math.floor(Math.random() * reargrips.length) + 0;
 
         var rearGripPick = reargrips[ranRearGrip];
         // //console.log(rearGripPick.name);
@@ -17635,7 +17636,7 @@ function vlko() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 9) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         // //console.log(perkPick.name);
@@ -17719,7 +17720,7 @@ function brueno() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 7) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         ////console.log(muzzlePick.name);
@@ -17756,7 +17757,7 @@ function brueno() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 3) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
         ////console.log(barrelPick.name);
@@ -17795,7 +17796,7 @@ function brueno() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 3) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         ////console.log(laserPick.name);
@@ -17901,7 +17902,7 @@ function brueno() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 20) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         ////console.log(opticPick.name);
@@ -17947,7 +17948,7 @@ function brueno() {
     }
 
     if (stock != false) {
-        var ranStock = Math.floor(Math.random() * 5) + 0;
+        var ranStock = Math.floor(Math.random() * stocks.length) + 0;
 
         var stockPick = stocks[ranStock];
         ////console.log(stockPick.name);
@@ -17996,7 +17997,7 @@ function brueno() {
     }
 
     if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 5) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * underbarrels.length) + 0;
 
         var underbarrelPick = underbarrels[ranUnderbarrel];
         ////console.log(underbarrelPick.name);
@@ -18035,7 +18036,7 @@ function brueno() {
     }
 
     if (ammunation != false) {
-        var ranAmmunation = Math.floor(Math.random() * 2) + 0;
+        var ranAmmunation = Math.floor(Math.random() * ammunations.length) + 0;
 
         var ammunationPick = ammunations[ranAmmunation];
         ////console.log(ammunationPick.name);
@@ -18074,7 +18075,7 @@ function brueno() {
     }
 
     if (reargrip != false) {
-        var ranRearGrip = Math.floor(Math.random() * 3) + 0;
+        var ranRearGrip = Math.floor(Math.random() * reargrips.length) + 0;
 
         var rearGripPick = reargrips[ranRearGrip];
         ////console.log(rearGripPick.name);
@@ -18134,7 +18135,7 @@ function brueno() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 9) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         ////console.log(perkPick.name);
@@ -18220,7 +18221,7 @@ function skso() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 7) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         ////console.log(muzzlePick.name);
@@ -18255,7 +18256,7 @@ function skso() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 3) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
         ////console.log(barrelPick.name);
@@ -18288,7 +18289,7 @@ function skso() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 1) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         ////console.log(laserPick.name);
@@ -18389,7 +18390,7 @@ function skso() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 19) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         ////console.log(opticPick.name);
@@ -18426,7 +18427,7 @@ function skso() {
     }
 
     if (stock != false) {
-        var ranStock = Math.floor(Math.random() * 3) + 0;
+        var ranStock = Math.floor(Math.random() * stocks.length) + 0;
 
         var stockPick = stocks[ranStock];
         ////console.log(stockPick.name);
@@ -18477,7 +18478,7 @@ function skso() {
     }
 
     if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 6) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * underbarrels.length) + 0;
 
         var underbarrelPick = underbarrels[ranUnderbarrel];
         ////console.log(underbarrelPick.name);
@@ -18515,7 +18516,7 @@ function skso() {
     }
 
     if (ammunation != false) {
-        var ranAmmunation = Math.floor(Math.random() * 2) + 0;
+        var ranAmmunation = Math.floor(Math.random() * ammunations.length) + 0;
 
         var ammunationPick = ammunations[ranAmmunation];
         ////console.log(ammunationPick.name);
@@ -18585,7 +18586,7 @@ function skso() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 11) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         ////console.log(perkPick.name);
@@ -18650,7 +18651,7 @@ function ryteco() {
     }
 
     if (muzzle != false) {
-        var ranMuzzle = Math.floor(Math.random() * 2) + 0;
+        var ranMuzzle = Math.floor(Math.random() * muzzles.length) + 0;
 
         var muzzlePick = muzzles[ranMuzzle];
         ////console.log(muzzlePick.name);
@@ -18685,7 +18686,7 @@ function ryteco() {
     }
 
     if (barrel != false) {
-        var ranBarrel = Math.floor(Math.random() * 3) + 0;
+        var ranBarrel = Math.floor(Math.random() * barrels.length) + 0;
 
         var barrelPick = barrels[ranBarrel];
         ////console.log(barrelPick.name);
@@ -18716,7 +18717,7 @@ function ryteco() {
     }
 
     if (laser != false) {
-        var ranLaser = Math.floor(Math.random() * 1) + 0;
+        var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
 
         var laserPick = lasers[ranLaser];
         ////console.log(laserPick.name);
@@ -18769,7 +18770,7 @@ function ryteco() {
     }
 
     if (optic != false) {
-        var ranOptic = Math.floor(Math.random() * 7) + 0;
+        var ranOptic = Math.floor(Math.random() * optics.length) + 0;
 
         var opticPick = optics[ranOptic];
         ////console.log(opticPick.name);
@@ -18806,7 +18807,7 @@ function ryteco() {
     }
 
     if (stock != false) {
-        var ranStock = Math.floor(Math.random() * 3) + 0;
+        var ranStock = Math.floor(Math.random() * stocks.length) + 0;
 
         var stockPick = stocks[ranStock];
         ////console.log(stockPick.name);
@@ -18835,7 +18836,7 @@ function ryteco() {
     }
 
     if (underbarrel != false) {
-        var ranUnderbarrel = Math.floor(Math.random() * 1) + 0;
+        var ranUnderbarrel = Math.floor(Math.random() * underbarrels.length) + 0;
 
         var underbarrelPick = underbarrels[ranUnderbarrel];
         ////console.log(underbarrelPick.name);
@@ -18872,7 +18873,7 @@ function ryteco() {
     }
 
     if (ammunation != false) {
-        var ranAmmunation = Math.floor(Math.random() * 2) + 0;
+        var ranAmmunation = Math.floor(Math.random() * ammunations.length) + 0;
 
         var ammunationPick = ammunations[ranAmmunation];
         ////console.log(ammunationPick.name);
@@ -18907,7 +18908,7 @@ function ryteco() {
     }
 
     if (reargrip != false) {
-        var ranRearGrip = Math.floor(Math.random() * 3) + 0;
+        var ranRearGrip = Math.floor(Math.random() * reargrips.length) + 0;
 
         var rearGripPick = reargrips[ranRearGrip];
         ////console.log(rearGripPick.name);
@@ -18974,7 +18975,7 @@ function ryteco() {
     }
 
     if (perk != false) {
-        var ranPerk = Math.floor(Math.random() * 11) + 0;
+        var ranPerk = Math.floor(Math.random() * perks.length) + 0;
 
         var perkPick = perks[ranPerk];
         ////console.log(perkPick.name);
