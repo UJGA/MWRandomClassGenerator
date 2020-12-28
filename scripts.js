@@ -563,9 +563,9 @@ function random_item() {
 
     // document.getElementById("footerBG").innerHTML= '<footer id="footer" class="py-4 footerBG text-white-50"><div class="container text-center"><small></small><a href="http://www.youtube.com/c/PresidentWiFi">Blake Riding / PresidentWiFi</a> <br><a href="https://github.com/UJGA">Github </a> <a href="https://twitter.com/riding">Twitter</a><br><a href="contact.html"><button class="btn btn-primary">Found a Bug?</button></a><a href="bugs.html"> ';
 
-  var primayLength = primarysArray.length;
+  // var primayLength = primarysArray.length;
   //Primary
-  var randomPrimaryNumber = Math.floor(Math.random() * primayLength) + 0;
+  var randomPrimaryNumber = Math.floor(Math.random() * primarysArray.length) + 0;
   var randomPrimary = primarysArray[randomPrimaryNumber];
   //console.log("The Random primary number is-------------------------" + randomPrimaryNumber);
   // console.log("The name is -----------------------------------------" + randomPrimary.name);
