@@ -10,7 +10,7 @@ The generator has been used by some massive creators and it makes me happy seein
 ## Contact
 [My Twitter](https://twitter.com/riding)
 
-[Generator Twitter](https://twitter.com/mwrandomclass)
+[Generator Twitter](https://twitter.com/codrandomclass)
 
 [My YouTube](https://www.youtube.com/presidentwifi)
 
