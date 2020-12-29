@@ -16,7 +16,7 @@ The generator has been used by some massive creators and it makes me happy seein
 
 
 ## Bug Reports
-Bug Reports can be submitted via the website as well as [here](https://mwrandomclass.com/contact.html)
+Bug Reports can be submitted via the website as well as [here](https://github.com/UJGA/MWRandomClassGenerator/issues)
 
 ## Feature Requests
 Features can be requested [here](https://github.com/UJGA/MWRandomClassGenerator/issues)
