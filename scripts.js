@@ -646,7 +646,7 @@ function random_item() {
   //Moves Button and Revmoves top text
 
   document.getElementById("myTitle").innerHTML = "";
-  document.getElementById("goAgain").innerHTML = '<button id="mybtn" class="btn btn-primary" onclick="random_item();">Generate Again</button><br><br>';
+  // document.getElementById("goAgain").innerHTML = '<button id="mybtn" class="btn btn-primary" onclick="random_item();">Generate Again</button><br><br>';
   document.getElementById("playButton").innerHTML = "";
 
   // document.getElementById("primary").innerHTML = "";
