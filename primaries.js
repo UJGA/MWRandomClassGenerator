@@ -16,33 +16,33 @@ function ak47() {
     //Muzzles
 
     var muzzles = [{
-            name: 'Flash Guard',
-            image: 'attachments/muzzles/flashguard.png'
-        },
-        {
-            name: 'Bayonet',
-            image: 'attachments/muzzles/bayonet.png'
-        },
-        {
-            name: 'Tactical Suppressor',
-            image: 'attachments/muzzles/tacticalsuppressor.png'
-        },
-        {
-            name: 'Muzzle Brake',
-            image: 'attachments/muzzles/muzzlebrake.png'
-        },
-        {
-            name: 'Lightweight Suppressor',
-            image: 'attachments/muzzles/lightweightsuppressor.png'
-        },
-        {
-            name: 'Compensator',
-            image: 'attachments/muzzles/compensator.png'
-        },
-        {
-            name: 'Monolithic Suppressor',
-            image: 'attachments/muzzles/monolithicsuppressor.png'
-        }
+        name: 'Flash Guard',
+        image: 'attachments/muzzles/flashguard.png'
+    },
+    {
+        name: 'Bayonet',
+        image: 'attachments/muzzles/bayonet.png'
+    },
+    {
+        name: 'Tactical Suppressor',
+        image: 'attachments/muzzles/tacticalsuppressor.png'
+    },
+    {
+        name: 'Muzzle Brake',
+        image: 'attachments/muzzles/muzzlebrake.png'
+    },
+    {
+        name: 'Lightweight Suppressor',
+        image: 'attachments/muzzles/lightweightsuppressor.png'
+    },
+    {
+        name: 'Compensator',
+        image: 'attachments/muzzles/compensator.png'
+    },
+    {
+        name: 'Monolithic Suppressor',
+        image: 'attachments/muzzles/monolithicsuppressor.png'
+    }
     ];
 
 
@@ -68,21 +68,21 @@ function ak47() {
     //Barrel
 
     var barrels = [{
-            name: 'Spetsnaz Elite',
-            image: 'attachments/barrels/spetsnazelite.png'
-        },
-        {
-            name: '23.0 RPK Barrel',
-            image: 'attachments/barrels/230rpkbarrel.png'
-        },
-        {
-            name: '8.1 Compact Barrel',
-            image: 'attachments/barrels/81compactbarrel.png'
-        },
-        {
-            name: '23.0 Romanian',
-            image: 'attachments/barrels/230romanian.png'
-        },
+        name: 'Spetsnaz Elite',
+        image: 'attachments/barrels/spetsnazelite.png'
+    },
+    {
+        name: '23.0 RPK Barrel',
+        image: 'attachments/barrels/230rpkbarrel.png'
+    },
+    {
+        name: '8.1 Compact Barrel',
+        image: 'attachments/barrels/81compactbarrel.png'
+    },
+    {
+        name: '23.0 Romanian',
+        image: 'attachments/barrels/230romanian.png'
+    },
     ];
 
 
@@ -111,17 +111,17 @@ function ak47() {
     //Laser
 
     var lasers = [{
-            name: '1mW Laser',
-            image: 'attachments/lasers/1mw.png'
-        },
-        {
-            name: '5mW Laser',
-            image: 'attachments/lasers/5mw.png'
-        },
-        {
-            name: 'Tac Laser',
-            image: 'attachments/lasers/tac.png'
-        }
+        name: '1mW Laser',
+        image: 'attachments/lasers/1mw.png'
+    },
+    {
+        name: '5mW Laser',
+        image: 'attachments/lasers/5mw.png'
+    },
+    {
+        name: 'Tac Laser',
+        image: 'attachments/lasers/tac.png'
+    }
     ];
 
 
@@ -149,81 +149,81 @@ function ak47() {
     //Optic
 
     var optics = [{
-            name: 'Cronen LP945 Mini Reflex',
-            image: 'attachments/optics/cronenlp945.png'
-        },
-        {
-            name: 'Corp Combat Holo Sight',
-            image: 'attachments/optics/corp.png'
-        },
-        {
-            name: 'Operator Reflex Sight',
-            image: 'attachments/optics/operator.png'
-        },
-        {
-            name: 'Scout Combat Optic',
-            image: 'attachments/optics/scout.png'
-        },
-        {
-            name: 'Aim-Op Reflex Sight',
-            image: 'attachments/optics/aimop.png'
-        },
-        {
-            name: 'APx5 Holographic Sight',
-            image: 'attachments/optics/apx5.png'
-        },
-        {
-            name: 'Integral Hybrid',
-            image: 'attachments/optics/integral.png'
-        },
-        {
-            name: 'Solozero NVG Enhanced',
-            image: 'attachments/optics/solozero.png'
-        },
-        {
-            name: 'VLK 3.0x Optic',
-            image: 'attachments/optics/vlk.png'
-        },
-        {
-            name: 'Sniper Scope',
-            image: 'attachments/optics/sniperscope.png'
-        },
-        {
-            name: 'Viper Reflex Sight',
-            image: 'attachments/optics/viper.png'
-        },
-        {
-            name: 'G.I. Mini Reflex',
-            image: 'attachments/optics/gi.png'
-        },
-        {
-            name: 'Cronen C480 Pro Optic',
-            image: 'attachments/optics/cronenc480.png'
-        },
-        {
-            name: 'Monocle Reflex Sight',
-            image: 'attachments/optics/monocle.png'
-        },
-        {
-            name: 'Variable Zoom Scope',
-            image: 'attachments/optics/variable.png'
-        },
-        {
-            name: 'Canted Hybrid',
-            image: 'attachments/optics/canted.png'
-        },
-        {
-            name: 'Merc Thermal Optic',
-            image: 'attachments/optics/merc.png'
-        },
-        {
-            name: 'Thermal Hybrid',
-            image: 'attachments/optics/thermal.png'
-        },
-        {
-            name: 'Solozero Optics Mini Reflex ',
-            image: 'attachments/optics/solozeromini.png'
-        }
+        name: 'Cronen LP945 Mini Reflex',
+        image: 'attachments/optics/cronenlp945.png'
+    },
+    {
+        name: 'Corp Combat Holo Sight',
+        image: 'attachments/optics/corp.png'
+    },
+    {
+        name: 'Operator Reflex Sight',
+        image: 'attachments/optics/operator.png'
+    },
+    {
+        name: 'Scout Combat Optic',
+        image: 'attachments/optics/scout.png'
+    },
+    {
+        name: 'Aim-Op Reflex Sight',
+        image: 'attachments/optics/aimop.png'
+    },
+    {
+        name: 'APx5 Holographic Sight',
+        image: 'attachments/optics/apx5.png'
+    },
+    {
+        name: 'Integral Hybrid',
+        image: 'attachments/optics/integral.png'
+    },
+    {
+        name: 'Solozero NVG Enhanced',
+        image: 'attachments/optics/solozero.png'
+    },
+    {
+        name: 'VLK 3.0x Optic',
+        image: 'attachments/optics/vlk.png'
+    },
+    {
+        name: 'Sniper Scope',
+        image: 'attachments/optics/sniperscope.png'
+    },
+    {
+        name: 'Viper Reflex Sight',
+        image: 'attachments/optics/viper.png'
+    },
+    {
+        name: 'G.I. Mini Reflex',
+        image: 'attachments/optics/gi.png'
+    },
+    {
+        name: 'Cronen C480 Pro Optic',
+        image: 'attachments/optics/cronenc480.png'
+    },
+    {
+        name: 'Monocle Reflex Sight',
+        image: 'attachments/optics/monocle.png'
+    },
+    {
+        name: 'Variable Zoom Scope',
+        image: 'attachments/optics/variable.png'
+    },
+    {
+        name: 'Canted Hybrid',
+        image: 'attachments/optics/canted.png'
+    },
+    {
+        name: 'Merc Thermal Optic',
+        image: 'attachments/optics/merc.png'
+    },
+    {
+        name: 'Thermal Hybrid',
+        image: 'attachments/optics/thermal.png'
+    },
+    {
+        name: 'Solozero Optics Mini Reflex ',
+        image: 'attachments/optics/solozeromini.png'
+    }
     ];
 
 
@@ -238,8 +238,8 @@ function ak47() {
 
     if (optic != false) {
         var ranOptic = Math.floor(Math.random() * optics.length) + 0;
-        
-        
+
+
 
         var opticPick = optics[ranOptic];
         ////console.log(opticPick.name);
@@ -252,25 +252,25 @@ function ak47() {
     //Stock
 
     var stocks = [{
-            name: 'Field LMG Stock',
-            image: 'attachments/stocks/fieldlmgstock.png'
-        },
-        {
-            name: 'Skeleton Stock',
-            image: 'attachments/stocks/skeletonstock.png'
-        },
-        {
-            name: 'No Stock',
-            image: 'attachments/stocks/nostockak47.png'
-        },
-        {
-            name: 'FSS Close Quarters Stock',
-            image: 'attachments/stocks/closequartersfal.png'
-        },
-        {
-            name: 'FORGE TAC Ultralight',
-            image: 'attachments/stocks/ultralight.png'
-        }
+        name: 'Field LMG Stock',
+        image: 'attachments/stocks/fieldlmgstock.png'
+    },
+    {
+        name: 'Skeleton Stock',
+        image: 'attachments/stocks/skeletonstock.png'
+    },
+    {
+        name: 'No Stock',
+        image: 'attachments/stocks/nostockak47.png'
+    },
+    {
+        name: 'FSS Close Quarters Stock',
+        image: 'attachments/stocks/closequartersfal.png'
+    },
+    {
+        name: 'FORGE TAC Ultralight',
+        image: 'attachments/stocks/ultralight.png'
+    }
     ];
 
 
@@ -298,57 +298,57 @@ function ak47() {
     //Underbarrel
 
     var underbarrels = [{
-            name: 'Commando Foregrip',
-            image: 'attachments/underbarrels/commando.png'
-        },
-        {
-            name: 'GP25 40mm High-explosive',
-            image: 'attachments/underbarrels/GP25explosive.png'
-        },
-        {
-            name: 'GP25 40mm Incendiary',
-            image: 'attachments/underbarrels/GP25incendiary.png'
-        },
-        {
-            name: '12 Gauge Deputy',
-            image: 'attachments/underbarrels/12gauge.png'
-        },
-        {
-            name: 'Merc Foregrip',
-            image: 'attachments/underbarrels/merc.png'
-        },
-        {
-            name: 'GP25 40mm Smokescreen',
-            image: 'attachments/underbarrels/GP25smokescreen.png'
-        },
-        {
-            name: 'Tactical Foregrip',
-            image: 'attachments/underbarrels/tactical.png'
-        },
-        {
-            name: 'GP25 40mm Recon',
-            image: 'attachments/underbarrels/GP25recon.png'
-        },
-        {
-            name: 'Bipod',
-            image: 'attachments/underbarrels/bipodak47.png'
-        },
-        {
-            name: 'GP25 40mm Flash',
-            image: 'attachments/underbarrels/GP25flash.png'
-        },
-        {
-            name: 'Ranger Foregrip',
-            image: 'attachments/underbarrels/ranger.png'
-        },
-        {
-            name: 'GP25 40mm Concussive',
-            image: 'attachments/underbarrels/GP25concussive.png'
-        },
-        {
-            name: 'Operator Foregrip',
-            image: 'attachments/underbarrels/operator.png'
-        }
+        name: 'Commando Foregrip',
+        image: 'attachments/underbarrels/commando.png'
+    },
+    {
+        name: 'GP25 40mm High-explosive',
+        image: 'attachments/underbarrels/GP25explosive.png'
+    },
+    {
+        name: 'GP25 40mm Incendiary',
+        image: 'attachments/underbarrels/GP25incendiary.png'
+    },
+    {
+        name: '12 Gauge Deputy',
+        image: 'attachments/underbarrels/12gauge.png'
+    },
+    {
+        name: 'Merc Foregrip',
+        image: 'attachments/underbarrels/merc.png'
+    },
+    {
+        name: 'GP25 40mm Smokescreen',
+        image: 'attachments/underbarrels/GP25smokescreen.png'
+    },
+    {
+        name: 'Tactical Foregrip',
+        image: 'attachments/underbarrels/tactical.png'
+    },
+    {
+        name: 'GP25 40mm Recon',
+        image: 'attachments/underbarrels/GP25recon.png'
+    },
+    {
+        name: 'Bipod',
+        image: 'attachments/underbarrels/bipodak47.png'
+    },
+    {
+        name: 'GP25 40mm Flash',
+        image: 'attachments/underbarrels/GP25flash.png'
+    },
+    {
+        name: 'Ranger Foregrip',
+        image: 'attachments/underbarrels/ranger.png'
+    },
+    {
+        name: 'GP25 40mm Concussive',
+        image: 'attachments/underbarrels/GP25concussive.png'
+    },
+    {
+        name: 'Operator Foregrip',
+        image: 'attachments/underbarrels/operator.png'
+    }
     ];
 
 
@@ -380,17 +380,17 @@ function ak47() {
     //Ammunation
 
     var ammunations = [{
-            name: '40 Round Mags',
-            image: 'attachments/ammunations/40.png'
-        },
-        {
-            name: '5.45x39mm 30-Round Mags',
-            image: 'attachments/ammunations/30ak.png'
-        },
-        {
-            name: '75 Round Drum Mags',
-            image: 'attachments/ammunations/75.png'
-        }
+        name: '40 Round Mags',
+        image: 'attachments/ammunations/40.png'
+    },
+    {
+        name: '5.45x39mm 30-Round Mags',
+        image: 'attachments/ammunations/30ak.png'
+    },
+    {
+        name: '75 Round Drum Mags',
+        image: 'attachments/ammunations/75.png'
+    }
     ];
 
 
@@ -405,7 +405,7 @@ function ak47() {
 
     if (ammunation != false) {
         var ranAmmunation = Math.floor(Math.random() * ammunations.length) + 0;
-        
+
 
         var ammunationPick = ammunations[ranAmmunation];
         ////console.log(ammunationPick.name);
@@ -419,17 +419,17 @@ function ak47() {
     //RearGrip
 
     var reargrips = [{
-            name: 'Granulated Grip Tape',
-            image: 'attachments/reargrips/granulated.png'
-        },
-        {
-            name: 'Rubberized Grip Tape',
-            image: 'attachments/reargrips/rubberized.png'
-        },
-        {
-            name: 'Stippled Grip Tape',
-            image: 'attachments/reargrips/stippled.png'
-        }
+        name: 'Granulated Grip Tape',
+        image: 'attachments/reargrips/granulated.png'
+    },
+    {
+        name: 'Rubberized Grip Tape',
+        image: 'attachments/reargrips/rubberized.png'
+    },
+    {
+        name: 'Stippled Grip Tape',
+        image: 'attachments/reargrips/stippled.png'
+    }
     ];
 
 
@@ -444,7 +444,7 @@ function ak47() {
 
     if (reargrip != false) {
         var ranRearGrip = Math.floor(Math.random() * reargrips.length) + 0;
-        
+
 
         var rearGripPick = reargrips[ranRearGrip];
         ////console.log(rearGripPick.name);
@@ -456,45 +456,45 @@ function ak47() {
     //Perks
 
     var perks = [{
-            name: 'FMJ',
-            image: 'attachments/perks/fmj.png'
-        },
-        {
-            name: 'Sleight of Hand',
-            image: 'attachments/perks/sleight.png'
-        },
-        {
-            name: 'Frangible - Wounding',
-            image: 'attachments/perks/wounding.png'
-        },
-        {
-            name: 'Heavy Hitter',
-            image: 'attachments/perks/heavyhitter.png'
-        },
-        {
-            name: 'Fully Loaded',
-            image: 'attachments/perks/fullyloaded.png'
-        },
-        {
-            name: 'Recon',
-            image: 'attachments/perks/recon.png'
-        },
-        {
-            name: 'Mo Money',
-            image: 'attachments/perks/money.png'
-        },
-        {
-            name: 'Fast Melee',
-            image: 'attachments/perks/fastmelee.png'
-        },
-        {
-            name: 'Frangible - Disabling',
-            image: 'attachments/perks/disabling.png'
-        },
-        {
-            name: 'Presence of Mind',
-            image: 'attachments/perks/mind.png'
-        }
+        name: 'FMJ',
+        image: 'attachments/perks/fmj.png'
+    },
+    {
+        name: 'Sleight of Hand',
+        image: 'attachments/perks/sleight.png'
+    },
+    {
+        name: 'Frangible - Wounding',
+        image: 'attachments/perks/wounding.png'
+    },
+    {
+        name: 'Heavy Hitter',
+        image: 'attachments/perks/heavyhitter.png'
+    },
+    {
+        name: 'Fully Loaded',
+        image: 'attachments/perks/fullyloaded.png'
+    },
+    {
+        name: 'Recon',
+        image: 'attachments/perks/recon.png'
+    },
+    {
+        name: 'Mo Money',
+        image: 'attachments/perks/money.png'
+    },
+    {
+        name: 'Fast Melee',
+        image: 'attachments/perks/fastmelee.png'
+    },
+    {
+        name: 'Frangible - Disabling',
+        image: 'attachments/perks/disabling.png'
+    },
+    {
+        name: 'Presence of Mind',
+        image: 'attachments/perks/mind.png'
+    }
     ];
 
 
@@ -509,7 +509,7 @@ function ak47() {
 
     if (perk != false) {
         var ranPerk = Math.floor(Math.random() * perks.length) + 0;
-        
+
 
         var perkPick = perks[ranPerk];
         ////console.log(perkPick.name);
@@ -537,37 +537,37 @@ function r90() {
     //Muzzles
 
     var muzzles = [{
-            name: 'Breacher Device',
-            image: 'attachments/shotguns/r90shotgun/breacherdevice.png'
-        },
-        {
-            name: 'Flash Guard',
-            image: 'attachments/shotguns/r90shotgun/flashguard.png'
-        },
-        {
-            name: 'Monolithic Suppressor',
-            image: 'attachments/shotguns/r90shotgun/monolithicsuppressor.png'
-        },
-        {
-            name: 'Muzzle Brake',
-            image: 'attachments/shotguns/r90shotgun/muzzlebrake.png'
-        },
-        {
-            name: 'Compensator',
-            image: 'attachments/shotguns/r90shotgun/compensator.png'
-        },
-        {
-            name: 'Choke',
-            image: 'attachments/shotguns/r90shotgun/choke.png'
-        },
-        {
-            name: 'Lightweight Suppressor',
-            image: 'attachments/shotguns/r90shotgun/lightweightsuppressor.png'
-        },
-        {
-            name: 'Tactical Suppressor',
-            image: 'attachments/shotguns/r90shotgun/tacticalsuppressor.png'
-        },
+        name: 'Breacher Device',
+        image: 'attachments/shotguns/r90shotgun/breacherdevice.png'
+    },
+    {
+        name: 'Flash Guard',
+        image: 'attachments/shotguns/r90shotgun/flashguard.png'
+    },
+    {
+        name: 'Monolithic Suppressor',
+        image: 'attachments/shotguns/r90shotgun/monolithicsuppressor.png'
+    },
+    {
+        name: 'Muzzle Brake',
+        image: 'attachments/shotguns/r90shotgun/muzzlebrake.png'
+    },
+    {
+        name: 'Compensator',
+        image: 'attachments/shotguns/r90shotgun/compensator.png'
+    },
+    {
+        name: 'Choke',
+        image: 'attachments/shotguns/r90shotgun/choke.png'
+    },
+    {
+        name: 'Lightweight Suppressor',
+        image: 'attachments/shotguns/r90shotgun/lightweightsuppressor.png'
+    },
+    {
+        name: 'Tactical Suppressor',
+        image: 'attachments/shotguns/r90shotgun/tacticalsuppressor.png'
+    },
 
     ];
 
@@ -594,13 +594,13 @@ function r90() {
     //Barrel
 
     var barrels = [{
-            name: 'FORGE TAC Sentry',
-            image: 'attachments/shotguns/r90shotgun/forgetacsentry.png'
-        },
-        {
-            name: 'FORGE TAC Gemini',
-            image: 'attachments/shotguns/r90shotgun/forgetacgemini.png'
-        },
+        name: 'FORGE TAC Sentry',
+        image: 'attachments/shotguns/r90shotgun/forgetacsentry.png'
+    },
+    {
+        name: 'FORGE TAC Gemini',
+        image: 'attachments/shotguns/r90shotgun/forgetacgemini.png'
+    },
     ];
 
 
@@ -629,17 +629,17 @@ function r90() {
     //Laser
 
     var lasers = [{
-            name: '1mW Laser',
-            image: 'attachments/shotguns/r90shotgun/1mwlaser.png'
-        },
-        {
-            name: '5mW Laser',
-            image: 'attachments/shotguns/r90shotgun/5mwlaser.png'
-        },
-        {
-            name: 'Tac Laser',
-            image: 'attachments/shotguns/r90shotgun/taclaser.png'
-        },
+        name: '1mW Laser',
+        image: 'attachments/shotguns/r90shotgun/1mwlaser.png'
+    },
+    {
+        name: '5mW Laser',
+        image: 'attachments/shotguns/r90shotgun/5mwlaser.png'
+    },
+    {
+        name: 'Tac Laser',
+        image: 'attachments/shotguns/r90shotgun/taclaser.png'
+    },
     ];
 
 
@@ -655,7 +655,7 @@ function r90() {
     if (laser != false) {
         // var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
         var ranLaser = Math.floor(Math.random() * lasers.length) + 0;
-        
+
 
         var laserPick = lasers[ranLaser];
         // //console.log(laserPick.name);
@@ -668,61 +668,61 @@ function r90() {
     //Optic
 
     var optics = [{
-            name: 'Operator Reflex Sight',
-            image: 'attachments/shotguns/optics/operatorrelfexsight.png'
-        },
-        {
-            name: 'Corp Combat Holo Sight',
-            image: 'attachments/shotguns/optics/corpcombatholosight.png'
-        },
-        {
-            name: 'Aim-Op Reflex Sight',
-            image: 'attachments/shotguns/optics/aimopreflexsight.png'
-        },
-        {
-            name: 'Cronen LP945 Mini Reflex',
-            image: 'attachments/shotguns/optics/cronenlp945minireflex.png'
-        },
-        {
-            name: 'APX5 Holographic Sight',
-            image: 'attachments/shotguns/optics/apx5holographicsight.png'
-        },
-        {
-            name: 'Scout Combat Optic',
-            image: 'attachments/shotguns/optics/scoutcombatoptic.png'
-        },
-        {
-            name: 'Viper Reflex Sight',
-            image: 'attachments/shotguns/optics/viperreflexsight.png'
-        },
-        {
-            name: 'VLK 3.0x Optic',
-            image: 'attachments/shotguns/optics/vlk30xoptic.png'
-        },
-        {
-            name: 'G.I. Mini Reflex',
-            image: 'attachments/shotguns/optics/giminireflex.png'
-        },
-        {
-            name: 'Solozero NVG Enhanced',
-            image: 'attachments/shotguns/optics/solozeronvgenhanced.png'
-        },
-        {
-            name: 'PBX Holo 7 Sight',
-            image: 'attachments/shotguns/optics/pbxholo7sight.png'
-        },
-        {
-            name: 'Monocle Reflex Sight',
-            image: 'attachments/shotguns/optics/monoclereflexsight.png'
-        },
-        {
-            name: 'Cronen C480 Pro Optic',
-            image: 'attachments/shotguns/optics/cronenc480prooptic.png'
-        },
-        {
-            name: 'Solozero Optics Mini Reflex',
-            image: 'attachments/shotguns/optics/solozeroopticsminireflex.png'
-        },
+        name: 'Operator Reflex Sight',
+        image: 'attachments/shotguns/optics/operatorrelfexsight.png'
+    },
+    {
+        name: 'Corp Combat Holo Sight',
+        image: 'attachments/shotguns/optics/corpcombatholosight.png'
+    },
+    {
+        name: 'Aim-Op Reflex Sight',
+        image: 'attachments/shotguns/optics/aimopreflexsight.png'
+    },
+    {
+        name: 'Cronen LP945 Mini Reflex',
+        image: 'attachments/shotguns/optics/cronenlp945minireflex.png'
+    },
+    {
+        name: 'APX5 Holographic Sight',
+        image: 'attachments/shotguns/optics/apx5holographicsight.png'
+    },
+    {
+        name: 'Scout Combat Optic',
+        image: 'attachments/shotguns/optics/scoutcombatoptic.png'
+    },
+    {
+        name: 'Viper Reflex Sight',
+        image: 'attachments/shotguns/optics/viperreflexsight.png'
+    },
+    {
+        name: 'VLK 3.0x Optic',
+        image: 'attachments/shotguns/optics/vlk30xoptic.png'
+    },
+    {
+        name: 'G.I. Mini Reflex',
+        image: 'attachments/shotguns/optics/giminireflex.png'
+    },
+    {
+        name: 'Solozero NVG Enhanced',
+        image: 'attachments/shotguns/optics/solozeronvgenhanced.png'
+    },
+    {
+        name: 'PBX Holo 7 Sight',
+        image: 'attachments/shotguns/optics/pbxholo7sight.png'
+    },
+    {
+        name: 'Monocle Reflex Sight',
+        image: 'attachments/shotguns/optics/monoclereflexsight.png'
+    },
+    {
+        name: 'Cronen C480 Pro Optic',
+        image: 'attachments/shotguns/optics/cronenc480prooptic.png'
+    },
+    {
+        name: 'Solozero Optics Mini Reflex',
+        image: 'attachments/shotguns/optics/solozeroopticsminireflex.png'
+    },
     ];
 
 
@@ -749,17 +749,17 @@ function r90() {
     //Pumps
 
     var pumps = [{
-            name: 'FSS R9-0 Bulldog',
-            image: 'attachments/shotguns/r90shotgun/fssr90bulldog.png'
-        },
-        {
-            name: 'FTAC Ultralight Pump',
-            image: 'attachments/shotguns/r90shotgun/ftacultralightpump.png'
-        },
-        {
-            name: 'FTAC Close Quarters Pro',
-            image: 'attachments/shotguns/r90shotgun/ftacclosequarterspro.png'
-        },
+        name: 'FSS R9-0 Bulldog',
+        image: 'attachments/shotguns/r90shotgun/fssr90bulldog.png'
+    },
+    {
+        name: 'FTAC Ultralight Pump',
+        image: 'attachments/shotguns/r90shotgun/ftacultralightpump.png'
+    },
+    {
+        name: 'FTAC Close Quarters Pro',
+        image: 'attachments/shotguns/r90shotgun/ftacclosequarterspro.png'
+    },
     ];
 
 
@@ -787,17 +787,17 @@ function r90() {
     //Underbarrel
 
     var underbarrels = [{
-            name: 'Merc Foregrip',
-            image: 'attachments/shotguns/r90shotgun/mercforegrip.png'
-        },
-        {
-            name: 'Ranger Foregrip',
-            image: 'attachments/shotguns/r90shotgun/rangerforerip.png'
-        },
-        {
-            name: 'Operator Foregrip',
-            image: 'attachments/shotguns/r90shotgun/operatorforegrip.png'
-        },
+        name: 'Merc Foregrip',
+        image: 'attachments/shotguns/r90shotgun/mercforegrip.png'
+    },
+    {
+        name: 'Ranger Foregrip',
+        image: 'attachments/shotguns/r90shotgun/rangerforerip.png'
+    },
+    {
+        name: 'Operator Foregrip',
+        image: 'attachments/shotguns/r90shotgun/operatorforegrip.png'
+    },
     ];
 
 
@@ -828,13 +828,13 @@ function r90() {
     //Ammunation
 
     var ammunations = [{
-            name: 'Tube Extension',
-            image: 'attachments/shotguns/model680/tubeextension.png'
-        },
-        {
-            name: 'Slug Rounds',
-            image: 'attachments/shotguns/model680/slugrounds.png'
-        },
+        name: 'Tube Extension',
+        image: 'attachments/shotguns/model680/tubeextension.png'
+    },
+    {
+        name: 'Slug Rounds',
+        image: 'attachments/shotguns/model680/slugrounds.png'
+    },
     ];
 
 
@@ -859,17 +859,17 @@ function r90() {
     //RearGrip
 
     var reargrips = [{
-            name: 'Granulated Grip Tape',
-            image: 'attachments/shotguns/r90shotgun/granulatedgriptape.png'
-        },
-        {
-            name: 'Rubberized Grip Tape',
-            image: 'attachments/shotguns/r90shotgun/rubberizedgriptape.png'
-        },
-        {
-            name: 'Stippled Grip Tape',
-            image: 'attachments/shotguns/r90shotgun/stippledgriptape.png'
-        },
+        name: 'Granulated Grip Tape',
+        image: 'attachments/shotguns/r90shotgun/granulatedgriptape.png'
+    },
+    {
+        name: 'Rubberized Grip Tape',
+        image: 'attachments/shotguns/r90shotgun/rubberizedgriptape.png'
+    },
+    {
+        name: 'Stippled Grip Tape',
+        image: 'attachments/shotguns/r90shotgun/stippledgriptape.png'
+    },
     ];
 
 
@@ -894,41 +894,41 @@ function r90() {
     //Perks
 
     var perks = [{
-            name: 'FMJ',
-            image: 'attachments/perks/fmj.png'
-        },
-        {
-            name: 'Sleight of Hand',
-            image: 'attachments/perks/sleight.png'
-        },
-        {
-            name: 'Frangible - Wounding',
-            image: 'attachments/perks/wounding.png'
-        },
-        {
-            name: 'Heavy Hitter',
-            image: 'attachments/perks/heavyhitter.png'
-        },
-        {
-            name: 'Fully Loaded',
-            image: 'attachments/perks/fullyloaded.png'
-        },
-        {
-            name: 'Recon',
-            image: 'attachments/perks/recon.png'
-        },
-        {
-            name: 'Mo Money',
-            image: 'attachments/perks/money.png'
-        },
-        {
-            name: 'Fast Melee',
-            image: 'attachments/perks/fastmelee.png'
-        },
-        {
-            name: 'Frangible - Disabling',
-            image: 'attachments/perks/disabling.png'
-        },
+        name: 'FMJ',
+        image: 'attachments/perks/fmj.png'
+    },
+    {
+        name: 'Sleight of Hand',
+        image: 'attachments/perks/sleight.png'
+    },
+    {
+        name: 'Frangible - Wounding',
+        image: 'attachments/perks/wounding.png'
+    },
+    {
+        name: 'Heavy Hitter',
+        image: 'attachments/perks/heavyhitter.png'
+    },
+    {
+        name: 'Fully Loaded',
+        image: 'attachments/perks/fullyloaded.png'
+    },
+    {
+        name: 'Recon',
+        image: 'attachments/perks/recon.png'
+    },
+    {
+        name: 'Mo Money',
+        image: 'attachments/perks/money.png'
+    },
+    {
+        name: 'Fast Melee',
+        image: 'attachments/perks/fastmelee.png'
+    },
+    {
+        name: 'Frangible - Disabling',
+        image: 'attachments/perks/disabling.png'
+    },
     ];
 
 
@@ -971,33 +971,33 @@ function ram7() {
     //Muzzles
 
     var muzzles = [{
-            name: 'Flash Guard',
-            image: 'attachments/muzzles/flashguard.png'
-        },
-        {
-            name: 'Breacher Device',
-            image: 'attachments/muzzles/breacherdevice.png'
-        },
-        {
-            name: 'Tactical Suppressor',
-            image: 'attachments/muzzles/tacticalsuppressor.png'
-        },
-        {
-            name: 'Muzzle Brake',
-            image: 'attachments/muzzles/muzzlebrake.png'
-        },
-        {
-            name: 'Lightweight Suppressor',
-            image: 'attachments/muzzles/lightweightsuppressor.png'
-        },
-        {
-            name: 'Compensator',
-            image: 'attachments/muzzles/compensator.png'
-        },
-        {
-            name: 'Monolithic Suppressor',
-            image: 'attachments/muzzles/monolithicsuppressor.png'
-        }
+        name: 'Flash Guard',
+        image: 'attachments/muzzles/flashguard.png'
+    },
+    {
+        name: 'Breacher Device',
+        image: 'attachments/muzzles/breacherdevice.png'
+    },
+    {
+        name: 'Tactical Suppressor',
+        image: 'attachments/muzzles/tacticalsuppressor.png'
+    },
+    {
+        name: 'Muzzle Brake',
+        image: 'attachments/muzzles/muzzlebrake.png'
+    },
+    {
+        name: 'Lightweight Suppressor',
+        image: 'attachments/muzzles/lightweightsuppressor.png'
+    },
+    {
+        name: 'Compensator',
+        image: 'attachments/muzzles/compensator.png'
+    },
+    {
+        name: 'Monolithic Suppressor',
+        image: 'attachments/muzzles/monolithicsuppressor.png'
+    }
     ];
 
 
@@ -1023,17 +1023,17 @@ function ram7() {
     //Barrel
 
     var barrels = [{
-            name: 'FTAC 13.5 Compact',
-            image: 'attachments/barrels/compact.png'
-        },
-        {
-            name: 'FORGE TAC Eclipse',
-            image: 'attachments/barrels/eclipse.png'
-        },
-        {
-            name: 'XRX Ranger',
-            image: 'attachments/barrels/ranger.png'
-        },
+        name: 'FTAC 13.5 Compact',
+        image: 'attachments/barrels/compact.png'
+    },
+    {
+        name: 'FORGE TAC Eclipse',
+        image: 'attachments/barrels/eclipse.png'
+    },
+    {
+        name: 'XRX Ranger',
+        image: 'attachments/barrels/ranger.png'
+    },
     ];
 
 
@@ -1065,17 +1065,17 @@ function ram7() {
     //Laser
 
     var lasers = [{
-            name: '1mW Laser',
-            image: 'attachments/lasers/1mw.png'
-        },
-        {
-            name: '5mW Laser',
-            image: 'attachments/lasers/5mw.png'
-        },
-        {
-            name: 'Tac Laser',
-            image: 'attachments/lasers/tac.png'
-        }
+        name: '1mW Laser',
+        image: 'attachments/lasers/1mw.png'
+    },
+    {
+        name: '5mW Laser',
+        image: 'attachments/lasers/5mw.png'
+    },
+    {
+        name: 'Tac Laser',
+        image: 'attachments/lasers/tac.png'
+    }
     ];
 
 
@@ -1103,85 +1103,85 @@ function ram7() {
     //Optic
 
     var optics = [{
-            name: 'Cronen LP945 Mini Reflex',
-            image: 'attachments/optics/cronenlp945.png'
-        },
-        {
-            name: 'Corp Combat Holo Sight',
-            image: 'attachments/optics/corp.png'
-        },
-        {
-            name: 'Operator Reflex Sight',
-            image: 'attachments/optics/operator.png'
-        },
-        {
-            name: 'Scout Combat Optic',
-            image: 'attachments/optics/scout.png'
-        },
-        {
-            name: '4.0x Flip Hybrid',
-            image: 'attachments/optics/40x.png'
-        },
-        {
-            name: 'Aim-Op Reflex Sight',
-            image: 'attachments/optics/aimop.png'
-        },
-        {
-            name: 'APx5 Holographic Sight',
-            image: 'attachments/optics/apx5.png'
-        },
-        {
-            name: 'Integral Hybrid',
-            image: 'attachments/optics/integral.png'
-        },
-        {
-            name: 'Solozero NVG Enhanced',
-            image: 'attachments/optics/solozero.png'
-        },
-        {
-            name: 'VLK 3.0x Optic',
-            image: 'attachments/optics/vlk.png'
-        },
-        {
-            name: 'Sniper Scope',
-            image: 'attachments/optics/sniperscope.png'
-        },
-        {
-            name: 'Viper Reflex Sight',
-            image: 'attachments/optics/viper.png'
-        },
-        {
-            name: 'G.I. Mini Reflex',
-            image: 'attachments/optics/gi.png'
-        },
-        {
-            name: 'PBX Holo 7 Sight',
-            image: 'attachments/optics/pbx.png'
-        },
-        {
-            name: 'Cronen 2x2 Elite',
-            image: 'attachments/optics/cronen2x2elite.png'
-        },
-        {
-            name: 'Monocle Reflex Sight',
-            image: 'attachments/optics/monocle.png'
-        },
-        {
-            name: 'Variable Zoom Scope',
-            image: 'attachments/optics/variable.png'
-        },
-        {
-            name: 'Canted Hybrid',
-            image: 'attachments/optics/canted.png'
-        },
-        {
-            name: 'Merc Thermal Optic',
-            image: 'attachments/optics/merc.png'
-        },
-        {
-            name: 'Thermal Hybrid',
-            image: 'attachments/optics/thermal.png'
-        }
+        name: 'Cronen LP945 Mini Reflex',
+        image: 'attachments/optics/cronenlp945.png'
+    },
+    {
+        name: 'Corp Combat Holo Sight',
+        image: 'attachments/optics/corp.png'
+    },
+    {
+        name: 'Operator Reflex Sight',
+        image: 'attachments/optics/operator.png'
+    },
+    {
+        name: 'Scout Combat Optic',
+        image: 'attachments/optics/scout.png'
+    },
+    {
+        name: '4.0x Flip Hybrid',
+        image: 'attachments/optics/40x.png'
+    },
+    {
+        name: 'Aim-Op Reflex Sight',
+        image: 'attachments/optics/aimop.png'
+    },
+    {
+        name: 'APx5 Holographic Sight',
+        image: 'attachments/optics/apx5.png'
+    },
+    {
+        name: 'Integral Hybrid',
+        image: 'attachments/optics/integral.png'
+    },
+    {
+        name: 'Solozero NVG Enhanced',
+        image: 'attachments/optics/solozero.png'
+    },
+    {
+        name: 'VLK 3.0x Optic',
+        image: 'attachments/optics/vlk.png'
+    },
+    {
+        name: 'Sniper Scope',
+        image: 'attachments/optics/sniperscope.png'
+    },
+    {
+        name: 'Viper Reflex Sight',
+        image: 'attachments/optics/viper.png'
+    },
+    {
+        name: 'G.I. Mini Reflex',
+        image: 'attachments/optics/gi.png'
+    },
+    {
+        name: 'PBX Holo 7 Sight',
+        image: 'attachments/optics/pbx.png'
+    },
+    {
+        name: 'Cronen 2x2 Elite',
+        image: 'attachments/optics/cronen2x2elite.png'
+    },
+    {
+        name: 'Monocle Reflex Sight',
+        image: 'attachments/optics/monocle.png'
+    },
+    {
+        name: 'Variable Zoom Scope',
+        image: 'attachments/optics/variable.png'
+    },
+    {
+        name: 'Canted Hybrid',
+        image: 'attachments/optics/canted.png'
+    },
+    {
+        name: 'Merc Thermal Optic',
+        image: 'attachments/optics/merc.png'
+    },
+    {
+        name: 'Thermal Hybrid',
+        image: 'attachments/optics/thermal.png'
+    }
     ];
 
 
@@ -1208,17 +1208,17 @@ function ram7() {
     //Stock
 
     var stocks = [{
-            name: 'FTAC Equilibrium',
-            image: 'attachments/stocks/equilibrium.png'
-        },
-        {
-            name: 'XRX Ultralight Hollow',
-            image: 'attachments/stocks/hollow.png'
-        },
-        {
-            name: 'XRX Close Quarters',
-            image: 'attachments/stocks/quarters.png'
-        },
+        name: 'FTAC Equilibrium',
+        image: 'attachments/stocks/equilibrium.png'
+    },
+    {
+        name: 'XRX Ultralight Hollow',
+        image: 'attachments/stocks/hollow.png'
+    },
+    {
+        name: 'XRX Close Quarters',
+        image: 'attachments/stocks/quarters.png'
+    },
     ];
 
 
@@ -1246,53 +1246,53 @@ function ram7() {
     //Underbarrel
 
     var underbarrels = [{
-            name: 'Commando Foregrip',
-            image: 'attachments/underbarrels/commando.png'
-        },
-        {
-            name: 'M203 40mm High-explosive',
-            image: 'attachments/underbarrels/m203high.png'
-        },
-        {
-            name: 'M203 40mm Incendiary',
-            image: 'attachments/underbarrels/m203incendiary.png'
-        },
-        {
-            name: '12 Gauge Deputy',
-            image: 'attachments/underbarrels/12gauge.png'
-        },
-        {
-            name: 'Merc Foregrip',
-            image: 'attachments/underbarrels/merc.png'
-        },
-        {
-            name: 'M203 40mm Smokescreen',
-            image: 'attachments/underbarrels/m203smokescreen.png'
-        },
-        {
-            name: 'Tactical Foregrip',
-            image: 'attachments/underbarrels/tactical.png'
-        },
-        {
-            name: 'M203 40mm Recon',
-            image: 'attachments/underbarrels/m203recon.png'
-        },
-        {
-            name: 'M203 40mm Flash',
-            image: 'attachments/underbarrels/m203flash.png'
-        },
-        {
-            name: 'Ranger Foregrip',
-            image: 'attachments/underbarrels/ranger.png'
-        },
-        {
-            name: 'M203 40mm Concussive',
-            image: 'attachments/underbarrels/m203concussive.png'
-        },
-        {
-            name: 'Operator Foregrip',
-            image: 'attachments/underbarrels/operator.png'
-        }
+        name: 'Commando Foregrip',
+        image: 'attachments/underbarrels/commando.png'
+    },
+    {
+        name: 'M203 40mm High-explosive',
+        image: 'attachments/underbarrels/m203high.png'
+    },
+    {
+        name: 'M203 40mm Incendiary',
+        image: 'attachments/underbarrels/m203incendiary.png'
+    },
+    {
+        name: '12 Gauge Deputy',
+        image: 'attachments/underbarrels/12gauge.png'
+    },
+    {
+        name: 'Merc Foregrip',
+        image: 'attachments/underbarrels/merc.png'
+    },
+    {
+        name: 'M203 40mm Smokescreen',
+        image: 'attachments/underbarrels/m203smokescreen.png'
+    },
+    {
+        name: 'Tactical Foregrip',
+        image: 'attachments/underbarrels/tactical.png'
+    },
+    {
+        name: 'M203 40mm Recon',
+        image: 'attachments/underbarrels/m203recon.png'
+    },
+    {
+        name: 'M203 40mm Flash',
+        image: 'attachments/underbarrels/m203flash.png'
+    },
+    {
+        name: 'Ranger Foregrip',
+        image: 'attachments/underbarrels/ranger.png'
+    },
+    {
+        name: 'M203 40mm Concussive',
+        image: 'attachments/underbarrels/m203concussive.png'
+    },
+    {
+        name: 'Operator Foregrip',
+        image: 'attachments/underbarrels/operator.png'
+    }
     ];
 
 
@@ -1323,9 +1323,9 @@ function ram7() {
     //Ammunation
 
     var ammunations = [{
-            name: '50 Round Mags',
-            image: 'attachments/ammunations/50.png'
-        },
+        name: '50 Round Mags',
+        image: 'attachments/ammunations/50.png'
+    },
 
     ];
 
@@ -1354,17 +1354,17 @@ function ram7() {
     //RearGrip
 
     var reargrips = [{
-            name: 'Granulated Grip Tape',
-            image: 'attachments/reargrips/granulated.png'
-        },
-        {
-            name: 'Rubberized Grip Tape',
-            image: 'attachments/reargrips/rubberized.png'
-        },
-        {
-            name: 'Stippled Grip Tape',
-            image: 'attachments/reargrips/stippled.png'
-        }
+        name: 'Granulated Grip Tape',
+        image: 'attachments/reargrips/granulated.png'
+    },
+    {
+        name: 'Rubberized Grip Tape',
+        image: 'attachments/reargrips/rubberized.png'
+    },
+    {
+        name: 'Stippled Grip Tape',
+        image: 'attachments/reargrips/stippled.png'
+    }
     ];
 
 
@@ -1390,49 +1390,49 @@ function ram7() {
     //Perks
 
     var perks = [{
-            name: 'FMJ',
-            image: 'attachments/perks/fmj.png'
-        },
-        {
-            name: 'Sleight of Hand',
-            image: 'attachments/perks/sleight.png'
-        },
-        {
-            name: 'Frangible - Wounding',
-            image: 'attachments/perks/wounding.png'
-        },
-        {
-            name: 'Heavy Hitter',
-            image: 'attachments/perks/heavyhitter.png'
-        },
-        {
-            name: 'Fully Loaded',
-            image: 'attachments/perks/fullyloaded.png'
-        },
-        {
-            name: 'Burst',
-            image: 'attachments/perks/burst.png'
-        },
-        {
-            name: 'Recon',
-            image: 'attachments/perks/recon.png'
-        },
-        {
-            name: 'Mo Money',
-            image: 'attachments/perks/money.png'
-        },
-        {
-            name: 'Fast Melee',
-            image: 'attachments/perks/fastmelee.png'
-        },
-        {
-            name: 'Frangible - Disabling',
-            image: 'attachments/perks/disabling.png'
-        },
-        {
-            name: 'Presence of Mind',
-            image: 'attachments/perks/mind.png'
-        }
+        name: 'FMJ',
+        image: 'attachments/perks/fmj.png'
+    },
+    {
+        name: 'Sleight of Hand',
+        image: 'attachments/perks/sleight.png'
+    },
+    {
+        name: 'Frangible - Wounding',
+        image: 'attachments/perks/wounding.png'
+    },
+    {
+        name: 'Heavy Hitter',
+        image: 'attachments/perks/heavyhitter.png'
+    },
+    {
+        name: 'Fully Loaded',
+        image: 'attachments/perks/fullyloaded.png'
+    },
+    {
+        name: 'Burst',
+        image: 'attachments/perks/burst.png'
+    },
+    {
+        name: 'Recon',
+        image: 'attachments/perks/recon.png'
+    },
+    {
+        name: 'Mo Money',
+        image: 'attachments/perks/money.png'
+    },
+    {
+        name: 'Fast Melee',
+        image: 'attachments/perks/fastmelee.png'
+    },
+    {
+        name: 'Frangible - Disabling',
+        image: 'attachments/perks/disabling.png'
+    },
+    {
+        name: 'Presence of Mind',
+        image: 'attachments/perks/mind.png'
+    }
     ];
 
 
@@ -1475,33 +1475,33 @@ function sa87() {
     //Muzzles
 
     var muzzles = [{
-            name: 'Flash Guard',
-            image: 'attachments/lmgs/muzzles/flash.png'
-        },
-        {
-            name: 'Monolithic Suppressor',
-            image: 'attachments/lmgs/muzzles/monolithic.png'
-        },
-        {
-            name: 'Muzzle Brake',
-            image: 'attachments/lmgs/muzzles/muzzle.png'
-        },
-        {
-            name: 'CQB Breacher Device',
-            image: 'attachments/lmgs/muzzles/cqb.png'
-        },
-        {
-            name: 'Lightweight Suppressor',
-            image: 'attachments/lmgs/muzzles/lightweight.png'
-        },
-        {
-            name: 'Compensator',
-            image: 'attachments/lmgs/muzzles/compensator.png'
-        },
-        {
-            name: 'Tactical Suppressor',
-            image: 'attachments/lmgs/muzzles/tactical.png'
-        },
+        name: 'Flash Guard',
+        image: 'attachments/lmgs/muzzles/flash.png'
+    },
+    {
+        name: 'Monolithic Suppressor',
+        image: 'attachments/lmgs/muzzles/monolithic.png'
+    },
+    {
+        name: 'Muzzle Brake',
+        image: 'attachments/lmgs/muzzles/muzzle.png'
+    },
+    {
+        name: 'CQB Breacher Device',
+        image: 'attachments/lmgs/muzzles/cqb.png'
+    },
+    {
+        name: 'Lightweight Suppressor',
+        image: 'attachments/lmgs/muzzles/lightweight.png'
+    },
+    {
+        name: 'Compensator',
+        image: 'attachments/lmgs/muzzles/compensator.png'
+    },
+    {
+        name: 'Tactical Suppressor',
+        image: 'attachments/lmgs/muzzles/tactical.png'
+    },
     ];
 
 
@@ -1527,17 +1527,17 @@ function sa87() {
     //Barrel
 
     var barrels = [{
-            name: 'SA87 18.2 Factory',
-            image: 'attachments/lmgs/barrels/182factory.png'
-        },
-        {
-            name: 'SA87 25.4 Factory',
-            image: 'attachments/lmgs/barrels/254factory.png'
-        },
-        {
-            name: 'SA87 12.4 Factory',
-            image: 'attachments/lmgs/barrels/124factory.png'
-        },
+        name: 'SA87 18.2 Factory',
+        image: 'attachments/lmgs/barrels/182factory.png'
+    },
+    {
+        name: 'SA87 25.4 Factory',
+        image: 'attachments/lmgs/barrels/254factory.png'
+    },
+    {
+        name: 'SA87 12.4 Factory',
+        image: 'attachments/lmgs/barrels/124factory.png'
+    },
 
     ];
 
@@ -1568,17 +1568,17 @@ function sa87() {
     //Laser
 
     var lasers = [{
-            name: '1mW Laser',
-            image: 'attachments/lasers/1mw.png'
-        },
-        {
-            name: '5mW Laser',
-            image: 'attachments/lasers/5mw.png'
-        },
-        {
-            name: 'Tac Laser',
-            image: 'attachments/lasers/tac.png'
-        }
+        name: '1mW Laser',
+        image: 'attachments/lasers/1mw.png'
+    },
+    {
+        name: '5mW Laser',
+        image: 'attachments/lasers/5mw.png'
+    },
+    {
+        name: 'Tac Laser',
+        image: 'attachments/lasers/tac.png'
+    }
     ];
 
 
@@ -1606,81 +1606,81 @@ function sa87() {
     //Optic
 
     var optics = [{
-            name: 'Cronen LP945 Mini Reflex',
-            image: 'attachments/lmgs/optics/cronenlp945.png'
-        },
-        {
-            name: 'Corp Combat Holo Sight',
-            image: 'attachments/lmgs/optics/corp.png'
-        },
-        {
-            name: 'Operator Reflex Sight',
-            image: 'attachments/lmgs/optics/operator.png'
-        },
-        {
-            name: 'Scout Combat Optic',
-            image: 'attachments/lmgs/optics/scout.png'
-        },
-        {
-            name: 'Aim-Op Reflex Sight',
-            image: 'attachments/lmgs/optics/aimop.png'
-        },
-        {
-            name: 'APx5 Holographic Sight',
-            image: 'attachments/lmgs/optics/apx5.png'
-        },
-        {
-            name: 'Integral Hybrid',
-            image: 'attachments/lmgs/optics/integral.png'
-        },
-        {
-            name: 'Solozero NVG Enhanced',
-            image: 'attachments/lmgs/optics/solozero.png'
-        },
-        {
-            name: 'VLK 3.0x Optic',
-            image: 'attachments/lmgs/optics/vlk.png'
-        },
-        {
-            name: 'Solozero Optics Mini Reflex',
-            image: 'attachments/lmgs/optics/solozeromini.png'
-        },
-        {
-            name: 'Sniper Scope',
-            image: 'attachments/lmgs/optics/sniperscope.png'
-        },
-        {
-            name: 'Viper Reflex Sight',
-            image: 'attachments/lmgs/optics/viper.png'
-        },
-        {
-            name: 'G.I. Mini Reflex',
-            image: 'attachments/lmgs/optics/gi.png'
-        },
-        {
-            name: 'PBX Holo 7 Sight',
-            image: 'attachments/lmgs/optics/pbx.png'
-        },
-        {
-            name: 'Cronen C480 Pro Optic',
-            image: 'attachments/lmgs/optics/cronenc480.png'
-        },
-        {
-            name: 'Monocle Reflex Sight',
-            image: 'attachments/lmgs/optics/monocle.png'
-        },
-        {
-            name: 'Canted Hybrid',
-            image: 'attachments/lmgs/optics/canted.png'
-        },
-        {
-            name: 'Merc Thermal Optic',
-            image: 'attachments/lmgs/optics/merc.png'
-        },
-        {
-            name: 'Thermal Hybrid',
-            image: 'attachments/lmgs/optics/thermal.png'
-        }
+        name: 'Cronen LP945 Mini Reflex',
+        image: 'attachments/lmgs/optics/cronenlp945.png'
+    },
+    {
+        name: 'Corp Combat Holo Sight',
+        image: 'attachments/lmgs/optics/corp.png'
+    },
+    {
+        name: 'Operator Reflex Sight',
+        image: 'attachments/lmgs/optics/operator.png'
+    },
+    {
+        name: 'Scout Combat Optic',
+        image: 'attachments/lmgs/optics/scout.png'
+    },
+    {
+        name: 'Aim-Op Reflex Sight',
+        image: 'attachments/lmgs/optics/aimop.png'
+    },
+    {
+        name: 'APx5 Holographic Sight',
+        image: 'attachments/lmgs/optics/apx5.png'
+    },
+    {
+        name: 'Integral Hybrid',
+        image: 'attachments/lmgs/optics/integral.png'
+    },
+    {
+        name: 'Solozero NVG Enhanced',
+        image: 'attachments/lmgs/optics/solozero.png'
+    },
+    {
+        name: 'VLK 3.0x Optic',
+        image: 'attachments/lmgs/optics/vlk.png'
+    },
+    {
+        name: 'Solozero Optics Mini Reflex',
+        image: 'attachments/lmgs/optics/solozeromini.png'
+    },
+    {
+        name: 'Sniper Scope',
+        image: 'attachments/lmgs/optics/sniperscope.png'
+    },
+    {
+        name: 'Viper Reflex Sight',
+        image: 'attachments/lmgs/optics/viper.png'
+    },
+    {
+        name: 'G.I. Mini Reflex',
+        image: 'attachments/lmgs/optics/gi.png'
+    },
+    {
+        name: 'PBX Holo 7 Sight',
+        image: 'attachments/lmgs/optics/pbx.png'
+    },
+    {
+        name: 'Cronen C480 Pro Optic',
+        image: 'attachments/lmgs/optics/cronenc480.png'
+    },
+    {
+        name: 'Monocle Reflex Sight',
+        image: 'attachments/lmgs/optics/monocle.png'
+    },
+    {
+        name: 'Canted Hybrid',
+        image: 'attachments/lmgs/optics/canted.png'
+    },
+    {
+        name: 'Merc Thermal Optic',
+        image: 'attachments/lmgs/optics/merc.png'
+    },
+    {
+        name: 'Thermal Hybrid',
+        image: 'attachments/lmgs/optics/thermal.png'
+    }
     ];
 
 
@@ -1707,17 +1707,17 @@ function sa87() {
     //Stock
 
     var stocks = [{
-            name: 'FSS SA87 Heavy Stock Pro',
-            image: 'attachments/lmgs/stocks/sa87heavy.png'
-        },
-        {
-            name: 'SA87 Ultalight Hollow',
-            image: 'attachments/lmgs/stocks/sa87ultralight.png'
-        },
-        {
-            name: 'FORGE TAC CQB Comb',
-            image: 'attachments/lmgs/stocks/comb.png'
-        },
+        name: 'FSS SA87 Heavy Stock Pro',
+        image: 'attachments/lmgs/stocks/sa87heavy.png'
+    },
+    {
+        name: 'SA87 Ultalight Hollow',
+        image: 'attachments/lmgs/stocks/sa87ultralight.png'
+    },
+    {
+        name: 'FORGE TAC CQB Comb',
+        image: 'attachments/lmgs/stocks/comb.png'
+    },
 
     ];
 
@@ -1746,29 +1746,29 @@ function sa87() {
     //Underbarrel
 
     var underbarrels = [{
-            name: 'Commando Foregrip',
-            image: 'attachments/lmgs/underbarrels/commando.png'
-        },
-        {
-            name: 'Merc Foregrip',
-            image: 'attachments/lmgs/underbarrels/merc.png'
-        },
-        {
-            name: 'Tactical Foregrip',
-            image: 'attachments/lmgs/underbarrels/tactical.png'
-        },
-        {
-            name: 'Bipod',
-            image: 'attachments/lmgs/underbarrels/bipodsa87.png'
-        },
-        {
-            name: 'Ranger Foregrip',
-            image: 'attachments/lmgs/underbarrels/ranger.png'
-        },
-        {
-            name: 'Operator Foregrip',
-            image: 'attachments/lmgs/underbarrels/commando.png'
-        },
+        name: 'Commando Foregrip',
+        image: 'attachments/lmgs/underbarrels/commando.png'
+    },
+    {
+        name: 'Merc Foregrip',
+        image: 'attachments/lmgs/underbarrels/merc.png'
+    },
+    {
+        name: 'Tactical Foregrip',
+        image: 'attachments/lmgs/underbarrels/tactical.png'
+    },
+    {
+        name: 'Bipod',
+        image: 'attachments/lmgs/underbarrels/bipodsa87.png'
+    },
+    {
+        name: 'Ranger Foregrip',
+        image: 'attachments/lmgs/underbarrels/ranger.png'
+    },
+    {
+        name: 'Operator Foregrip',
+        image: 'attachments/lmgs/underbarrels/commando.png'
+    },
     ];
     var underbarrel = false;
     document.getElementById("primaryAttH2").innerHTML = "";
@@ -1797,13 +1797,13 @@ function sa87() {
     //Ammunation
 
     var ammunations = [{
-            name: '50 Round Mags',
-            image: 'attachments/lmgs/ammunations/50.png'
-        },
-        {
-            name: '60 Round Mags',
-            image: 'attachments/lmgs/ammunations/60.png'
-        },
+        name: '50 Round Mags',
+        image: 'attachments/lmgs/ammunations/50.png'
+    },
+    {
+        name: '60 Round Mags',
+        image: 'attachments/lmgs/ammunations/60.png'
+    },
 
     ];
 
@@ -1832,17 +1832,17 @@ function sa87() {
     //RearGrip
 
     var reargrips = [{
-            name: 'Granulated Grip Tape',
-            image: 'attachments/lmgs/reargrips/granulated.png'
-        },
-        {
-            name: 'Stippled Grip Tape',
-            image: 'attachments/lmgs/reargrips/stippled.png'
-        },
-        {
-            name: 'Rubberized Grip Tape',
-            image: 'attachments/lmgs/reargrips/rubberized.png'
-        },
+        name: 'Granulated Grip Tape',
+        image: 'attachments/lmgs/reargrips/granulated.png'
+    },
+    {
+        name: 'Stippled Grip Tape',
+        image: 'attachments/lmgs/reargrips/stippled.png'
+    },
+    {
+        name: 'Rubberized Grip Tape',
+        image: 'attachments/lmgs/reargrips/rubberized.png'
+    },
 
     ];
 
@@ -1869,41 +1869,41 @@ function sa87() {
     //Perks
 
     var perks = [{
-            name: 'FMJ',
-            image: 'attachments/perks/fmj.png'
-        },
-        {
-            name: 'Sleight of Hand',
-            image: 'attachments/perks/sleight.png'
-        },
-        {
-            name: 'Frangible - Wounding',
-            image: 'attachments/perks/wounding.png'
-        },
-        {
-            name: 'Heavy Hitter',
-            image: 'attachments/perks/heavyhitter.png'
-        },
-        {
-            name: 'Fully Loaded',
-            image: 'attachments/perks/fullyloaded.png'
-        },
-        {
-            name: 'Recon',
-            image: 'attachments/perks/recon.png'
-        },
-        {
-            name: 'Mo Money',
-            image: 'attachments/perks/money.png'
-        },
-        {
-            name: 'Fast Melee',
-            image: 'attachments/perks/fastmelee.png'
-        },
-        {
-            name: 'Frangible - Disabling',
-            image: 'attachments/perks/disabling.png'
-        },
+        name: 'FMJ',
+        image: 'attachments/perks/fmj.png'
+    },
+    {
+        name: 'Sleight of Hand',
+        image: 'attachments/perks/sleight.png'
+    },
+    {
+        name: 'Frangible - Wounding',
+        image: 'attachments/perks/wounding.png'
+    },
+    {
+        name: 'Heavy Hitter',
+        image: 'attachments/perks/heavyhitter.png'
+    },
+    {
+        name: 'Fully Loaded',
+        image: 'attachments/perks/fullyloaded.png'
+    },
+    {
+        name: 'Recon',
+        image: 'attachments/perks/recon.png'
+    },
+    {
+        name: 'Mo Money',
+        image: 'attachments/perks/money.png'
+    },
+    {
+        name: 'Fast Melee',
+        image: 'attachments/perks/fastmelee.png'
+    },
+    {
+        name: 'Frangible - Disabling',
+        image: 'attachments/perks/disabling.png'
+    },
     ];
 
 
@@ -1946,33 +1946,33 @@ function uzi() {
     //Muzzles
 
     var muzzles = [{
-            name: 'CQB Breacher Device',
-            image: 'attachments/smgs/cqbbreacherdevice.png'
-        },
-        {
-            name: 'Tactical Suppressor',
-            image: 'attachments/smgs/tacticalsuppressor.png'
-        },
-        {
-            name: 'Flash Guard',
-            image: 'attachments/smgs/flashguard.png'
-        },
-        {
-            name: 'Monolithic Suppressor',
-            image: 'attachments/smgs/monolithicsuppressor.png'
-        },
-        {
-            name: 'Muzzle Brake',
-            image: 'attachments/smgs/muzzlebrake.png'
-        },
-        {
-            name: 'Compensator',
-            image: 'attachments/smgs/compensator.png'
-        },
-        {
-            name: 'Lightweight Suppressor',
-            image: 'attachments/smgs/lightweightsuppressor.png'
-        },
+        name: 'CQB Breacher Device',
+        image: 'attachments/smgs/cqbbreacherdevice.png'
+    },
+    {
+        name: 'Tactical Suppressor',
+        image: 'attachments/smgs/tacticalsuppressor.png'
+    },
+    {
+        name: 'Flash Guard',
+        image: 'attachments/smgs/flashguard.png'
+    },
+    {
+        name: 'Monolithic Suppressor',
+        image: 'attachments/smgs/monolithicsuppressor.png'
+    },
+    {
+        name: 'Muzzle Brake',
+        image: 'attachments/smgs/muzzlebrake.png'
+    },
+    {
+        name: 'Compensator',
+        image: 'attachments/smgs/compensator.png'
+    },
+    {
+        name: 'Lightweight Suppressor',
+        image: 'attachments/smgs/lightweightsuppressor.png'
+    },
     ];
 
 
@@ -1998,17 +1998,17 @@ function uzi() {
     //Barrel
 
     var barrels = [{
-            name: '13.1 First Responder',
-            image: 'attachments/smgs/131firstresponder.png'
-        },
-        {
-            name: '8.5 Factory Mini',
-            image: 'attachments/smgs/85factorymini.png'
-        },
-        {
-            name: '16.5 Factory Carbine',
-            image: 'attachments/smgs/165factorycarbine.png'
-        },
+        name: '13.1 First Responder',
+        image: 'attachments/smgs/131firstresponder.png'
+    },
+    {
+        name: '8.5 Factory Mini',
+        image: 'attachments/smgs/85factorymini.png'
+    },
+    {
+        name: '16.5 Factory Carbine',
+        image: 'attachments/smgs/165factorycarbine.png'
+    },
     ];
 
 
@@ -2037,17 +2037,17 @@ function uzi() {
     //Laser
 
     var lasers = [{
-            name: '1mW Laser',
-            image: 'attachments/smgs/1mwlaser.png'
-        },
-        {
-            name: '5mW Laser',
-            image: 'attachments/smgs/5mwlaser.png'
-        },
-        {
-            name: 'Tac Laser',
-            image: 'attachments/smgs/taclaser.png'
-        }
+        name: '1mW Laser',
+        image: 'attachments/smgs/1mwlaser.png'
+    },
+    {
+        name: '5mW Laser',
+        image: 'attachments/smgs/5mwlaser.png'
+    },
+    {
+        name: 'Tac Laser',
+        image: 'attachments/smgs/taclaser.png'
+    }
     ];
 
 
@@ -2075,77 +2075,77 @@ function uzi() {
     //Optic
 
     var optics = [{
-            name: 'Operator Reflex Sight',
-            image: 'attachments/smgs/operatorreflex.png'
-        },
-        {
-            name: 'Corp Combat Holo Sight',
-            image: 'attachments/smgs/corp.png'
-        },
-        {
-            name: 'Aim-Op Relfex Sight',
-            image: 'attachments/smgs/aimop.png'
-        },
-        {
-            name: 'G.I. Mini Relex',
-            image: 'attachments/smgs/gi.png'
-        },
-        {
-            name: 'Scout Combat Optic',
-            image: 'attachments/smgs/scout.png'
-        },
-        {
-            name: 'APX5 Holographic Sight',
-            image: 'attachments/smgs/apx5.png'
-        },
-        {
-            name: 'Solozero Optics Mini Reflex',
-            image: 'attachments/smgs/solozeromini.png'
-        },
-        {
-            name: 'VLK 3.0x Optic',
-            image: 'attachments/smgs/vlk.png'
-        },
-        {
-            name: 'Thermal hybrid',
-            image: 'attachments/smgs/thermal.png'
-        },
-        {
-            name: 'Viper Reflex Sight',
-            image: 'attachments/smgs/viper.png'
-        },
-        {
-            name: 'PBX Holo 7 sight',
-            image: 'attachments/smgs/pbx.png'
-        },
-        {
-            name: 'Solozero NVG Enhanced',
-            image: 'attachments/smgs/solozero.png'
-        },
-        {
-            name: 'Cronen LP945 Mini Reflex',
-            image: 'attachments/smgs/cronenlp945.png'
-        },
-        {
-            name: 'Canted Hybrid',
-            image: 'attachments/smgs/cantedhybrid.png'
-        },
-        {
-            name: 'Monocle Reflex Sight',
-            image: 'attachments/smgs/monocle.png'
-        },
-        {
-            name: 'Cronen C480 Pro Optic',
-            image: 'attachments/smgs/cronenc480.png'
-        },
-        {
-            name: 'Merc Thermal Optic',
-            image: 'attachments/smgs/mercthermal.png'
-        },
-        {
-            name: 'Integral Hybrid',
-            image: 'attachments/smgs/integral.png'
-        },
+        name: 'Operator Reflex Sight',
+        image: 'attachments/smgs/operatorreflex.png'
+    },
+    {
+        name: 'Corp Combat Holo Sight',
+        image: 'attachments/smgs/corp.png'
+    },
+    {
+        name: 'Aim-Op Relfex Sight',
+        image: 'attachments/smgs/aimop.png'
+    },
+    {
+        name: 'G.I. Mini Relex',
+        image: 'attachments/smgs/gi.png'
+    },
+    {
+        name: 'Scout Combat Optic',
+        image: 'attachments/smgs/scout.png'
+    },
+    {
+        name: 'APX5 Holographic Sight',
+        image: 'attachments/smgs/apx5.png'
+    },
+    {
+        name: 'Solozero Optics Mini Reflex',
+        image: 'attachments/smgs/solozeromini.png'
+    },
+    {
+        name: 'VLK 3.0x Optic',
+        image: 'attachments/smgs/vlk.png'
+    },
+    {
+        name: 'Thermal hybrid',
+        image: 'attachments/smgs/thermal.png'
+    },
+    {
+        name: 'Viper Reflex Sight',
+        image: 'attachments/smgs/viper.png'
+    },
+    {
+        name: 'PBX Holo 7 sight',
+        image: 'attachments/smgs/pbx.png'
+    },
+    {
+        name: 'Solozero NVG Enhanced',
+        image: 'attachments/smgs/solozero.png'
+    },
+    {
+        name: 'Cronen LP945 Mini Reflex',
+        image: 'attachments/smgs/cronenlp945.png'
+    },
+    {
+        name: 'Canted Hybrid',
+        image: 'attachments/smgs/cantedhybrid.png'
+    },
+    {
+        name: 'Monocle Reflex Sight',
+        image: 'attachments/smgs/monocle.png'
+    },
+    {
+        name: 'Cronen C480 Pro Optic',
+        image: 'attachments/smgs/cronenc480.png'
+    },
+    {
+        name: 'Merc Thermal Optic',
+        image: 'attachments/smgs/mercthermal.png'
+    },
+    {
+        name: 'Integral Hybrid',
+        image: 'attachments/smgs/integral.png'
+    },
     ];
 
 
@@ -2172,21 +2172,21 @@ function uzi() {
     //Stock
 
     var stocks = [{
-            name: 'FORGE TAC Ultralight',
-            image: 'attachments/smgs/forgetacultralight.png'
-        },
-        {
-            name: 'Standard-Issue Wood Stock',
-            image: 'attachments/smgs/standardissuewoodstock.png'
-        },
-        {
-            name: 'No Stock',
-            image: 'attachments/smgs/nostockuzi.png'
-        },
-        {
-            name: 'FFS Close Quarters Stock',
-            image: 'attachments/smgs/fssclosequartersstock.png'
-        },
+        name: 'FORGE TAC Ultralight',
+        image: 'attachments/smgs/forgetacultralight.png'
+    },
+    {
+        name: 'Standard-Issue Wood Stock',
+        image: 'attachments/smgs/standardissuewoodstock.png'
+    },
+    {
+        name: 'No Stock',
+        image: 'attachments/smgs/nostockuzi.png'
+    },
+    {
+        name: 'FFS Close Quarters Stock',
+        image: 'attachments/smgs/fssclosequartersstock.png'
+    },
     ];
 
 
@@ -2214,25 +2214,25 @@ function uzi() {
     //Underbarrel
 
     var underbarrels = [{
-            name: 'Merc Foregrup',
-            image: 'attachments/smgs/merc.png'
-        },
-        {
-            name: 'Commando Foregrip',
-            image: 'attachments/smgs/commando.png'
-        },
-        {
-            name: 'Tactical Foregrip',
-            image: 'attachments/smgs/tactical.png'
-        },
-        {
-            name: 'Ranger Foregrip',
-            image: 'attachments/smgs/ranger.png'
-        },
-        {
-            name: 'Operator Foregrip',
-            image: 'attachments/smgs/operator.png'
-        },
+        name: 'Merc Foregrup',
+        image: 'attachments/smgs/merc.png'
+    },
+    {
+        name: 'Commando Foregrip',
+        image: 'attachments/smgs/commando.png'
+    },
+    {
+        name: 'Tactical Foregrip',
+        image: 'attachments/smgs/tactical.png'
+    },
+    {
+        name: 'Ranger Foregrip',
+        image: 'attachments/smgs/ranger.png'
+    },
+    {
+        name: 'Operator Foregrip',
+        image: 'attachments/smgs/operator.png'
+    },
     ];
 
 
@@ -2263,13 +2263,13 @@ function uzi() {
     //Ammunation
 
     var ammunations = [{
-            name: '40 Round Mags',
-            image: 'attachments/smgs/40uzi.png'
-        },
-        {
-            name: '50 Round Mags',
-            image: 'attachments/smgs/50uzi.png'
-        },
+        name: '40 Round Mags',
+        image: 'attachments/smgs/40uzi.png'
+    },
+    {
+        name: '50 Round Mags',
+        image: 'attachments/smgs/50uzi.png'
+    },
     ];
 
 
@@ -2297,17 +2297,17 @@ function uzi() {
     //RearGrip
 
     var reargrips = [{
-            name: 'Granulated Grip Tape',
-            image: 'attachments/smgs/granulatedgriptape.png'
-        },
-        {
-            name: 'Rubberized Grip Tape',
-            image: 'attachments/smgs/rubberizedgriptape.png'
-        },
-        {
-            name: 'Stippled Grip Tape',
-            image: 'attachments/smgs/stippledgriptape.png'
-        },
+        name: 'Granulated Grip Tape',
+        image: 'attachments/smgs/granulatedgriptape.png'
+    },
+    {
+        name: 'Rubberized Grip Tape',
+        image: 'attachments/smgs/rubberizedgriptape.png'
+    },
+    {
+        name: 'Stippled Grip Tape',
+        image: 'attachments/smgs/stippledgriptape.png'
+    },
     ];
 
 
@@ -2333,45 +2333,45 @@ function uzi() {
     //Perks
 
     var perks = [{
-            name: 'FMJ',
-            image: 'attachments/perks/fmj.png'
-        },
-        {
-            name: 'Sleight of Hand',
-            image: 'attachments/perks/sleight.png'
-        },
-        {
-            name: 'Frangible - Wounding',
-            image: 'attachments/perks/wounding.png'
-        },
-        {
-            name: 'Heavy Hitter',
-            image: 'attachments/perks/heavyhitter.png'
-        },
-        {
-            name: 'Fully Loaded',
-            image: 'attachments/perks/fullyloaded.png'
-        },
-        {
-            name: 'Burst',
-            image: 'attachments/perks/burst.png'
-        },
-        {
-            name: 'Recon',
-            image: 'attachments/perks/recon.png'
-        },
-        {
-            name: 'Mo Money',
-            image: 'attachments/perks/money.png'
-        },
-        {
-            name: 'Fast Melee',
-            image: 'attachments/perks/fastmelee.png'
-        },
-        {
-            name: 'Frangible - Disabling',
-            image: 'attachments/perks/disabling.png'
-        },
+        name: 'FMJ',
+        image: 'attachments/perks/fmj.png'
+    },
+    {
+        name: 'Sleight of Hand',
+        image: 'attachments/perks/sleight.png'
+    },
+    {
+        name: 'Frangible - Wounding',
+        image: 'attachments/perks/wounding.png'
+    },
+    {
+        name: 'Heavy Hitter',
+        image: 'attachments/perks/heavyhitter.png'
+    },
+    {
+        name: 'Fully Loaded',
+        image: 'attachments/perks/fullyloaded.png'
+    },
+    {
+        name: 'Burst',
+        image: 'attachments/perks/burst.png'
+    },
+    {
+        name: 'Recon',
+        image: 'attachments/perks/recon.png'
+    },
+    {
+        name: 'Mo Money',
+        image: 'attachments/perks/money.png'
+    },
+    {
+        name: 'Fast Melee',
+        image: 'attachments/perks/fastmelee.png'
+    },
+    {
+        name: 'Frangible - Disabling',
+        image: 'attachments/perks/disabling.png'
+    },
     ];
 
 
@@ -2413,33 +2413,33 @@ function pp19() {
     //Muzzles
 
     var muzzles = [{
-            name: 'CQB Breacher Device',
-            image: 'attachments/smgs/cqbbreacherdevice.png'
-        },
-        {
-            name: 'Tactical Suppressor',
-            image: 'attachments/smgs/tacticalsuppressor.png'
-        },
-        {
-            name: 'Flash Guard',
-            image: 'attachments/smgs/flashguard.png'
-        },
-        {
-            name: 'Monolithic Suppressor',
-            image: 'attachments/smgs/monolithicsuppressor.png'
-        },
-        {
-            name: 'Muzzle Brake',
-            image: 'attachments/smgs/muzzlebrake.png'
-        },
-        {
-            name: 'Compensator',
-            image: 'attachments/smgs/compensator.png'
-        },
-        {
-            name: 'Lightweight Suppressor',
-            image: 'attachments/smgs/lightweightsuppressor.png'
-        },
+        name: 'CQB Breacher Device',
+        image: 'attachments/smgs/cqbbreacherdevice.png'
+    },
+    {
+        name: 'Tactical Suppressor',
+        image: 'attachments/smgs/tacticalsuppressor.png'
+    },
+    {
+        name: 'Flash Guard',
+        image: 'attachments/smgs/flashguard.png'
+    },
+    {
+        name: 'Monolithic Suppressor',
+        image: 'attachments/smgs/monolithicsuppressor.png'
+    },
+    {
+        name: 'Muzzle Brake',
+        image: 'attachments/smgs/muzzlebrake.png'
+    },
+    {
+        name: 'Compensator',
+        image: 'attachments/smgs/compensator.png'
+    },
+    {
+        name: 'Lightweight Suppressor',
+        image: 'attachments/smgs/lightweightsuppressor.png'
+    },
     ];
 
 
@@ -2465,17 +2465,17 @@ function pp19() {
     //Barrel
 
     var barrels = [{
-            name: '8.7 Steel',
-            image: 'attachments/smgs/87steel.png'
-        },
-        {
-            name: '8.7 Polygonal',
-            image: 'attachments/smgs/87pologonal.png'
-        },
-        {
-            name: '8.7 Aluminum',
-            image: 'attachments/smgs/87aluminum.png'
-        },
+        name: '8.7 Steel',
+        image: 'attachments/smgs/87steel.png'
+    },
+    {
+        name: '8.7 Polygonal',
+        image: 'attachments/smgs/87pologonal.png'
+    },
+    {
+        name: '8.7 Aluminum',
+        image: 'attachments/smgs/87aluminum.png'
+    },
     ];
 
 
@@ -2504,17 +2504,17 @@ function pp19() {
     //Laser
 
     var lasers = [{
-            name: '1mW Laser',
-            image: 'attachments/smgs/1mwlaser.png'
-        },
-        {
-            name: '5mW Laser',
-            image: 'attachments/smgs/5mwlaser.png'
-        },
-        {
-            name: 'Tac Laser',
-            image: 'attachments/smgs/taclaser.png'
-        }
+        name: '1mW Laser',
+        image: 'attachments/smgs/1mwlaser.png'
+    },
+    {
+        name: '5mW Laser',
+        image: 'attachments/smgs/5mwlaser.png'
+    },
+    {
+        name: 'Tac Laser',
+        image: 'attachments/smgs/taclaser.png'
+    }
     ];
 
 
@@ -2542,77 +2542,77 @@ function pp19() {
     //Optic
 
     var optics = [{
-            name: 'Operator Reflex Sight',
-            image: 'attachments/smgs/operatorreflex.png'
-        },
-        {
-            name: 'Corp Combat Holo Sight',
-            image: 'attachments/smgs/corp.png'
-        },
-        {
-            name: 'Aim-Op Relfex Sight',
-            image: 'attachments/smgs/aimop.png'
-        },
-        {
-            name: 'G.I. Mini Relex',
-            image: 'attachments/smgs/gi.png'
-        },
-        {
-            name: 'Scout Combat Optic',
-            image: 'attachments/smgs/scout.png'
-        },
-        {
-            name: 'APX5 Holographic Sight',
-            image: 'attachments/smgs/apx5.png'
-        },
-        {
-            name: 'Solozero Optics Mini Reflex',
-            image: 'attachments/smgs/solozeromini.png'
-        },
-        {
-            name: 'VLK 3.0x Optic',
-            image: 'attachments/smgs/vlk.png'
-        },
-        {
-            name: 'Thermal hybrid',
-            image: 'attachments/smgs/thermal.png'
-        },
-        {
-            name: 'Viper Reflex Sight',
-            image: 'attachments/smgs/viper.png'
-        },
-        {
-            name: 'PBX Holo 7 sight',
-            image: 'attachments/smgs/pbx.png'
-        },
-        {
-            name: 'Solozero NVG Enhanced',
-            image: 'attachments/smgs/solozero.png'
-        },
-        {
-            name: 'Cronen LP945 Mini Reflex',
-            image: 'attachments/smgs/cronenlp945.png'
-        },
-        {
-            name: 'Canted Hybrid',
-            image: 'attachments/smgs/cantedhybrid.png'
-        },
-        {
-            name: 'Monocle Reflex Sight',
-            image: 'attachments/smgs/monocle.png'
-        },
-        {
-            name: 'Cronen C480 Pro Optic',
-            image: 'attachments/smgs/cronenc480.png'
-        },
-        {
-            name: 'Merc Thermal Optic',
-            image: 'attachments/smgs/mercthermal.png'
-        },
-        {
-            name: 'Integral Hybrid',
-            image: 'attachments/smgs/integral.png'
-        },
+        name: 'Operator Reflex Sight',
+        image: 'attachments/smgs/operatorreflex.png'
+    },
+    {
+        name: 'Corp Combat Holo Sight',
+        image: 'attachments/smgs/corp.png'
+    },
+    {
+        name: 'Aim-Op Relfex Sight',
+        image: 'attachments/smgs/aimop.png'
+    },
+    {
+        name: 'G.I. Mini Relex',
+        image: 'attachments/smgs/gi.png'
+    },
+    {
+        name: 'Scout Combat Optic',
+        image: 'attachments/smgs/scout.png'
+    },
+    {
+        name: 'APX5 Holographic Sight',
+        image: 'attachments/smgs/apx5.png'
+    },
+    {
+        name: 'Solozero Optics Mini Reflex',
+        image: 'attachments/smgs/solozeromini.png'
+    },
+    {
+        name: 'VLK 3.0x Optic',
+        image: 'attachments/smgs/vlk.png'
+    },
+    {
+        name: 'Thermal hybrid',
+        image: 'attachments/smgs/thermal.png'
+    },
+    {
+        name: 'Viper Reflex Sight',
+        image: 'attachments/smgs/viper.png'
+    },
+    {
+        name: 'PBX Holo 7 sight',
+        image: 'attachments/smgs/pbx.png'
+    },
+    {
+        name: 'Solozero NVG Enhanced',
+        image: 'attachments/smgs/solozero.png'
+    },
+    {
+        name: 'Cronen LP945 Mini Reflex',
+        image: 'attachments/smgs/cronenlp945.png'
+    },
+    {
+        name: 'Canted Hybrid',
+        image: 'attachments/smgs/cantedhybrid.png'
+    },
+    {
+        name: 'Monocle Reflex Sight',
+        image: 'attachments/smgs/monocle.png'
+    },
+    {
+        name: 'Cronen C480 Pro Optic',
+        image: 'attachments/smgs/cronenc480.png'
+    },
+    {
+        name: 'Merc Thermal Optic',
+        image: 'attachments/smgs/mercthermal.png'
+    },
+    {
+        name: 'Integral Hybrid',
+        image: 'attachments/smgs/integral.png'
+    },
     ];
 
 
@@ -2639,21 +2639,21 @@ function pp19() {
     //Stock
 
     var stocks = [{
-            name: 'Factory Aiuminum Stock',
-            image: 'attachments/smgs/factoryalumniumstock.png'
-        },
-        {
-            name: 'No Stock',
-            image: 'attachments/smgs/nostockpp.png'
-        },
-        {
-            name: 'Corvus Skeleton Stock',
-            image: 'attachments/smgs/corvussleketonstock.png'
-        },
-        {
-            name: 'FFS Close Quarters Stock',
-            image: 'attachments/smgs/fssclosequartersstock.png'
-        },
+        name: 'Factory Aiuminum Stock',
+        image: 'attachments/smgs/factoryalumniumstock.png'
+    },
+    {
+        name: 'No Stock',
+        image: 'attachments/smgs/nostockpp.png'
+    },
+    {
+        name: 'Corvus Skeleton Stock',
+        image: 'attachments/smgs/corvussleketonstock.png'
+    },
+    {
+        name: 'FFS Close Quarters Stock',
+        image: 'attachments/smgs/fssclosequartersstock.png'
+    },
     ];
 
 
@@ -2685,7 +2685,7 @@ function pp19() {
     var ammunations = [{
         name: '84 Round Helical Mags',
         image: 'attachments/smgs/84round.png'
-    }, ];
+    },];
 
 
     var ammunation = false;
@@ -2712,17 +2712,17 @@ function pp19() {
     //RearGrip
 
     var reargrips = [{
-            name: 'Granulated Grip Tape',
-            image: 'attachments/smgs/granulatedgriptape.png'
-        },
-        {
-            name: 'Rubberized Grip Tape',
-            image: 'attachments/smgs/rubberizedgriptape.png'
-        },
-        {
-            name: 'Stippled Grip Tape',
-            image: 'attachments/smgs/stippledgriptape.png'
-        },
+        name: 'Granulated Grip Tape',
+        image: 'attachments/smgs/granulatedgriptape.png'
+    },
+    {
+        name: 'Rubberized Grip Tape',
+        image: 'attachments/smgs/rubberizedgriptape.png'
+    },
+    {
+        name: 'Stippled Grip Tape',
+        image: 'attachments/smgs/stippledgriptape.png'
+    },
     ];
 
 
@@ -2748,41 +2748,41 @@ function pp19() {
     //Perks
 
     var perks = [{
-            name: 'FMJ',
-            image: 'attachments/perks/fmj.png'
-        },
-        {
-            name: 'Sleight of Hand',
-            image: 'attachments/perks/sleight.png'
-        },
-        {
-            name: 'Frangible - Wounding',
-            image: 'attachments/perks/wounding.png'
-        },
-        {
-            name: 'Heavy Hitter',
-            image: 'attachments/perks/heavyhitter.png'
-        },
-        {
-            name: 'Fully Loaded',
-            image: 'attachments/perks/fullyloaded.png'
-        },
-        {
-            name: 'Recon',
-            image: 'attachments/perks/recon.png'
-        },
-        {
-            name: 'Mo Money',
-            image: 'attachments/perks/money.png'
-        },
-        {
-            name: 'Fast Melee',
-            image: 'attachments/perks/fastmelee.png'
-        },
-        {
-            name: 'Frangible - Disabling',
-            image: 'attachments/perks/disabling.png'
-        },
+        name: 'FMJ',
+        image: 'attachments/perks/fmj.png'
+    },
+    {
+        name: 'Sleight of Hand',
+        image: 'attachments/perks/sleight.png'
+    },
+    {
+        name: 'Frangible - Wounding',
+        image: 'attachments/perks/wounding.png'
+    },
+    {
+        name: 'Heavy Hitter',
+        image: 'attachments/perks/heavyhitter.png'
+    },
+    {
+        name: 'Fully Loaded',
+        image: 'attachments/perks/fullyloaded.png'
+    },
+    {
+        name: 'Recon',
+        image: 'attachments/perks/recon.png'
+    },
+    {
+        name: 'Mo Money',
+        image: 'attachments/perks/money.png'
+    },
+    {
+        name: 'Fast Melee',
+        image: 'attachments/perks/fastmelee.png'
+    },
+    {
+        name: 'Frangible - Disabling',
+        image: 'attachments/perks/disabling.png'
+    },
     ];
 
 
@@ -2824,33 +2824,33 @@ function pkm() {
     //Muzzles
 
     var muzzles = [{
-            name: 'Flash Guard',
-            image: 'attachments/lmgs/muzzles/flash.png'
-        },
-        {
-            name: 'Monolithic Suppressor',
-            image: 'attachments/lmgs/muzzles/monolithic.png'
-        },
-        {
-            name: 'Muzzle Brake',
-            image: 'attachments/lmgs/muzzles/muzzle.png'
-        },
-        {
-            name: 'CQB Breacher Device',
-            image: 'attachments/lmgs/muzzles/cqb.png'
-        },
-        {
-            name: 'Lightweight Suppressor',
-            image: 'attachments/lmgs/muzzles/lightweight.png'
-        },
-        {
-            name: 'Compensator',
-            image: 'attachments/lmgs/muzzles/compensator.png'
-        },
-        {
-            name: 'Tactical Suppressor',
-            image: 'attachments/lmgs/muzzles/tactical.png'
-        },
+        name: 'Flash Guard',
+        image: 'attachments/lmgs/muzzles/flash.png'
+    },
+    {
+        name: 'Monolithic Suppressor',
+        image: 'attachments/lmgs/muzzles/monolithic.png'
+    },
+    {
+        name: 'Muzzle Brake',
+        image: 'attachments/lmgs/muzzles/muzzle.png'
+    },
+    {
+        name: 'CQB Breacher Device',
+        image: 'attachments/lmgs/muzzles/cqb.png'
+    },
+    {
+        name: 'Lightweight Suppressor',
+        image: 'attachments/lmgs/muzzles/lightweight.png'
+    },
+    {
+        name: 'Compensator',
+        image: 'attachments/lmgs/muzzles/compensator.png'
+    },
+    {
+        name: 'Tactical Suppressor',
+        image: 'attachments/lmgs/muzzles/tactical.png'
+    },
     ];
 
 
@@ -2876,17 +2876,17 @@ function pkm() {
     //Barrel
 
     var barrels = [{
-            name: '18.2 Compact Barrel',
-            image: 'attachments/lmgs/barrels/182compact.png'
-        },
-        {
-            name: '26.9 Extended Barrel',
-            image: 'attachments/lmgs/barrels/269extended.png'
-        },
-        {
-            name: '25.9 Heavy Barrel',
-            image: 'attachments/lmgs/barrels/259heavy.png'
-        },
+        name: '18.2 Compact Barrel',
+        image: 'attachments/lmgs/barrels/182compact.png'
+    },
+    {
+        name: '26.9 Extended Barrel',
+        image: 'attachments/lmgs/barrels/269extended.png'
+    },
+    {
+        name: '25.9 Heavy Barrel',
+        image: 'attachments/lmgs/barrels/259heavy.png'
+    },
 
     ];
 
@@ -2917,17 +2917,17 @@ function pkm() {
     //Laser
 
     var lasers = [{
-            name: '1mW Laser',
-            image: 'attachments/lasers/1mw.png'
-        },
-        {
-            name: '5mW Laser',
-            image: 'attachments/lasers/5mw.png'
-        },
-        {
-            name: 'Tac Laser',
-            image: 'attachments/lasers/tac.png'
-        }
+        name: '1mW Laser',
+        image: 'attachments/lasers/1mw.png'
+    },
+    {
+        name: '5mW Laser',
+        image: 'attachments/lasers/5mw.png'
+    },
+    {
+        name: 'Tac Laser',
+        image: 'attachments/lasers/tac.png'
+    }
     ];
 
 
@@ -2955,81 +2955,81 @@ function pkm() {
     //Optic
 
     var optics = [{
-            name: 'Cronen LP945 Mini Reflex',
-            image: 'attachments/lmgs/optics/cronenlp945.png'
-        },
-        {
-            name: 'Corp Combat Holo Sight',
-            image: 'attachments/lmgs/optics/corp.png'
-        },
-        {
-            name: 'Operator Reflex Sight',
-            image: 'attachments/lmgs/optics/operator.png'
-        },
-        {
-            name: 'Scout Combat Optic',
-            image: 'attachments/lmgs/optics/scout.png'
-        },
-        {
-            name: 'Aim-Op Reflex Sight',
-            image: 'attachments/lmgs/optics/aimop.png'
-        },
-        {
-            name: 'APx5 Holographic Sight',
-            image: 'attachments/lmgs/optics/apx5.png'
-        },
-        {
-            name: 'Integral Hybrid',
-            image: 'attachments/lmgs/optics/integral.png'
-        },
-        {
-            name: 'Solozero NVG Enhanced',
-            image: 'attachments/lmgs/optics/solozero.png'
-        },
-        {
-            name: 'VLK 3.0x Optic',
-            image: 'attachments/lmgs/optics/vlk.png'
-        },
-        {
-            name: 'Solozero Optics Mini Reflex',
-            image: 'attachments/lmgs/optics/solozeromini.png'
-        },
-        {
-            name: 'Sniper Scope',
-            image: 'attachments/lmgs/optics/sniperscope.png'
-        },
-        {
-            name: 'Viper Reflex Sight',
-            image: 'attachments/lmgs/optics/viper.png'
-        },
-        {
-            name: 'G.I. Mini Reflex',
-            image: 'attachments/lmgs/optics/gi.png'
-        },
-        {
-            name: 'PBX Holo 7 Sight',
-            image: 'attachments/lmgs/optics/pbx.png'
-        },
-        {
-            name: 'Cronen C480 Pro Optic',
-            image: 'attachments/lmgs/optics/cronenc480.png'
-        },
-        {
-            name: 'Monocle Reflex Sight',
-            image: 'attachments/lmgs/optics/monocle.png'
-        },
-        {
-            name: 'Canted Hybrid',
-            image: 'attachments/lmgs/optics/canted.png'
-        },
-        {
-            name: 'Merc Thermal Optic',
-            image: 'attachments/lmgs/optics/merc.png'
-        },
-        {
-            name: 'Thermal Hybrid',
-            image: 'attachments/lmgs/optics/thermal.png'
-        }
+        name: 'Cronen LP945 Mini Reflex',
+        image: 'attachments/lmgs/optics/cronenlp945.png'
+    },
+    {
+        name: 'Corp Combat Holo Sight',
+        image: 'attachments/lmgs/optics/corp.png'
+    },
+    {
+        name: 'Operator Reflex Sight',
+        image: 'attachments/lmgs/optics/operator.png'
+    },
+    {
+        name: 'Scout Combat Optic',
+        image: 'attachments/lmgs/optics/scout.png'
+    },
+    {
+        name: 'Aim-Op Reflex Sight',
+        image: 'attachments/lmgs/optics/aimop.png'
+    },
+    {
+        name: 'APx5 Holographic Sight',
+        image: 'attachments/lmgs/optics/apx5.png'
+    },
+    {
+        name: 'Integral Hybrid',
+        image: 'attachments/lmgs/optics/integral.png'
+    },
+    {
+        name: 'Solozero NVG Enhanced',
+        image: 'attachments/lmgs/optics/solozero.png'
+    },
+    {
+        name: 'VLK 3.0x Optic',
+        image: 'attachments/lmgs/optics/vlk.png'
+    },
+    {
+        name: 'Solozero Optics Mini Reflex',
+        image: 'attachments/lmgs/optics/solozeromini.png'
+    },
+    {
+        name: 'Sniper Scope',
+        image: 'attachments/lmgs/optics/sniperscope.png'
+    },
+    {
+        name: 'Viper Reflex Sight',
+        image: 'attachments/lmgs/optics/viper.png'
+    },
+    {
+        name: 'G.I. Mini Reflex',
+        image: 'attachments/lmgs/optics/gi.png'
+    },
+    {
+        name: 'PBX Holo 7 Sight',
+        image: 'attachments/lmgs/optics/pbx.png'
+    },
+    {
+        name: 'Cronen C480 Pro Optic',
+        image: 'attachments/lmgs/optics/cronenc480.png'
+    },
+    {
+        name: 'Monocle Reflex Sight',
+        image: 'attachments/lmgs/optics/monocle.png'
+    },
+    {
+        name: 'Canted Hybrid',
+        image: 'attachments/lmgs/optics/canted.png'
+    },
+    {
+        name: 'Merc Thermal Optic',
+        image: 'attachments/lmgs/optics/merc.png'
+    },
+    {
+        name: 'Thermal Hybrid',
+        image: 'attachments/lmgs/optics/thermal.png'
+    }
     ];
 
 
@@ -3056,21 +3056,21 @@ function pkm() {
     //Stock
 
     var stocks = [{
-            name: 'FORGE TAC Stalker',
-            image: 'attachments/lmgs/stocks/stalker.png'
-        },
-        {
-            name: 'FORGE TAC Ultralight',
-            image: 'attachments/lmgs/stocks/ultralight.png'
-        },
-        {
-            name: 'FSS Close Quarters Stock',
-            image: 'attachments/lmgs/stocks/close.png'
-        },
-        {
-            name: 'No Stock',
-            image: 'attachments/lmgs/stocks/nostock.png'
-        },
+        name: 'FORGE TAC Stalker',
+        image: 'attachments/lmgs/stocks/stalker.png'
+    },
+    {
+        name: 'FORGE TAC Ultralight',
+        image: 'attachments/lmgs/stocks/ultralight.png'
+    },
+    {
+        name: 'FSS Close Quarters Stock',
+        image: 'attachments/lmgs/stocks/close.png'
+    },
+    {
+        name: 'No Stock',
+        image: 'attachments/lmgs/stocks/nostock.png'
+    },
     ];
 
 
@@ -3098,29 +3098,29 @@ function pkm() {
     //Underbarrel
 
     var underbarrels = [{
-            name: 'Commando Foregrip',
-            image: 'attachments/lmgs/underbarrels/commando.png'
-        },
-        {
-            name: 'Merc Foregrip',
-            image: 'attachments/lmgs/underbarrels/merc.png'
-        },
-        {
-            name: 'Tactical Foregrip',
-            image: 'attachments/lmgs/underbarrels/tactical.png'
-        },
-        {
-            name: 'Bipod',
-            image: 'attachments/lmgs/underbarrels/bipod.png'
-        },
-        {
-            name: 'Snatch Grip',
-            image: 'attachments/lmgs/underbarrels/snach.png'
-        },
-        {
-            name: 'Operator Foregrip',
-            image: 'attachments/lmgs/underbarrels/commando.png'
-        },
+        name: 'Commando Foregrip',
+        image: 'attachments/lmgs/underbarrels/commando.png'
+    },
+    {
+        name: 'Merc Foregrip',
+        image: 'attachments/lmgs/underbarrels/merc.png'
+    },
+    {
+        name: 'Tactical Foregrip',
+        image: 'attachments/lmgs/underbarrels/tactical.png'
+    },
+    {
+        name: 'Bipod',
+        image: 'attachments/lmgs/underbarrels/bipod.png'
+    },
+    {
+        name: 'Snatch Grip',
+        image: 'attachments/lmgs/underbarrels/snach.png'
+    },
+    {
+        name: 'Operator Foregrip',
+        image: 'attachments/lmgs/underbarrels/commando.png'
+    },
     ];
     var underbarrel = false;
     document.getElementById("primaryAttH2").innerHTML = "";
@@ -3149,13 +3149,13 @@ function pkm() {
     //Ammunation
 
     var ammunations = [{
-            name: '150 Round Belt',
-            image: 'attachments/lmgs/ammunations/150.png'
-        },
-        {
-            name: '200 Round Belt',
-            image: 'attachments/lmgs/ammunations/200.png'
-        },
+        name: '150 Round Belt',
+        image: 'attachments/lmgs/ammunations/150.png'
+    },
+    {
+        name: '200 Round Belt',
+        image: 'attachments/lmgs/ammunations/200.png'
+    },
 
     ];
 
@@ -3184,17 +3184,17 @@ function pkm() {
     //RearGrip
 
     var reargrips = [{
-            name: 'Granulated Grip Tape',
-            image: 'attachments/lmgs/reargrips/granulated.png'
-        },
-        {
-            name: 'Stippled Grip Tape',
-            image: 'attachments/lmgs/reargrips/stippled.png'
-        },
-        {
-            name: 'Rubberized Grip Tape',
-            image: 'attachments/lmgs/reargrips/rubberized.png'
-        },
+        name: 'Granulated Grip Tape',
+        image: 'attachments/lmgs/reargrips/granulated.png'
+    },
+    {
+        name: 'Stippled Grip Tape',
+        image: 'attachments/lmgs/reargrips/stippled.png'
+    },
+    {
+        name: 'Rubberized Grip Tape',
+        image: 'attachments/lmgs/reargrips/rubberized.png'
+    },
 
     ];
 
@@ -3221,41 +3221,41 @@ function pkm() {
     //Perks
 
     var perks = [{
-            name: 'FMJ',
-            image: 'attachments/perks/fmj.png'
-        },
-        {
-            name: 'Sleight of Hand',
-            image: 'attachments/perks/sleight.png'
-        },
-        {
-            name: 'Frangible - Wounding',
-            image: 'attachments/perks/wounding.png'
-        },
-        {
-            name: 'Heavy Hitter',
-            image: 'attachments/perks/heavyhitter.png'
-        },
-        {
-            name: 'Fully Loaded',
-            image: 'attachments/perks/fullyloaded.png'
-        },
-        {
-            name: 'Recon',
-            image: 'attachments/perks/recon.png'
-        },
-        {
-            name: 'Mo Money',
-            image: 'attachments/perks/money.png'
-        },
-        {
-            name: 'Fast Melee',
-            image: 'attachments/perks/fastmelee.png'
-        },
-        {
-            name: 'Frangible - Disabling',
-            image: 'attachments/perks/disabling.png'
-        },
+        name: 'FMJ',
+        image: 'attachments/perks/fmj.png'
+    },
+    {
+        name: 'Sleight of Hand',
+        image: 'attachments/perks/sleight.png'
+    },
+    {
+        name: 'Frangible - Wounding',
+        image: 'attachments/perks/wounding.png'
+    },
+    {
+        name: 'Heavy Hitter',
+        image: 'attachments/perks/heavyhitter.png'
+    },
+    {
+        name: 'Fully Loaded',
+        image: 'attachments/perks/fullyloaded.png'
+    },
+    {
+        name: 'Recon',
+        image: 'attachments/perks/recon.png'
+    },
+    {
+        name: 'Mo Money',
+        image: 'attachments/perks/money.png'
+    },
+    {
+        name: 'Fast Melee',
+        image: 'attachments/perks/fastmelee.png'
+    },
+    {
+        name: 'Frangible - Disabling',
+        image: 'attachments/perks/disabling.png'
+    },
     ];
 
 
@@ -3301,33 +3301,33 @@ function p90() {
     //Muzzles
 
     var muzzles = [{
-            name: 'Breacher Device',
-            image: 'attachments/smgs/breacherdevice.png'
-        },
-        {
-            name: 'Tactical Suppressor',
-            image: 'attachments/smgs/tacticalsuppressor.png'
-        },
-        {
-            name: 'Flash Guard',
-            image: 'attachments/smgs/flashguard.png'
-        },
-        {
-            name: 'Monolithic Suppressor',
-            image: 'attachments/smgs/monolithicsuppressor.png'
-        },
-        {
-            name: 'Muzzle Brake',
-            image: 'attachments/smgs/muzzlebrake.png'
-        },
-        {
-            name: 'Compensator',
-            image: 'attachments/smgs/compensator.png'
-        },
-        {
-            name: 'Lightweight Suppressor',
-            image: 'attachments/smgs/lightweightsuppressor.png'
-        },
+        name: 'Breacher Device',
+        image: 'attachments/smgs/breacherdevice.png'
+    },
+    {
+        name: 'Tactical Suppressor',
+        image: 'attachments/smgs/tacticalsuppressor.png'
+    },
+    {
+        name: 'Flash Guard',
+        image: 'attachments/smgs/flashguard.png'
+    },
+    {
+        name: 'Monolithic Suppressor',
+        image: 'attachments/smgs/monolithicsuppressor.png'
+    },
+    {
+        name: 'Muzzle Brake',
+        image: 'attachments/smgs/muzzlebrake.png'
+    },
+    {
+        name: 'Compensator',
+        image: 'attachments/smgs/compensator.png'
+    },
+    {
+        name: 'Lightweight Suppressor',
+        image: 'attachments/smgs/lightweightsuppressor.png'
+    },
     ];
 
 
@@ -3353,13 +3353,13 @@ function p90() {
     //Barrel
 
     var barrels = [{
-            name: 'FORGE TAC Retribution',
-            image: 'attachments/smgs/forgetacretribution.png'
-        },
-        {
-            name: 'FFS 10.6 Pro',
-            image: 'attachments/smgs/fss109pro.png'
-        },
+        name: 'FORGE TAC Retribution',
+        image: 'attachments/smgs/forgetacretribution.png'
+    },
+    {
+        name: 'FFS 10.6 Pro',
+        image: 'attachments/smgs/fss109pro.png'
+    },
     ];
 
 
@@ -3388,17 +3388,17 @@ function p90() {
     //Laser
 
     var lasers = [{
-            name: '1mW Laser',
-            image: 'attachments/smgs/1mwlaser.png'
-        },
-        {
-            name: '5mW Laser',
-            image: 'attachments/smgs/5mwlaser.png'
-        },
-        {
-            name: 'Tac Laser',
-            image: 'attachments/smgs/taclaser.png'
-        },
+        name: '1mW Laser',
+        image: 'attachments/smgs/1mwlaser.png'
+    },
+    {
+        name: '5mW Laser',
+        image: 'attachments/smgs/5mwlaser.png'
+    },
+    {
+        name: 'Tac Laser',
+        image: 'attachments/smgs/taclaser.png'
+    },
     ];
 
 
@@ -3426,81 +3426,81 @@ function p90() {
     //Optic
 
     var optics = [{
-            name: 'Operator Reflex Sight',
-            image: 'attachments/smgs/operatorreflex.png'
-        },
-        {
-            name: 'Corp Combat Holo Sight',
-            image: 'attachments/smgs/corp.png'
-        },
-        {
-            name: 'Aim-Op Relfex Sight',
-            image: 'attachments/smgs/aimop.png'
-        },
-        {
-            name: 'G.I. Mini Relex',
-            image: 'attachments/smgs/gi.png'
-        },
-        {
-            name: 'Scout Combat Optic',
-            image: 'attachments/smgs/scout.png'
-        },
-        {
-            name: 'APX5 Holographic Sight',
-            image: 'attachments/smgs/apx5.png'
-        },
-        {
-            name: 'Solozero Optics Mini Reflex',
-            image: 'attachments/smgs/solozeromini.png'
-        },
-        {
-            name: 'VLK 3.0x Optic',
-            image: 'attachments/smgs/vlk.png'
-        },
-        {
-            name: 'Thermal hybrid',
-            image: 'attachments/smgs/thermal.png'
-        },
-        {
-            name: 'Viper Reflex Sight',
-            image: 'attachments/smgs/viper.png'
-        },
-        {
-            name: 'PBX Holo 7 sight',
-            image: 'attachments/smgs/pbx.png'
-        },
-        {
-            name: 'Solozero NVG Enhanced',
-            image: 'attachments/smgs/solozero.png'
-        },
-        {
-            name: 'Cronen LP945 Mini Reflex',
-            image: 'attachments/smgs/cronenlp945.png'
-        },
-        {
-            name: 'FSS Ring Sight',
-            image: 'attachments/smgs/fssringsight.png'
-        },
-        {
-            name: 'Monocle Reflex Sight',
-            image: 'attachments/smgs/monocle.png'
-        },
-        {
-            name: 'Canted Hybrid',
-            image: 'attachments/smgs/cantedhybrid.png'
-        },
-        {
-            name: 'Cronen C480 Pro Optic',
-            image: 'attachments/smgs/cronenc480.png'
-        },
-        {
-            name: 'Merc Thermal Optic',
-            image: 'attachments/smgs/mercthermal.png'
-        },
-        {
-            name: 'Integral Hybrid',
-            image: 'attachments/smgs/integral.png'
-        },
+        name: 'Operator Reflex Sight',
+        image: 'attachments/smgs/operatorreflex.png'
+    },
+    {
+        name: 'Corp Combat Holo Sight',
+        image: 'attachments/smgs/corp.png'
+    },
+    {
+        name: 'Aim-Op Relfex Sight',
+        image: 'attachments/smgs/aimop.png'
+    },
+    {
+        name: 'G.I. Mini Relex',
+        image: 'attachments/smgs/gi.png'
+    },
+    {
+        name: 'Scout Combat Optic',
+        image: 'attachments/smgs/scout.png'
+    },
+    {
+        name: 'APX5 Holographic Sight',
+        image: 'attachments/smgs/apx5.png'
+    },
+    {
+        name: 'Solozero Optics Mini Reflex',
+        image: 'attachments/smgs/solozeromini.png'
+    },
+    {
+        name: 'VLK 3.0x Optic',
+        image: 'attachments/smgs/vlk.png'
+    },
+    {
+        name: 'Thermal hybrid',
+        image: 'attachments/smgs/thermal.png'
+    },
+    {
+        name: 'Viper Reflex Sight',
+        image: 'attachments/smgs/viper.png'
+    },
+    {
+        name: 'PBX Holo 7 sight',
+        image: 'attachments/smgs/pbx.png'
+    },
+    {
+        name: 'Solozero NVG Enhanced',
+        image: 'attachments/smgs/solozero.png'
+    },
+    {
+        name: 'Cronen LP945 Mini Reflex',
+        image: 'attachments/smgs/cronenlp945.png'
+    },
+    {
+        name: 'FSS Ring Sight',
+        image: 'attachments/smgs/fssringsight.png'
+    },
+    {
+        name: 'Monocle Reflex Sight',
+        image: 'attachments/smgs/monocle.png'
+    },
+    {
+        name: 'Canted Hybrid',
+        image: 'attachments/smgs/cantedhybrid.png'
+    },
+    {
+        name: 'Cronen C480 Pro Optic',
+        image: 'attachments/smgs/cronenc480.png'
+    },
+    {
+        name: 'Merc Thermal Optic',
+        image: 'attachments/smgs/mercthermal.png'
+    },
+    {
+        name: 'Integral Hybrid',
+        image: 'attachments/smgs/integral.png'
+    },
     ];
 
 
@@ -3527,17 +3527,17 @@ function p90() {
     //Stock
 
     var stocks = [{
-            name: 'FORGE TAC CQB Comb',
-            image: 'attachments/smgs/forgetaccqbcomb.png'
-        },
-        {
-            name: 'Fly Strap',
-            image: 'attachments/smgs/flystrap.png'
-        },
-        {
-            name: 'FSS Heavy Stock Pro',
-            image: 'attachments/smgs/fssheavystockpro.png'
-        },
+        name: 'FORGE TAC CQB Comb',
+        image: 'attachments/smgs/forgetaccqbcomb.png'
+    },
+    {
+        name: 'Fly Strap',
+        image: 'attachments/smgs/flystrap.png'
+    },
+    {
+        name: 'FSS Heavy Stock Pro',
+        image: 'attachments/smgs/fssheavystockpro.png'
+    },
     ];
 
 
@@ -3565,17 +3565,17 @@ function p90() {
     //Underbarrel
 
     var underbarrels = [{
-            name: 'Granuldated Grip Tape',
-            image: 'attachments/smgs/granulatedgriptapeub.png'
-        },
-        {
-            name: 'Stippled Grip Tape',
-            image: 'attachments/smgs/stippledgriptapeub.png'
-        },
-        {
-            name: 'Rubberized Grip Tape',
-            image: 'attachments/smgs/rubberizedgriptapeub.png'
-        },
+        name: 'Granuldated Grip Tape',
+        image: 'attachments/smgs/granulatedgriptapeub.png'
+    },
+    {
+        name: 'Stippled Grip Tape',
+        image: 'attachments/smgs/stippledgriptapeub.png'
+    },
+    {
+        name: 'Rubberized Grip Tape',
+        image: 'attachments/smgs/rubberizedgriptapeub.png'
+    },
     ];
 
 
@@ -3604,17 +3604,17 @@ function p90() {
     //RearGrip
 
     var reargrips = [{
-            name: 'Granulated Grip Tape',
-            image: 'attachments/smgs/granulatedgriptape.png'
-        },
-        {
-            name: 'Rubberized Grip Tape',
-            image: 'attachments/smgs/rubberizedgriptape.png'
-        },
-        {
-            name: 'Stippled Grip Tape',
-            image: 'attachments/smgs/stippledgriptape.png'
-        },
+        name: 'Granulated Grip Tape',
+        image: 'attachments/smgs/granulatedgriptape.png'
+    },
+    {
+        name: 'Rubberized Grip Tape',
+        image: 'attachments/smgs/rubberizedgriptape.png'
+    },
+    {
+        name: 'Stippled Grip Tape',
+        image: 'attachments/smgs/stippledgriptape.png'
+    },
     ];
 
 
@@ -3640,41 +3640,41 @@ function p90() {
     //Perks
 
     var perks = [{
-            name: 'FMJ',
-            image: 'attachments/perks/fmj.png'
-        },
-        {
-            name: 'Sleight of Hand',
-            image: 'attachments/perks/sleight.png'
-        },
-        {
-            name: 'Frangible - Wounding',
-            image: 'attachments/perks/wounding.png'
-        },
-        {
-            name: 'Heavy Hitter',
-            image: 'attachments/perks/heavyhitter.png'
-        },
-        {
-            name: 'Fully Loaded',
-            image: 'attachments/perks/fullyloaded.png'
-        },
-        {
-            name: 'Recon',
-            image: 'attachments/perks/recon.png'
-        },
-        {
-            name: 'Mo Money',
-            image: 'attachments/perks/money.png'
-        },
-        {
-            name: 'Fast Melee',
-            image: 'attachments/perks/fastmelee.png'
-        },
-        {
-            name: 'Frangible - Disabling',
-            image: 'attachments/perks/disabling.png'
-        },
+        name: 'FMJ',
+        image: 'attachments/perks/fmj.png'
+    },
+    {
+        name: 'Sleight of Hand',
+        image: 'attachments/perks/sleight.png'
+    },
+    {
+        name: 'Frangible - Wounding',
+        image: 'attachments/perks/wounding.png'
+    },
+    {
+        name: 'Heavy Hitter',
+        image: 'attachments/perks/heavyhitter.png'
+    },
+    {
+        name: 'Fully Loaded',
+        image: 'attachments/perks/fullyloaded.png'
+    },
+    {
+        name: 'Recon',
+        image: 'attachments/perks/recon.png'
+    },
+    {
+        name: 'Mo Money',
+        image: 'attachments/perks/money.png'
+    },
+    {
+        name: 'Fast Melee',
+        image: 'attachments/perks/fastmelee.png'
+    },
+    {
+        name: 'Frangible - Disabling',
+        image: 'attachments/perks/disabling.png'
+    },
     ];
 
 
@@ -3719,33 +3719,33 @@ function origin12() {
     //Muzzles
 
     var muzzles = [{
-            name: 'Breacher Device',
-            image: 'attachments/shotguns/origin12shotgun/breacherdevice.png'
-        },
-        {
-            name: 'Flash Guard',
-            image: 'attachments/shotguns/origin12shotgun/flashguard.png'
-        },
-        {
-            name: 'Muzzle Brake',
-            image: 'attachments/shotguns/origin12shotgun/muzzlebrake.png'
-        },
-        {
-            name: 'Compensator',
-            image: 'attachments/shotguns/origin12shotgun/compensator.png'
-        },
-        {
-            name: 'Choke',
-            image: 'attachments/shotguns/origin12shotgun/choke.png'
-        },
-        {
-            name: 'Lightweight Suppressor',
-            image: 'attachments/shotguns/origin12shotgun/lightweightsuppressor.png'
-        },
-        {
-            name: 'Tactical Suppressor',
-            image: 'attachments/shotguns/origin12shotgun/tacticalsuppressor.png'
-        },
+        name: 'Breacher Device',
+        image: 'attachments/shotguns/origin12shotgun/breacherdevice.png'
+    },
+    {
+        name: 'Flash Guard',
+        image: 'attachments/shotguns/origin12shotgun/flashguard.png'
+    },
+    {
+        name: 'Muzzle Brake',
+        image: 'attachments/shotguns/origin12shotgun/muzzlebrake.png'
+    },
+    {
+        name: 'Compensator',
+        image: 'attachments/shotguns/origin12shotgun/compensator.png'
+    },
+    {
+        name: 'Choke',
+        image: 'attachments/shotguns/origin12shotgun/choke.png'
+    },
+    {
+        name: 'Lightweight Suppressor',
+        image: 'attachments/shotguns/origin12shotgun/lightweightsuppressor.png'
+    },
+    {
+        name: 'Tactical Suppressor',
+        image: 'attachments/shotguns/origin12shotgun/tacticalsuppressor.png'
+    },
 
     ];
 
@@ -3772,17 +3772,17 @@ function origin12() {
     //Barrel
 
     var barrels = [{
-            name: 'FORGE TAC Precision',
-            image: 'attachments/shotguns/origin12shotgun/forgetacprecision.png'
-        },
-        {
-            name: 'FORGE TAC Wideshot',
-            image: 'attachments/shotguns/origin12shotgun/forgetacwideshot.png'
-        },
-        {
-            name: 'FORGE TAC Impaler',
-            image: 'attachments/shotguns/origin12shotgun/forgetacimpaler.png'
-        },
+        name: 'FORGE TAC Precision',
+        image: 'attachments/shotguns/origin12shotgun/forgetacprecision.png'
+    },
+    {
+        name: 'FORGE TAC Wideshot',
+        image: 'attachments/shotguns/origin12shotgun/forgetacwideshot.png'
+    },
+    {
+        name: 'FORGE TAC Impaler',
+        image: 'attachments/shotguns/origin12shotgun/forgetacimpaler.png'
+    },
     ];
 
 
@@ -3811,17 +3811,17 @@ function origin12() {
     //Laser
 
     var lasers = [{
-            name: '1mW Laser',
-            image: 'attachments/shotguns/origin12shotgun/1mwlaser.png'
-        },
-        {
-            name: '5mW Laser',
-            image: 'attachments/shotguns/origin12shotgun/5mwlaser.png'
-        },
-        {
-            name: 'Tac Laser',
-            image: 'attachments/shotguns/origin12shotgun/taclaser.png'
-        },
+        name: '1mW Laser',
+        image: 'attachments/shotguns/origin12shotgun/1mwlaser.png'
+    },
+    {
+        name: '5mW Laser',
+        image: 'attachments/shotguns/origin12shotgun/5mwlaser.png'
+    },
+    {
+        name: 'Tac Laser',
+        image: 'attachments/shotguns/origin12shotgun/taclaser.png'
+    },
     ];
 
 
@@ -3849,61 +3849,61 @@ function origin12() {
     //Optic
 
     var optics = [{
-            name: 'Operator Reflex Sight',
-            image: 'attachments/shotguns/optics/operatorrelfexsight.png'
-        },
-        {
-            name: 'Corp Combat Holo Sight',
-            image: 'attachments/shotguns/optics/corpcombatholosight.png'
-        },
-        {
-            name: 'Aim-Op Reflex Sight',
-            image: 'attachments/shotguns/optics/aimopreflexsight.png'
-        },
-        {
-            name: 'Cronen LP945 Mini Reflex',
-            image: 'attachments/shotguns/optics/cronenlp945minireflex.png'
-        },
-        {
-            name: 'APX5 Holographic Sight',
-            image: 'attachments/shotguns/optics/apx5holographicsight.png'
-        },
-        {
-            name: 'Scout Combat Optic',
-            image: 'attachments/shotguns/optics/scoutcombatoptic.png'
-        },
-        {
-            name: 'Viper Reflex Sight',
-            image: 'attachments/shotguns/optics/viperreflexsight.png'
-        },
-        {
-            name: 'VLK 3.0x Optic',
-            image: 'attachments/shotguns/optics/vlk30xoptic.png'
-        },
-        {
-            name: 'G.I. Mini Reflex',
-            image: 'attachments/shotguns/optics/giminireflex.png'
-        },
-        {
-            name: 'Solozero NVG Enhanced',
-            image: 'attachments/shotguns/optics/solozeronvgenhanced.png'
-        },
-        {
-            name: 'PBX Holo 7 Sight',
-            image: 'attachments/shotguns/optics/pbxholo7sight.png'
-        },
-        {
-            name: 'Monocle Reflex Sight',
-            image: 'attachments/shotguns/optics/monoclereflexsight.png'
-        },
-        {
-            name: 'Cronen C480 Pro Optic',
-            image: 'attachments/shotguns/optics/cronenc480prooptic.png'
-        },
-        {
-            name: 'Solozero Optics Mini Reflex',
-            image: 'attachments/shotguns/optics/solozeroopticsminireflex.png'
-        },
+        name: 'Operator Reflex Sight',
+        image: 'attachments/shotguns/optics/operatorrelfexsight.png'
+    },
+    {
+        name: 'Corp Combat Holo Sight',
+        image: 'attachments/shotguns/optics/corpcombatholosight.png'
+    },
+    {
+        name: 'Aim-Op Reflex Sight',
+        image: 'attachments/shotguns/optics/aimopreflexsight.png'
+    },
+    {
+        name: 'Cronen LP945 Mini Reflex',
+        image: 'attachments/shotguns/optics/cronenlp945minireflex.png'
+    },
+    {
+        name: 'APX5 Holographic Sight',
+        image: 'attachments/shotguns/optics/apx5holographicsight.png'
+    },
+    {
+        name: 'Scout Combat Optic',
+        image: 'attachments/shotguns/optics/scoutcombatoptic.png'
+    },
+    {
+        name: 'Viper Reflex Sight',
+        image: 'attachments/shotguns/optics/viperreflexsight.png'
+    },
+    {
+        name: 'VLK 3.0x Optic',
+        image: 'attachments/shotguns/optics/vlk30xoptic.png'
+    },
+    {
+        name: 'G.I. Mini Reflex',
+        image: 'attachments/shotguns/optics/giminireflex.png'
+    },
+    {
+        name: 'Solozero NVG Enhanced',
+        image: 'attachments/shotguns/optics/solozeronvgenhanced.png'
+    },
+    {
+        name: 'PBX Holo 7 Sight',
+        image: 'attachments/shotguns/optics/pbxholo7sight.png'
+    },
+    {
+        name: 'Monocle Reflex Sight',
+        image: 'attachments/shotguns/optics/monoclereflexsight.png'
+    },
+    {
+        name: 'Cronen C480 Pro Optic',
+        image: 'attachments/shotguns/optics/cronenc480prooptic.png'
+    },
+    {
+        name: 'Solozero Optics Mini Reflex',
+        image: 'attachments/shotguns/optics/solozeroopticsminireflex.png'
+    },
     ];
 
 
@@ -3930,21 +3930,21 @@ function origin12() {
     //Pumps
 
     var pumps = [{
-            name: 'FTAC Hunter',
-            image: 'attachments/shotguns/origin12shotgun/ftachunter.png'
-        },
-        {
-            name: 'FORGE TAC Ultralight',
-            image: 'attachments/shotguns/origin12shotgun/forgetacultralight.png'
-        },
-        {
-            name: 'No Stock',
-            image: 'attachments/shotguns/origin12shotgun/nostock.png'
-        },
-        {
-            name: 'FORGE TAC Dart',
-            image: 'attachments/shotguns/origin12shotgun/forgetacdart.png'
-        },
+        name: 'FTAC Hunter',
+        image: 'attachments/shotguns/origin12shotgun/ftachunter.png'
+    },
+    {
+        name: 'FORGE TAC Ultralight',
+        image: 'attachments/shotguns/origin12shotgun/forgetacultralight.png'
+    },
+    {
+        name: 'No Stock',
+        image: 'attachments/shotguns/origin12shotgun/nostock.png'
+    },
+    {
+        name: 'FORGE TAC Dart',
+        image: 'attachments/shotguns/origin12shotgun/forgetacdart.png'
+    },
     ];
 
 
@@ -3972,13 +3972,13 @@ function origin12() {
     //Underbarrel
 
     var underbarrels = [{
-            name: 'Merc Foregrip',
-            image: 'attachments/shotguns/origin12shotgun/mercforegrip.png'
-        },
-        {
-            name: 'Commando Foregrip',
-            image: 'attachments/shotguns/origin12shotgun/commandoforegrip.png'
-        },
+        name: 'Merc Foregrip',
+        image: 'attachments/shotguns/origin12shotgun/mercforegrip.png'
+    },
+    {
+        name: 'Commando Foregrip',
+        image: 'attachments/shotguns/origin12shotgun/commandoforegrip.png'
+    },
     ];
 
 
@@ -4009,17 +4009,17 @@ function origin12() {
     //Ammunation
 
     var ammunations = [{
-            name: '12 Round Mags',
-            image: 'attachments/shotguns/origin12shotgun/12.png'
-        },
-        {
-            name: '8 Round Slug Mags',
-            image: 'attachments/shotguns/origin12shotgun/8.png'
-        },
-        {
-            name: '25 ROund Drum Mags',
-            image: 'attachments/shotguns/origin12shotgun/25.png'
-        },
+        name: '12 Round Mags',
+        image: 'attachments/shotguns/origin12shotgun/12.png'
+    },
+    {
+        name: '8 Round Slug Mags',
+        image: 'attachments/shotguns/origin12shotgun/8.png'
+    },
+    {
+        name: '25 ROund Drum Mags',
+        image: 'attachments/shotguns/origin12shotgun/25.png'
+    },
     ];
 
 
@@ -4044,17 +4044,17 @@ function origin12() {
     //RearGrip
 
     var reargrips = [{
-            name: 'Granulated Grip Tape',
-            image: 'attachments/shotguns/origin12shotgun/granulated.png'
-        },
-        {
-            name: 'Rubberized Grip Tape',
-            image: 'attachments/shotguns/origin12shotgun/rubberized.png'
-        },
-        {
-            name: 'Stippled Grip Tape',
-            image: 'attachments/shotguns/origin12shotgun/stippled.png'
-        },
+        name: 'Granulated Grip Tape',
+        image: 'attachments/shotguns/origin12shotgun/granulated.png'
+    },
+    {
+        name: 'Rubberized Grip Tape',
+        image: 'attachments/shotguns/origin12shotgun/rubberized.png'
+    },
+    {
+        name: 'Stippled Grip Tape',
+        image: 'attachments/shotguns/origin12shotgun/stippled.png'
+    },
     ];
 
 
@@ -4079,41 +4079,41 @@ function origin12() {
     //Perks
 
     var perks = [{
-            name: 'FMJ',
-            image: 'attachments/perks/fmj.png'
-        },
-        {
-            name: 'Sleight of Hand',
-            image: 'attachments/perks/sleight.png'
-        },
-        {
-            name: 'Frangible - Wounding',
-            image: 'attachments/perks/wounding.png'
-        },
-        {
-            name: 'Heavy Hitter',
-            image: 'attachments/perks/heavyhitter.png'
-        },
-        {
-            name: 'Fully Loaded',
-            image: 'attachments/perks/fullyloaded.png'
-        },
-        {
-            name: 'Recon',
-            image: 'attachments/perks/recon.png'
-        },
-        {
-            name: 'Mo Money',
-            image: 'attachments/perks/money.png'
-        },
-        {
-            name: 'Fast Melee',
-            image: 'attachments/perks/fastmelee.png'
-        },
-        {
-            name: 'Frangible - Disabling',
-            image: 'attachments/perks/disabling.png'
-        },
+        name: 'FMJ',
+        image: 'attachments/perks/fmj.png'
+    },
+    {
+        name: 'Sleight of Hand',
+        image: 'attachments/perks/sleight.png'
+    },
+    {
+        name: 'Frangible - Wounding',
+        image: 'attachments/perks/wounding.png'
+    },
+    {
+        name: 'Heavy Hitter',
+        image: 'attachments/perks/heavyhitter.png'
+    },
+    {
+        name: 'Fully Loaded',
+        image: 'attachments/perks/fullyloaded.png'
+    },
+    {
+        name: 'Recon',
+        image: 'attachments/perks/recon.png'
+    },
+    {
+        name: 'Mo Money',
+        image: 'attachments/perks/money.png'
+    },
+    {
+        name: 'Fast Melee',
+        image: 'attachments/perks/fastmelee.png'
+    },
+    {
+        name: 'Frangible - Disabling',
+        image: 'attachments/perks/disabling.png'
+    },
     ];
 
 
@@ -4158,33 +4158,33 @@ function oden() {
     //Muzzles
 
     var muzzles = [{
-            name: 'Flash Guard',
-            image: 'attachments/muzzles/flashguard.png'
-        },
-        {
-            name: 'Colossus Suppressor',
-            image: 'attachments/muzzles/colossussuppressor.png'
-        },
-        {
-            name: 'Tactical Suppressor',
-            image: 'attachments/muzzles/tacticalsuppressor.png'
-        },
-        {
-            name: 'Muzzle Brake',
-            image: 'attachments/muzzles/muzzlebrake.png'
-        },
-        {
-            name: 'CQB Breacher Device',
-            image: 'attachments/muzzles/cqbbreacherdevice.png'
-        },
-        {
-            name: 'Compensator',
-            image: 'attachments/muzzles/compensator.png'
-        },
-        {
-            name: 'Monolithic Suppressor',
-            image: 'attachments/muzzles/monolithicsuppressor.png'
-        }
+        name: 'Flash Guard',
+        image: 'attachments/muzzles/flashguard.png'
+    },
+    {
+        name: 'Colossus Suppressor',
+        image: 'attachments/muzzles/colossussuppressor.png'
+    },
+    {
+        name: 'Tactical Suppressor',
+        image: 'attachments/muzzles/tacticalsuppressor.png'
+    },
+    {
+        name: 'Muzzle Brake',
+        image: 'attachments/muzzles/muzzlebrake.png'
+    },
+    {
+        name: 'CQB Breacher Device',
+        image: 'attachments/muzzles/cqbbreacherdevice.png'
+    },
+    {
+        name: 'Compensator',
+        image: 'attachments/muzzles/compensator.png'
+    },
+    {
+        name: 'Monolithic Suppressor',
+        image: 'attachments/muzzles/monolithicsuppressor.png'
+    }
     ];
 
 
@@ -4214,17 +4214,17 @@ function oden() {
 
     //Barrel
     var barrels = [{
-            name: 'Oden Factory 810mm',
-            image: 'attachments/barrels/oden810.png'
-        },
-        {
-            name: 'Oden Factory 730mm',
-            image: 'attachments/barrels/oden730.png'
-        },
-        {
-            name: 'Oden Factory 420mm',
-            image: 'attachments/barrels/oden420.png'
-        },
+        name: 'Oden Factory 810mm',
+        image: 'attachments/barrels/oden810.png'
+    },
+    {
+        name: 'Oden Factory 730mm',
+        image: 'attachments/barrels/oden730.png'
+    },
+    {
+        name: 'Oden Factory 420mm',
+        image: 'attachments/barrels/oden420.png'
+    },
     ];
 
 
@@ -4252,17 +4252,17 @@ function oden() {
     //Laser
 
     var lasers = [{
-            name: '1mW Laser',
-            image: 'attachments/lasers/1mw.png'
-        },
-        {
-            name: '5mW Laser',
-            image: 'attachments/lasers/5mw.png'
-        },
-        {
-            name: 'Tac Laser',
-            image: 'attachments/lasers/tac.png'
-        }
+        name: '1mW Laser',
+        image: 'attachments/lasers/1mw.png'
+    },
+    {
+        name: '5mW Laser',
+        image: 'attachments/lasers/5mw.png'
+    },
+    {
+        name: 'Tac Laser',
+        image: 'attachments/lasers/tac.png'
+    }
     ];
 
 
@@ -4289,85 +4289,85 @@ function oden() {
     //Optic
 
     var optics = [{
-            name: 'Cronen LP945 Mini Reflex',
-            image: 'attachments/optics/cronenlp945.png'
-        },
-        {
-            name: 'Corp Combat Holo Sight',
-            image: 'attachments/optics/corp.png'
-        },
-        {
-            name: 'Operator Reflex Sight',
-            image: 'attachments/optics/operator.png'
-        },
-        {
-            name: 'Scout Combat Optic',
-            image: 'attachments/optics/scout.png'
-        },
-        {
-            name: 'Aim-Op Reflex Sight',
-            image: 'attachments/optics/aimop.png'
-        },
-        {
-            name: 'APx5 Holographic Sight',
-            image: 'attachments/optics/apx5.png'
-        },
-        {
-            name: 'Integral Hybrid',
-            image: 'attachments/optics/integral.png'
-        },
-        {
-            name: 'Solozero NVG Enhanced',
-            image: 'attachments/optics/solozero.png'
-        },
-        {
-            name: 'VLK 3.0x Optic',
-            image: 'attachments/optics/vlk.png'
-        },
-        {
-            name: 'Sniper Scope',
-            image: 'attachments/optics/sniperscope.png'
-        },
-        {
-            name: 'Viper Reflex Sight',
-            image: 'attachments/optics/viper.png'
-        },
-        {
-            name: 'G.I. Mini Reflex',
-            image: 'attachments/optics/gi.png'
-        },
-        {
-            name: 'PBX Holo 7 Sight',
-            image: 'attachments/optics/pbx.png'
-        },
-        {
-            name: 'Cronen C480 Pro Optic',
-            image: 'attachments/optics/cronenc480.png'
-        },
-        {
-            name: 'Monocle Reflex Sight',
-            image: 'attachments/optics/monocle.png'
-        },
-        {
-            name: 'Variable Zoom Scope',
-            image: 'attachments/optics/variable.png'
-        },
-        {
-            name: 'Canted Hybrid',
-            image: 'attachments/optics/canted.png'
-        },
-        {
-            name: 'Merc Thermal Optic',
-            image: 'attachments/optics/merc.png'
-        },
-        {
-            name: 'Thermal Hybrid',
-            image: 'attachments/optics/thermal.png'
-        },
-        {
-            name: 'Solozero Optics Mini Reflex',
-            image: 'attachments/optics/solozeromini.png'
-        }
+        name: 'Cronen LP945 Mini Reflex',
+        image: 'attachments/optics/cronenlp945.png'
+    },
+    {
+        name: 'Corp Combat Holo Sight',
+        image: 'attachments/optics/corp.png'
+    },
+    {
+        name: 'Operator Reflex Sight',
+        image: 'attachments/optics/operator.png'
+    },
+    {
+        name: 'Scout Combat Optic',
+        image: 'attachments/optics/scout.png'
+    },
+    {
+        name: 'Aim-Op Reflex Sight',
+        image: 'attachments/optics/aimop.png'
+    },
+    {
+        name: 'APx5 Holographic Sight',
+        image: 'attachments/optics/apx5.png'
+    },
+    {
+        name: 'Integral Hybrid',
+        image: 'attachments/optics/integral.png'
+    },
+    {
+        name: 'Solozero NVG Enhanced',
+        image: 'attachments/optics/solozero.png'
+    },
+    {
+        name: 'VLK 3.0x Optic',
+        image: 'attachments/optics/vlk.png'
+    },
+    {
+        name: 'Sniper Scope',
+        image: 'attachments/optics/sniperscope.png'
+    },
+    {
+        name: 'Viper Reflex Sight',
+        image: 'attachments/optics/viper.png'
+    },
+    {
+        name: 'G.I. Mini Reflex',
+        image: 'attachments/optics/gi.png'
+    },
+    {
+        name: 'PBX Holo 7 Sight',
+        image: 'attachments/optics/pbx.png'
+    },
+    {
+        name: 'Cronen C480 Pro Optic',
+        image: 'attachments/optics/cronenc480.png'
+    },
+    {
+        name: 'Monocle Reflex Sight',
+        image: 'attachments/optics/monocle.png'
+    },
+    {
+        name: 'Variable Zoom Scope',
+        image: 'attachments/optics/variable.png'
+    },
+    {
+        name: 'Canted Hybrid',
+        image: 'attachments/optics/canted.png'
+    },
+    {
+        name: 'Merc Thermal Optic',
+        image: 'attachments/optics/merc.png'
+    },
+    {
+        name: 'Thermal Hybrid',
+        image: 'attachments/optics/thermal.png'
+    },
+    {
+        name: 'Solozero Optics Mini Reflex',
+        image: 'attachments/optics/solozeromini.png'
+    }
     ];
 
 
@@ -4394,17 +4394,17 @@ function oden() {
     //Stock
 
     var stocks = [{
-            name: 'FORGE TAC Ballast Pack',
-            image: 'attachments/stocks/forgetacballastpackoden.png'
-        },
-        {
-            name: 'Oden Ultralight Hollow',
-            image: 'attachments/stocks/odenultralighthollow.png'
-        },
-        {
-            name: 'FTAC XL Elite Comb',
-            image: 'attachments/stocks/ftacxlelitecomb.png'
-        }
+        name: 'FORGE TAC Ballast Pack',
+        image: 'attachments/stocks/forgetacballastpackoden.png'
+    },
+    {
+        name: 'Oden Ultralight Hollow',
+        image: 'attachments/stocks/odenultralighthollow.png'
+    },
+    {
+        name: 'FTAC XL Elite Comb',
+        image: 'attachments/stocks/ftacxlelitecomb.png'
+    }
     ];
 
 
@@ -4432,57 +4432,57 @@ function oden() {
     //Underbarrel
 
     var underbarrels = [{
-            name: 'Commando Foregrip',
-            image: 'attachments/underbarrels/commando.png'
-        },
-        {
-            name: 'M203 40mm High-explosive',
-            image: 'attachments/underbarrels/m203high.png'
-        },
-        {
-            name: 'M203 40mm Incendiary',
-            image: 'attachments/underbarrels/m203incendiary.png'
-        },
-        {
-            name: '12 Gauge Deputy',
-            image: 'attachments/underbarrels/12gauge.png'
-        },
-        {
-            name: 'Merc Foregrip',
-            image: 'attachments/underbarrels/merc.png'
-        },
-        {
-            name: 'M203 40mm Smokescreen',
-            image: 'attachments/underbarrels/m203smokescreen.png'
-        },
-        {
-            name: 'Tactical Foregrip',
-            image: 'attachments/underbarrels/tactical.png'
-        },
-        {
-            name: 'M203 40mm Recon',
-            image: 'attachments/underbarrels/m203recon.png'
-        },
-        {
-            name: 'Bipod',
-            image: 'attachments/underbarrels/bipod.png'
-        },
-        {
-            name: 'M203 40mm Flash',
-            image: 'attachments/underbarrels/m203flash.png'
-        },
-        {
-            name: 'Ranger Foregrip',
-            image: 'attachments/underbarrels/ranger.png'
-        },
-        {
-            name: 'M203 40mm Concussive',
-            image: 'attachments/underbarrels/m203concussive.png'
-        },
-        {
-            name: 'Operator Foregrip',
-            image: 'attachments/underbarrels/operator.png'
-        }
+        name: 'Commando Foregrip',
+        image: 'attachments/underbarrels/commando.png'
+    },
+    {
+        name: 'M203 40mm High-explosive',
+        image: 'attachments/underbarrels/m203high.png'
+    },
+    {
+        name: 'M203 40mm Incendiary',
+        image: 'attachments/underbarrels/m203incendiary.png'
+    },
+    {
+        name: '12 Gauge Deputy',
+        image: 'attachments/underbarrels/12gauge.png'
+    },
+    {
+        name: 'Merc Foregrip',
+        image: 'attachments/underbarrels/merc.png'
+    },
+    {
+        name: 'M203 40mm Smokescreen',
+        image: 'attachments/underbarrels/m203smokescreen.png'
+    },
+    {
+        name: 'Tactical Foregrip',
+        image: 'attachments/underbarrels/tactical.png'
+    },
+    {
+        name: 'M203 40mm Recon',
+        image: 'attachments/underbarrels/m203recon.png'
+    },
+    {
+        name: 'Bipod',
+        image: 'attachments/underbarrels/bipod.png'
+    },
+    {
+        name: 'M203 40mm Flash',
+        image: 'attachments/underbarrels/m203flash.png'
+    },
+    {
+        name: 'Ranger Foregrip',
+        image: 'attachments/underbarrels/ranger.png'
+    },
+    {
+        name: 'M203 40mm Concussive',
+        image: 'attachments/underbarrels/m203concussive.png'
+    },
+    {
+        name: 'Operator Foregrip',
+        image: 'attachments/underbarrels/operator.png'
+    }
     ];
 
 
@@ -4513,13 +4513,13 @@ function oden() {
     //Ammunation
 
     var ammunations = [{
-            name: '25 Round Mags',
-            image: 'attachments/ammunations/25.png'
-        },
-        {
-            name: '30 Round Mags',
-            image: 'attachments/ammunations/30.png'
-        }
+        name: '25 Round Mags',
+        image: 'attachments/ammunations/25.png'
+    },
+    {
+        name: '30 Round Mags',
+        image: 'attachments/ammunations/30.png'
+    }
     ];
 
 
@@ -4547,17 +4547,17 @@ function oden() {
     //RearGrip
 
     var reargrips = [{
-            name: 'Granulated Grip Tape',
-            image: 'attachments/reargrips/granulated.png'
-        },
-        {
-            name: 'Rubberized Grip Tape',
-            image: 'attachments/reargrips/rubberized.png'
-        },
-        {
-            name: 'Stippled Grip Tape',
-            image: 'attachments/reargrips/stippled.png'
-        }
+        name: 'Granulated Grip Tape',
+        image: 'attachments/reargrips/granulated.png'
+    },
+    {
+        name: 'Rubberized Grip Tape',
+        image: 'attachments/reargrips/rubberized.png'
+    },
+    {
+        name: 'Stippled Grip Tape',
+        image: 'attachments/reargrips/stippled.png'
+    }
     ];
 
 
@@ -4583,49 +4583,49 @@ function oden() {
     //Perks
 
     var perks = [{
-            name: 'FMJ',
-            image: 'attachments/perks/fmj.png'
-        },
-        {
-            name: 'Sleight of Hand',
-            image: 'attachments/perks/sleight.png'
-        },
-        {
-            name: 'Frangible - Wounding',
-            image: 'attachments/perks/wounding.png'
-        },
-        {
-            name: 'Heavy Hitter',
-            image: 'attachments/perks/heavyhitter.png'
-        },
-        {
-            name: 'Fully Loaded',
-            image: 'attachments/perks/fullyloaded.png'
-        },
-        {
-            name: 'Burst Fire (x2)',
-            image: 'attachments/perks/burstoden.png'
-        },
-        {
-            name: 'Recon',
-            image: 'attachments/perks/recon.png'
-        },
-        {
-            name: 'Mo Money',
-            image: 'attachments/perks/money.png'
-        },
-        {
-            name: 'Fast Melee',
-            image: 'attachments/perks/fastmelee.png'
-        },
-        {
-            name: 'Frangible - Disabling',
-            image: 'attachments/perks/disabling.png'
-        },
-        {
-            name: 'Presence of Mind',
-            image: 'attachments/perks/mind.png'
-        }
+        name: 'FMJ',
+        image: 'attachments/perks/fmj.png'
+    },
+    {
+        name: 'Sleight of Hand',
+        image: 'attachments/perks/sleight.png'
+    },
+    {
+        name: 'Frangible - Wounding',
+        image: 'attachments/perks/wounding.png'
+    },
+    {
+        name: 'Heavy Hitter',
+        image: 'attachments/perks/heavyhitter.png'
+    },
+    {
+        name: 'Fully Loaded',
+        image: 'attachments/perks/fullyloaded.png'
+    },
+    {
+        name: 'Burst Fire (x2)',
+        image: 'attachments/perks/burstoden.png'
+    },
+    {
+        name: 'Recon',
+        image: 'attachments/perks/recon.png'
+    },
+    {
+        name: 'Mo Money',
+        image: 'attachments/perks/money.png'
+    },
+    {
+        name: 'Fast Melee',
+        image: 'attachments/perks/fastmelee.png'
+    },
+    {
+        name: 'Frangible - Disabling',
+        image: 'attachments/perks/disabling.png'
+    },
+    {
+        name: 'Presence of Mind',
+        image: 'attachments/perks/mind.png'
+    }
     ];
 
 
@@ -4671,33 +4671,33 @@ function mp7() {
     //Muzzles
 
     var muzzles = [{
-            name: 'Breacher Device',
-            image: 'attachments/smgs/breacherdevice.png'
-        },
-        {
-            name: 'Tactical Suppressor',
-            image: 'attachments/smgs/tacticalsuppressor.png'
-        },
-        {
-            name: 'Flash Guard',
-            image: 'attachments/smgs/flashguard.png'
-        },
-        {
-            name: 'Monolithic Suppressor',
-            image: 'attachments/smgs/monolithicsuppressor.png'
-        },
-        {
-            name: 'Muzzle Brake',
-            image: 'attachments/smgs/muzzlebrake.png'
-        },
-        {
-            name: 'Compensator',
-            image: 'attachments/smgs/compensator.png'
-        },
-        {
-            name: 'Lightweight Suppressor',
-            image: 'attachments/smgs/lightweightsuppressor.png'
-        },
+        name: 'Breacher Device',
+        image: 'attachments/smgs/breacherdevice.png'
+    },
+    {
+        name: 'Tactical Suppressor',
+        image: 'attachments/smgs/tacticalsuppressor.png'
+    },
+    {
+        name: 'Flash Guard',
+        image: 'attachments/smgs/flashguard.png'
+    },
+    {
+        name: 'Monolithic Suppressor',
+        image: 'attachments/smgs/monolithicsuppressor.png'
+    },
+    {
+        name: 'Muzzle Brake',
+        image: 'attachments/smgs/muzzlebrake.png'
+    },
+    {
+        name: 'Compensator',
+        image: 'attachments/smgs/compensator.png'
+    },
+    {
+        name: 'Lightweight Suppressor',
+        image: 'attachments/smgs/lightweightsuppressor.png'
+    },
     ];
 
 
@@ -4723,17 +4723,17 @@ function mp7() {
     //Barrel
 
     var barrels = [{
-            name: 'FSS STRIKE',
-            image: 'attachments/smgs/fssstrike.png'
-        },
-        {
-            name: 'FSS RECON',
-            image: 'attachments/smgs/fssrecon.png'
-        },
-        {
-            name: 'FSS SWAT',
-            image: 'attachments/smgs/fssswat.png'
-        },
+        name: 'FSS STRIKE',
+        image: 'attachments/smgs/fssstrike.png'
+    },
+    {
+        name: 'FSS RECON',
+        image: 'attachments/smgs/fssrecon.png'
+    },
+    {
+        name: 'FSS SWAT',
+        image: 'attachments/smgs/fssswat.png'
+    },
     ];
 
 
@@ -4762,17 +4762,17 @@ function mp7() {
     //Laser
 
     var lasers = [{
-            name: '1mW Laser',
-            image: 'attachments/smgs/1mwlaser.png'
-        },
-        {
-            name: '5mW Laser',
-            image: 'attachments/smgs/5mwlaser.png'
-        },
-        {
-            name: 'Tac Laser',
-            image: 'attachments/smgs/taclaser.png'
-        },
+        name: '1mW Laser',
+        image: 'attachments/smgs/1mwlaser.png'
+    },
+    {
+        name: '5mW Laser',
+        image: 'attachments/smgs/5mwlaser.png'
+    },
+    {
+        name: 'Tac Laser',
+        image: 'attachments/smgs/taclaser.png'
+    },
     ];
 
 
@@ -4799,73 +4799,73 @@ function mp7() {
     //Optic
 
     var optics = [{
-            name: 'Operator Reflex Sight',
-            image: 'attachments/smgs/operatorreflex.png'
-        },
-        {
-            name: 'Corp Combat Holo Sight',
-            image: 'attachments/smgs/corp.png'
-        },
-        {
-            name: 'Aim-Op Relfex Sight',
-            image: 'attachments/smgs/aimop.png'
-        },
-        {
-            name: 'G.I. Mini Relex',
-            image: 'attachments/smgs/gi.png'
-        },
-        {
-            name: 'Scout Combat Optic',
-            image: 'attachments/smgs/scout.png'
-        },
-        {
-            name: 'APX5 Holographic Sight',
-            image: 'attachments/smgs/apx5.png'
-        },
-        {
-            name: 'Solozero Optics Mini Reflex',
-            image: 'attachments/smgs/solozeromini.png'
-        },
-        {
-            name: 'VLK 3.0x Optic',
-            image: 'attachments/smgs/vlk.png'
-        },
-        {
-            name: 'Thermal hybrid',
-            image: 'attachments/smgs/thermal.png'
-        },
-        {
-            name: 'Viper Reflex Sight',
-            image: 'attachments/smgs/viper.png'
-        },
-        {
-            name: 'PBX Holo 7 sight',
-            image: 'attachments/smgs/pbx.png'
-        },
-        {
-            name: 'Solozero NVG Enhanced',
-            image: 'attachments/smgs/solozero.png'
-        },
-        {
-            name: 'Cronen LP945 Mini Reflex',
-            image: 'attachments/smgs/cronenlp945.png'
-        },
-        {
-            name: '4.0x Flip Hybrid',
-            image: 'attachments/smgs/40x.png'
-        },
-        {
-            name: 'Monocle Reflex Sight',
-            image: 'attachments/smgs/monocle.png'
-        },
-        {
-            name: 'Cronen C480 Pro Optic',
-            image: 'attachments/smgs/cronenc480.png'
-        },
-        {
-            name: 'Merc Thermal Optic',
-            image: 'attachments/smgs/mercthermal.png'
-        },
+        name: 'Operator Reflex Sight',
+        image: 'attachments/smgs/operatorreflex.png'
+    },
+    {
+        name: 'Corp Combat Holo Sight',
+        image: 'attachments/smgs/corp.png'
+    },
+    {
+        name: 'Aim-Op Relfex Sight',
+        image: 'attachments/smgs/aimop.png'
+    },
+    {
+        name: 'G.I. Mini Relex',
+        image: 'attachments/smgs/gi.png'
+    },
+    {
+        name: 'Scout Combat Optic',
+        image: 'attachments/smgs/scout.png'
+    },
+    {
+        name: 'APX5 Holographic Sight',
+        image: 'attachments/smgs/apx5.png'
+    },
+    {
+        name: 'Solozero Optics Mini Reflex',
+        image: 'attachments/smgs/solozeromini.png'
+    },
+    {
+        name: 'VLK 3.0x Optic',
+        image: 'attachments/smgs/vlk.png'
+    },
+    {
+        name: 'Thermal hybrid',
+        image: 'attachments/smgs/thermal.png'
+    },
+    {
+        name: 'Viper Reflex Sight',
+        image: 'attachments/smgs/viper.png'
+    },
+    {
+        name: 'PBX Holo 7 sight',
+        image: 'attachments/smgs/pbx.png'
+    },
+    {
+        name: 'Solozero NVG Enhanced',
+        image: 'attachments/smgs/solozero.png'
+    },
+    {
+        name: 'Cronen LP945 Mini Reflex',
+        image: 'attachments/smgs/cronenlp945.png'
+    },
+    {
+        name: '4.0x Flip Hybrid',
+        image: 'attachments/smgs/40x.png'
+    },
+    {
+        name: 'Monocle Reflex Sight',
+        image: 'attachments/smgs/monocle.png'
+    },
+    {
+        name: 'Cronen C480 Pro Optic',
+        image: 'attachments/smgs/cronenc480.png'
+    },
+    {
+        name: 'Merc Thermal Optic',
+        image: 'attachments/smgs/mercthermal.png'
+    },
     ];
 
 
@@ -4892,21 +4892,21 @@ function mp7() {
     //Stock
 
     var stocks = [{
-            name: 'FORGE TAC Ultralight',
-            image: 'attachments/smgs/forgetacultralight.png'
-        },
-        {
-            name: 'FORGE TAC Stalker',
-            image: 'attachments/smgs/forgetacstalker.png'
-        },
-        {
-            name: 'FSS Close Quarters Stock',
-            image: 'attachments/smgs/fssclosequartersstock.png'
-        },
-        {
-            name: 'No Stock',
-            image: 'attachments/smgs/nostockmp7.png'
-        },
+        name: 'FORGE TAC Ultralight',
+        image: 'attachments/smgs/forgetacultralight.png'
+    },
+    {
+        name: 'FORGE TAC Stalker',
+        image: 'attachments/smgs/forgetacstalker.png'
+    },
+    {
+        name: 'FSS Close Quarters Stock',
+        image: 'attachments/smgs/fssclosequartersstock.png'
+    },
+    {
+        name: 'No Stock',
+        image: 'attachments/smgs/nostockmp7.png'
+    },
     ];
 
 
@@ -4934,25 +4934,25 @@ function mp7() {
     //Underbarrel
 
     var underbarrels = [{
-            name: 'Merc Foregrup',
-            image: 'attachments/smgs/merc.png'
-        },
-        {
-            name: 'Commando Foregrip',
-            image: 'attachments/smgs/commando.png'
-        },
-        {
-            name: 'Tactical Foregrip',
-            image: 'attachments/smgs/tactical.png'
-        },
-        {
-            name: 'Ranger Foregrip',
-            image: 'attachments/smgs/ranger.png'
-        },
-        {
-            name: 'Operator Foregrip',
-            image: 'attachments/smgs/operator.png'
-        },
+        name: 'Merc Foregrup',
+        image: 'attachments/smgs/merc.png'
+    },
+    {
+        name: 'Commando Foregrip',
+        image: 'attachments/smgs/commando.png'
+    },
+    {
+        name: 'Tactical Foregrip',
+        image: 'attachments/smgs/tactical.png'
+    },
+    {
+        name: 'Ranger Foregrip',
+        image: 'attachments/smgs/ranger.png'
+    },
+    {
+        name: 'Operator Foregrip',
+        image: 'attachments/smgs/operator.png'
+    },
     ];
 
 
@@ -4983,13 +4983,13 @@ function mp7() {
     //Ammunation
 
     var ammunations = [{
-            name: '50 Round Mags',
-            image: 'attachments/smgs/50mp7.png'
-        },
-        {
-            name: '60 Round Mags',
-            image: 'attachments/smgs/60mp7.png'
-        },
+        name: '50 Round Mags',
+        image: 'attachments/smgs/50mp7.png'
+    },
+    {
+        name: '60 Round Mags',
+        image: 'attachments/smgs/60mp7.png'
+    },
     ];
 
 
@@ -5017,17 +5017,17 @@ function mp7() {
     //RearGrip
 
     var reargrips = [{
-            name: 'Granulated Grip Tape',
-            image: 'attachments/smgs/granulatedgriptape.png'
-        },
-        {
-            name: 'Rubberized Grip Tape',
-            image: 'attachments/smgs/rubberizedgriptape.png'
-        },
-        {
-            name: 'Stippled Grip Tape',
-            image: 'attachments/smgs/stippledgriptape.png'
-        },
+        name: 'Granulated Grip Tape',
+        image: 'attachments/smgs/granulatedgriptape.png'
+    },
+    {
+        name: 'Rubberized Grip Tape',
+        image: 'attachments/smgs/rubberizedgriptape.png'
+    },
+    {
+        name: 'Stippled Grip Tape',
+        image: 'attachments/smgs/stippledgriptape.png'
+    },
     ];
 
 
@@ -5053,41 +5053,41 @@ function mp7() {
     //Perks
 
     var perks = [{
-            name: 'FMJ',
-            image: 'attachments/perks/fmj.png'
-        },
-        {
-            name: 'Sleight of Hand',
-            image: 'attachments/perks/sleight.png'
-        },
-        {
-            name: 'Frangible - Wounding',
-            image: 'attachments/perks/wounding.png'
-        },
-        {
-            name: 'Heavy Hitter',
-            image: 'attachments/perks/heavyhitter.png'
-        },
-        {
-            name: 'Fully Loaded',
-            image: 'attachments/perks/fullyloaded.png'
-        },
-        {
-            name: 'Recon',
-            image: 'attachments/perks/recon.png'
-        },
-        {
-            name: 'Mo Money',
-            image: 'attachments/perks/money.png'
-        },
-        {
-            name: 'Fast Melee',
-            image: 'attachments/perks/fastmelee.png'
-        },
-        {
-            name: 'Frangible - Disabling',
-            image: 'attachments/perks/disabling.png'
-        },
+        name: 'FMJ',
+        image: 'attachments/perks/fmj.png'
+    },
+    {
+        name: 'Sleight of Hand',
+        image: 'attachments/perks/sleight.png'
+    },
+    {
+        name: 'Frangible - Wounding',
+        image: 'attachments/perks/wounding.png'
+    },
+    {
+        name: 'Heavy Hitter',
+        image: 'attachments/perks/heavyhitter.png'
+    },
+    {
+        name: 'Fully Loaded',
+        image: 'attachments/perks/fullyloaded.png'
+    },
+    {
+        name: 'Recon',
+        image: 'attachments/perks/recon.png'
+    },
+    {
+        name: 'Mo Money',
+        image: 'attachments/perks/money.png'
+    },
+    {
+        name: 'Fast Melee',
+        image: 'attachments/perks/fastmelee.png'
+    },
+    {
+        name: 'Frangible - Disabling',
+        image: 'attachments/perks/disabling.png'
+    },
     ];
 
 
@@ -5132,33 +5132,33 @@ function mp5() {
     //Muzzles
 
     var muzzles = [{
-            name: 'Breacher Device',
-            image: 'attachments/smgs/breacherdevice.png'
-        },
-        {
-            name: 'Tactical Suppressor',
-            image: 'attachments/smgs/tacticalsuppressor.png'
-        },
-        {
-            name: 'Flash Guard',
-            image: 'attachments/smgs/flashguard.png'
-        },
-        {
-            name: 'Monolithic Suppressor',
-            image: 'attachments/smgs/monolithicsuppressor.png'
-        },
-        {
-            name: 'Muzzle Brake',
-            image: 'attachments/smgs/muzzlebrake.png'
-        },
-        {
-            name: 'Compensator',
-            image: 'attachments/smgs/compensator.png'
-        },
-        {
-            name: 'Lightweight Suppressor',
-            image: 'attachments/smgs/lightweightsuppressor.png'
-        },
+        name: 'Breacher Device',
+        image: 'attachments/smgs/breacherdevice.png'
+    },
+    {
+        name: 'Tactical Suppressor',
+        image: 'attachments/smgs/tacticalsuppressor.png'
+    },
+    {
+        name: 'Flash Guard',
+        image: 'attachments/smgs/flashguard.png'
+    },
+    {
+        name: 'Monolithic Suppressor',
+        image: 'attachments/smgs/monolithicsuppressor.png'
+    },
+    {
+        name: 'Muzzle Brake',
+        image: 'attachments/smgs/muzzlebrake.png'
+    },
+    {
+        name: 'Compensator',
+        image: 'attachments/smgs/compensator.png'
+    },
+    {
+        name: 'Lightweight Suppressor',
+        image: 'attachments/smgs/lightweightsuppressor.png'
+    },
     ];
 
 
@@ -5183,12 +5183,12 @@ function mp5() {
 
     //Barrel
     var barrels = [
-        { name: 'FFS Light', image: 'attachments/smgs/fsslight.png' }, 
+        { name: 'FFS Light', image: 'attachments/smgs/fsslight.png' },
         {
             name: 'Monolithic Integral Suppressor',
             image: 'attachments/smgs/monolithicintegralsuppressor.png'
         },
-        { name: 'FFS Mini', image: 'attachments/smgs/fssmini.png' }, 
+        { name: 'FFS Mini', image: 'attachments/smgs/fssmini.png' },
         {
             name: 'Subsonic Integral Suppressor',
             image: 'attachments/smgs/subsonicintegralsuppressor.png'
@@ -5228,17 +5228,17 @@ function mp5() {
     //Laser
 
     var lasers = [{
-            name: '1mW Laser',
-            image: 'attachments/smgs/1mwlaser.png'
-        },
-        {
-            name: '5mW Laser',
-            image: 'attachments/smgs/5mwlaser.png'
-        },
-        {
-            name: 'Tac Laser',
-            image: 'attachments/smgs/taclaser.png'
-        },
+        name: '1mW Laser',
+        image: 'attachments/smgs/1mwlaser.png'
+    },
+    {
+        name: '5mW Laser',
+        image: 'attachments/smgs/5mwlaser.png'
+    },
+    {
+        name: 'Tac Laser',
+        image: 'attachments/smgs/taclaser.png'
+    },
     ];
 
 
@@ -5265,77 +5265,77 @@ function mp5() {
     //Optic
 
     var optics = [{
-            name: 'Operator Reflex Sight',
-            image: 'attachments/smgs/operatorreflex.png'
-        },
-        {
-            name: 'Corp Combat Holo Sight',
-            image: 'attachments/smgs/corp.png'
-        },
-        {
-            name: 'Aim-Op Relfex Sight',
-            image: 'attachments/smgs/aimop.png'
-        },
-        {
-            name: 'G.I. Mini Relex',
-            image: 'attachments/smgs/gi.png'
-        },
-        {
-            name: 'Scout Combat Optic',
-            image: 'attachments/smgs/scout.png'
-        },
-        {
-            name: 'APX5 Holographic Sight',
-            image: 'attachments/smgs/apx5.png'
-        },
-        {
-            name: 'Solozero Optics Mini Reflex',
-            image: 'attachments/smgs/solozeromini.png'
-        },
-        {
-            name: 'VLK 3.0x Optic',
-            image: 'attachments/smgs/vlk.png'
-        },
-        {
-            name: 'Thermal hybrid',
-            image: 'attachments/smgs/thermal.png'
-        },
-        {
-            name: 'Viper Reflex Sight',
-            image: 'attachments/smgs/viper.png'
-        },
-        {
-            name: 'PBX Holo 7 sight',
-            image: 'attachments/smgs/pbx.png'
-        },
-        {
-            name: 'Solozero NVG Enhanced',
-            image: 'attachments/smgs/solozero.png'
-        },
-        {
-            name: 'Cronen LP945 Mini Reflex',
-            image: 'attachments/smgs/cronenlp945.png'
-        },
-        {
-            name: 'Canted Hybrid',
-            image: 'attachments/smgs/cantedhybrid.png'
-        },
-        {
-            name: 'Monocle Reflex Sight',
-            image: 'attachments/smgs/monocle.png'
-        },
-        {
-            name: 'Cronen C480 Pro Optic',
-            image: 'attachments/smgs/cronenc480.png'
-        },
-        {
-            name: 'Merc Thermal Optic',
-            image: 'attachments/smgs/mercthermal.png'
-        },
-        {
-            name: 'Integral Hybrid',
-            image: 'attachments/smgs/integral.png'
-        },
+        name: 'Operator Reflex Sight',
+        image: 'attachments/smgs/operatorreflex.png'
+    },
+    {
+        name: 'Corp Combat Holo Sight',
+        image: 'attachments/smgs/corp.png'
+    },
+    {
+        name: 'Aim-Op Relfex Sight',
+        image: 'attachments/smgs/aimop.png'
+    },
+    {
+        name: 'G.I. Mini Relex',
+        image: 'attachments/smgs/gi.png'
+    },
+    {
+        name: 'Scout Combat Optic',
+        image: 'attachments/smgs/scout.png'
+    },
+    {
+        name: 'APX5 Holographic Sight',
+        image: 'attachments/smgs/apx5.png'
+    },
+    {
+        name: 'Solozero Optics Mini Reflex',
+        image: 'attachments/smgs/solozeromini.png'
+    },
+    {
+        name: 'VLK 3.0x Optic',
+        image: 'attachments/smgs/vlk.png'
+    },
+    {
+        name: 'Thermal hybrid',
+        image: 'attachments/smgs/thermal.png'
+    },
+    {
+        name: 'Viper Reflex Sight',
+        image: 'attachments/smgs/viper.png'
+    },
+    {
+        name: 'PBX Holo 7 sight',
+        image: 'attachments/smgs/pbx.png'
+    },
+    {
+        name: 'Solozero NVG Enhanced',
+        image: 'attachments/smgs/solozero.png'
+    },
+    {
+        name: 'Cronen LP945 Mini Reflex',
+        image: 'attachments/smgs/cronenlp945.png'
+    },
+    {
+        name: 'Canted Hybrid',
+        image: 'attachments/smgs/cantedhybrid.png'
+    },
+    {
+        name: 'Monocle Reflex Sight',
+        image: 'attachments/smgs/monocle.png'
+    },
+    {
+        name: 'Cronen C480 Pro Optic',
+        image: 'attachments/smgs/cronenc480.png'
+    },
+    {
+        name: 'Merc Thermal Optic',
+        image: 'attachments/smgs/mercthermal.png'
+    },
+    {
+        name: 'Integral Hybrid',
+        image: 'attachments/smgs/integral.png'
+    },
     ];
 
 
@@ -5361,21 +5361,21 @@ function mp5() {
 
     //Stock
     var stocks = [{
-            name: 'Forge TAC Ultralight',
-            image: 'attachments/smgs/forgetacultralight.png'
-        },
-        {
-            name: 'Classic Straight-line Stock',
-            image: 'attachments/smgs/straightline.png'
-        },
-        {
-            name: 'FSS Close Quarters Stock',
-            image: 'attachments/smgs/fssclosequartersstock.png'
-        },
-        {
-            name: 'FTAC Collapsible',
-            image: 'attachments/smgs/collapsible.png'
-        },
+        name: 'Forge TAC Ultralight',
+        image: 'attachments/smgs/forgetacultralight.png'
+    },
+    {
+        name: 'Classic Straight-line Stock',
+        image: 'attachments/smgs/straightline.png'
+    },
+    {
+        name: 'FSS Close Quarters Stock',
+        image: 'attachments/smgs/fssclosequartersstock.png'
+    },
+    {
+        name: 'FTAC Collapsible',
+        image: 'attachments/smgs/collapsible.png'
+    },
     ];
 
 
@@ -5403,25 +5403,25 @@ function mp5() {
     //Underbarrel
 
     var underbarrels = [{
-            name: 'Merc Foregrup',
-            image: 'attachments/smgs/merc.png'
-        },
-        {
-            name: 'Commando Foregrip',
-            image: 'attachments/smgs/commando.png'
-        },
-        {
-            name: 'Tactical Foregrip',
-            image: 'attachments/smgs/tactical.png'
-        },
-        {
-            name: 'Ranger Foregrip',
-            image: 'attachments/smgs/ranger.png'
-        },
-        {
-            name: 'Operator Foregrip',
-            image: 'attachments/smgs/operator.png'
-        },
+        name: 'Merc Foregrup',
+        image: 'attachments/smgs/merc.png'
+    },
+    {
+        name: 'Commando Foregrip',
+        image: 'attachments/smgs/commando.png'
+    },
+    {
+        name: 'Tactical Foregrip',
+        image: 'attachments/smgs/tactical.png'
+    },
+    {
+        name: 'Ranger Foregrip',
+        image: 'attachments/smgs/ranger.png'
+    },
+    {
+        name: 'Operator Foregrip',
+        image: 'attachments/smgs/operator.png'
+    },
     ];
 
 
@@ -5452,13 +5452,13 @@ function mp5() {
     //Ammunation
 
     var ammunations = [{
-            name: '45 Round Mags',
-            image: 'attachments/smgs/45mp5.png'
-        },
-        {
-            name: '10mm Auto 30-Round Mags',
-            image: 'attachments/smgs/30mp5.png'
-        },
+        name: '45 Round Mags',
+        image: 'attachments/smgs/45mp5.png'
+    },
+    {
+        name: '10mm Auto 30-Round Mags',
+        image: 'attachments/smgs/30mp5.png'
+    },
     ];
 
 
@@ -5486,17 +5486,17 @@ function mp5() {
     //RearGrip
 
     var reargrips = [{
-            name: 'Granulated Grip Tape',
-            image: 'attachments/smgs/granulatedgriptape.png'
-        },
-        {
-            name: 'Rubberized Grip Tape',
-            image: 'attachments/smgs/rubberizedgriptape.png'
-        },
-        {
-            name: 'Stippled Grip Tape',
-            image: 'attachments/smgs/stippledgriptape.png'
-        },
+        name: 'Granulated Grip Tape',
+        image: 'attachments/smgs/granulatedgriptape.png'
+    },
+    {
+        name: 'Rubberized Grip Tape',
+        image: 'attachments/smgs/rubberizedgriptape.png'
+    },
+    {
+        name: 'Stippled Grip Tape',
+        image: 'attachments/smgs/stippledgriptape.png'
+    },
     ];
 
 
@@ -5522,45 +5522,45 @@ function mp5() {
     //Perks
 
     var perks = [{
-            name: 'FMJ',
-            image: 'attachments/perks/fmj.png'
-        },
-        {
-            name: 'Sleight of Hand',
-            image: 'attachments/perks/sleight.png'
-        },
-        {
-            name: 'Frangible - Wounding',
-            image: 'attachments/perks/wounding.png'
-        },
-        {
-            name: 'Heavy Hitter',
-            image: 'attachments/perks/heavyhitter.png'
-        },
-        {
-            name: 'Fully Loaded',
-            image: 'attachments/perks/fullyloaded.png'
-        },
-        {
-            name: 'Burst',
-            image: 'attachments/perks/burst.png'
-        },
-        {
-            name: 'Recon',
-            image: 'attachments/perks/recon.png'
-        },
-        {
-            name: 'Mo Money',
-            image: 'attachments/perks/money.png'
-        },
-        {
-            name: 'Fast Melee',
-            image: 'attachments/perks/fastmelee.png'
-        },
-        {
-            name: 'Frangible - Disabling',
-            image: 'attachments/perks/disabling.png'
-        },
+        name: 'FMJ',
+        image: 'attachments/perks/fmj.png'
+    },
+    {
+        name: 'Sleight of Hand',
+        image: 'attachments/perks/sleight.png'
+    },
+    {
+        name: 'Frangible - Wounding',
+        image: 'attachments/perks/wounding.png'
+    },
+    {
+        name: 'Heavy Hitter',
+        image: 'attachments/perks/heavyhitter.png'
+    },
+    {
+        name: 'Fully Loaded',
+        image: 'attachments/perks/fullyloaded.png'
+    },
+    {
+        name: 'Burst',
+        image: 'attachments/perks/burst.png'
+    },
+    {
+        name: 'Recon',
+        image: 'attachments/perks/recon.png'
+    },
+    {
+        name: 'Mo Money',
+        image: 'attachments/perks/money.png'
+    },
+    {
+        name: 'Fast Melee',
+        image: 'attachments/perks/fastmelee.png'
+    },
+    {
+        name: 'Frangible - Disabling',
+        image: 'attachments/perks/disabling.png'
+    },
     ];
 
 
@@ -5605,37 +5605,37 @@ function model680() {
     //Muzzles
 
     var muzzles = [{
-            name: 'Breacher Device',
-            image: 'attachments/shotguns/model680/breacherdevice.png'
-        },
-        {
-            name: 'Flash Guard',
-            image: 'attachments/shotguns/model680/flashguard.png'
-        },
-        {
-            name: 'Monolithic Suppressor',
-            image: 'attachments/shotguns/model680/monolithicsuppressor.png'
-        },
-        {
-            name: 'Muzzle Brake',
-            image: 'attachments/shotguns/model680/muzzlebrake.png'
-        },
-        {
-            name: 'Compensator',
-            image: 'attachments/shotguns/model680/compensator.png'
-        },
-        {
-            name: 'Choke',
-            image: 'attachments/shotguns/model680/choke.png'
-        },
-        {
-            name: 'FSS Marauder',
-            image: 'attachments/shotguns/model680/fssmarauder.png'
-        },
-        {
-            name: 'Tactical Suppressor',
-            image: 'attachments/shotguns/model680/tacticalsuppressor.png'
-        },
+        name: 'Breacher Device',
+        image: 'attachments/shotguns/model680/breacherdevice.png'
+    },
+    {
+        name: 'Flash Guard',
+        image: 'attachments/shotguns/model680/flashguard.png'
+    },
+    {
+        name: 'Monolithic Suppressor',
+        image: 'attachments/shotguns/model680/monolithicsuppressor.png'
+    },
+    {
+        name: 'Muzzle Brake',
+        image: 'attachments/shotguns/model680/muzzlebrake.png'
+    },
+    {
+        name: 'Compensator',
+        image: 'attachments/shotguns/model680/compensator.png'
+    },
+    {
+        name: 'Choke',
+        image: 'attachments/shotguns/model680/choke.png'
+    },
+    {
+        name: 'FSS Marauder',
+        image: 'attachments/shotguns/model680/fssmarauder.png'
+    },
+    {
+        name: 'Tactical Suppressor',
+        image: 'attachments/shotguns/model680/tacticalsuppressor.png'
+    },
 
     ];
 
@@ -5662,17 +5662,17 @@ function model680() {
     //Barrel
 
     var barrels = [{
-            name: 'XRX 18.0 Liberator',
-            image: 'attachments/shotguns/model680/xrx180liberator.png'
-        },
-        {
-            name: 'XRX 14.0 SWAT',
-            image: 'attachments/shotguns/model680/xrx140swat.png'
-        },
-        {
-            name: 'XRX 30.0 Sport',
-            image: 'attachments/shotguns/model680/xrx300sport.png'
-        },
+        name: 'XRX 18.0 Liberator',
+        image: 'attachments/shotguns/model680/xrx180liberator.png'
+    },
+    {
+        name: 'XRX 14.0 SWAT',
+        image: 'attachments/shotguns/model680/xrx140swat.png'
+    },
+    {
+        name: 'XRX 30.0 Sport',
+        image: 'attachments/shotguns/model680/xrx300sport.png'
+    },
     ];
 
 
@@ -5701,17 +5701,17 @@ function model680() {
     //Laser
 
     var lasers = [{
-            name: '1mW Laser',
-            image: 'attachments/shotguns/model680/1mwlaser.png'
-        },
-        {
-            name: '5mW Laser',
-            image: 'attachments/shotguns/model680/5mwlaser.png'
-        },
-        {
-            name: 'Tac Laser',
-            image: 'attachments/shotguns/model680/taclaser.png'
-        },
+        name: '1mW Laser',
+        image: 'attachments/shotguns/model680/1mwlaser.png'
+    },
+    {
+        name: '5mW Laser',
+        image: 'attachments/shotguns/model680/5mwlaser.png'
+    },
+    {
+        name: 'Tac Laser',
+        image: 'attachments/shotguns/model680/taclaser.png'
+    },
     ];
 
 
@@ -5738,61 +5738,61 @@ function model680() {
     //Optic
 
     var optics = [{
-            name: 'Operator Reflex Sight',
-            image: 'attachments/shotguns/optics/operatorrelfexsight.png'
-        },
-        {
-            name: 'Corp Combat Holo Sight',
-            image: 'attachments/shotguns/optics/corpcombatholosight.png'
-        },
-        {
-            name: 'Aim-Op Reflex Sight',
-            image: 'attachments/shotguns/optics/aimopreflexsight.png'
-        },
-        {
-            name: 'Cronen LP945 Mini Reflex',
-            image: 'attachments/shotguns/optics/cronenlp945minireflex.png'
-        },
-        {
-            name: 'APX5 Holographic Sight',
-            image: 'attachments/shotguns/optics/apx5holographicsight.png'
-        },
-        {
-            name: 'Scout Combat Optic',
-            image: 'attachments/shotguns/optics/scoutcombatoptic.png'
-        },
-        {
-            name: 'Viper Reflex Sight',
-            image: 'attachments/shotguns/optics/viperreflexsight.png'
-        },
-        {
-            name: 'VLK 3.0x Optic',
-            image: 'attachments/shotguns/optics/vlk30xoptic.png'
-        },
-        {
-            name: 'G.I. Mini Reflex',
-            image: 'attachments/shotguns/optics/giminireflex.png'
-        },
-        {
-            name: 'Solozero NVG Enhanced',
-            image: 'attachments/shotguns/optics/solozeronvgenhanced.png'
-        },
-        {
-            name: 'PBX Holo 7 Sight',
-            image: 'attachments/shotguns/optics/pbxholo7sight.png'
-        },
-        {
-            name: 'Monocle Reflex Sight',
-            image: 'attachments/shotguns/optics/monoclereflexsight.png'
-        },
-        {
-            name: 'Cronen C480 Pro Optic',
-            image: 'attachments/shotguns/optics/cronenc480prooptic.png'
-        },
-        {
-            name: 'Solozero Optics Mini Reflex',
-            image: 'attachments/shotguns/optics/solozeroopticsminireflex.png'
-        },
+        name: 'Operator Reflex Sight',
+        image: 'attachments/shotguns/optics/operatorrelfexsight.png'
+    },
+    {
+        name: 'Corp Combat Holo Sight',
+        image: 'attachments/shotguns/optics/corpcombatholosight.png'
+    },
+    {
+        name: 'Aim-Op Reflex Sight',
+        image: 'attachments/shotguns/optics/aimopreflexsight.png'
+    },
+    {
+        name: 'Cronen LP945 Mini Reflex',
+        image: 'attachments/shotguns/optics/cronenlp945minireflex.png'
+    },
+    {
+        name: 'APX5 Holographic Sight',
+        image: 'attachments/shotguns/optics/apx5holographicsight.png'
+    },
+    {
+        name: 'Scout Combat Optic',
+        image: 'attachments/shotguns/optics/scoutcombatoptic.png'
+    },
+    {
+        name: 'Viper Reflex Sight',
+        image: 'attachments/shotguns/optics/viperreflexsight.png'
+    },
+    {
+        name: 'VLK 3.0x Optic',
+        image: 'attachments/shotguns/optics/vlk30xoptic.png'
+    },
+    {
+        name: 'G.I. Mini Reflex',
+        image: 'attachments/shotguns/optics/giminireflex.png'
+    },
+    {
+        name: 'Solozero NVG Enhanced',
+        image: 'attachments/shotguns/optics/solozeronvgenhanced.png'
+    },
+    {
+        name: 'PBX Holo 7 Sight',
+        image: 'attachments/shotguns/optics/pbxholo7sight.png'
+    },
+    {
+        name: 'Monocle Reflex Sight',
+        image: 'attachments/shotguns/optics/monoclereflexsight.png'
+    },
+    {
+        name: 'Cronen C480 Pro Optic',
+        image: 'attachments/shotguns/optics/cronenc480prooptic.png'
+    },
+    {
+        name: 'Solozero Optics Mini Reflex',
+        image: 'attachments/shotguns/optics/solozeroopticsminireflex.png'
+    },
     ];
 
 
@@ -5819,25 +5819,25 @@ function model680() {
     //Stock
 
     var stocks = [{
-            name: 'FTAC Stalker-12',
-            image: 'attachments/shotguns/model680/ftacstalker12.png'
-        },
-        {
-            name: 'FORGE TAC Ultralight',
-            image: 'attachments/shotguns/model680/forgetacultralight.png'
-        },
-        {
-            name: 'No Stock',
-            image: 'attachments/shotguns/model680/nostock.png'
-        },
-        {
-            name: 'Lockwood Precision Series',
-            image: 'attachments/shotguns/model680/lockwoodprecisionseries.png'
-        },
-        {
-            name: 'FTAC Hunter',
-            image: 'attachments/shotguns/model680/ftachunter.png'
-        },
+        name: 'FTAC Stalker-12',
+        image: 'attachments/shotguns/model680/ftacstalker12.png'
+    },
+    {
+        name: 'FORGE TAC Ultralight',
+        image: 'attachments/shotguns/model680/forgetacultralight.png'
+    },
+    {
+        name: 'No Stock',
+        image: 'attachments/shotguns/model680/nostock.png'
+    },
+    {
+        name: 'Lockwood Precision Series',
+        image: 'attachments/shotguns/model680/lockwoodprecisionseries.png'
+    },
+    {
+        name: 'FTAC Hunter',
+        image: 'attachments/shotguns/model680/ftachunter.png'
+    },
     ];
 
 
@@ -5865,29 +5865,29 @@ function model680() {
     //Underbarrel
 
     var underbarrels = [{
-            name: 'Commando Foregrip',
-            image: 'attachments/shotguns/model680/commandoforegrip.png'
-        },
-        {
-            name: 'Merc Foregrip',
-            image: 'attachments/shotguns/model680/mercforegrip.png'
-        },
-        {
-            name: 'Tactical Foregrip',
-            image: 'attachments/shotguns/model680/tacticalforegrip.png'
-        },
-        {
-            name: 'Lockwood Precision Series',
-            image: 'attachments/shotguns/model680/lockwoodprecisionseriesub.png'
-        },
-        {
-            name: 'Operator Foregrip',
-            image: 'attachments/shotguns/model680/operatorforegrip.png'
-        },
-        {
-            name: 'XRX Truegrip Tactical',
-            image: 'attachments/shotguns/model680/xrxtruegriptactical.png'
-        },
+        name: 'Commando Foregrip',
+        image: 'attachments/shotguns/model680/commandoforegrip.png'
+    },
+    {
+        name: 'Merc Foregrip',
+        image: 'attachments/shotguns/model680/mercforegrip.png'
+    },
+    {
+        name: 'Tactical Foregrip',
+        image: 'attachments/shotguns/model680/tacticalforegrip.png'
+    },
+    {
+        name: 'Lockwood Precision Series',
+        image: 'attachments/shotguns/model680/lockwoodprecisionseriesub.png'
+    },
+    {
+        name: 'Operator Foregrip',
+        image: 'attachments/shotguns/model680/operatorforegrip.png'
+    },
+    {
+        name: 'XRX Truegrip Tactical',
+        image: 'attachments/shotguns/model680/xrxtruegriptactical.png'
+    },
     ];
 
 
@@ -5918,13 +5918,13 @@ function model680() {
     //Ammunation
 
     var ammunations = [{
-            name: 'Tube Extension',
-            image: 'attachments/shotguns/model680/tubeextension.png'
-        },
-        {
-            name: 'Slug Rounds',
-            image: 'attachments/shotguns/model680/slugrounds.png'
-        },
+        name: 'Tube Extension',
+        image: 'attachments/shotguns/model680/tubeextension.png'
+    },
+    {
+        name: 'Slug Rounds',
+        image: 'attachments/shotguns/model680/slugrounds.png'
+    },
     ];
 
 
@@ -5951,37 +5951,37 @@ function model680() {
     //Perks
 
     var perks = [{
-            name: 'FMJ',
-            image: 'attachments/perks/fmj.png'
-        },
-        {
-            name: 'Sleight of Hand',
-            image: 'attachments/perks/sleight.png'
-        },
-        {
-            name: 'Frangible - Wounding',
-            image: 'attachments/perks/wounding.png'
-        },
-        {
-            name: 'Heavy Hitter',
-            image: 'attachments/perks/heavyhitter.png'
-        },
-        {
-            name: 'Fully Loaded',
-            image: 'attachments/perks/fullyloaded.png'
-        },
-        {
-            name: 'Recon',
-            image: 'attachments/perks/recon.png'
-        },
-        {
-            name: 'Mo Money',
-            image: 'attachments/perks/money.png'
-        },
-        {
-            name: 'Fast Melee',
-            image: 'attachments/perks/fastmelee.png'
-        },
+        name: 'FMJ',
+        image: 'attachments/perks/fmj.png'
+    },
+    {
+        name: 'Sleight of Hand',
+        image: 'attachments/perks/sleight.png'
+    },
+    {
+        name: 'Frangible - Wounding',
+        image: 'attachments/perks/wounding.png'
+    },
+    {
+        name: 'Heavy Hitter',
+        image: 'attachments/perks/heavyhitter.png'
+    },
+    {
+        name: 'Fully Loaded',
+        image: 'attachments/perks/fullyloaded.png'
+    },
+    {
+        name: 'Recon',
+        image: 'attachments/perks/recon.png'
+    },
+    {
+        name: 'Mo Money',
+        image: 'attachments/perks/money.png'
+    },
+    {
+        name: 'Fast Melee',
+        image: 'attachments/perks/fastmelee.png'
+    },
     ];
 
 
@@ -6026,33 +6026,33 @@ function mk2() {
     //Muzzles
 
     var muzzles = [{
-            name: 'Flash Guard',
-            image: 'attachments/muzzles/flashguard.png'
-        },
-        {
-            name: 'Breacher Device',
-            image: 'attachments/muzzles/breacherdevice.png'
-        },
-        {
-            name: 'Tactical Suppressor',
-            image: 'attachments/muzzles/tacticalsuppressor.png'
-        },
-        {
-            name: 'Muzzle Brake',
-            image: 'attachments/muzzles/muzzlebrake.png'
-        },
-        {
-            name: 'Lightweight Suppressor',
-            image: 'attachments/muzzles/lightweightsuppressor.png'
-        },
-        {
-            name: 'Compensator',
-            image: 'attachments/muzzles/compensator.png'
-        },
-        {
-            name: 'Monolithic Suppressor',
-            image: 'attachments/muzzles/monolithicsuppressor.png'
-        }
+        name: 'Flash Guard',
+        image: 'attachments/muzzles/flashguard.png'
+    },
+    {
+        name: 'Breacher Device',
+        image: 'attachments/muzzles/breacherdevice.png'
+    },
+    {
+        name: 'Tactical Suppressor',
+        image: 'attachments/muzzles/tacticalsuppressor.png'
+    },
+    {
+        name: 'Muzzle Brake',
+        image: 'attachments/muzzles/muzzlebrake.png'
+    },
+    {
+        name: 'Lightweight Suppressor',
+        image: 'attachments/muzzles/lightweightsuppressor.png'
+    },
+    {
+        name: 'Compensator',
+        image: 'attachments/muzzles/compensator.png'
+    },
+    {
+        name: 'Monolithic Suppressor',
+        image: 'attachments/muzzles/monolithicsuppressor.png'
+    }
     ];
 
 
@@ -6078,17 +6078,17 @@ function mk2() {
     //Barrel
 
     var barrels = [{
-            name: 'FSS 18.0 Factory',
-            image: 'attachments/mrs/barrels/180.png'
-        },
-        {
-            name: 'FSS 20.0 Factory',
-            image: 'attachments/mrs/barrels/200.png'
-        },
-        {
-            name: 'FSS 24.0 Factory',
-            image: 'attachments/mrs/barrels/240.png'
-        },
+        name: 'FSS 18.0 Factory',
+        image: 'attachments/mrs/barrels/180.png'
+    },
+    {
+        name: 'FSS 20.0 Factory',
+        image: 'attachments/mrs/barrels/200.png'
+    },
+    {
+        name: 'FSS 24.0 Factory',
+        image: 'attachments/mrs/barrels/240.png'
+    },
     ];
 
 
@@ -6256,21 +6256,21 @@ function mk2() {
     //Stock
 
     var stocks = [{
-            name: 'Cartridge Sleeve',
-            image: 'attachments/mrs/stocks/sleeve.png'
-        },
-        {
-            name: 'FSS MK2 Sport Comb',
-            image: 'attachments/mrs/stocks/sportcomb.png'
-        },
-        {
-            name: 'FSS MK2 Precision Comb',
-            image: 'attachments/mrs/stocks/precisioncomb.png'
-        },
-        {
-            name: 'MK2 Ultralight Hollow',
-            image: 'attachments/mrs/stocks/hollow.png'
-        }
+        name: 'Cartridge Sleeve',
+        image: 'attachments/mrs/stocks/sleeve.png'
+    },
+    {
+        name: 'FSS MK2 Sport Comb',
+        image: 'attachments/mrs/stocks/sportcomb.png'
+    },
+    {
+        name: 'FSS MK2 Precision Comb',
+        image: 'attachments/mrs/stocks/precisioncomb.png'
+    },
+    {
+        name: 'MK2 Ultralight Hollow',
+        image: 'attachments/mrs/stocks/hollow.png'
+    }
     ];
 
 
@@ -6296,17 +6296,17 @@ function mk2() {
     //RearGrip
 
     var reargrips = [{
-            name: 'Granulated Grip Tape',
-            image: 'attachments/reargrips/granulatedmk2.png'
-        },
-        {
-            name: 'Rubberized Grip Tape',
-            image: 'attachments/reargrips/rubberizedmk2.png'
-        },
-        {
-            name: 'Stippled Grip Tape',
-            image: 'attachments/reargrips/stippledmk2.png'
-        }
+        name: 'Granulated Grip Tape',
+        image: 'attachments/reargrips/granulatedmk2.png'
+    },
+    {
+        name: 'Rubberized Grip Tape',
+        image: 'attachments/reargrips/rubberizedmk2.png'
+    },
+    {
+        name: 'Stippled Grip Tape',
+        image: 'attachments/reargrips/stippledmk2.png'
+    }
     ];
 
 
@@ -6333,49 +6333,49 @@ function mk2() {
     //Perks
 
     var perks = [{
-            name: 'FMJ',
-            image: 'attachments/perks/fmj.png'
-        },
-        {
-            name: 'Sleight of Hand',
-            image: 'attachments/perks/sleight.png'
-        },
-        {
-            name: 'Frangible - Wounding',
-            image: 'attachments/perks/wounding.png'
-        },
-        {
-            name: 'Heavy Hitter',
-            image: 'attachments/perks/heavyhitter.png'
-        },
-        {
-            name: 'Fully Loaded',
-            image: 'attachments/perks/fullyloaded.png'
-        },
-        {
-            name: 'Focus',
-            image: 'attachments/perks/focus.png'
-        },
-        {
-            name: 'Recon',
-            image: 'attachments/perks/recon.png'
-        },
-        {
-            name: 'Mo Money',
-            image: 'attachments/perks/money.png'
-        },
-        {
-            name: 'Fast Melee',
-            image: 'attachments/perks/fastmelee.png'
-        },
-        {
-            name: 'Frangible - Disabling',
-            image: 'attachments/perks/disabling.png'
-        },
-        {
-            name: 'Presence of Mind',
-            image: 'attachments/perks/mind.png'
-        }
+        name: 'FMJ',
+        image: 'attachments/perks/fmj.png'
+    },
+    {
+        name: 'Sleight of Hand',
+        image: 'attachments/perks/sleight.png'
+    },
+    {
+        name: 'Frangible - Wounding',
+        image: 'attachments/perks/wounding.png'
+    },
+    {
+        name: 'Heavy Hitter',
+        image: 'attachments/perks/heavyhitter.png'
+    },
+    {
+        name: 'Fully Loaded',
+        image: 'attachments/perks/fullyloaded.png'
+    },
+    {
+        name: 'Focus',
+        image: 'attachments/perks/focus.png'
+    },
+    {
+        name: 'Recon',
+        image: 'attachments/perks/recon.png'
+    },
+    {
+        name: 'Mo Money',
+        image: 'attachments/perks/money.png'
+    },
+    {
+        name: 'Fast Melee',
+        image: 'attachments/perks/fastmelee.png'
+    },
+    {
+        name: 'Frangible - Disabling',
+        image: 'attachments/perks/disabling.png'
+    },
+    {
+        name: 'Presence of Mind',
+        image: 'attachments/perks/mind.png'
+    }
     ];
 
 
@@ -6421,33 +6421,33 @@ function mg34() {
     //Muzzles
 
     var muzzles = [{
-            name: 'Flash Guard',
-            image: 'attachments/lmgs/muzzles/flash.png'
-        },
-        {
-            name: 'Monolithic Suppressor',
-            image: 'attachments/lmgs/muzzles/monolithic.png'
-        },
-        {
-            name: 'Muzzle Brake',
-            image: 'attachments/lmgs/muzzles/muzzle.png'
-        },
-        {
-            name: 'CQB Breacher Device',
-            image: 'attachments/lmgs/muzzles/cqb.png'
-        },
-        {
-            name: 'Lightweight Suppressor',
-            image: 'attachments/lmgs/muzzles/lightweight.png'
-        },
-        {
-            name: 'Compensator',
-            image: 'attachments/lmgs/muzzles/compensator.png'
-        },
-        {
-            name: 'Tactical Suppressor',
-            image: 'attachments/lmgs/muzzles/tactical.png'
-        },
+        name: 'Flash Guard',
+        image: 'attachments/lmgs/muzzles/flash.png'
+    },
+    {
+        name: 'Monolithic Suppressor',
+        image: 'attachments/lmgs/muzzles/monolithic.png'
+    },
+    {
+        name: 'Muzzle Brake',
+        image: 'attachments/lmgs/muzzles/muzzle.png'
+    },
+    {
+        name: 'CQB Breacher Device',
+        image: 'attachments/lmgs/muzzles/cqb.png'
+    },
+    {
+        name: 'Lightweight Suppressor',
+        image: 'attachments/lmgs/muzzles/lightweight.png'
+    },
+    {
+        name: 'Compensator',
+        image: 'attachments/lmgs/muzzles/compensator.png'
+    },
+    {
+        name: 'Tactical Suppressor',
+        image: 'attachments/lmgs/muzzles/tactical.png'
+    },
     ];
 
 
@@ -6473,17 +6473,17 @@ function mg34() {
     //Barrel
 
     var barrels = [{
-            name: 'FSS Brute',
-            image: 'attachments/lmgs/barrels/brute.png'
-        },
-        {
-            name: 'FSS Stubby',
-            image: 'attachments/lmgs/barrels/stubby.png'
-        },
-        {
-            name: 'FSS Elite',
-            image: 'attachments/lmgs/barrels/elite.png'
-        },
+        name: 'FSS Brute',
+        image: 'attachments/lmgs/barrels/brute.png'
+    },
+    {
+        name: 'FSS Stubby',
+        image: 'attachments/lmgs/barrels/stubby.png'
+    },
+    {
+        name: 'FSS Elite',
+        image: 'attachments/lmgs/barrels/elite.png'
+    },
 
     ];
 
@@ -6514,17 +6514,17 @@ function mg34() {
     //Laser
 
     var lasers = [{
-            name: '1mW Laser',
-            image: 'attachments/lasers/1mw.png'
-        },
-        {
-            name: '5mW Laser',
-            image: 'attachments/lasers/5mw.png'
-        },
-        {
-            name: 'Tac Laser',
-            image: 'attachments/lasers/tac.png'
-        }
+        name: '1mW Laser',
+        image: 'attachments/lasers/1mw.png'
+    },
+    {
+        name: '5mW Laser',
+        image: 'attachments/lasers/5mw.png'
+    },
+    {
+        name: 'Tac Laser',
+        image: 'attachments/lasers/tac.png'
+    }
     ];
 
 
@@ -6551,81 +6551,81 @@ function mg34() {
     //Optic
 
     var optics = [{
-            name: 'Cronen LP945 Mini Reflex',
-            image: 'attachments/lmgs/optics/cronenlp945.png'
-        },
-        {
-            name: 'Corp Combat Holo Sight',
-            image: 'attachments/lmgs/optics/corp.png'
-        },
-        {
-            name: 'Operator Reflex Sight',
-            image: 'attachments/lmgs/optics/operator.png'
-        },
-        {
-            name: 'Scout Combat Optic',
-            image: 'attachments/lmgs/optics/scout.png'
-        },
-        {
-            name: 'Aim-Op Reflex Sight',
-            image: 'attachments/lmgs/optics/aimop.png'
-        },
-        {
-            name: 'APx5 Holographic Sight',
-            image: 'attachments/lmgs/optics/apx5.png'
-        },
-        {
-            name: 'Integral Hybrid',
-            image: 'attachments/lmgs/optics/integral.png'
-        },
-        {
-            name: 'Solozero NVG Enhanced',
-            image: 'attachments/lmgs/optics/solozero.png'
-        },
-        {
-            name: 'VLK 3.0x Optic',
-            image: 'attachments/lmgs/optics/vlk.png'
-        },
-        {
-            name: 'Solozero Optics Mini Reflex',
-            image: 'attachments/lmgs/optics/solozeromini.png'
-        },
-        {
-            name: 'Sniper Scope',
-            image: 'attachments/lmgs/optics/sniperscope.png'
-        },
-        {
-            name: 'Viper Reflex Sight',
-            image: 'attachments/lmgs/optics/viper.png'
-        },
-        {
-            name: 'G.I. Mini Reflex',
-            image: 'attachments/lmgs/optics/gi.png'
-        },
-        {
-            name: 'PBX Holo 7 Sight',
-            image: 'attachments/lmgs/optics/pbx.png'
-        },
-        {
-            name: 'Cronen C480 Pro Optic',
-            image: 'attachments/lmgs/optics/cronenc480.png'
-        },
-        {
-            name: 'Monocle Reflex Sight',
-            image: 'attachments/lmgs/optics/monocle.png'
-        },
-        {
-            name: 'Canted Hybrid',
-            image: 'attachments/lmgs/optics/canted.png'
-        },
-        {
-            name: 'Merc Thermal Optic',
-            image: 'attachments/lmgs/optics/merc.png'
-        },
-        {
-            name: 'Thermal Hybrid',
-            image: 'attachments/lmgs/optics/thermal.png'
-        }
+        name: 'Cronen LP945 Mini Reflex',
+        image: 'attachments/lmgs/optics/cronenlp945.png'
+    },
+    {
+        name: 'Corp Combat Holo Sight',
+        image: 'attachments/lmgs/optics/corp.png'
+    },
+    {
+        name: 'Operator Reflex Sight',
+        image: 'attachments/lmgs/optics/operator.png'
+    },
+    {
+        name: 'Scout Combat Optic',
+        image: 'attachments/lmgs/optics/scout.png'
+    },
+    {
+        name: 'Aim-Op Reflex Sight',
+        image: 'attachments/lmgs/optics/aimop.png'
+    },
+    {
+        name: 'APx5 Holographic Sight',
+        image: 'attachments/lmgs/optics/apx5.png'
+    },
+    {
+        name: 'Integral Hybrid',
+        image: 'attachments/lmgs/optics/integral.png'
+    },
+    {
+        name: 'Solozero NVG Enhanced',
+        image: 'attachments/lmgs/optics/solozero.png'
+    },
+    {
+        name: 'VLK 3.0x Optic',
+        image: 'attachments/lmgs/optics/vlk.png'
+    },
+    {
+        name: 'Solozero Optics Mini Reflex',
+        image: 'attachments/lmgs/optics/solozeromini.png'
+    },
+    {
+        name: 'Sniper Scope',
+        image: 'attachments/lmgs/optics/sniperscope.png'
+    },
+    {
+        name: 'Viper Reflex Sight',
+        image: 'attachments/lmgs/optics/viper.png'
+    },
+    {
+        name: 'G.I. Mini Reflex',
+        image: 'attachments/lmgs/optics/gi.png'
+    },
+    {
+        name: 'PBX Holo 7 Sight',
+        image: 'attachments/lmgs/optics/pbx.png'
+    },
+    {
+        name: 'Cronen C480 Pro Optic',
+        image: 'attachments/lmgs/optics/cronenc480.png'
+    },
+    {
+        name: 'Monocle Reflex Sight',
+        image: 'attachments/lmgs/optics/monocle.png'
+    },
+    {
+        name: 'Canted Hybrid',
+        image: 'attachments/lmgs/optics/canted.png'
+    },
+    {
+        name: 'Merc Thermal Optic',
+        image: 'attachments/lmgs/optics/merc.png'
+    },
+    {
+        name: 'Thermal Hybrid',
+        image: 'attachments/lmgs/optics/thermal.png'
+    }
     ];
 
 
@@ -6652,21 +6652,21 @@ function mg34() {
     //Stock
 
     var stocks = [{
-            name: 'FORGE TAC Stalker',
-            image: 'attachments/lmgs/stocks/stalker.png'
-        },
-        {
-            name: 'FORGE TAC Ultralight',
-            image: 'attachments/lmgs/stocks/ultralight.png'
-        },
-        {
-            name: 'No Stock',
-            image: 'attachments/lmgs/stocks/nostock.png'
-        },
-        {
-            name: 'FSS Close Quarters Stock',
-            image: 'attachments/lmgs/stocks/close.png'
-        },
+        name: 'FORGE TAC Stalker',
+        image: 'attachments/lmgs/stocks/stalker.png'
+    },
+    {
+        name: 'FORGE TAC Ultralight',
+        image: 'attachments/lmgs/stocks/ultralight.png'
+    },
+    {
+        name: 'No Stock',
+        image: 'attachments/lmgs/stocks/nostock.png'
+    },
+    {
+        name: 'FSS Close Quarters Stock',
+        image: 'attachments/lmgs/stocks/close.png'
+    },
 
     ];
 
@@ -6695,29 +6695,29 @@ function mg34() {
     //Underbarrel
 
     var underbarrels = [{
-            name: 'Commando Foregrip',
-            image: 'attachments/lmgs/underbarrels/commando.png'
-        },
-        {
-            name: 'Merc Foregrip',
-            image: 'attachments/lmgs/underbarrels/merc.png'
-        },
-        {
-            name: 'Tactical Foregrip',
-            image: 'attachments/lmgs/underbarrels/tactical.png'
-        },
-        {
-            name: 'Bipod',
-            image: 'attachments/lmgs/underbarrels/bipod.png'
-        },
-        {
-            name: 'Ranger Foregrip',
-            image: 'attachments/lmgs/underbarrels/ranger.png'
-        },
-        {
-            name: 'Operator Foregrip',
-            image: 'attachments/lmgs/underbarrels/commando.png'
-        },
+        name: 'Commando Foregrip',
+        image: 'attachments/lmgs/underbarrels/commando.png'
+    },
+    {
+        name: 'Merc Foregrip',
+        image: 'attachments/lmgs/underbarrels/merc.png'
+    },
+    {
+        name: 'Tactical Foregrip',
+        image: 'attachments/lmgs/underbarrels/tactical.png'
+    },
+    {
+        name: 'Bipod',
+        image: 'attachments/lmgs/underbarrels/bipod.png'
+    },
+    {
+        name: 'Ranger Foregrip',
+        image: 'attachments/lmgs/underbarrels/ranger.png'
+    },
+    {
+        name: 'Operator Foregrip',
+        image: 'attachments/lmgs/underbarrels/commando.png'
+    },
     ];
     var underbarrel = false;
     document.getElementById("primaryAttH2").innerHTML = "";
@@ -6746,13 +6746,13 @@ function mg34() {
     //Ammunation
 
     var ammunations = [{
-            name: '75 Round Belt',
-            image: 'attachments/lmgs/ammunations/75.png'
-        },
-        {
-            name: '100 Round Belt',
-            image: 'attachments/lmgs/ammunations/100.png'
-        },
+        name: '75 Round Belt',
+        image: 'attachments/lmgs/ammunations/75.png'
+    },
+    {
+        name: '100 Round Belt',
+        image: 'attachments/lmgs/ammunations/100.png'
+    },
 
     ];
 
@@ -6781,17 +6781,17 @@ function mg34() {
     //RearGrip
 
     var reargrips = [{
-            name: 'Granulated Grip Tape',
-            image: 'attachments/lmgs/reargrips/granulatedmg.png'
-        },
-        {
-            name: 'Stippled Grip Tape',
-            image: 'attachments/lmgs/reargrips/stippledmg.png'
-        },
-        {
-            name: 'Rubberized Grip Tape',
-            image: 'attachments/lmgs/reargrips/rubberizedmg.png'
-        },
+        name: 'Granulated Grip Tape',
+        image: 'attachments/lmgs/reargrips/granulatedmg.png'
+    },
+    {
+        name: 'Stippled Grip Tape',
+        image: 'attachments/lmgs/reargrips/stippledmg.png'
+    },
+    {
+        name: 'Rubberized Grip Tape',
+        image: 'attachments/lmgs/reargrips/rubberizedmg.png'
+    },
 
     ];
 
@@ -6818,41 +6818,41 @@ function mg34() {
     //Perks
 
     var perks = [{
-            name: 'FMJ',
-            image: 'attachments/perks/fmj.png'
-        },
-        {
-            name: 'Sleight of Hand',
-            image: 'attachments/perks/sleight.png'
-        },
-        {
-            name: 'Frangible - Wounding',
-            image: 'attachments/perks/wounding.png'
-        },
-        {
-            name: 'Heavy Hitter',
-            image: 'attachments/perks/heavyhitter.png'
-        },
-        {
-            name: 'Fully Loaded',
-            image: 'attachments/perks/fullyloaded.png'
-        },
-        {
-            name: 'Recon',
-            image: 'attachments/perks/recon.png'
-        },
-        {
-            name: 'Mo Money',
-            image: 'attachments/perks/money.png'
-        },
-        {
-            name: 'Fast Melee',
-            image: 'attachments/perks/fastmelee.png'
-        },
-        {
-            name: 'Frangible - Disabling',
-            image: 'attachments/perks/disabling.png'
-        },
+        name: 'FMJ',
+        image: 'attachments/perks/fmj.png'
+    },
+    {
+        name: 'Sleight of Hand',
+        image: 'attachments/perks/sleight.png'
+    },
+    {
+        name: 'Frangible - Wounding',
+        image: 'attachments/perks/wounding.png'
+    },
+    {
+        name: 'Heavy Hitter',
+        image: 'attachments/perks/heavyhitter.png'
+    },
+    {
+        name: 'Fully Loaded',
+        image: 'attachments/perks/fullyloaded.png'
+    },
+    {
+        name: 'Recon',
+        image: 'attachments/perks/recon.png'
+    },
+    {
+        name: 'Mo Money',
+        image: 'attachments/perks/money.png'
+    },
+    {
+        name: 'Fast Melee',
+        image: 'attachments/perks/fastmelee.png'
+    },
+    {
+        name: 'Frangible - Disabling',
+        image: 'attachments/perks/disabling.png'
+    },
     ];
 
 
@@ -6898,33 +6898,33 @@ function m91() {
     //Muzzles
 
     var muzzles = [{
-            name: 'Flash Guard',
-            image: 'attachments/lmgs/muzzles/flash.png'
-        },
-        {
-            name: 'Monolithic Suppressor',
-            image: 'attachments/lmgs/muzzles/monolithic.png'
-        },
-        {
-            name: 'Muzzle Brake',
-            image: 'attachments/lmgs/muzzles/muzzle.png'
-        },
-        {
-            name: 'Breacher Device',
-            image: 'attachments/lmgs/muzzles/breacher.png'
-        },
-        {
-            name: 'Lightweight Suppressor',
-            image: 'attachments/lmgs/muzzles/lightweight.png'
-        },
-        {
-            name: 'Compensator',
-            image: 'attachments/lmgs/muzzles/compensator.png'
-        },
-        {
-            name: 'Tactical Suppressor',
-            image: 'attachments/lmgs/muzzles/tactical.png'
-        },
+        name: 'Flash Guard',
+        image: 'attachments/lmgs/muzzles/flash.png'
+    },
+    {
+        name: 'Monolithic Suppressor',
+        image: 'attachments/lmgs/muzzles/monolithic.png'
+    },
+    {
+        name: 'Muzzle Brake',
+        image: 'attachments/lmgs/muzzles/muzzle.png'
+    },
+    {
+        name: 'Breacher Device',
+        image: 'attachments/lmgs/muzzles/breacher.png'
+    },
+    {
+        name: 'Lightweight Suppressor',
+        image: 'attachments/lmgs/muzzles/lightweight.png'
+    },
+    {
+        name: 'Compensator',
+        image: 'attachments/lmgs/muzzles/compensator.png'
+    },
+    {
+        name: 'Tactical Suppressor',
+        image: 'attachments/lmgs/muzzles/tactical.png'
+    },
     ];
 
 
@@ -6950,17 +6950,17 @@ function m91() {
     //Barrel
 
     var barrels = [{
-            name: 'M91 Special Forces',
-            image: 'attachments/lmgs/barrels/special.png'
-        },
-        {
-            name: 'M91 Infantry',
-            image: 'attachments/lmgs/barrels/infantry.png'
-        },
-        {
-            name: 'M91 Heavy',
-            image: 'attachments/lmgs/barrels/m91heavy.png'
-        },
+        name: 'M91 Special Forces',
+        image: 'attachments/lmgs/barrels/special.png'
+    },
+    {
+        name: 'M91 Infantry',
+        image: 'attachments/lmgs/barrels/infantry.png'
+    },
+    {
+        name: 'M91 Heavy',
+        image: 'attachments/lmgs/barrels/m91heavy.png'
+    },
 
     ];
 
@@ -6991,17 +6991,17 @@ function m91() {
     //Laser
 
     var lasers = [{
-            name: '1mW Laser',
-            image: 'attachments/lasers/1mw.png'
-        },
-        {
-            name: '5mW Laser',
-            image: 'attachments/lasers/5mw.png'
-        },
-        {
-            name: 'Tac Laser',
-            image: 'attachments/lasers/tac.png'
-        }
+        name: '1mW Laser',
+        image: 'attachments/lasers/1mw.png'
+    },
+    {
+        name: '5mW Laser',
+        image: 'attachments/lasers/5mw.png'
+    },
+    {
+        name: 'Tac Laser',
+        image: 'attachments/lasers/tac.png'
+    }
     ];
 
 
@@ -7028,85 +7028,85 @@ function m91() {
     //Optic
 
     var optics = [{
-            name: 'Cronen LP945 Mini Reflex',
-            image: 'attachments/lmgs/optics/cronenlp945.png'
-        },
-        {
-            name: 'Corp Combat Holo Sight',
-            image: 'attachments/lmgs/optics/corp.png'
-        },
-        {
-            name: 'Operator Reflex Sight',
-            image: 'attachments/lmgs/optics/operator.png'
-        },
-        {
-            name: 'Scout Combat Optic',
-            image: 'attachments/lmgs/optics/scout.png'
-        },
-        {
-            name: 'Aim-Op Reflex Sight',
-            image: 'attachments/lmgs/optics/aimop.png'
-        },
-        {
-            name: 'APx5 Holographic Sight',
-            image: 'attachments/lmgs/optics/apx5.png'
-        },
-        {
-            name: 'Integral Hybrid',
-            image: 'attachments/lmgs/optics/integral.png'
-        },
-        {
-            name: 'Solozero NVG Enhanced',
-            image: 'attachments/lmgs/optics/solozero.png'
-        },
-        {
-            name: 'VLK 3.0x Optic',
-            image: 'attachments/lmgs/optics/vlk.png'
-        },
-        {
-            name: 'Solozero Optics Mini Reflex',
-            image: 'attachments/lmgs/optics/solozeromini.png'
-        },
-        {
-            name: 'Sniper Scope',
-            image: 'attachments/lmgs/optics/sniperscope.png'
-        },
-        {
-            name: 'Viper Reflex Sight',
-            image: 'attachments/lmgs/optics/viper.png'
-        },
-        {
-            name: '4.0x Flip Hybrid',
-            image: 'attachments/lmgs/optics/40x.png'
-        },
-        {
-            name: 'G.I. Mini Reflex',
-            image: 'attachments/lmgs/optics/gi.png'
-        },
-        {
-            name: 'PBX Holo 7 Sight',
-            image: 'attachments/lmgs/optics/pbx.png'
-        },
-        {
-            name: 'Cronen C480 Pro Optic',
-            image: 'attachments/lmgs/optics/cronenc480.png'
-        },
-        {
-            name: 'Monocle Reflex Sight',
-            image: 'attachments/lmgs/optics/monocle.png'
-        },
-        {
-            name: 'Canted Hybrid',
-            image: 'attachments/lmgs/optics/canted.png'
-        },
-        {
-            name: 'Merc Thermal Optic',
-            image: 'attachments/lmgs/optics/merc.png'
-        },
-        {
-            name: 'Thermal Hybrid',
-            image: 'attachments/lmgs/optics/thermal.png'
-        }
+        name: 'Cronen LP945 Mini Reflex',
+        image: 'attachments/lmgs/optics/cronenlp945.png'
+    },
+    {
+        name: 'Corp Combat Holo Sight',
+        image: 'attachments/lmgs/optics/corp.png'
+    },
+    {
+        name: 'Operator Reflex Sight',
+        image: 'attachments/lmgs/optics/operator.png'
+    },
+    {
+        name: 'Scout Combat Optic',
+        image: 'attachments/lmgs/optics/scout.png'
+    },
+    {
+        name: 'Aim-Op Reflex Sight',
+        image: 'attachments/lmgs/optics/aimop.png'
+    },
+    {
+        name: 'APx5 Holographic Sight',
+        image: 'attachments/lmgs/optics/apx5.png'
+    },
+    {
+        name: 'Integral Hybrid',
+        image: 'attachments/lmgs/optics/integral.png'
+    },
+    {
+        name: 'Solozero NVG Enhanced',
+        image: 'attachments/lmgs/optics/solozero.png'
+    },
+    {
+        name: 'VLK 3.0x Optic',
+        image: 'attachments/lmgs/optics/vlk.png'
+    },
+    {
+        name: 'Solozero Optics Mini Reflex',
+        image: 'attachments/lmgs/optics/solozeromini.png'
+    },
+    {
+        name: 'Sniper Scope',
+        image: 'attachments/lmgs/optics/sniperscope.png'
+    },
+    {
+        name: 'Viper Reflex Sight',
+        image: 'attachments/lmgs/optics/viper.png'
+    },
+    {
+        name: '4.0x Flip Hybrid',
+        image: 'attachments/lmgs/optics/40x.png'
+    },
+    {
+        name: 'G.I. Mini Reflex',
+        image: 'attachments/lmgs/optics/gi.png'
+    },
+    {
+        name: 'PBX Holo 7 Sight',
+        image: 'attachments/lmgs/optics/pbx.png'
+    },
+    {
+        name: 'Cronen C480 Pro Optic',
+        image: 'attachments/lmgs/optics/cronenc480.png'
+    },
+    {
+        name: 'Monocle Reflex Sight',
+        image: 'attachments/lmgs/optics/monocle.png'
+    },
+    {
+        name: 'Canted Hybrid',
+        image: 'attachments/lmgs/optics/canted.png'
+    },
+    {
+        name: 'Merc Thermal Optic',
+        image: 'attachments/lmgs/optics/merc.png'
+    },
+    {
+        name: 'Thermal Hybrid',
+        image: 'attachments/lmgs/optics/thermal.png'
+    }
     ];
 
 
@@ -7133,21 +7133,21 @@ function m91() {
     //Stock
 
     var stocks = [{
-            name: 'FORGE TAC Stalker',
-            image: 'attachments/lmgs/stocks/stalker.png'
-        },
-        {
-            name: 'FORGE TAC Ultralight',
-            image: 'attachments/lmgs/stocks/ultralight.png'
-        },
-        {
-            name: 'No Stock',
-            image: 'attachments/lmgs/stocks/nostock.png'
-        },
-        {
-            name: 'XRX Striker',
-            image: 'attachments/lmgs/stocks/striker.png'
-        },
+        name: 'FORGE TAC Stalker',
+        image: 'attachments/lmgs/stocks/stalker.png'
+    },
+    {
+        name: 'FORGE TAC Ultralight',
+        image: 'attachments/lmgs/stocks/ultralight.png'
+    },
+    {
+        name: 'No Stock',
+        image: 'attachments/lmgs/stocks/nostock.png'
+    },
+    {
+        name: 'XRX Striker',
+        image: 'attachments/lmgs/stocks/striker.png'
+    },
 
     ];
 
@@ -7176,29 +7176,29 @@ function m91() {
     //Underbarrel
 
     var underbarrels = [{
-            name: 'Commando Foregrip',
-            image: 'attachments/lmgs/underbarrels/commando.png'
-        },
-        {
-            name: 'Merc Foregrip',
-            image: 'attachments/lmgs/underbarrels/merc.png'
-        },
-        {
-            name: 'Tactical Foregrip',
-            image: 'attachments/lmgs/underbarrels/tactical.png'
-        },
-        {
-            name: 'Bipod',
-            image: 'attachments/lmgs/underbarrels/bipod.png'
-        },
-        {
-            name: 'Ranger Foregrip',
-            image: 'attachments/lmgs/underbarrels/ranger.png'
-        },
-        {
-            name: 'Operator Foregrip',
-            image: 'attachments/lmgs/underbarrels/commando.png'
-        },
+        name: 'Commando Foregrip',
+        image: 'attachments/lmgs/underbarrels/commando.png'
+    },
+    {
+        name: 'Merc Foregrip',
+        image: 'attachments/lmgs/underbarrels/merc.png'
+    },
+    {
+        name: 'Tactical Foregrip',
+        image: 'attachments/lmgs/underbarrels/tactical.png'
+    },
+    {
+        name: 'Bipod',
+        image: 'attachments/lmgs/underbarrels/bipod.png'
+    },
+    {
+        name: 'Ranger Foregrip',
+        image: 'attachments/lmgs/underbarrels/ranger.png'
+    },
+    {
+        name: 'Operator Foregrip',
+        image: 'attachments/lmgs/underbarrels/commando.png'
+    },
     ];
     var underbarrel = false;
     document.getElementById("primaryAttH2").innerHTML = "";
@@ -7227,13 +7227,13 @@ function m91() {
     //Ammunation
 
     var ammunations = [{
-            name: '120 Round Belt',
-            image: 'attachments/lmgs/ammunations/120.png'
-        },
-        {
-            name: '150 Round Belt',
-            image: 'attachments/lmgs/ammunations/150m19.png'
-        },
+        name: '120 Round Belt',
+        image: 'attachments/lmgs/ammunations/120.png'
+    },
+    {
+        name: '150 Round Belt',
+        image: 'attachments/lmgs/ammunations/150m19.png'
+    },
 
     ];
 
@@ -7262,17 +7262,17 @@ function m91() {
     //RearGrip
 
     var reargrips = [{
-            name: 'Granulated Grip Tape',
-            image: 'attachments/lmgs/reargrips/granulated.png'
-        },
-        {
-            name: 'Stippled Grip Tape',
-            image: 'attachments/lmgs/reargrips/stippled.png'
-        },
-        {
-            name: 'Rubberized Grip Tape',
-            image: 'attachments/lmgs/reargrips/rubberized.png'
-        },
+        name: 'Granulated Grip Tape',
+        image: 'attachments/lmgs/reargrips/granulated.png'
+    },
+    {
+        name: 'Stippled Grip Tape',
+        image: 'attachments/lmgs/reargrips/stippled.png'
+    },
+    {
+        name: 'Rubberized Grip Tape',
+        image: 'attachments/lmgs/reargrips/rubberized.png'
+    },
 
     ];
 
@@ -7299,41 +7299,41 @@ function m91() {
     //Perks
 
     var perks = [{
-            name: 'FMJ',
-            image: 'attachments/perks/fmj.png'
-        },
-        {
-            name: 'Sleight of Hand',
-            image: 'attachments/perks/sleight.png'
-        },
-        {
-            name: 'Frangible - Wounding',
-            image: 'attachments/perks/wounding.png'
-        },
-        {
-            name: 'Heavy Hitter',
-            image: 'attachments/perks/heavyhitter.png'
-        },
-        {
-            name: 'Fully Loaded',
-            image: 'attachments/perks/fullyloaded.png'
-        },
-        {
-            name: 'Recon',
-            image: 'attachments/perks/recon.png'
-        },
-        {
-            name: 'Mo Money',
-            image: 'attachments/perks/money.png'
-        },
-        {
-            name: 'Fast Melee',
-            image: 'attachments/perks/fastmelee.png'
-        },
-        {
-            name: 'Frangible - Disabling',
-            image: 'attachments/perks/disabling.png'
-        },
+        name: 'FMJ',
+        image: 'attachments/perks/fmj.png'
+    },
+    {
+        name: 'Sleight of Hand',
+        image: 'attachments/perks/sleight.png'
+    },
+    {
+        name: 'Frangible - Wounding',
+        image: 'attachments/perks/wounding.png'
+    },
+    {
+        name: 'Heavy Hitter',
+        image: 'attachments/perks/heavyhitter.png'
+    },
+    {
+        name: 'Fully Loaded',
+        image: 'attachments/perks/fullyloaded.png'
+    },
+    {
+        name: 'Recon',
+        image: 'attachments/perks/recon.png'
+    },
+    {
+        name: 'Mo Money',
+        image: 'attachments/perks/money.png'
+    },
+    {
+        name: 'Fast Melee',
+        image: 'attachments/perks/fastmelee.png'
+    },
+    {
+        name: 'Frangible - Disabling',
+        image: 'attachments/perks/disabling.png'
+    },
     ];
 
 
@@ -7379,33 +7379,33 @@ function m13() {
     //Muzzles
 
     var muzzles = [{
-            name: 'Flash Guard',
-            image: 'attachments/muzzles/flashguard.png'
-        },
-        {
-            name: 'Lightweight Suppressor',
-            image: 'attachments/muzzles/lightweightsuppressor.png'
-        },
-        {
-            name: 'Tactical Suppressor',
-            image: 'attachments/muzzles/tacticalsuppressor.png'
-        },
-        {
-            name: 'Muzzle Brake',
-            image: 'attachments/muzzles/muzzlebrake.png'
-        },
-        {
-            name: 'Breacher Device',
-            image: 'attachments/muzzles/breacherdevice.png'
-        },
-        {
-            name: 'Compensator',
-            image: 'attachments/muzzles/compensator.png'
-        },
-        {
-            name: 'Monolithic Suppressor',
-            image: 'attachments/muzzles/monolithicsuppressor.png'
-        }
+        name: 'Flash Guard',
+        image: 'attachments/muzzles/flashguard.png'
+    },
+    {
+        name: 'Lightweight Suppressor',
+        image: 'attachments/muzzles/lightweightsuppressor.png'
+    },
+    {
+        name: 'Tactical Suppressor',
+        image: 'attachments/muzzles/tacticalsuppressor.png'
+    },
+    {
+        name: 'Muzzle Brake',
+        image: 'attachments/muzzles/muzzlebrake.png'
+    },
+    {
+        name: 'Breacher Device',
+        image: 'attachments/muzzles/breacherdevice.png'
+    },
+    {
+        name: 'Compensator',
+        image: 'attachments/muzzles/compensator.png'
+    },
+    {
+        name: 'Monolithic Suppressor',
+        image: 'attachments/muzzles/monolithicsuppressor.png'
+    }
     ];
 
 
@@ -7435,17 +7435,17 @@ function m13() {
 
     //Barrel
     var barrels = [{
-            name: 'Tempus Mini',
-            image: 'attachments/barrels/tempusmini.png'
-        },
-        {
-            name: 'Tempus Cyclone',
-            image: 'attachments/barrels/tempuscyclone.png'
-        },
-        {
-            name: 'Tempus Marksman',
-            image: 'attachments/barrels/tempusmarksman.png'
-        },
+        name: 'Tempus Mini',
+        image: 'attachments/barrels/tempusmini.png'
+    },
+    {
+        name: 'Tempus Cyclone',
+        image: 'attachments/barrels/tempuscyclone.png'
+    },
+    {
+        name: 'Tempus Marksman',
+        image: 'attachments/barrels/tempusmarksman.png'
+    },
     ];
 
 
@@ -7477,17 +7477,17 @@ function m13() {
     //Laser
 
     var lasers = [{
-            name: '1mW Laser',
-            image: 'attachments/lasers/1mw.png'
-        },
-        {
-            name: '5mW Laser',
-            image: 'attachments/lasers/5mw.png'
-        },
-        {
-            name: 'Tac Laser',
-            image: 'attachments/lasers/tac.png'
-        }
+        name: '1mW Laser',
+        image: 'attachments/lasers/1mw.png'
+    },
+    {
+        name: '5mW Laser',
+        image: 'attachments/lasers/5mw.png'
+    },
+    {
+        name: 'Tac Laser',
+        image: 'attachments/lasers/tac.png'
+    }
     ];
 
 
@@ -7514,89 +7514,89 @@ function m13() {
     //Optic
 
     var optics = [{
-            name: 'Cronen LP945 Mini Reflex',
-            image: 'attachments/optics/cronenlp945.png'
-        },
-        {
-            name: 'Corp Combat Holo Sight',
-            image: 'attachments/optics/corp.png'
-        },
-        {
-            name: 'Operator Reflex Sight',
-            image: 'attachments/optics/operator.png'
-        },
-        {
-            name: 'Scout Combat Optic',
-            image: 'attachments/optics/scout.png'
-        },
-        {
-            name: 'Aim-Op Reflex Sight',
-            image: 'attachments/optics/aimop.png'
-        },
-        {
-            name: 'APx5 Holographic Sight',
-            image: 'attachments/optics/apx5.png'
-        },
-        {
-            name: '4.0x Flip Hybrid',
-            image: 'attachments/optics/40x.png'
-        },
-        {
-            name: 'Integral Hybrid',
-            image: 'attachments/optics/integral.png'
-        },
-        {
-            name: 'Solozero NVG Enhanced',
-            image: 'attachments/optics/solozero.png'
-        },
-        {
-            name: 'VLK 3.0x Optic',
-            image: 'attachments/optics/vlk.png'
-        },
-        {
-            name: 'Sniper Scope',
-            image: 'attachments/optics/sniperscope.png'
-        },
-        {
-            name: 'Viper Reflex Sight',
-            image: 'attachments/optics/viper.png'
-        },
-        {
-            name: 'G.I. Mini Reflex',
-            image: 'attachments/optics/gi.png'
-        },
-        {
-            name: 'PBX Holo 7 Sight',
-            image: 'attachments/optics/pbx.png'
-        },
-        {
-            name: 'Cronen C480 Pro Optic',
-            image: 'attachments/optics/cronenc480.png'
-        },
-        {
-            name: 'Monocle Reflex Sight',
-            image: 'attachments/optics/monocle.png'
-        },
-        {
-            name: 'Variable Zoom Scope',
-            image: 'attachments/optics/variable.png'
-        },
-        {
-            name: 'Canted Hybrid',
-            image: 'attachments/optics/canted.png'
-        },
-        {
-            name: 'Merc Thermal Optic',
-            image: 'attachments/optics/merc.png'
-        },
-        {
-            name: 'Thermal Hybrid',
-            image: 'attachments/optics/thermal.png'
-        },
-        {
-            name: 'Solozero Optics Mini Reflex',
-            image: 'attachments/optics/solozeromini.png'
-        }
+        name: 'Cronen LP945 Mini Reflex',
+        image: 'attachments/optics/cronenlp945.png'
+    },
+    {
+        name: 'Corp Combat Holo Sight',
+        image: 'attachments/optics/corp.png'
+    },
+    {
+        name: 'Operator Reflex Sight',
+        image: 'attachments/optics/operator.png'
+    },
+    {
+        name: 'Scout Combat Optic',
+        image: 'attachments/optics/scout.png'
+    },
+    {
+        name: 'Aim-Op Reflex Sight',
+        image: 'attachments/optics/aimop.png'
+    },
+    {
+        name: 'APx5 Holographic Sight',
+        image: 'attachments/optics/apx5.png'
+    },
+    {
+        name: '4.0x Flip Hybrid',
+        image: 'attachments/optics/40x.png'
+    },
+    {
+        name: 'Integral Hybrid',
+        image: 'attachments/optics/integral.png'
+    },
+    {
+        name: 'Solozero NVG Enhanced',
+        image: 'attachments/optics/solozero.png'
+    },
+    {
+        name: 'VLK 3.0x Optic',
+        image: 'attachments/optics/vlk.png'
+    },
+    {
+        name: 'Sniper Scope',
+        image: 'attachments/optics/sniperscope.png'
+    },
+    {
+        name: 'Viper Reflex Sight',
+        image: 'attachments/optics/viper.png'
+    },
+    {
+        name: 'G.I. Mini Reflex',
+        image: 'attachments/optics/gi.png'
+    },
+    {
+        name: 'PBX Holo 7 Sight',
+        image: 'attachments/optics/pbx.png'
+    },
+    {
+        name: 'Cronen C480 Pro Optic',
+        image: 'attachments/optics/cronenc480.png'
+    },
+    {
+        name: 'Monocle Reflex Sight',
+        image: 'attachments/optics/monocle.png'
+    },
+    {
+        name: 'Variable Zoom Scope',
+        image: 'attachments/optics/variable.png'
+    },
+    {
+        name: 'Canted Hybrid',
+        image: 'attachments/optics/canted.png'
+    },
+    {
+        name: 'Merc Thermal Optic',
+        image: 'attachments/optics/merc.png'
+    },
+    {
+        name: 'Thermal Hybrid',
+        image: 'attachments/optics/thermal.png'
+    },
+    {
+        name: 'Solozero Optics Mini Reflex',
+        image: 'attachments/optics/solozeromini.png'
+    }
     ];
 
 
@@ -7623,21 +7623,21 @@ function m13() {
     //Stock
 
     var stocks = [{
-            name: 'FORGE TAC Stalker',
-            image: 'attachments/stocks/forgetacstalker.png'
-        },
-        {
-            name: 'No Stock',
-            image: 'attachments/stocks/nostockkilo.png'
-        },
-        {
-            name: 'FFS Close Quarters Stock',
-            image: 'attachments/stocks/closequartersfal.png'
-        },
-        {
-            name: 'M13 Skeleton Stock',
-            image: 'attachments/stocks/m13skeletonstock.png'
-        }
+        name: 'FORGE TAC Stalker',
+        image: 'attachments/stocks/forgetacstalker.png'
+    },
+    {
+        name: 'No Stock',
+        image: 'attachments/stocks/nostockkilo.png'
+    },
+    {
+        name: 'FFS Close Quarters Stock',
+        image: 'attachments/stocks/closequartersfal.png'
+    },
+    {
+        name: 'M13 Skeleton Stock',
+        image: 'attachments/stocks/m13skeletonstock.png'
+    }
     ];
 
 
@@ -7665,57 +7665,57 @@ function m13() {
     //Underbarrel
 
     var underbarrels = [{
-            name: 'Commando Foregrip',
-            image: 'attachments/underbarrels/commando.png'
-        },
-        {
-            name: 'M203 40mm High-explosive',
-            image: 'attachments/underbarrels/m203high.png'
-        },
-        {
-            name: 'M203 40mm Incendiary',
-            image: 'attachments/underbarrels/m203incendiary.png'
-        },
-        {
-            name: '12 Gauge Deputy',
-            image: 'attachments/underbarrels/12gauge.png'
-        },
-        {
-            name: 'Merc Foregrip',
-            image: 'attachments/underbarrels/merc.png'
-        },
-        {
-            name: 'M203 40mm Smokescreen',
-            image: 'attachments/underbarrels/m203smokescreen.png'
-        },
-        {
-            name: 'Tactical Foregrip',
-            image: 'attachments/underbarrels/tactical.png'
-        },
-        {
-            name: 'M203 40mm Recon',
-            image: 'attachments/underbarrels/m203recon.png'
-        },
-        {
-            name: 'Bipod',
-            image: 'attachments/underbarrels/bipod.png'
-        },
-        {
-            name: 'M203 40mm Flash',
-            image: 'attachments/underbarrels/m203flash.png'
-        },
-        {
-            name: 'Ranger Foregrip',
-            image: 'attachments/underbarrels/ranger.png'
-        },
-        {
-            name: 'M203 40mm Concussive',
-            image: 'attachments/underbarrels/m203concussive.png'
-        },
-        {
-            name: 'Operator Foregrip',
-            image: 'attachments/underbarrels/operator.png'
-        }
+        name: 'Commando Foregrip',
+        image: 'attachments/underbarrels/commando.png'
+    },
+    {
+        name: 'M203 40mm High-explosive',
+        image: 'attachments/underbarrels/m203high.png'
+    },
+    {
+        name: 'M203 40mm Incendiary',
+        image: 'attachments/underbarrels/m203incendiary.png'
+    },
+    {
+        name: '12 Gauge Deputy',
+        image: 'attachments/underbarrels/12gauge.png'
+    },
+    {
+        name: 'Merc Foregrip',
+        image: 'attachments/underbarrels/merc.png'
+    },
+    {
+        name: 'M203 40mm Smokescreen',
+        image: 'attachments/underbarrels/m203smokescreen.png'
+    },
+    {
+        name: 'Tactical Foregrip',
+        image: 'attachments/underbarrels/tactical.png'
+    },
+    {
+        name: 'M203 40mm Recon',
+        image: 'attachments/underbarrels/m203recon.png'
+    },
+    {
+        name: 'Bipod',
+        image: 'attachments/underbarrels/bipod.png'
+    },
+    {
+        name: 'M203 40mm Flash',
+        image: 'attachments/underbarrels/m203flash.png'
+    },
+    {
+        name: 'Ranger Foregrip',
+        image: 'attachments/underbarrels/ranger.png'
+    },
+    {
+        name: 'M203 40mm Concussive',
+        image: 'attachments/underbarrels/m203concussive.png'
+    },
+    {
+        name: 'Operator Foregrip',
+        image: 'attachments/underbarrels/operator.png'
+    }
     ];
 
 
@@ -7746,17 +7746,17 @@ function m13() {
     //Ammunation
 
     var ammunations = [{
-            name: '50 Round Mags',
-            image: 'attachments/ammunations/50.png'
-        },
-        {
-            name: '.300 Blackout 30-Round Mags',
-            image: 'attachments/ammunations/300blackout30.png'
-        },
-        {
-            name: '60 Round Mags',
-            image: 'attachments/ammunations/60.png'
-        }
+        name: '50 Round Mags',
+        image: 'attachments/ammunations/50.png'
+    },
+    {
+        name: '.300 Blackout 30-Round Mags',
+        image: 'attachments/ammunations/300blackout30.png'
+    },
+    {
+        name: '60 Round Mags',
+        image: 'attachments/ammunations/60.png'
+    }
     ];
 
 
@@ -7784,17 +7784,17 @@ function m13() {
     //RearGrip
 
     var reargrips = [{
-            name: 'Granulated Grip Tape',
-            image: 'attachments/reargrips/granulated.png'
-        },
-        {
-            name: 'Rubberized Grip Tape',
-            image: 'attachments/reargrips/rubberized.png'
-        },
-        {
-            name: 'Stippled Grip Tape',
-            image: 'attachments/reargrips/stippled.png'
-        }
+        name: 'Granulated Grip Tape',
+        image: 'attachments/reargrips/granulated.png'
+    },
+    {
+        name: 'Rubberized Grip Tape',
+        image: 'attachments/reargrips/rubberized.png'
+    },
+    {
+        name: 'Stippled Grip Tape',
+        image: 'attachments/reargrips/stippled.png'
+    }
     ];
 
 
@@ -7820,49 +7820,49 @@ function m13() {
     //Perks
 
     var perks = [{
-            name: 'FMJ',
-            image: 'attachments/perks/fmj.png'
-        },
-        {
-            name: 'Sleight of Hand',
-            image: 'attachments/perks/sleight.png'
-        },
-        {
-            name: 'Frangible - Wounding',
-            image: 'attachments/perks/wounding.png'
-        },
-        {
-            name: 'Heavy Hitter',
-            image: 'attachments/perks/heavyhitter.png'
-        },
-        {
-            name: 'Fully Loaded',
-            image: 'attachments/perks/fullyloaded.png'
-        },
-        {
-            name: 'Burst',
-            image: 'attachments/perks/burst.png'
-        },
-        {
-            name: 'Recon',
-            image: 'attachments/perks/recon.png'
-        },
-        {
-            name: 'Mo Money',
-            image: 'attachments/perks/money.png'
-        },
-        {
-            name: 'Fast Melee',
-            image: 'attachments/perks/fastmelee.png'
-        },
-        {
-            name: 'Frangible - Disabling',
-            image: 'attachments/perks/disabling.png'
-        },
-        {
-            name: 'Presence of Mind',
-            image: 'attachments/perks/mind.png'
-        }
+        name: 'FMJ',
+        image: 'attachments/perks/fmj.png'
+    },
+    {
+        name: 'Sleight of Hand',
+        image: 'attachments/perks/sleight.png'
+    },
+    {
+        name: 'Frangible - Wounding',
+        image: 'attachments/perks/wounding.png'
+    },
+    {
+        name: 'Heavy Hitter',
+        image: 'attachments/perks/heavyhitter.png'
+    },
+    {
+        name: 'Fully Loaded',
+        image: 'attachments/perks/fullyloaded.png'
+    },
+    {
+        name: 'Burst',
+        image: 'attachments/perks/burst.png'
+    },
+    {
+        name: 'Recon',
+        image: 'attachments/perks/recon.png'
+    },
+    {
+        name: 'Mo Money',
+        image: 'attachments/perks/money.png'
+    },
+    {
+        name: 'Fast Melee',
+        image: 'attachments/perks/fastmelee.png'
+    },
+    {
+        name: 'Frangible - Disabling',
+        image: 'attachments/perks/disabling.png'
+    },
+    {
+        name: 'Presence of Mind',
+        image: 'attachments/perks/mind.png'
+    }
     ];
 
 
@@ -7908,33 +7908,33 @@ function m4a1() {
     //Muzzles
 
     var muzzles = [{
-            name: 'Flash Guard',
-            image: 'attachments/muzzles/flashguard.png'
-        },
-        {
-            name: 'Breacher Device',
-            image: 'attachments/muzzles/breacherdevice.png'
-        },
-        {
-            name: 'Tactical Suppressor',
-            image: 'attachments/muzzles/tacticalsuppressor.png'
-        },
-        {
-            name: 'Muzzle Brake',
-            image: 'attachments/muzzles/muzzlebrake.png'
-        },
-        {
-            name: 'Lightweight Suppressor',
-            image: 'attachments/muzzles/lightweightsuppressor.png'
-        },
-        {
-            name: 'Compensator',
-            image: 'attachments/muzzles/compensator.png'
-        },
-        {
-            name: 'Monolithic Suppressor',
-            image: 'attachments/muzzles/monolithicsuppressor.png'
-        }
+        name: 'Flash Guard',
+        image: 'attachments/muzzles/flashguard.png'
+    },
+    {
+        name: 'Breacher Device',
+        image: 'attachments/muzzles/breacherdevice.png'
+    },
+    {
+        name: 'Tactical Suppressor',
+        image: 'attachments/muzzles/tacticalsuppressor.png'
+    },
+    {
+        name: 'Muzzle Brake',
+        image: 'attachments/muzzles/muzzlebrake.png'
+    },
+    {
+        name: 'Lightweight Suppressor',
+        image: 'attachments/muzzles/lightweightsuppressor.png'
+    },
+    {
+        name: 'Compensator',
+        image: 'attachments/muzzles/compensator.png'
+    },
+    {
+        name: 'Monolithic Suppressor',
+        image: 'attachments/muzzles/monolithicsuppressor.png'
+    }
     ];
 
 
@@ -7960,25 +7960,25 @@ function m4a1() {
     //Barrel
 
     var barrels = [{
-            name: 'FFS 11.5 Commando',
-            image: 'attachments/barrels/ffs115.png'
-        },
-        {
-            name: 'Stock M16 Grenadier',
-            image: 'attachments/barrels/stockm16.png'
-        },
-        {
-            name: 'FFS 14.5 Tac lite',
-            image: 'attachments/barrels/ffs145.png'
-        },
-        {
-            name: 'Corvus Custom Marksman',
-            image: 'attachments/barrels/corvus.png'
-        },
-        {
-            name: 'FFS 12.4 Predator',
-            image: 'attachments/barrels/ffs124.png'
-        },
+        name: 'FFS 11.5 Commando',
+        image: 'attachments/barrels/ffs115.png'
+    },
+    {
+        name: 'Stock M16 Grenadier',
+        image: 'attachments/barrels/stockm16.png'
+    },
+    {
+        name: 'FFS 14.5 Tac lite',
+        image: 'attachments/barrels/ffs145.png'
+    },
+    {
+        name: 'Corvus Custom Marksman',
+        image: 'attachments/barrels/corvus.png'
+    },
+    {
+        name: 'FFS 12.4 Predator',
+        image: 'attachments/barrels/ffs124.png'
+    },
     ];
 
 
@@ -8010,17 +8010,17 @@ function m4a1() {
     //Laser
 
     var lasers = [{
-            name: '1mW Laser',
-            image: 'attachments/lasers/1mw.png'
-        },
-        {
-            name: '5mW Laser',
-            image: 'attachments/lasers/5mw.png'
-        },
-        {
-            name: 'Tac Laser',
-            image: 'attachments/lasers/tac.png'
-        }
+        name: '1mW Laser',
+        image: 'attachments/lasers/1mw.png'
+    },
+    {
+        name: '5mW Laser',
+        image: 'attachments/lasers/5mw.png'
+    },
+    {
+        name: 'Tac Laser',
+        image: 'attachments/lasers/tac.png'
+    }
     ];
 
 
@@ -8047,85 +8047,85 @@ function m4a1() {
     //Optic
 
     var optics = [{
-            name: 'Cronen LP945 Mini Reflex',
-            image: 'attachments/optics/cronenlp945.png'
-        },
-        {
-            name: 'Corp Combat Holo Sight',
-            image: 'attachments/optics/corp.png'
-        },
-        {
-            name: 'Operator Reflex Sight',
-            image: 'attachments/optics/operator.png'
-        },
-        {
-            name: 'Scout Combat Optic',
-            image: 'attachments/optics/scout.png'
-        },
-        {
-            name: '4.0x Flip Hybrid',
-            image: 'attachments/optics/40x.png'
-        },
-        {
-            name: 'Aim-Op Reflex Sight',
-            image: 'attachments/optics/aimop.png'
-        },
-        {
-            name: 'APx5 Holographic Sight',
-            image: 'attachments/optics/apx5.png'
-        },
-        {
-            name: 'Integral Hybrid',
-            image: 'attachments/optics/integral.png'
-        },
-        {
-            name: 'Solozero NVG Enhanced',
-            image: 'attachments/optics/solozero.png'
-        },
-        {
-            name: 'VLK 3.0x Optic',
-            image: 'attachments/optics/vlk.png'
-        },
-        {
-            name: 'Sniper Scope',
-            image: 'attachments/optics/sniperscope.png'
-        },
-        {
-            name: 'Viper Reflex Sight',
-            image: 'attachments/optics/viper.png'
-        },
-        {
-            name: 'G.I. Mini Reflex',
-            image: 'attachments/optics/gi.png'
-        },
-        {
-            name: 'PBX Holo 7 Sight',
-            image: 'attachments/optics/pbx.png'
-        },
-        {
-            name: 'Cronen C480 Pro Optic',
-            image: 'attachments/optics/cronenc480.png'
-        },
-        {
-            name: 'Monocle Reflex Sight',
-            image: 'attachments/optics/monocle.png'
-        },
-        {
-            name: 'Variable Zoom Scope',
-            image: 'attachments/optics/variable.png'
-        },
-        {
-            name: 'Canted Hybrid',
-            image: 'attachments/optics/canted.png'
-        },
-        {
-            name: 'Merc Thermal Optic',
-            image: 'attachments/optics/merc.png'
-        },
-        {
-            name: 'Thermal Hybrid',
-            image: 'attachments/optics/thermal.png'
-        }
+        name: 'Cronen LP945 Mini Reflex',
+        image: 'attachments/optics/cronenlp945.png'
+    },
+    {
+        name: 'Corp Combat Holo Sight',
+        image: 'attachments/optics/corp.png'
+    },
+    {
+        name: 'Operator Reflex Sight',
+        image: 'attachments/optics/operator.png'
+    },
+    {
+        name: 'Scout Combat Optic',
+        image: 'attachments/optics/scout.png'
+    },
+    {
+        name: '4.0x Flip Hybrid',
+        image: 'attachments/optics/40x.png'
+    },
+    {
+        name: 'Aim-Op Reflex Sight',
+        image: 'attachments/optics/aimop.png'
+    },
+    {
+        name: 'APx5 Holographic Sight',
+        image: 'attachments/optics/apx5.png'
+    },
+    {
+        name: 'Integral Hybrid',
+        image: 'attachments/optics/integral.png'
+    },
+    {
+        name: 'Solozero NVG Enhanced',
+        image: 'attachments/optics/solozero.png'
+    },
+    {
+        name: 'VLK 3.0x Optic',
+        image: 'attachments/optics/vlk.png'
+    },
+    {
+        name: 'Sniper Scope',
+        image: 'attachments/optics/sniperscope.png'
+    },
+    {
+        name: 'Viper Reflex Sight',
+        image: 'attachments/optics/viper.png'
+    },
+    {
+        name: 'G.I. Mini Reflex',
+        image: 'attachments/optics/gi.png'
+    },
+    {
+        name: 'PBX Holo 7 Sight',
+        image: 'attachments/optics/pbx.png'
+    },
+    {
+        name: 'Cronen C480 Pro Optic',
+        image: 'attachments/optics/cronenc480.png'
+    },
+    {
+        name: 'Monocle Reflex Sight',
+        image: 'attachments/optics/monocle.png'
+    },
+    {
+        name: 'Variable Zoom Scope',
+        image: 'attachments/optics/variable.png'
+    },
+    {
+        name: 'Canted Hybrid',
+        image: 'attachments/optics/canted.png'
+    },
+    {
+        name: 'Merc Thermal Optic',
+        image: 'attachments/optics/merc.png'
+    },
+    {
+        name: 'Thermal Hybrid',
+        image: 'attachments/optics/thermal.png'
+    }
     ];
 
 
@@ -8152,21 +8152,21 @@ function m4a1() {
     //Stock
 
     var stocks = [{
-            name: 'M-16 Stock',
-            image: 'attachments/stocks/m16.png'
-        },
-        {
-            name: 'Singuard Arms Invader',
-            image: 'attachments/stocks/singuard.png'
-        },
-        {
-            name: 'No Stock',
-            image: 'attachments/stocks/nostockm4a1.png'
-        },
-        {
-            name: 'FORGE TAC CQS',
-            image: 'attachments/stocks/forge.png'
-        }
+        name: 'M-16 Stock',
+        image: 'attachments/stocks/m16.png'
+    },
+    {
+        name: 'Singuard Arms Invader',
+        image: 'attachments/stocks/singuard.png'
+    },
+    {
+        name: 'No Stock',
+        image: 'attachments/stocks/nostockm4a1.png'
+    },
+    {
+        name: 'FORGE TAC CQS',
+        image: 'attachments/stocks/forge.png'
+    }
     ];
 
 
@@ -8194,57 +8194,57 @@ function m4a1() {
     //Underbarrel
 
     var underbarrels = [{
-            name: 'Commando Foregrip',
-            image: 'attachments/underbarrels/commando.png'
-        },
-        {
-            name: 'M203 40mm High-explosive',
-            image: 'attachments/underbarrels/m203high.png'
-        },
-        {
-            name: 'M203 40mm Incendiary',
-            image: 'attachments/underbarrels/m203incendiary.png'
-        },
-        {
-            name: '12 Gauge Deputy',
-            image: 'attachments/underbarrels/12gauge.png'
-        },
-        {
-            name: 'Merc Foregrip',
-            image: 'attachments/underbarrels/merc.png'
-        },
-        {
-            name: 'M203 40mm Smokescreen',
-            image: 'attachments/underbarrels/m203smokescreen.png'
-        },
-        {
-            name: 'Tactical Foregrip',
-            image: 'attachments/underbarrels/tactical.png'
-        },
-        {
-            name: 'M203 40mm Recon',
-            image: 'attachments/underbarrels/m203recon.png'
-        },
-        {
-            name: 'Bipod',
-            image: 'attachments/underbarrels/bipod.png'
-        },
-        {
-            name: 'M203 40mm Flash',
-            image: 'attachments/underbarrels/m203flash.png'
-        },
-        {
-            name: 'Ranger Foregrip',
-            image: 'attachments/underbarrels/ranger.png'
-        },
-        {
-            name: 'M203 40mm Concussive',
-            image: 'attachments/underbarrels/m203concussive.png'
-        },
-        {
-            name: 'Operator Foregrip',
-            image: 'attachments/underbarrels/operator.png'
-        }
+        name: 'Commando Foregrip',
+        image: 'attachments/underbarrels/commando.png'
+    },
+    {
+        name: 'M203 40mm High-explosive',
+        image: 'attachments/underbarrels/m203high.png'
+    },
+    {
+        name: 'M203 40mm Incendiary',
+        image: 'attachments/underbarrels/m203incendiary.png'
+    },
+    {
+        name: '12 Gauge Deputy',
+        image: 'attachments/underbarrels/12gauge.png'
+    },
+    {
+        name: 'Merc Foregrip',
+        image: 'attachments/underbarrels/merc.png'
+    },
+    {
+        name: 'M203 40mm Smokescreen',
+        image: 'attachments/underbarrels/m203smokescreen.png'
+    },
+    {
+        name: 'Tactical Foregrip',
+        image: 'attachments/underbarrels/tactical.png'
+    },
+    {
+        name: 'M203 40mm Recon',
+        image: 'attachments/underbarrels/m203recon.png'
+    },
+    {
+        name: 'Bipod',
+        image: 'attachments/underbarrels/bipod.png'
+    },
+    {
+        name: 'M203 40mm Flash',
+        image: 'attachments/underbarrels/m203flash.png'
+    },
+    {
+        name: 'Ranger Foregrip',
+        image: 'attachments/underbarrels/ranger.png'
+    },
+    {
+        name: 'M203 40mm Concussive',
+        image: 'attachments/underbarrels/m203concussive.png'
+    },
+    {
+        name: 'Operator Foregrip',
+        image: 'attachments/underbarrels/operator.png'
+    }
     ];
 
 
@@ -8275,21 +8275,21 @@ function m4a1() {
     //Ammunation
 
     var ammunations = [{
-            name: '50 Round Mags',
-            image: 'attachments/ammunations/50.png'
-        },
-        {
-            name: '60 Round Mags',
-            image: 'attachments/ammunations/60.png'
-        },
-        {
-            name: '9mm Para 32-Round Mags',
-            image: 'attachments/ammunations/9mm.png'
-        },
-        {
-            name: '.458 SOCOM 10-Round Mags',
-            image: 'attachments/ammunations/458.png'
-        }
+        name: '50 Round Mags',
+        image: 'attachments/ammunations/50.png'
+    },
+    {
+        name: '60 Round Mags',
+        image: 'attachments/ammunations/60.png'
+    },
+    {
+        name: '9mm Para 32-Round Mags',
+        image: 'attachments/ammunations/9mm.png'
+    },
+    {
+        name: '.458 SOCOM 10-Round Mags',
+        image: 'attachments/ammunations/458.png'
+    }
     ];
 
 
@@ -8317,17 +8317,17 @@ function m4a1() {
     //RearGrip
 
     var reargrips = [{
-            name: 'Granulated Grip Tape',
-            image: 'attachments/reargrips/granulated.png'
-        },
-        {
-            name: 'Rubberized Grip Tape',
-            image: 'attachments/reargrips/rubberized.png'
-        },
-        {
-            name: 'Stippled Grip Tape',
-            image: 'attachments/reargrips/stippled.png'
-        }
+        name: 'Granulated Grip Tape',
+        image: 'attachments/reargrips/granulated.png'
+    },
+    {
+        name: 'Rubberized Grip Tape',
+        image: 'attachments/reargrips/rubberized.png'
+    },
+    {
+        name: 'Stippled Grip Tape',
+        image: 'attachments/reargrips/stippled.png'
+    }
     ];
 
 
@@ -8353,49 +8353,49 @@ function m4a1() {
     //Perks
 
     var perks = [{
-            name: 'FMJ',
-            image: 'attachments/perks/fmj.png'
-        },
-        {
-            name: 'Sleight of Hand',
-            image: 'attachments/perks/sleight.png'
-        },
-        {
-            name: 'Frangible - Wounding',
-            image: 'attachments/perks/wounding.png'
-        },
-        {
-            name: 'Heavy Hitter',
-            image: 'attachments/perks/heavyhitter.png'
-        },
-        {
-            name: 'Fully Loaded',
-            image: 'attachments/perks/fullyloaded.png'
-        },
-        {
-            name: 'Burst',
-            image: 'attachments/perks/burst.png'
-        },
-        {
-            name: 'Recon',
-            image: 'attachments/perks/recon.png'
-        },
-        {
-            name: 'Mo Money',
-            image: 'attachments/perks/money.png'
-        },
-        {
-            name: 'Fast Melee',
-            image: 'attachments/perks/fastmelee.png'
-        },
-        {
-            name: 'Frangible - Disabling',
-            image: 'attachments/perks/disabling.png'
-        },
-        {
-            name: 'Presence of Mind',
-            image: 'attachments/perks/mind.png'
-        }
+        name: 'FMJ',
+        image: 'attachments/perks/fmj.png'
+    },
+    {
+        name: 'Sleight of Hand',
+        image: 'attachments/perks/sleight.png'
+    },
+    {
+        name: 'Frangible - Wounding',
+        image: 'attachments/perks/wounding.png'
+    },
+    {
+        name: 'Heavy Hitter',
+        image: 'attachments/perks/heavyhitter.png'
+    },
+    {
+        name: 'Fully Loaded',
+        image: 'attachments/perks/fullyloaded.png'
+    },
+    {
+        name: 'Burst',
+        image: 'attachments/perks/burst.png'
+    },
+    {
+        name: 'Recon',
+        image: 'attachments/perks/recon.png'
+    },
+    {
+        name: 'Mo Money',
+        image: 'attachments/perks/money.png'
+    },
+    {
+        name: 'Fast Melee',
+        image: 'attachments/perks/fastmelee.png'
+    },
+    {
+        name: 'Frangible - Disabling',
+        image: 'attachments/perks/disabling.png'
+    },
+    {
+        name: 'Presence of Mind',
+        image: 'attachments/perks/mind.png'
+    }
     ];
 
 
@@ -8441,33 +8441,33 @@ function kilo141() {
     //Muzzles
 
     var muzzles = [{
-            name: 'Flash Guard',
-            image: 'attachments/muzzles/flashguard.png'
-        },
-        {
-            name: 'Breacher Device',
-            image: 'attachments/muzzles/breacherdevice.png'
-        },
-        {
-            name: 'Tactical Suppressor',
-            image: 'attachments/muzzles/tacticalsuppressor.png'
-        },
-        {
-            name: 'Muzzle Brake',
-            image: 'attachments/muzzles/muzzlebrake.png'
-        },
-        {
-            name: 'Lightweight Suppressor',
-            image: 'attachments/muzzles/lightweightsuppressor.png'
-        },
-        {
-            name: 'Compensator',
-            image: 'attachments/muzzles/compensator.png'
-        },
-        {
-            name: 'Monolithic Suppressor',
-            image: 'attachments/muzzles/monolithicsuppressor.png'
-        }
+        name: 'Flash Guard',
+        image: 'attachments/muzzles/flashguard.png'
+    },
+    {
+        name: 'Breacher Device',
+        image: 'attachments/muzzles/breacherdevice.png'
+    },
+    {
+        name: 'Tactical Suppressor',
+        image: 'attachments/muzzles/tacticalsuppressor.png'
+    },
+    {
+        name: 'Muzzle Brake',
+        image: 'attachments/muzzles/muzzlebrake.png'
+    },
+    {
+        name: 'Lightweight Suppressor',
+        image: 'attachments/muzzles/lightweightsuppressor.png'
+    },
+    {
+        name: 'Compensator',
+        image: 'attachments/muzzles/compensator.png'
+    },
+    {
+        name: 'Monolithic Suppressor',
+        image: 'attachments/muzzles/monolithicsuppressor.png'
+    }
     ];
 
 
@@ -8492,17 +8492,17 @@ function kilo141() {
 
     //Barrel
     var barrels = [{
-            name: 'Singuard Arms 15.6 SOCOM',
-            image: 'attachments/barrels/socom.png'
-        },
-        {
-            name: 'Singuard Arms 19.7 Prowler',
-            image: 'attachments/barrels/prowler.png'
-        },
-        {
-            name: 'Singuard Arms Whisper',
-            image: 'attachments/barrels/whisper.png'
-        },
+        name: 'Singuard Arms 15.6 SOCOM',
+        image: 'attachments/barrels/socom.png'
+    },
+    {
+        name: 'Singuard Arms 19.7 Prowler',
+        image: 'attachments/barrels/prowler.png'
+    },
+    {
+        name: 'Singuard Arms Whisper',
+        image: 'attachments/barrels/whisper.png'
+    },
     ];
 
 
@@ -8535,17 +8535,17 @@ function kilo141() {
     //Laser
 
     var lasers = [{
-            name: '1mW Laser',
-            image: 'attachments/lasers/1mw.png'
-        },
-        {
-            name: '5mW Laser',
-            image: 'attachments/lasers/5mw.png'
-        },
-        {
-            name: 'Tac Laser',
-            image: 'attachments/lasers/tac.png'
-        }
+        name: '1mW Laser',
+        image: 'attachments/lasers/1mw.png'
+    },
+    {
+        name: '5mW Laser',
+        image: 'attachments/lasers/5mw.png'
+    },
+    {
+        name: 'Tac Laser',
+        image: 'attachments/lasers/tac.png'
+    }
     ];
 
 
@@ -8572,89 +8572,89 @@ function kilo141() {
     //Optic
 
     var optics = [{
-            name: 'Cronen LP945 Mini Reflex',
-            image: 'attachments/optics/cronenlp945.png'
-        },
-        {
-            name: 'Corp Combat Holo Sight',
-            image: 'attachments/optics/corp.png'
-        },
-        {
-            name: 'Operator Reflex Sight',
-            image: 'attachments/optics/operator.png'
-        },
-        {
-            name: 'Scout Combat Optic',
-            image: 'attachments/optics/scout.png'
-        },
-        {
-            name: '4.0x Flip Hybrid',
-            image: 'attachments/optics/40x.png'
-        },
-        {
-            name: 'Aim-Op Reflex Sight',
-            image: 'attachments/optics/aimop.png'
-        },
-        {
-            name: 'APx5 Holographic Sight',
-            image: 'attachments/optics/apx5.png'
-        },
-        {
-            name: 'Integral Hybrid',
-            image: 'attachments/optics/integral.png'
-        },
-        {
-            name: 'Solozero NVG Enhanced',
-            image: 'attachments/optics/solozero.png'
-        },
-        {
-            name: 'VLK 3.0x Optic',
-            image: 'attachments/optics/vlk.png'
-        },
-        {
-            name: 'Sniper Scope',
-            image: 'attachments/optics/sniperscope.png'
-        },
-        {
-            name: 'Viper Reflex Sight',
-            image: 'attachments/optics/viper.png'
-        },
-        {
-            name: 'G.I. Mini Reflex',
-            image: 'attachments/optics/gi.png'
-        },
-        {
-            name: 'PBX Holo 7 Sight',
-            image: 'attachments/optics/pbx.png'
-        },
-        {
-            name: 'Cronen C480 Pro Optic',
-            image: 'attachments/optics/cronenc480.png'
-        },
-        {
-            name: 'Monocle Reflex Sight',
-            image: 'attachments/optics/monocle.png'
-        },
-        {
-            name: 'Variable Zoom Scope',
-            image: 'attachments/optics/variable.png'
-        },
-        {
-            name: 'Canted Hybrid',
-            image: 'attachments/optics/canted.png'
-        },
-        {
-            name: 'Merc Thermal Optic',
-            image: 'attachments/optics/merc.png'
-        },
-        {
-            name: 'Thermal Hybrid',
-            image: 'attachments/optics/thermal.png'
-        },
-        {
-            name: 'Solozero Optics Mini Reflex',
-            image: 'attachments/optics/solozeromini.png'
-        }
+        name: 'Cronen LP945 Mini Reflex',
+        image: 'attachments/optics/cronenlp945.png'
+    },
+    {
+        name: 'Corp Combat Holo Sight',
+        image: 'attachments/optics/corp.png'
+    },
+    {
+        name: 'Operator Reflex Sight',
+        image: 'attachments/optics/operator.png'
+    },
+    {
+        name: 'Scout Combat Optic',
+        image: 'attachments/optics/scout.png'
+    },
+    {
+        name: '4.0x Flip Hybrid',
+        image: 'attachments/optics/40x.png'
+    },
+    {
+        name: 'Aim-Op Reflex Sight',
+        image: 'attachments/optics/aimop.png'
+    },
+    {
+        name: 'APx5 Holographic Sight',
+        image: 'attachments/optics/apx5.png'
+    },
+    {
+        name: 'Integral Hybrid',
+        image: 'attachments/optics/integral.png'
+    },
+    {
+        name: 'Solozero NVG Enhanced',
+        image: 'attachments/optics/solozero.png'
+    },
+    {
+        name: 'VLK 3.0x Optic',
+        image: 'attachments/optics/vlk.png'
+    },
+    {
+        name: 'Sniper Scope',
+        image: 'attachments/optics/sniperscope.png'
+    },
+    {
+        name: 'Viper Reflex Sight',
+        image: 'attachments/optics/viper.png'
+    },
+    {
+        name: 'G.I. Mini Reflex',
+        image: 'attachments/optics/gi.png'
+    },
+    {
+        name: 'PBX Holo 7 Sight',
+        image: 'attachments/optics/pbx.png'
+    },
+    {
+        name: 'Cronen C480 Pro Optic',
+        image: 'attachments/optics/cronenc480.png'
+    },
+    {
+        name: 'Monocle Reflex Sight',
+        image: 'attachments/optics/monocle.png'
+    },
+    {
+        name: 'Variable Zoom Scope',
+        image: 'attachments/optics/variable.png'
+    },
+    {
+        name: 'Canted Hybrid',
+        image: 'attachments/optics/canted.png'
+    },
+    {
+        name: 'Merc Thermal Optic',
+        image: 'attachments/optics/merc.png'
+    },
+    {
+        name: 'Thermal Hybrid',
+        image: 'attachments/optics/thermal.png'
+    },
+    {
+        name: 'Solozero Optics Mini Reflex',
+        image: 'attachments/optics/solozeromini.png'
+    }
     ];
 
 
@@ -8681,21 +8681,21 @@ function kilo141() {
     //Stock
 
     var stocks = [{
-            name: 'FORGE TAC Ultralight',
-            image: 'attachments/stocks/ultralight.png'
-        },
-        {
-            name: 'Singuard Arms Sniper Pro',
-            image: 'attachments/stocks/sniperpro.png'
-        },
-        {
-            name: 'No Stock',
-            image: 'attachments/stocks/nostockkilo.png'
-        },
-        {
-            name: 'FFS CLose Quarters Stock',
-            image: 'attachments/stocks/closequarters.png'
-        }
+        name: 'FORGE TAC Ultralight',
+        image: 'attachments/stocks/ultralight.png'
+    },
+    {
+        name: 'Singuard Arms Sniper Pro',
+        image: 'attachments/stocks/sniperpro.png'
+    },
+    {
+        name: 'No Stock',
+        image: 'attachments/stocks/nostockkilo.png'
+    },
+    {
+        name: 'FFS CLose Quarters Stock',
+        image: 'attachments/stocks/closequarters.png'
+    }
     ];
 
 
@@ -8723,57 +8723,57 @@ function kilo141() {
     //Underbarrel
 
     var underbarrels = [{
-            name: 'Commando Foregrip',
-            image: 'attachments/underbarrels/commando.png'
-        },
-        {
-            name: 'M203 40mm High-explosive',
-            image: 'attachments/underbarrels/m203high.png'
-        },
-        {
-            name: 'M203 40mm Incendiary',
-            image: 'attachments/underbarrels/m203incendiary.png'
-        },
-        {
-            name: '12 Gauge Deputy',
-            image: 'attachments/underbarrels/12gauge.png'
-        },
-        {
-            name: 'Merc Foregrip',
-            image: 'attachments/underbarrels/merc.png'
-        },
-        {
-            name: 'M203 40mm Smokescreen',
-            image: 'attachments/underbarrels/m203smokescreen.png'
-        },
-        {
-            name: 'Tactical Foregrip',
-            image: 'attachments/underbarrels/tactical.png'
-        },
-        {
-            name: 'M203 40mm Recon',
-            image: 'attachments/underbarrels/m203recon.png'
-        },
-        {
-            name: 'Bipod',
-            image: 'attachments/underbarrels/bipod.png'
-        },
-        {
-            name: 'M203 40mm Flash',
-            image: 'attachments/underbarrels/m203flash.png'
-        },
-        {
-            name: 'Ranger Foregrip',
-            image: 'attachments/underbarrels/ranger.png'
-        },
-        {
-            name: 'M203 40mm Concussive',
-            image: 'attachments/underbarrels/m203concussive.png'
-        },
-        {
-            name: 'Operator Foregrip',
-            image: 'attachments/underbarrels/operator.png'
-        }
+        name: 'Commando Foregrip',
+        image: 'attachments/underbarrels/commando.png'
+    },
+    {
+        name: 'M203 40mm High-explosive',
+        image: 'attachments/underbarrels/m203high.png'
+    },
+    {
+        name: 'M203 40mm Incendiary',
+        image: 'attachments/underbarrels/m203incendiary.png'
+    },
+    {
+        name: '12 Gauge Deputy',
+        image: 'attachments/underbarrels/12gauge.png'
+    },
+    {
+        name: 'Merc Foregrip',
+        image: 'attachments/underbarrels/merc.png'
+    },
+    {
+        name: 'M203 40mm Smokescreen',
+        image: 'attachments/underbarrels/m203smokescreen.png'
+    },
+    {
+        name: 'Tactical Foregrip',
+        image: 'attachments/underbarrels/tactical.png'
+    },
+    {
+        name: 'M203 40mm Recon',
+        image: 'attachments/underbarrels/m203recon.png'
+    },
+    {
+        name: 'Bipod',
+        image: 'attachments/underbarrels/bipod.png'
+    },
+    {
+        name: 'M203 40mm Flash',
+        image: 'attachments/underbarrels/m203flash.png'
+    },
+    {
+        name: 'Ranger Foregrip',
+        image: 'attachments/underbarrels/ranger.png'
+    },
+    {
+        name: 'M203 40mm Concussive',
+        image: 'attachments/underbarrels/m203concussive.png'
+    },
+    {
+        name: 'Operator Foregrip',
+        image: 'attachments/underbarrels/operator.png'
+    }
     ];
 
 
@@ -8804,17 +8804,17 @@ function kilo141() {
     //Ammunation
 
     var ammunations = [{
-            name: '50 Round Mags',
-            image: 'attachments/ammunations/50.png'
-        },
-        {
-            name: '60 Round Mags',
-            image: 'attachments/ammunations/60.png'
-        },
-        {
-            name: '100 Round Drums',
-            image: 'attachments/ammunations/100.png'
-        }
+        name: '50 Round Mags',
+        image: 'attachments/ammunations/50.png'
+    },
+    {
+        name: '60 Round Mags',
+        image: 'attachments/ammunations/60.png'
+    },
+    {
+        name: '100 Round Drums',
+        image: 'attachments/ammunations/100.png'
+    }
     ];
 
 
@@ -8842,17 +8842,17 @@ function kilo141() {
     //RearGrip
 
     var reargrips = [{
-            name: 'Granulated Grip Tape',
-            image: 'attachments/reargrips/granulated.png'
-        },
-        {
-            name: 'Rubberized Grip Tape',
-            image: 'attachments/reargrips/rubberized.png'
-        },
-        {
-            name: 'Stippled Grip Tape',
-            image: 'attachments/reargrips/stippled.png'
-        }
+        name: 'Granulated Grip Tape',
+        image: 'attachments/reargrips/granulated.png'
+    },
+    {
+        name: 'Rubberized Grip Tape',
+        image: 'attachments/reargrips/rubberized.png'
+    },
+    {
+        name: 'Stippled Grip Tape',
+        image: 'attachments/reargrips/stippled.png'
+    }
     ];
 
 
@@ -8878,49 +8878,49 @@ function kilo141() {
     //Perks
 
     var perks = [{
-            name: 'FMJ',
-            image: 'attachments/perks/fmj.png'
-        },
-        {
-            name: 'Sleight of Hand',
-            image: 'attachments/perks/sleight.png'
-        },
-        {
-            name: 'Frangible - Wounding',
-            image: 'attachments/perks/wounding.png'
-        },
-        {
-            name: 'Heavy Hitter',
-            image: 'attachments/perks/heavyhitter.png'
-        },
-        {
-            name: 'Fully Loaded',
-            image: 'attachments/perks/fullyloaded.png'
-        },
-        {
-            name: 'Burst',
-            image: 'attachments/perks/burst.png'
-        },
-        {
-            name: 'Recon',
-            image: 'attachments/perks/recon.png'
-        },
-        {
-            name: 'Mo Money',
-            image: 'attachments/perks/money.png'
-        },
-        {
-            name: 'Fast Melee',
-            image: 'attachments/perks/fastmelee.png'
-        },
-        {
-            name: 'Frangible - Disabling',
-            image: 'attachments/perks/disabling.png'
-        },
-        {
-            name: 'Presence of Mind',
-            image: 'attachments/perks/mind.png'
-        }
+        name: 'FMJ',
+        image: 'attachments/perks/fmj.png'
+    },
+    {
+        name: 'Sleight of Hand',
+        image: 'attachments/perks/sleight.png'
+    },
+    {
+        name: 'Frangible - Wounding',
+        image: 'attachments/perks/wounding.png'
+    },
+    {
+        name: 'Heavy Hitter',
+        image: 'attachments/perks/heavyhitter.png'
+    },
+    {
+        name: 'Fully Loaded',
+        image: 'attachments/perks/fullyloaded.png'
+    },
+    {
+        name: 'Burst',
+        image: 'attachments/perks/burst.png'
+    },
+    {
+        name: 'Recon',
+        image: 'attachments/perks/recon.png'
+    },
+    {
+        name: 'Mo Money',
+        image: 'attachments/perks/money.png'
+    },
+    {
+        name: 'Fast Melee',
+        image: 'attachments/perks/fastmelee.png'
+    },
+    {
+        name: 'Frangible - Disabling',
+        image: 'attachments/perks/disabling.png'
+    },
+    {
+        name: 'Presence of Mind',
+        image: 'attachments/perks/mind.png'
+    }
     ];
 
 
@@ -8966,33 +8966,33 @@ function kar() {
     //Muzzles
 
     var muzzles = [{
-            name: 'Flash Guard',
-            image: 'attachments/muzzles/flashguard.png'
-        },
-        {
-            name: 'Breacher Device',
-            image: 'attachments/muzzles/breacherdevice.png'
-        },
-        {
-            name: 'Tactical Suppressor',
-            image: 'attachments/muzzles/tacticalsuppressor.png'
-        },
-        {
-            name: 'Muzzle Brake',
-            image: 'attachments/muzzles/muzzlebrake.png'
-        },
-        {
-            name: 'Lightweight Suppressor',
-            image: 'attachments/muzzles/lightweightsuppressor.png'
-        },
-        {
-            name: 'Compensator',
-            image: 'attachments/muzzles/compensator.png'
-        },
-        {
-            name: 'Monolithic Suppressor',
-            image: 'attachments/muzzles/monolithicsuppressor.png'
-        }
+        name: 'Flash Guard',
+        image: 'attachments/muzzles/flashguard.png'
+    },
+    {
+        name: 'Breacher Device',
+        image: 'attachments/muzzles/breacherdevice.png'
+    },
+    {
+        name: 'Tactical Suppressor',
+        image: 'attachments/muzzles/tacticalsuppressor.png'
+    },
+    {
+        name: 'Muzzle Brake',
+        image: 'attachments/muzzles/muzzlebrake.png'
+    },
+    {
+        name: 'Lightweight Suppressor',
+        image: 'attachments/muzzles/lightweightsuppressor.png'
+    },
+    {
+        name: 'Compensator',
+        image: 'attachments/muzzles/compensator.png'
+    },
+    {
+        name: 'Monolithic Suppressor',
+        image: 'attachments/muzzles/monolithicsuppressor.png'
+    }
     ];
 
 
@@ -9018,17 +9018,17 @@ function kar() {
     //Barrel
 
     var barrels = [{
-            name: 'Singuard Custom 25.1',
-            image: 'attachments/mrs/barrels/251.png'
-        },
-        {
-            name: 'Singuard Custom 21.2',
-            image: 'attachments/mrs/barrels/212.png'
-        },
-        {
-            name: 'Singuard Custom 27.6',
-            image: 'attachments/mrs/barrels/276.png'
-        },
+        name: 'Singuard Custom 25.1',
+        image: 'attachments/mrs/barrels/251.png'
+    },
+    {
+        name: 'Singuard Custom 21.2',
+        image: 'attachments/mrs/barrels/212.png'
+    },
+    {
+        name: 'Singuard Custom 27.6',
+        image: 'attachments/mrs/barrels/276.png'
+    },
     ];
 
 
@@ -9090,85 +9090,85 @@ function kar() {
     //Optic
 
     var optics = [{
-            name: 'Cronen Lp945 Mini Reflex',
-            image: 'attachments/optics/cronenlp945.png'
-        },
-        {
-            name: 'Corp Combat Holo Sight',
-            image: 'attachments/optics/corp.png'
-        },
-        {
-            name: 'Operator Reflex Sight',
-            image: 'attachments/optics/operator.png'
-        },
-        {
-            name: 'Scout Combat Optic',
-            image: 'attachments/optics/scout.png'
-        },
-        {
-            name: '4.0x Flip Hybrid',
-            image: 'attachments/optics/40x.png'
-        },
-        {
-            name: 'Aim-Op Reflex Sight',
-            image: 'attachments/optics/aimop.png'
-        },
-        {
-            name: 'APx5 Holographic Sight',
-            image: 'attachments/optics/apx5.png'
-        },
-        {
-            name: 'Integral Hybrid',
-            image: 'attachments/optics/integral.png'
-        },
-        {
-            name: 'Solozero NVG Enhanced',
-            image: 'attachments/optics/solozero.png'
-        },
-        {
-            name: 'VLK 3.0x Optic',
-            image: 'attachments/optics/vlk.png'
-        },
-        {
-            name: 'Sniper Scope',
-            image: 'attachments/optics/sniperscope.png'
-        },
-        {
-            name: 'Viper Reflex Sight',
-            image: 'attachments/optics/viper.png'
-        },
-        {
-            name: 'G.I. Mini Reflex',
-            image: 'attachments/optics/gi.png'
-        },
-        {
-            name: 'PBX Holo 7 Sight',
-            image: 'attachments/optics/pbx.png'
-        },
-        {
-            name: 'Cronen C480 Pro Optic',
-            image: 'attachments/optics/cronenc480.png'
-        },
-        {
-            name: 'Monocle Reflex Sight',
-            image: 'attachments/optics/monocle.png'
-        },
-        {
-            name: 'Variable Zoom Scope',
-            image: 'attachments/optics/variable.png'
-        },
-        {
-            name: 'Canted Hybrid',
-            image: 'attachments/optics/canted.png'
-        },
-        {
-            name: 'Merc Thermal Optic',
-            image: 'attachments/optics/merc.png'
-        },
-        {
-            name: 'Thermal Hybrid',
-            image: 'attachments/optics/thermal.png'
-        }
+        name: 'Cronen Lp945 Mini Reflex',
+        image: 'attachments/optics/cronenlp945.png'
+    },
+    {
+        name: 'Corp Combat Holo Sight',
+        image: 'attachments/optics/corp.png'
+    },
+    {
+        name: 'Operator Reflex Sight',
+        image: 'attachments/optics/operator.png'
+    },
+    {
+        name: 'Scout Combat Optic',
+        image: 'attachments/optics/scout.png'
+    },
+    {
+        name: '4.0x Flip Hybrid',
+        image: 'attachments/optics/40x.png'
+    },
+    {
+        name: 'Aim-Op Reflex Sight',
+        image: 'attachments/optics/aimop.png'
+    },
+    {
+        name: 'APx5 Holographic Sight',
+        image: 'attachments/optics/apx5.png'
+    },
+    {
+        name: 'Integral Hybrid',
+        image: 'attachments/optics/integral.png'
+    },
+    {
+        name: 'Solozero NVG Enhanced',
+        image: 'attachments/optics/solozero.png'
+    },
+    {
+        name: 'VLK 3.0x Optic',
+        image: 'attachments/optics/vlk.png'
+    },
+    {
+        name: 'Sniper Scope',
+        image: 'attachments/optics/sniperscope.png'
+    },
+    {
+        name: 'Viper Reflex Sight',
+        image: 'attachments/optics/viper.png'
+    },
+    {
+        name: 'G.I. Mini Reflex',
+        image: 'attachments/optics/gi.png'
+    },
+    {
+        name: 'PBX Holo 7 Sight',
+        image: 'attachments/optics/pbx.png'
+    },
+    {
+        name: 'Cronen C480 Pro Optic',
+        image: 'attachments/optics/cronenc480.png'
+    },
+    {
+        name: 'Monocle Reflex Sight',
+        image: 'attachments/optics/monocle.png'
+    },
+    {
+        name: 'Variable Zoom Scope',
+        image: 'attachments/optics/variable.png'
+    },
+    {
+        name: 'Canted Hybrid',
+        image: 'attachments/optics/canted.png'
+    },
+    {
+        name: 'Merc Thermal Optic',
+        image: 'attachments/optics/merc.png'
+    },
+    {
+        name: 'Thermal Hybrid',
+        image: 'attachments/optics/thermal.png'
+    }
     ];
 
 
@@ -9195,17 +9195,17 @@ function kar() {
     //Stock
 
     var stocks = [{
-            name: 'STVOL Precision Comb',
-            image: 'attachments/mrs/stocks/stvol.png'
-        },
-        {
-            name: 'Hollow Stock Mod',
-            image: 'attachments/mrs/stocks/mod.png'
-        },
-        {
-            name: 'FTAC Sport Comb',
-            image: 'attachments/mrs/stocks/ftac.png'
-        },
+        name: 'STVOL Precision Comb',
+        image: 'attachments/mrs/stocks/stvol.png'
+    },
+    {
+        name: 'Hollow Stock Mod',
+        image: 'attachments/mrs/stocks/mod.png'
+    },
+    {
+        name: 'FTAC Sport Comb',
+        image: 'attachments/mrs/stocks/ftac.png'
+    },
     ];
 
 
@@ -9263,17 +9263,17 @@ function kar() {
     //RearGrip
 
     var reargrips = [{
-            name: 'Granulated Grip Tape',
-            image: 'attachments/reargrips/granulatedkar.png'
-        },
-        {
-            name: 'Rubberized Grip Tape',
-            image: 'attachments/reargrips/rubberizedkar.png'
-        },
-        {
-            name: 'Stippled Grip Tape',
-            image: 'attachments/reargrips/stippledkar.png'
-        }
+        name: 'Granulated Grip Tape',
+        image: 'attachments/reargrips/granulatedkar.png'
+    },
+    {
+        name: 'Rubberized Grip Tape',
+        image: 'attachments/reargrips/rubberizedkar.png'
+    },
+    {
+        name: 'Stippled Grip Tape',
+        image: 'attachments/reargrips/stippledkar.png'
+    }
     ];
 
 
@@ -9300,49 +9300,49 @@ function kar() {
     //Perks
 
     var perks = [{
-            name: 'FMJ',
-            image: 'attachments/perks/fmj.png'
-        },
-        {
-            name: 'Sleight of Hand',
-            image: 'attachments/perks/sleight.png'
-        },
-        {
-            name: 'Frangible - Wounding',
-            image: 'attachments/perks/wounding.png'
-        },
-        {
-            name: 'Heavy Hitter',
-            image: 'attachments/perks/heavyhitter.png'
-        },
-        {
-            name: 'Fully Loaded',
-            image: 'attachments/perks/fullyloaded.png'
-        },
-        {
-            name: 'Focus',
-            image: 'attachments/perks/focus.png'
-        },
-        {
-            name: 'Recon',
-            image: 'attachments/perks/recon.png'
-        },
-        {
-            name: 'Mo Money',
-            image: 'attachments/perks/money.png'
-        },
-        {
-            name: 'Fast Melee',
-            image: 'attachments/perks/fastmelee.png'
-        },
-        {
-            name: 'Frangible - Disabling',
-            image: 'attachments/perks/disabling.png'
-        },
-        {
-            name: 'Presence of Mind',
-            image: 'attachments/perks/mind.png'
-        }
+        name: 'FMJ',
+        image: 'attachments/perks/fmj.png'
+    },
+    {
+        name: 'Sleight of Hand',
+        image: 'attachments/perks/sleight.png'
+    },
+    {
+        name: 'Frangible - Wounding',
+        image: 'attachments/perks/wounding.png'
+    },
+    {
+        name: 'Heavy Hitter',
+        image: 'attachments/perks/heavyhitter.png'
+    },
+    {
+        name: 'Fully Loaded',
+        image: 'attachments/perks/fullyloaded.png'
+    },
+    {
+        name: 'Focus',
+        image: 'attachments/perks/focus.png'
+    },
+    {
+        name: 'Recon',
+        image: 'attachments/perks/recon.png'
+    },
+    {
+        name: 'Mo Money',
+        image: 'attachments/perks/money.png'
+    },
+    {
+        name: 'Fast Melee',
+        image: 'attachments/perks/fastmelee.png'
+    },
+    {
+        name: 'Frangible - Disabling',
+        image: 'attachments/perks/disabling.png'
+    },
+    {
+        name: 'Presence of Mind',
+        image: 'attachments/perks/mind.png'
+    }
     ];
 
 
@@ -9388,33 +9388,33 @@ function holger() {
     //Muzzles
 
     var muzzles = [{
-            name: 'Flash Guard',
-            image: 'attachments/lmgs/muzzles/flash.png'
-        },
-        {
-            name: 'Monolithic Suppressor',
-            image: 'attachments/lmgs/muzzles/monolithic.png'
-        },
-        {
-            name: 'Muzzle Brake',
-            image: 'attachments/lmgs/muzzles/muzzle.png'
-        },
-        {
-            name: 'Breacher Device',
-            image: 'attachments/lmgs/muzzles/breacher.png'
-        },
-        {
-            name: 'Lightweight Suppressor',
-            image: 'attachments/lmgs/muzzles/lightweight.png'
-        },
-        {
-            name: 'Compensator',
-            image: 'attachments/lmgs/muzzles/compensator.png'
-        },
-        {
-            name: 'Tactical Suppressor',
-            image: 'attachments/lmgs/muzzles/tactical.png'
-        },
+        name: 'Flash Guard',
+        image: 'attachments/lmgs/muzzles/flash.png'
+    },
+    {
+        name: 'Monolithic Suppressor',
+        image: 'attachments/lmgs/muzzles/monolithic.png'
+    },
+    {
+        name: 'Muzzle Brake',
+        image: 'attachments/lmgs/muzzles/muzzle.png'
+    },
+    {
+        name: 'Breacher Device',
+        image: 'attachments/lmgs/muzzles/breacher.png'
+    },
+    {
+        name: 'Lightweight Suppressor',
+        image: 'attachments/lmgs/muzzles/lightweight.png'
+    },
+    {
+        name: 'Compensator',
+        image: 'attachments/lmgs/muzzles/compensator.png'
+    },
+    {
+        name: 'Tactical Suppressor',
+        image: 'attachments/lmgs/muzzles/tactical.png'
+    },
     ];
 
 
@@ -9440,13 +9440,13 @@ function holger() {
     //Barrel
 
     var barrels = [{
-            name: 'XRX Ultralight',
-            image: 'attachments/lmgs/barrels/ultralight.png'
-        },
-        {
-            name: 'FTAC 8.98 Spitfire',
-            image: 'attachments/lmgs/barrels/spitfire.png'
-        },
+        name: 'XRX Ultralight',
+        image: 'attachments/lmgs/barrels/ultralight.png'
+    },
+    {
+        name: 'FTAC 8.98 Spitfire',
+        image: 'attachments/lmgs/barrels/spitfire.png'
+    },
 
 
     ];
@@ -9478,17 +9478,17 @@ function holger() {
     //Laser
 
     var lasers = [{
-            name: '1mW Laser',
-            image: 'attachments/lasers/1mw.png'
-        },
-        {
-            name: '5mW Laser',
-            image: 'attachments/lasers/5mw.png'
-        },
-        {
-            name: 'Tac Laser',
-            image: 'attachments/lasers/tac.png'
-        }
+        name: '1mW Laser',
+        image: 'attachments/lasers/1mw.png'
+    },
+    {
+        name: '5mW Laser',
+        image: 'attachments/lasers/5mw.png'
+    },
+    {
+        name: 'Tac Laser',
+        image: 'attachments/lasers/tac.png'
+    }
     ];
 
 
@@ -9515,93 +9515,93 @@ function holger() {
     //Optic
 
     var optics = [{
-            name: 'Cronen LP945 Mini Reflex',
-            image: 'attachments/lmgs/optics/cronenlp945.png'
-        },
-        {
-            name: 'Corp Combat Holo Sight',
-            image: 'attachments/lmgs/optics/corp.png'
-        },
-        {
-            name: 'Operator Reflex Sight',
-            image: 'attachments/lmgs/optics/operator.png'
-        },
-        {
-            name: 'Scout Combat Optic',
-            image: 'attachments/lmgs/optics/scout.png'
-        },
-        {
-            name: 'Aim-Op Reflex Sight',
-            image: 'attachments/lmgs/optics/aimop.png'
-        },
-        {
-            name: 'APx5 Holographic Sight',
-            image: 'attachments/lmgs/optics/apx5.png'
-        },
-        {
-            name: 'Integral Hybrid',
-            image: 'attachments/lmgs/optics/integral.png'
-        },
-        {
-            name: 'Solozero NVG Enhanced',
-            image: 'attachments/lmgs/optics/solozero.png'
-        },
-        {
-            name: 'VLK 3.0x Optic',
-            image: 'attachments/lmgs/optics/vlk.png'
-        },
-        {
-            name: 'Solozero Optics Mini Reflex',
-            image: 'attachments/lmgs/optics/solozeromini.png'
-        },
-        {
-            name: 'Sniper Scope',
-            image: 'attachments/lmgs/optics/sniperscope.png'
-        },
-        {
-            name: 'FSS Integral Reflex',
-            image: 'attachments/lmgs/optics/integralreflex.png'
-        },
-        {
-            name: 'Solozero K498 4.0x Integral',
-            image: 'attachments/lmgs/optics/solozerintegral.png'
-        },
-        {
-            name: '4.0x Flip Hybrid',
-            image: 'attachments/lmgs/optics/40x.png'
-        },
-        {
-            name: 'Viper Reflex Sight',
-            image: 'attachments/lmgs/optics/viper.png'
-        },
-        {
-            name: 'G.I. Mini Reflex',
-            image: 'attachments/lmgs/optics/gi.png'
-        },
-        {
-            name: 'PBX Holo 7 Sight',
-            image: 'attachments/lmgs/optics/pbx.png'
-        },
-        {
-            name: 'Cronen C480 Pro Optic',
-            image: 'attachments/lmgs/optics/cronenc480.png'
-        },
-        {
-            name: 'Monocle Reflex Sight',
-            image: 'attachments/lmgs/optics/monocle.png'
-        },
-        {
-            name: 'Canted Hybrid',
-            image: 'attachments/lmgs/optics/canted.png'
-        },
-        {
-            name: 'Merc Thermal Optic',
-            image: 'attachments/lmgs/optics/merc.png'
-        },
-        {
-            name: 'Thermal Hybrid',
-            image: 'attachments/lmgs/optics/thermal.png'
-        }
+        name: 'Cronen LP945 Mini Reflex',
+        image: 'attachments/lmgs/optics/cronenlp945.png'
+    },
+    {
+        name: 'Corp Combat Holo Sight',
+        image: 'attachments/lmgs/optics/corp.png'
+    },
+    {
+        name: 'Operator Reflex Sight',
+        image: 'attachments/lmgs/optics/operator.png'
+    },
+    {
+        name: 'Scout Combat Optic',
+        image: 'attachments/lmgs/optics/scout.png'
+    },
+    {
+        name: 'Aim-Op Reflex Sight',
+        image: 'attachments/lmgs/optics/aimop.png'
+    },
+    {
+        name: 'APx5 Holographic Sight',
+        image: 'attachments/lmgs/optics/apx5.png'
+    },
+    {
+        name: 'Integral Hybrid',
+        image: 'attachments/lmgs/optics/integral.png'
+    },
+    {
+        name: 'Solozero NVG Enhanced',
+        image: 'attachments/lmgs/optics/solozero.png'
+    },
+    {
+        name: 'VLK 3.0x Optic',
+        image: 'attachments/lmgs/optics/vlk.png'
+    },
+    {
+        name: 'Solozero Optics Mini Reflex',
+        image: 'attachments/lmgs/optics/solozeromini.png'
+    },
+    {
+        name: 'Sniper Scope',
+        image: 'attachments/lmgs/optics/sniperscope.png'
+    },
+    {
+        name: 'FSS Integral Reflex',
+        image: 'attachments/lmgs/optics/integralreflex.png'
+    },
+    {
+        name: 'Solozero K498 4.0x Integral',
+        image: 'attachments/lmgs/optics/solozerintegral.png'
+    },
+    {
+        name: '4.0x Flip Hybrid',
+        image: 'attachments/lmgs/optics/40x.png'
+    },
+    {
+        name: 'Viper Reflex Sight',
+        image: 'attachments/lmgs/optics/viper.png'
+    },
+    {
+        name: 'G.I. Mini Reflex',
+        image: 'attachments/lmgs/optics/gi.png'
+    },
+    {
+        name: 'PBX Holo 7 Sight',
+        image: 'attachments/lmgs/optics/pbx.png'
+    },
+    {
+        name: 'Cronen C480 Pro Optic',
+        image: 'attachments/lmgs/optics/cronenc480.png'
+    },
+    {
+        name: 'Monocle Reflex Sight',
+        image: 'attachments/lmgs/optics/monocle.png'
+    },
+    {
+        name: 'Canted Hybrid',
+        image: 'attachments/lmgs/optics/canted.png'
+    },
+    {
+        name: 'Merc Thermal Optic',
+        image: 'attachments/lmgs/optics/merc.png'
+    },
+    {
+        name: 'Thermal Hybrid',
+        image: 'attachments/lmgs/optics/thermal.png'
+    }
     ];
 
 
@@ -9628,21 +9628,21 @@ function holger() {
     //Stock
 
     var stocks = [{
-            name: 'FSS Ranger',
-            image: 'attachments/lmgs/stocks/ranger.png'
-        },
-        {
-            name: 'FSS infantry',
-            image: 'attachments/lmgs/stocks/infantry.png'
-        },
-        {
-            name: 'No Stock',
-            image: 'attachments/lmgs/stocks/nostock.png'
-        },
-        {
-            name: 'XRX Axis',
-            image: 'attachments/lmgs/stocks/axis.png'
-        },
+        name: 'FSS Ranger',
+        image: 'attachments/lmgs/stocks/ranger.png'
+    },
+    {
+        name: 'FSS infantry',
+        image: 'attachments/lmgs/stocks/infantry.png'
+    },
+    {
+        name: 'No Stock',
+        image: 'attachments/lmgs/stocks/nostock.png'
+    },
+    {
+        name: 'XRX Axis',
+        image: 'attachments/lmgs/stocks/axis.png'
+    },
 
     ];
 
@@ -9671,25 +9671,25 @@ function holger() {
     //Underbarrel
 
     var underbarrels = [{
-            name: 'Commando Foregrip',
-            image: 'attachments/lmgs/underbarrels/commando.png'
-        },
-        {
-            name: 'Merc Foregrip',
-            image: 'attachments/lmgs/underbarrels/merc.png'
-        },
-        {
-            name: 'Tactical Foregrip',
-            image: 'attachments/lmgs/underbarrels/tactical.png'
-        },
-        {
-            name: 'Ranger Foregrip',
-            image: 'attachments/lmgs/underbarrels/ranger.png'
-        },
-        {
-            name: 'Operator Foregrip',
-            image: 'attachments/lmgs/underbarrels/commando.png'
-        },
+        name: 'Commando Foregrip',
+        image: 'attachments/lmgs/underbarrels/commando.png'
+    },
+    {
+        name: 'Merc Foregrip',
+        image: 'attachments/lmgs/underbarrels/merc.png'
+    },
+    {
+        name: 'Tactical Foregrip',
+        image: 'attachments/lmgs/underbarrels/tactical.png'
+    },
+    {
+        name: 'Ranger Foregrip',
+        image: 'attachments/lmgs/underbarrels/ranger.png'
+    },
+    {
+        name: 'Operator Foregrip',
+        image: 'attachments/lmgs/underbarrels/commando.png'
+    },
     ];
     var underbarrel = false;
     document.getElementById("primaryAttH2").innerHTML = "";
@@ -9718,9 +9718,9 @@ function holger() {
     //Ammunation
 
     var ammunations = [{
-            name: '30 Round Mags',
-            image: 'attachments/lmgs/ammunations/30.png'
-        },
+        name: '30 Round Mags',
+        image: 'attachments/lmgs/ammunations/30.png'
+    },
 
     ];
 
@@ -9749,17 +9749,17 @@ function holger() {
     //RearGrip
 
     var reargrips = [{
-            name: 'Granulated Grip Tape',
-            image: 'attachments/lmgs/reargrips/granulatedmg.png'
-        },
-        {
-            name: 'Stippled Grip Tape',
-            image: 'attachments/lmgs/reargrips/stippledmg.png'
-        },
-        {
-            name: 'Rubberized Grip Tape',
-            image: 'attachments/lmgs/reargrips/rubberizedmg.png'
-        },
+        name: 'Granulated Grip Tape',
+        image: 'attachments/lmgs/reargrips/granulatedmg.png'
+    },
+    {
+        name: 'Stippled Grip Tape',
+        image: 'attachments/lmgs/reargrips/stippledmg.png'
+    },
+    {
+        name: 'Rubberized Grip Tape',
+        image: 'attachments/lmgs/reargrips/rubberizedmg.png'
+    },
 
     ];
 
@@ -9786,41 +9786,41 @@ function holger() {
     //Perks
 
     var perks = [{
-            name: 'FMJ',
-            image: 'attachments/perks/fmj.png'
-        },
-        {
-            name: 'Sleight of Hand',
-            image: 'attachments/perks/sleight.png'
-        },
-        {
-            name: 'Frangible - Wounding',
-            image: 'attachments/perks/wounding.png'
-        },
-        {
-            name: 'Heavy Hitter',
-            image: 'attachments/perks/heavyhitter.png'
-        },
-        {
-            name: 'Fully Loaded',
-            image: 'attachments/perks/fullyloaded.png'
-        },
-        {
-            name: 'Recon',
-            image: 'attachments/perks/recon.png'
-        },
-        {
-            name: 'Mo Money',
-            image: 'attachments/perks/money.png'
-        },
-        {
-            name: 'Fast Melee',
-            image: 'attachments/perks/fastmelee.png'
-        },
-        {
-            name: 'Frangible - Disabling',
-            image: 'attachments/perks/disabling.png'
-        },
+        name: 'FMJ',
+        image: 'attachments/perks/fmj.png'
+    },
+    {
+        name: 'Sleight of Hand',
+        image: 'attachments/perks/sleight.png'
+    },
+    {
+        name: 'Frangible - Wounding',
+        image: 'attachments/perks/wounding.png'
+    },
+    {
+        name: 'Heavy Hitter',
+        image: 'attachments/perks/heavyhitter.png'
+    },
+    {
+        name: 'Fully Loaded',
+        image: 'attachments/perks/fullyloaded.png'
+    },
+    {
+        name: 'Recon',
+        image: 'attachments/perks/recon.png'
+    },
+    {
+        name: 'Mo Money',
+        image: 'attachments/perks/money.png'
+    },
+    {
+        name: 'Fast Melee',
+        image: 'attachments/perks/fastmelee.png'
+    },
+    {
+        name: 'Frangible - Disabling',
+        image: 'attachments/perks/disabling.png'
+    },
     ];
 
 
@@ -9867,33 +9867,33 @@ function hdr() {
     //Muzzles
 
     var muzzles = [{
-            name: 'Flash Guard',
-            image: 'attachments/snipers/flashguard.png'
-        },
-        {
-            name: 'Monolithic Suppressor',
-            image: 'attachments/snipers/monolithicsuppressor.png'
-        },
-        {
-            name: 'Breacher Device',
-            image: 'attachments/snipers/breacherdevice.png'
-        },
-        {
-            name: 'Muzzle Brake',
-            image: 'attachments/snipers/muzzlebrake.png'
-        },
-        {
-            name: 'Tactical Suppressor',
-            image: 'attachments/snipers/tacticalsuppressor.png'
-        },
-        {
-            name: 'Compensator',
-            image: 'attachments/snipers/compensator.png'
-        },
-        {
-            name: 'Lightweight Suppressor',
-            image: 'attachments/snipers/lightweightsuppressor.png'
-        },
+        name: 'Flash Guard',
+        image: 'attachments/snipers/flashguard.png'
+    },
+    {
+        name: 'Monolithic Suppressor',
+        image: 'attachments/snipers/monolithicsuppressor.png'
+    },
+    {
+        name: 'Breacher Device',
+        image: 'attachments/snipers/breacherdevice.png'
+    },
+    {
+        name: 'Muzzle Brake',
+        image: 'attachments/snipers/muzzlebrake.png'
+    },
+    {
+        name: 'Tactical Suppressor',
+        image: 'attachments/snipers/tacticalsuppressor.png'
+    },
+    {
+        name: 'Compensator',
+        image: 'attachments/snipers/compensator.png'
+    },
+    {
+        name: 'Lightweight Suppressor',
+        image: 'attachments/snipers/lightweightsuppressor.png'
+    },
     ];
 
 
@@ -9919,17 +9919,17 @@ function hdr() {
     //Barrel
 
     var barrels = [{
-            name: '26.9 HDR Pro',
-            image: 'attachments/snipers/hdrpro.png'
-        },
-        {
-            name: '26.0 Bull Barrel',
-            image: 'attachments/snipers/260bull.png'
-        },
-        {
-            name: '17.2 Bull Barrel',
-            image: 'attachments/snipers/172bull.png'
-        },
+        name: '26.9 HDR Pro',
+        image: 'attachments/snipers/hdrpro.png'
+    },
+    {
+        name: '26.0 Bull Barrel',
+        image: 'attachments/snipers/260bull.png'
+    },
+    {
+        name: '17.2 Bull Barrel',
+        image: 'attachments/snipers/172bull.png'
+    },
     ];
 
 
@@ -9953,8 +9953,7 @@ function hdr() {
         document.getElementById("primaryAttH2").innerHTML = "";
         document.getElementById("primaryAtt2").innerHTML = '<b>' + "Barrel -  " + '</b>' + barrelPick.name + '<br>' + '<img  style="width:250px;"  src="' + barrelPick.image + '">';
 
-        if(barrelPick.name == "26.0 Bull Barrel")
-        {
+        if (barrelPick.name == "26.0 Bull Barrel") {
             document.getElementById("primaryAtt1").innerHTML = "";
         }
     }
@@ -9967,7 +9966,7 @@ function hdr() {
     var lasers = [{
         name: 'Tac Laser',
         image: 'attachments/snipers/taclaser.png'
-    }, ];
+    },];
 
 
     var laser = false;
@@ -9994,33 +9993,33 @@ function hdr() {
     //Optic
 
     var optics = [{
-            name: 'Scout Combat Optic',
-            image: 'attachments/snipers/scout.png'
-        },
-        {
-            name: 'Thermal Sniper Scope',
-            image: 'attachments/snipers/thermal.png'
-        },
-        {
-            name: 'VLK 3.0x Optic',
-            image: 'attachments/snipers/vlk.png'
-        },
-        {
-            name: 'Variable Zoom Scope',
-            image: 'attachments/snipers/variable.png'
-        },
-        {
-            name: 'Thermal Dual Power Scope',
-            image: 'attachments/snipers/thermaldual.png'
-        },
-        {
-            name: 'Cronen C480 Pro Optic',
-            image: 'attachments/snipers/cronen.png'
-        },
-        {
-            name: 'Merc Thermal Optic',
-            image: 'attachments/snipers/merc.png'
-        },
+        name: 'Scout Combat Optic',
+        image: 'attachments/snipers/scout.png'
+    },
+    {
+        name: 'Thermal Sniper Scope',
+        image: 'attachments/snipers/thermal.png'
+    },
+    {
+        name: 'VLK 3.0x Optic',
+        image: 'attachments/snipers/vlk.png'
+    },
+    {
+        name: 'Variable Zoom Scope',
+        image: 'attachments/snipers/variable.png'
+    },
+    {
+        name: 'Thermal Dual Power Scope',
+        image: 'attachments/snipers/thermaldual.png'
+    },
+    {
+        name: 'Cronen C480 Pro Optic',
+        image: 'attachments/snipers/cronen.png'
+    },
+    {
+        name: 'Merc Thermal Optic',
+        image: 'attachments/snipers/merc.png'
+    },
     ];
 
 
@@ -10047,21 +10046,21 @@ function hdr() {
     //Stock
 
     var stocks = [{
-            name: 'FTAC Stalker-Scout',
-            image: 'attachments/snipers/stalkerhdr.png'
-        },
-        {
-            name: 'FTAC Hunter-Scout',
-            image: 'attachments/snipers/hunterhdr.png'
-        },
-        {
-            name: 'FSS Nomad Stock',
-            image: 'attachments/snipers/nomad.png'
-        },
-        {
-            name: 'FTAC Champion',
-            image: 'attachments/snipers/champion.png'
-        },
+        name: 'FTAC Stalker-Scout',
+        image: 'attachments/snipers/stalkerhdr.png'
+    },
+    {
+        name: 'FTAC Hunter-Scout',
+        image: 'attachments/snipers/hunterhdr.png'
+    },
+    {
+        name: 'FSS Nomad Stock',
+        image: 'attachments/snipers/nomad.png'
+    },
+    {
+        name: 'FTAC Champion',
+        image: 'attachments/snipers/champion.png'
+    },
     ];
 
 
@@ -10091,7 +10090,7 @@ function hdr() {
     var underbarrels = [{
         name: 'Bipod',
         image: 'attachments/snipers/bipod.png'
-    }, ];
+    },];
 
 
     var underbarrel = false;
@@ -10121,13 +10120,13 @@ function hdr() {
     //Ammunation
 
     var ammunations = [{
-            name: '7 Round Mags',
-            image: 'attachments/snipers/7.png'
-        },
-        {
-            name: '9 Round Mags',
-            image: 'attachments/snipers/9.png'
-        },
+        name: '7 Round Mags',
+        image: 'attachments/snipers/7.png'
+    },
+    {
+        name: '9 Round Mags',
+        image: 'attachments/snipers/9.png'
+    },
     ];
 
 
@@ -10153,49 +10152,49 @@ function hdr() {
     //Perks
 
     var perks = [{
-            name: 'FMJ',
-            image: 'attachments/perks/fmj.png'
-        },
-        {
-            name: 'Sleight of Hand',
-            image: 'attachments/perks/sleight.png'
-        },
-        {
-            name: 'Frangible - Wounding',
-            image: 'attachments/perks/wounding.png'
-        },
-        {
-            name: 'Heavy Hitter',
-            image: 'attachments/perks/heavyhitter.png'
-        },
-        {
-            name: 'Fully Loaded',
-            image: 'attachments/perks/fullyloaded.png'
-        },
-        {
-            name: 'Focus',
-            image: 'attachments/perks/focus.png'
-        },
-        {
-            name: 'Recon',
-            image: 'attachments/perks/recon.png'
-        },
-        {
-            name: 'Mo Money',
-            image: 'attachments/perks/money.png'
-        },
-        {
-            name: 'Fast Melee',
-            image: 'attachments/perks/fastmelee.png'
-        },
-        {
-            name: 'Frangible - Disabling',
-            image: 'attachments/perks/disabling.png'
-        },
-        {
-            name: 'Presence of Mind',
-            image: 'attachments/perks/mind.png'
-        }
+        name: 'FMJ',
+        image: 'attachments/perks/fmj.png'
+    },
+    {
+        name: 'Sleight of Hand',
+        image: 'attachments/perks/sleight.png'
+    },
+    {
+        name: 'Frangible - Wounding',
+        image: 'attachments/perks/wounding.png'
+    },
+    {
+        name: 'Heavy Hitter',
+        image: 'attachments/perks/heavyhitter.png'
+    },
+    {
+        name: 'Fully Loaded',
+        image: 'attachments/perks/fullyloaded.png'
+    },
+    {
+        name: 'Focus',
+        image: 'attachments/perks/focus.png'
+    },
+    {
+        name: 'Recon',
+        image: 'attachments/perks/recon.png'
+    },
+    {
+        name: 'Mo Money',
+        image: 'attachments/perks/money.png'
+    },
+    {
+        name: 'Fast Melee',
+        image: 'attachments/perks/fastmelee.png'
+    },
+    {
+        name: 'Frangible - Disabling',
+        image: 'attachments/perks/disabling.png'
+    },
+    {
+        name: 'Presence of Mind',
+        image: 'attachments/perks/mind.png'
+    }
     ];
 
 
@@ -10241,29 +10240,29 @@ function fr556() {
     //Muzzles
 
     var muzzles = [{
-            name: 'Flash Guard',
-            image: 'attachments/muzzles/flashguard.png'
-        },
-        {
-            name: 'Tactical Suppressor',
-            image: 'attachments/muzzles/tacticalsuppressor.png'
-        },
-        {
-            name: 'Muzzle Brake',
-            image: 'attachments/muzzles/muzzlebrake.png'
-        },
-        {
-            name: 'Lightweight Suppressor',
-            image: 'attachments/muzzles/lightweightsuppressor.png'
-        },
-        {
-            name: 'Compensator',
-            image: 'attachments/muzzles/compensator.png'
-        },
-        {
-            name: 'Monolithic Suppressor',
-            image: 'attachments/muzzles/monolithicsuppressor.png'
-        }
+        name: 'Flash Guard',
+        image: 'attachments/muzzles/flashguard.png'
+    },
+    {
+        name: 'Tactical Suppressor',
+        image: 'attachments/muzzles/tacticalsuppressor.png'
+    },
+    {
+        name: 'Muzzle Brake',
+        image: 'attachments/muzzles/muzzlebrake.png'
+    },
+    {
+        name: 'Lightweight Suppressor',
+        image: 'attachments/muzzles/lightweightsuppressor.png'
+    },
+    {
+        name: 'Compensator',
+        image: 'attachments/muzzles/compensator.png'
+    },
+    {
+        name: 'Monolithic Suppressor',
+        image: 'attachments/muzzles/monolithicsuppressor.png'
+    }
     ];
 
 
@@ -10292,17 +10291,17 @@ function fr556() {
 
     //Barrel
     var barrels = [{
-            name: 'FR 15.9 Commando',
-            image: 'attachments/barrels/fr159commando.png'
-        },
-        {
-            name: 'FR 24.4 Sniper',
-            image: 'attachments/barrels/fr244sniper.png'
-        },
-        {
-            name: 'TAC FORGE Ultralight',
-            image: 'attachments/barrels/tacforgeultralight.png'
-        },
+        name: 'FR 15.9 Commando',
+        image: 'attachments/barrels/fr159commando.png'
+    },
+    {
+        name: 'FR 24.4 Sniper',
+        image: 'attachments/barrels/fr244sniper.png'
+    },
+    {
+        name: 'TAC FORGE Ultralight',
+        image: 'attachments/barrels/tacforgeultralight.png'
+    },
     ];
 
 
@@ -10330,17 +10329,17 @@ function fr556() {
     //Laser
 
     var lasers = [{
-            name: '1mW Laser',
-            image: 'attachments/lasers/1mw.png'
-        },
-        {
-            name: '5mW Laser',
-            image: 'attachments/lasers/5mw.png'
-        },
-        {
-            name: 'Tac Laser',
-            image: 'attachments/lasers/tac.png'
-        }
+        name: '1mW Laser',
+        image: 'attachments/lasers/1mw.png'
+    },
+    {
+        name: '5mW Laser',
+        image: 'attachments/lasers/5mw.png'
+    },
+    {
+        name: 'Tac Laser',
+        image: 'attachments/lasers/tac.png'
+    }
     ];
 
 
@@ -10367,89 +10366,89 @@ function fr556() {
     //Optic
 
     var optics = [{
-            name: 'Cronen LP945 Mini Reflex',
-            image: 'attachments/optics/cronenlp945.png'
-        },
-        {
-            name: 'Corp Combat Holo Sight',
-            image: 'attachments/optics/corp.png'
-        },
-        {
-            name: 'Operator Reflex Sight',
-            image: 'attachments/optics/operator.png'
-        },
-        {
-            name: 'Scout Combat Optic',
-            image: 'attachments/optics/scout.png'
-        },
-        {
-            name: '4.0x Flip Hybrid',
-            image: 'attachments/optics/40x.png'
-        },
-        {
-            name: 'Aim-Op Reflex Sight',
-            image: 'attachments/optics/aimop.png'
-        },
-        {
-            name: 'APx5 Holographic Sight',
-            image: 'attachments/optics/apx5.png'
-        },
-        {
-            name: 'Integral Hybrid',
-            image: 'attachments/optics/integral.png'
-        },
-        {
-            name: 'Solozero NVG Enhanced',
-            image: 'attachments/optics/solozero.png'
-        },
-        {
-            name: 'VLK 3.0x Optic',
-            image: 'attachments/optics/vlk.png'
-        },
-        {
-            name: 'Sniper Scope',
-            image: 'attachments/optics/sniperscope.png'
-        },
-        {
-            name: 'Viper Reflex Sight',
-            image: 'attachments/optics/viper.png'
-        },
-        {
-            name: 'G.I. Mini Reflex',
-            image: 'attachments/optics/gi.png'
-        },
-        {
-            name: 'PBX Holo 7 Sight',
-            image: 'attachments/optics/pbx.png'
-        },
-        {
-            name: 'Cronen C480 Pro Optic',
-            image: 'attachments/optics/cronenc480.png'
-        },
-        {
-            name: 'Monocle Reflex Sight',
-            image: 'attachments/optics/monocle.png'
-        },
-        {
-            name: 'Variable Zoom Scope',
-            image: 'attachments/optics/variable.png'
-        },
-        {
-            name: 'Canted Hybrid',
-            image: 'attachments/optics/canted.png'
-        },
-        {
-            name: 'Merc Thermal Optic',
-            image: 'attachments/optics/merc.png'
-        },
-        {
-            name: 'Thermal Hybrid',
-            image: 'attachments/optics/thermal.png'
-        },
-        {
-            name: 'Solozero Optics Mini Reflex',
-            image: 'attachments/optics/solozeromini.png'
-        }
+        name: 'Cronen LP945 Mini Reflex',
+        image: 'attachments/optics/cronenlp945.png'
+    },
+    {
+        name: 'Corp Combat Holo Sight',
+        image: 'attachments/optics/corp.png'
+    },
+    {
+        name: 'Operator Reflex Sight',
+        image: 'attachments/optics/operator.png'
+    },
+    {
+        name: 'Scout Combat Optic',
+        image: 'attachments/optics/scout.png'
+    },
+    {
+        name: '4.0x Flip Hybrid',
+        image: 'attachments/optics/40x.png'
+    },
+    {
+        name: 'Aim-Op Reflex Sight',
+        image: 'attachments/optics/aimop.png'
+    },
+    {
+        name: 'APx5 Holographic Sight',
+        image: 'attachments/optics/apx5.png'
+    },
+    {
+        name: 'Integral Hybrid',
+        image: 'attachments/optics/integral.png'
+    },
+    {
+        name: 'Solozero NVG Enhanced',
+        image: 'attachments/optics/solozero.png'
+    },
+    {
+        name: 'VLK 3.0x Optic',
+        image: 'attachments/optics/vlk.png'
+    },
+    {
+        name: 'Sniper Scope',
+        image: 'attachments/optics/sniperscope.png'
+    },
+    {
+        name: 'Viper Reflex Sight',
+        image: 'attachments/optics/viper.png'
+    },
+    {
+        name: 'G.I. Mini Reflex',
+        image: 'attachments/optics/gi.png'
+    },
+    {
+        name: 'PBX Holo 7 Sight',
+        image: 'attachments/optics/pbx.png'
+    },
+    {
+        name: 'Cronen C480 Pro Optic',
+        image: 'attachments/optics/cronenc480.png'
+    },
+    {
+        name: 'Monocle Reflex Sight',
+        image: 'attachments/optics/monocle.png'
+    },
+    {
+        name: 'Variable Zoom Scope',
+        image: 'attachments/optics/variable.png'
+    },
+    {
+        name: 'Canted Hybrid',
+        image: 'attachments/optics/canted.png'
+    },
+    {
+        name: 'Merc Thermal Optic',
+        image: 'attachments/optics/merc.png'
+    },
+    {
+        name: 'Thermal Hybrid',
+        image: 'attachments/optics/thermal.png'
+    },
+    {
+        name: 'Solozero Optics Mini Reflex',
+        image: 'attachments/optics/solozeromini.png'
+    }
     ];
 
 
@@ -10476,17 +10475,17 @@ function fr556() {
     //Stock
 
     var stocks = [{
-            name: 'FR Ultralight Hollow',
-            image: 'attachments/stocks/frultralighthollow.png'
-        },
-        {
-            name: 'FORGE TAC Ballast Pack',
-            image: 'attachments/stocks/forgetacballastpackfr.png'
-        },
-        {
-            name: 'FFS Tac-Wrap',
-            image: 'attachments/stocks/ffstacwrap.png'
-        }
+        name: 'FR Ultralight Hollow',
+        image: 'attachments/stocks/frultralighthollow.png'
+    },
+    {
+        name: 'FORGE TAC Ballast Pack',
+        image: 'attachments/stocks/forgetacballastpackfr.png'
+    },
+    {
+        name: 'FFS Tac-Wrap',
+        image: 'attachments/stocks/ffstacwrap.png'
+    }
     ];
 
 
@@ -10514,57 +10513,57 @@ function fr556() {
     //Underbarrel
 
     var underbarrels = [{
-            name: 'Commando Foregrip',
-            image: 'attachments/underbarrels/commando.png'
-        },
-        {
-            name: 'M203 40mm High-explosive',
-            image: 'attachments/underbarrels/m203high.png'
-        },
-        {
-            name: 'M203 40mm Incendiary',
-            image: 'attachments/underbarrels/m203incendiary.png'
-        },
-        {
-            name: '12 Gauge Deputy',
-            image: 'attachments/underbarrels/12gauge.png'
-        },
-        {
-            name: 'Merc Foregrip',
-            image: 'attachments/underbarrels/merc.png'
-        },
-        {
-            name: 'M203 40mm Smokescreen',
-            image: 'attachments/underbarrels/m203smokescreen.png'
-        },
-        {
-            name: 'Tactical Foregrip',
-            image: 'attachments/underbarrels/tactical.png'
-        },
-        {
-            name: 'M203 40mm Recon',
-            image: 'attachments/underbarrels/m203recon.png'
-        },
-        {
-            name: 'Bipod',
-            image: 'attachments/underbarrels/bipod.png'
-        },
-        {
-            name: 'M203 40mm Flash',
-            image: 'attachments/underbarrels/m203flash.png'
-        },
-        {
-            name: 'Ranger Foregrip',
-            image: 'attachments/underbarrels/ranger.png'
-        },
-        {
-            name: 'M203 40mm Concussive',
-            image: 'attachments/underbarrels/m203concussive.png'
-        },
-        {
-            name: 'Operator Foregrip',
-            image: 'attachments/underbarrels/operator.png'
-        }
+        name: 'Commando Foregrip',
+        image: 'attachments/underbarrels/commando.png'
+    },
+    {
+        name: 'M203 40mm High-explosive',
+        image: 'attachments/underbarrels/m203high.png'
+    },
+    {
+        name: 'M203 40mm Incendiary',
+        image: 'attachments/underbarrels/m203incendiary.png'
+    },
+    {
+        name: '12 Gauge Deputy',
+        image: 'attachments/underbarrels/12gauge.png'
+    },
+    {
+        name: 'Merc Foregrip',
+        image: 'attachments/underbarrels/merc.png'
+    },
+    {
+        name: 'M203 40mm Smokescreen',
+        image: 'attachments/underbarrels/m203smokescreen.png'
+    },
+    {
+        name: 'Tactical Foregrip',
+        image: 'attachments/underbarrels/tactical.png'
+    },
+    {
+        name: 'M203 40mm Recon',
+        image: 'attachments/underbarrels/m203recon.png'
+    },
+    {
+        name: 'Bipod',
+        image: 'attachments/underbarrels/bipod.png'
+    },
+    {
+        name: 'M203 40mm Flash',
+        image: 'attachments/underbarrels/m203flash.png'
+    },
+    {
+        name: 'Ranger Foregrip',
+        image: 'attachments/underbarrels/ranger.png'
+    },
+    {
+        name: 'M203 40mm Concussive',
+        image: 'attachments/underbarrels/m203concussive.png'
+    },
+    {
+        name: 'Operator Foregrip',
+        image: 'attachments/underbarrels/operator.png'
+    }
     ];
 
 
@@ -10595,13 +10594,13 @@ function fr556() {
     //Ammunation
 
     var ammunations = [{
-            name: '50 Round Mags',
-            image: 'attachments/ammunations/50.png'
-        },
-        {
-            name: '60 Round Mags',
-            image: 'attachments/ammunations/60.png'
-        }
+        name: '50 Round Mags',
+        image: 'attachments/ammunations/50.png'
+    },
+    {
+        name: '60 Round Mags',
+        image: 'attachments/ammunations/60.png'
+    }
     ];
 
 
@@ -10629,17 +10628,17 @@ function fr556() {
     //RearGrip
 
     var reargrips = [{
-            name: 'Granulated Grip Tape',
-            image: 'attachments/reargrips/granulated.png'
-        },
-        {
-            name: 'Rubberized Grip Tape',
-            image: 'attachments/reargrips/rubberized.png'
-        },
-        {
-            name: 'Stippled Grip Tape',
-            image: 'attachments/reargrips/stippled.png'
-        }
+        name: 'Granulated Grip Tape',
+        image: 'attachments/reargrips/granulated.png'
+    },
+    {
+        name: 'Rubberized Grip Tape',
+        image: 'attachments/reargrips/rubberized.png'
+    },
+    {
+        name: 'Stippled Grip Tape',
+        image: 'attachments/reargrips/stippled.png'
+    }
     ];
 
 
@@ -10665,45 +10664,45 @@ function fr556() {
     //Perks
 
     var perks = [{
-            name: 'FMJ',
-            image: 'attachments/perks/fmj.png'
-        },
-        {
-            name: 'Sleight of Hand',
-            image: 'attachments/perks/sleight.png'
-        },
-        {
-            name: 'Frangible - Wounding',
-            image: 'attachments/perks/wounding.png'
-        },
-        {
-            name: 'Heavy Hitter',
-            image: 'attachments/perks/heavyhitter.png'
-        },
-        {
-            name: 'Fully Loaded',
-            image: 'attachments/perks/fullyloaded.png'
-        },
-        {
-            name: 'Recon',
-            image: 'attachments/perks/recon.png'
-        },
-        {
-            name: 'Mo Money',
-            image: 'attachments/perks/money.png'
-        },
-        {
-            name: 'Fast Melee',
-            image: 'attachments/perks/fastmelee.png'
-        },
-        {
-            name: 'Frangible - Disabling',
-            image: 'attachments/perks/disabling.png'
-        },
-        {
-            name: 'Presence of Mind',
-            image: 'attachments/perks/mind.png'
-        }
+        name: 'FMJ',
+        image: 'attachments/perks/fmj.png'
+    },
+    {
+        name: 'Sleight of Hand',
+        image: 'attachments/perks/sleight.png'
+    },
+    {
+        name: 'Frangible - Wounding',
+        image: 'attachments/perks/wounding.png'
+    },
+    {
+        name: 'Heavy Hitter',
+        image: 'attachments/perks/heavyhitter.png'
+    },
+    {
+        name: 'Fully Loaded',
+        image: 'attachments/perks/fullyloaded.png'
+    },
+    {
+        name: 'Recon',
+        image: 'attachments/perks/recon.png'
+    },
+    {
+        name: 'Mo Money',
+        image: 'attachments/perks/money.png'
+    },
+    {
+        name: 'Fast Melee',
+        image: 'attachments/perks/fastmelee.png'
+    },
+    {
+        name: 'Frangible - Disabling',
+        image: 'attachments/perks/disabling.png'
+    },
+    {
+        name: 'Presence of Mind',
+        image: 'attachments/perks/mind.png'
+    }
     ];
 
 
@@ -10749,33 +10748,33 @@ function fnscar17() {
     //Muzzles
 
     var muzzles = [{
-            name: 'Flash Guard',
-            image: 'attachments/muzzles/flashguard.png'
-        },
-        {
-            name: 'Lightweight Suppressor',
-            image: 'attachments/muzzles/lightweightsuppressor.png'
-        },
-        {
-            name: 'Tactical Suppressor',
-            image: 'attachments/muzzles/tacticalsuppressor.png'
-        },
-        {
-            name: 'Muzzle Brake',
-            image: 'attachments/muzzles/muzzlebrake.png'
-        },
-        {
-            name: 'Breacher Device',
-            image: 'attachments/muzzles/breacherdevice.png'
-        },
-        {
-            name: 'Compensator',
-            image: 'attachments/muzzles/compensator.png'
-        },
-        {
-            name: 'Monolithic Suppressor',
-            image: 'attachments/muzzles/monolithicsuppressor.png'
-        }
+        name: 'Flash Guard',
+        image: 'attachments/muzzles/flashguard.png'
+    },
+    {
+        name: 'Lightweight Suppressor',
+        image: 'attachments/muzzles/lightweightsuppressor.png'
+    },
+    {
+        name: 'Tactical Suppressor',
+        image: 'attachments/muzzles/tacticalsuppressor.png'
+    },
+    {
+        name: 'Muzzle Brake',
+        image: 'attachments/muzzles/muzzlebrake.png'
+    },
+    {
+        name: 'Breacher Device',
+        image: 'attachments/muzzles/breacherdevice.png'
+    },
+    {
+        name: 'Compensator',
+        image: 'attachments/muzzles/compensator.png'
+    },
+    {
+        name: 'Monolithic Suppressor',
+        image: 'attachments/muzzles/monolithicsuppressor.png'
+    }
     ];
 
 
@@ -10805,17 +10804,17 @@ function fnscar17() {
 
     //Barrel
     var barrels = [{
-            name: 'Forge Tac 17.2 LB',
-            image: 'attachments/barrels/forgetac172lb.png'
-        },
-        {
-            name: 'Forge Tac 20.0 LB',
-            image: 'attachments/barrels/forgetac200lb.png'
-        },
-        {
-            name: 'Forge Tac CQC Pro',
-            image: 'attachments/barrels/forgetaccqcpro.png'
-        },
+        name: 'Forge Tac 17.2 LB',
+        image: 'attachments/barrels/forgetac172lb.png'
+    },
+    {
+        name: 'Forge Tac 20.0 LB',
+        image: 'attachments/barrels/forgetac200lb.png'
+    },
+    {
+        name: 'Forge Tac CQC Pro',
+        image: 'attachments/barrels/forgetaccqcpro.png'
+    },
     ];
 
 
@@ -10843,17 +10842,17 @@ function fnscar17() {
     //Laser
 
     var lasers = [{
-            name: '1mW Laser',
-            image: 'attachments/lasers/1mw.png'
-        },
-        {
-            name: '5mW Laser',
-            image: 'attachments/lasers/5mw.png'
-        },
-        {
-            name: 'Tac Laser',
-            image: 'attachments/lasers/tac.png'
-        }
+        name: '1mW Laser',
+        image: 'attachments/lasers/1mw.png'
+    },
+    {
+        name: '5mW Laser',
+        image: 'attachments/lasers/5mw.png'
+    },
+    {
+        name: 'Tac Laser',
+        image: 'attachments/lasers/tac.png'
+    }
     ];
 
 
@@ -10880,89 +10879,89 @@ function fnscar17() {
     //Optic
 
     var optics = [{
-            name: 'Cronen LP945 Mini Reflex',
-            image: 'attachments/optics/cronenlp945.png'
-        },
-        {
-            name: 'Corp Combat Holo Sight',
-            image: 'attachments/optics/corp.png'
-        },
-        {
-            name: 'Operator Reflex Sight',
-            image: 'attachments/optics/operator.png'
-        },
-        {
-            name: 'Scout Combat Optic',
-            image: 'attachments/optics/scout.png'
-        },
-        {
-            name: 'Aim-Op Reflex Sight',
-            image: 'attachments/optics/aimop.png'
-        },
-        {
-            name: 'APx5 Holographic Sight',
-            image: 'attachments/optics/apx5.png'
-        },
-        {
-            name: '4.0x Flip Hybrid',
-            image: 'attachments/optics/40x.png'
-        },
-        {
-            name: 'Integral Hybrid',
-            image: 'attachments/optics/integral.png'
-        },
-        {
-            name: 'Solozero NVG Enhanced',
-            image: 'attachments/optics/solozero.png'
-        },
-        {
-            name: 'VLK 3.0x Optic',
-            image: 'attachments/optics/vlk.png'
-        },
-        {
-            name: 'Sniper Scope',
-            image: 'attachments/optics/sniperscope.png'
-        },
-        {
-            name: 'Viper Reflex Sight',
-            image: 'attachments/optics/viper.png'
-        },
-        {
-            name: 'G.I. Mini Reflex',
-            image: 'attachments/optics/gi.png'
-        },
-        {
-            name: 'PBX Holo 7 Sight',
-            image: 'attachments/optics/pbx.png'
-        },
-        {
-            name: 'Cronen C480 Pro Optic',
-            image: 'attachments/optics/cronenc480.png'
-        },
-        {
-            name: 'Monocle Reflex Sight',
-            image: 'attachments/optics/monocle.png'
-        },
-        {
-            name: 'Variable Zoom Scope',
-            image: 'attachments/optics/variable.png'
-        },
-        {
-            name: 'Canted Hybrid',
-            image: 'attachments/optics/canted.png'
-        },
-        {
-            name: 'Merc Thermal Optic',
-            image: 'attachments/optics/merc.png'
-        },
-        {
-            name: 'Thermal Hybrid',
-            image: 'attachments/optics/thermal.png'
-        },
-        {
-            name: 'Solozero Optics Mini Reflex',
-            image: 'attachments/optics/solozeromini.png'
-        }
+        name: 'Cronen LP945 Mini Reflex',
+        image: 'attachments/optics/cronenlp945.png'
+    },
+    {
+        name: 'Corp Combat Holo Sight',
+        image: 'attachments/optics/corp.png'
+    },
+    {
+        name: 'Operator Reflex Sight',
+        image: 'attachments/optics/operator.png'
+    },
+    {
+        name: 'Scout Combat Optic',
+        image: 'attachments/optics/scout.png'
+    },
+    {
+        name: 'Aim-Op Reflex Sight',
+        image: 'attachments/optics/aimop.png'
+    },
+    {
+        name: 'APx5 Holographic Sight',
+        image: 'attachments/optics/apx5.png'
+    },
+    {
+        name: '4.0x Flip Hybrid',
+        image: 'attachments/optics/40x.png'
+    },
+    {
+        name: 'Integral Hybrid',
+        image: 'attachments/optics/integral.png'
+    },
+    {
+        name: 'Solozero NVG Enhanced',
+        image: 'attachments/optics/solozero.png'
+    },
+    {
+        name: 'VLK 3.0x Optic',
+        image: 'attachments/optics/vlk.png'
+    },
+    {
+        name: 'Sniper Scope',
+        image: 'attachments/optics/sniperscope.png'
+    },
+    {
+        name: 'Viper Reflex Sight',
+        image: 'attachments/optics/viper.png'
+    },
+    {
+        name: 'G.I. Mini Reflex',
+        image: 'attachments/optics/gi.png'
+    },
+    {
+        name: 'PBX Holo 7 Sight',
+        image: 'attachments/optics/pbx.png'
+    },
+    {
+        name: 'Cronen C480 Pro Optic',
+        image: 'attachments/optics/cronenc480.png'
+    },
+    {
+        name: 'Monocle Reflex Sight',
+        image: 'attachments/optics/monocle.png'
+    },
+    {
+        name: 'Variable Zoom Scope',
+        image: 'attachments/optics/variable.png'
+    },
+    {
+        name: 'Canted Hybrid',
+        image: 'attachments/optics/canted.png'
+    },
+    {
+        name: 'Merc Thermal Optic',
+        image: 'attachments/optics/merc.png'
+    },
+    {
+        name: 'Thermal Hybrid',
+        image: 'attachments/optics/thermal.png'
+    },
+    {
+        name: 'Solozero Optics Mini Reflex',
+        image: 'attachments/optics/solozeromini.png'
+    }
     ];
 
 
@@ -10989,21 +10988,21 @@ function fnscar17() {
     //Stock
 
     var stocks = [{
-            name: 'FTAC Hunter',
-            image: 'attachments/stocks/ftachunter.png'
-        },
-        {
-            name: 'FTAC Collapsible Stock',
-            image: 'attachments/stocks/ftaccollapsiblestock.png'
-        },
-        {
-            name: 'FFS Close Quarters Stock',
-            image: 'attachments/stocks/closequartersfal.png'
-        },
-        {
-            name: 'XRK Obelisk Pro',
-            image: 'attachments/stocks/xrkobeliskpro.png'
-        }
+        name: 'FTAC Hunter',
+        image: 'attachments/stocks/ftachunter.png'
+    },
+    {
+        name: 'FTAC Collapsible Stock',
+        image: 'attachments/stocks/ftaccollapsiblestock.png'
+    },
+    {
+        name: 'FFS Close Quarters Stock',
+        image: 'attachments/stocks/closequartersfal.png'
+    },
+    {
+        name: 'XRK Obelisk Pro',
+        image: 'attachments/stocks/xrkobeliskpro.png'
+    }
     ];
 
 
@@ -11031,53 +11030,53 @@ function fnscar17() {
     //Underbarrel
 
     var underbarrels = [{
-            name: 'Commando Foregrip',
-            image: 'attachments/underbarrels/commando.png'
-        },
-        {
-            name: '40mm High-explosive',
-            image: 'attachments/underbarrels/40mmhighexplosive.png'
-        },
-        {
-            name: '40mm Incendiary',
-            image: 'attachments/underbarrels/40mmincendiary.png'
-        },
-        {
-            name: '12 Gauge Deputy',
-            image: 'attachments/underbarrels/12gauge.png'
-        },
-        {
-            name: 'Merc Foregrip',
-            image: 'attachments/underbarrels/merc.png'
-        },
-        {
-            name: '40mm Smokescreen',
-            image: 'attachments/underbarrels/40mmsmokescreen.png'
-        },
-        {
-            name: 'Tactical Foregrip',
-            image: 'attachments/underbarrels/tactical.png'
-        },
-        {
-            name: '40mm Recon',
-            image: 'attachments/underbarrels/40mmrecon.png'
-        },
-        {
-            name: 'Bipod Foregrip',
-            image: 'attachments/underbarrels/bipodforegrip.png'
-        },
-        {
-            name: '40mm Flash',
-            image: 'attachments/underbarrels/40mmflash.png'
-        },
-        {
-            name: '40mm Concussive',
-            image: 'attachments/underbarrels/40mmconcussive.png'
-        },
-        {
-            name: 'Operator Foregrip',
-            image: 'attachments/underbarrels/operator.png'
-        }
+        name: 'Commando Foregrip',
+        image: 'attachments/underbarrels/commando.png'
+    },
+    {
+        name: '40mm High-explosive',
+        image: 'attachments/underbarrels/40mmhighexplosive.png'
+    },
+    {
+        name: '40mm Incendiary',
+        image: 'attachments/underbarrels/40mmincendiary.png'
+    },
+    {
+        name: '12 Gauge Deputy',
+        image: 'attachments/underbarrels/12gauge.png'
+    },
+    {
+        name: 'Merc Foregrip',
+        image: 'attachments/underbarrels/merc.png'
+    },
+    {
+        name: '40mm Smokescreen',
+        image: 'attachments/underbarrels/40mmsmokescreen.png'
+    },
+    {
+        name: 'Tactical Foregrip',
+        image: 'attachments/underbarrels/tactical.png'
+    },
+    {
+        name: '40mm Recon',
+        image: 'attachments/underbarrels/40mmrecon.png'
+    },
+    {
+        name: 'Bipod Foregrip',
+        image: 'attachments/underbarrels/bipodforegrip.png'
+    },
+    {
+        name: '40mm Flash',
+        image: 'attachments/underbarrels/40mmflash.png'
+    },
+    {
+        name: '40mm Concussive',
+        image: 'attachments/underbarrels/40mmconcussive.png'
+    },
+    {
+        name: 'Operator Foregrip',
+        image: 'attachments/underbarrels/operator.png'
+    }
     ];
 
 
@@ -11108,13 +11107,13 @@ function fnscar17() {
     //Ammunation
 
     var ammunations = [{
-            name: '25 Round Mags',
-            image: 'attachments/ammunations/25scar.png'
-        },
-        {
-            name: '30 Round Mags',
-            image: 'attachments/ammunations/30scar.png'
-        },
+        name: '25 Round Mags',
+        image: 'attachments/ammunations/25scar.png'
+    },
+    {
+        name: '30 Round Mags',
+        image: 'attachments/ammunations/30scar.png'
+    },
     ];
 
 
@@ -11142,17 +11141,17 @@ function fnscar17() {
     //RearGrip
 
     var reargrips = [{
-            name: 'Granulated Grip Tape',
-            image: 'attachments/reargrips/granulated.png'
-        },
-        {
-            name: 'Rubberized Grip Tape',
-            image: 'attachments/reargrips/rubberized.png'
-        },
-        {
-            name: 'Stippled Grip Tape',
-            image: 'attachments/reargrips/stippled.png'
-        }
+        name: 'Granulated Grip Tape',
+        image: 'attachments/reargrips/granulated.png'
+    },
+    {
+        name: 'Rubberized Grip Tape',
+        image: 'attachments/reargrips/rubberized.png'
+    },
+    {
+        name: 'Stippled Grip Tape',
+        image: 'attachments/reargrips/stippled.png'
+    }
     ];
 
 
@@ -11178,41 +11177,41 @@ function fnscar17() {
     //Perks
 
     var perks = [{
-            name: 'FMJ',
-            image: 'attachments/perks/fmj.png'
-        },
-        {
-            name: 'Sleight of Hand',
-            image: 'attachments/perks/sleight.png'
-        },
-        {
-            name: 'Frangible - Wounding',
-            image: 'attachments/perks/wounding.png'
-        },
-        {
-            name: 'Heavy Hitter',
-            image: 'attachments/perks/heavyhitter.png'
-        },
-        {
-            name: 'Fully Loaded',
-            image: 'attachments/perks/fullyloaded.png'
-        },
-        {
-            name: 'Recon',
-            image: 'attachments/perks/recon.png'
-        },
-        {
-            name: 'Mo Money',
-            image: 'attachments/perks/money.png'
-        },
-        {
-            name: 'Fast Melee',
-            image: 'attachments/perks/fastmelee.png'
-        },
-        {
-            name: 'Frangible - Disabling',
-            image: 'attachments/perks/disabling.png'
-        }
+        name: 'FMJ',
+        image: 'attachments/perks/fmj.png'
+    },
+    {
+        name: 'Sleight of Hand',
+        image: 'attachments/perks/sleight.png'
+    },
+    {
+        name: 'Frangible - Wounding',
+        image: 'attachments/perks/wounding.png'
+    },
+    {
+        name: 'Heavy Hitter',
+        image: 'attachments/perks/heavyhitter.png'
+    },
+    {
+        name: 'Fully Loaded',
+        image: 'attachments/perks/fullyloaded.png'
+    },
+    {
+        name: 'Recon',
+        image: 'attachments/perks/recon.png'
+    },
+    {
+        name: 'Mo Money',
+        image: 'attachments/perks/money.png'
+    },
+    {
+        name: 'Fast Melee',
+        image: 'attachments/perks/fastmelee.png'
+    },
+    {
+        name: 'Frangible - Disabling',
+        image: 'attachments/perks/disabling.png'
+    }
     ];
 
 
@@ -11258,33 +11257,33 @@ function fal() {
     //Muzzles
 
     var muzzles = [{
-            name: 'Flash Guard',
-            image: 'attachments/muzzles/flashguard.png'
-        },
-        {
-            name: 'Breacher Device',
-            image: 'attachments/muzzles/breacherdevice.png'
-        },
-        {
-            name: 'Tactical Suppressor',
-            image: 'attachments/muzzles/tacticalsuppressor.png'
-        },
-        {
-            name: 'Muzzle Brake',
-            image: 'attachments/muzzles/muzzlebrake.png'
-        },
-        {
-            name: 'Lightweight Suppressor',
-            image: 'attachments/muzzles/lightweightsuppressor.png'
-        },
-        {
-            name: 'Compensator',
-            image: 'attachments/muzzles/compensator.png'
-        },
-        {
-            name: 'Monolithic Suppressor',
-            image: 'attachments/muzzles/monolithicsuppressor.png'
-        }
+        name: 'Flash Guard',
+        image: 'attachments/muzzles/flashguard.png'
+    },
+    {
+        name: 'Breacher Device',
+        image: 'attachments/muzzles/breacherdevice.png'
+    },
+    {
+        name: 'Tactical Suppressor',
+        image: 'attachments/muzzles/tacticalsuppressor.png'
+    },
+    {
+        name: 'Muzzle Brake',
+        image: 'attachments/muzzles/muzzlebrake.png'
+    },
+    {
+        name: 'Lightweight Suppressor',
+        image: 'attachments/muzzles/lightweightsuppressor.png'
+    },
+    {
+        name: 'Compensator',
+        image: 'attachments/muzzles/compensator.png'
+    },
+    {
+        name: 'Monolithic Suppressor',
+        image: 'attachments/muzzles/monolithicsuppressor.png'
+    }
     ];
 
 
@@ -11314,17 +11313,17 @@ function fal() {
 
     //Barrel
     var barrels = [{
-            name: '18.0 Ultralight',
-            image: 'attachments/barrels/180ultralight.png'
-        },
-        {
-            name: 'XRX Marksman',
-            image: 'attachments/barrels/xrxmarksman.png'
-        },
-        {
-            name: '13.0 OSW Para',
-            image: 'attachments/barrels/130oswpara.png'
-        },
+        name: '18.0 Ultralight',
+        image: 'attachments/barrels/180ultralight.png'
+    },
+    {
+        name: 'XRX Marksman',
+        image: 'attachments/barrels/xrxmarksman.png'
+    },
+    {
+        name: '13.0 OSW Para',
+        image: 'attachments/barrels/130oswpara.png'
+    },
     ];
 
 
@@ -11352,17 +11351,17 @@ function fal() {
     //Laser
 
     var lasers = [{
-            name: '1mW Laser',
-            image: 'attachments/lasers/1mw.png'
-        },
-        {
-            name: '5mW Laser',
-            image: 'attachments/lasers/5mw.png'
-        },
-        {
-            name: 'Tac Laser',
-            image: 'attachments/lasers/tac.png'
-        }
+        name: '1mW Laser',
+        image: 'attachments/lasers/1mw.png'
+    },
+    {
+        name: '5mW Laser',
+        image: 'attachments/lasers/5mw.png'
+    },
+    {
+        name: 'Tac Laser',
+        image: 'attachments/lasers/tac.png'
+    }
     ];
 
 
@@ -11389,89 +11388,89 @@ function fal() {
     //Optic
 
     var optics = [{
-            name: 'Cronen LP945 Mini Reflex',
-            image: 'attachments/optics/cronenlp945.png'
-        },
-        {
-            name: 'Corp Combat Holo Sight',
-            image: 'attachments/optics/corp.png'
-        },
-        {
-            name: 'Operator Reflex Sight',
-            image: 'attachments/optics/operator.png'
-        },
-        {
-            name: 'Scout Combat Optic',
-            image: 'attachments/optics/scout.png'
-        },
-        {
-            name: '4.0x Flip Hybrid',
-            image: 'attachments/optics/40x.png'
-        },
-        {
-            name: 'Aim-Op Reflex Sight',
-            image: 'attachments/optics/aimop.png'
-        },
-        {
-            name: 'APx5 Holographic Sight',
-            image: 'attachments/optics/apx5.png'
-        },
-        {
-            name: 'Integral Hybrid',
-            image: 'attachments/optics/integral.png'
-        },
-        {
-            name: 'Solozero NVG Enhanced',
-            image: 'attachments/optics/solozero.png'
-        },
-        {
-            name: 'VLK 3.0x Optic',
-            image: 'attachments/optics/vlk.png'
-        },
-        {
-            name: 'Sniper Scope',
-            image: 'attachments/optics/sniperscope.png'
-        },
-        {
-            name: 'Viper Reflex Sight',
-            image: 'attachments/optics/viper.png'
-        },
-        {
-            name: 'G.I. Mini Reflex',
-            image: 'attachments/optics/gi.png'
-        },
-        {
-            name: 'PBX Holo 7 Sight',
-            image: 'attachments/optics/pbx.png'
-        },
-        {
-            name: 'Cronen C480 Pro Optic',
-            image: 'attachments/optics/cronenc480.png'
-        },
-        {
-            name: 'Monocle Reflex Sight',
-            image: 'attachments/optics/monocle.png'
-        },
-        {
-            name: 'Variable Zoom Scope',
-            image: 'attachments/optics/variable.png'
-        },
-        {
-            name: 'Canted Hybrid',
-            image: 'attachments/optics/canted.png'
-        },
-        {
-            name: 'Merc Thermal Optic',
-            image: 'attachments/optics/merc.png'
-        },
-        {
-            name: 'Thermal Hybrid',
-            image: 'attachments/optics/thermal.png'
-        },
-        {
-            name: 'Solozero Optics Mini Reflex',
-            image: 'attachments/optics/solozeromini.png'
-        }
+        name: 'Cronen LP945 Mini Reflex',
+        image: 'attachments/optics/cronenlp945.png'
+    },
+    {
+        name: 'Corp Combat Holo Sight',
+        image: 'attachments/optics/corp.png'
+    },
+    {
+        name: 'Operator Reflex Sight',
+        image: 'attachments/optics/operator.png'
+    },
+    {
+        name: 'Scout Combat Optic',
+        image: 'attachments/optics/scout.png'
+    },
+    {
+        name: '4.0x Flip Hybrid',
+        image: 'attachments/optics/40x.png'
+    },
+    {
+        name: 'Aim-Op Reflex Sight',
+        image: 'attachments/optics/aimop.png'
+    },
+    {
+        name: 'APx5 Holographic Sight',
+        image: 'attachments/optics/apx5.png'
+    },
+    {
+        name: 'Integral Hybrid',
+        image: 'attachments/optics/integral.png'
+    },
+    {
+        name: 'Solozero NVG Enhanced',
+        image: 'attachments/optics/solozero.png'
+    },
+    {
+        name: 'VLK 3.0x Optic',
+        image: 'attachments/optics/vlk.png'
+    },
+    {
+        name: 'Sniper Scope',
+        image: 'attachments/optics/sniperscope.png'
+    },
+    {
+        name: 'Viper Reflex Sight',
+        image: 'attachments/optics/viper.png'
+    },
+    {
+        name: 'G.I. Mini Reflex',
+        image: 'attachments/optics/gi.png'
+    },
+    {
+        name: 'PBX Holo 7 Sight',
+        image: 'attachments/optics/pbx.png'
+    },
+    {
+        name: 'Cronen C480 Pro Optic',
+        image: 'attachments/optics/cronenc480.png'
+    },
+    {
+        name: 'Monocle Reflex Sight',
+        image: 'attachments/optics/monocle.png'
+    },
+    {
+        name: 'Variable Zoom Scope',
+        image: 'attachments/optics/variable.png'
+    },
+    {
+        name: 'Canted Hybrid',
+        image: 'attachments/optics/canted.png'
+    },
+    {
+        name: 'Merc Thermal Optic',
+        image: 'attachments/optics/merc.png'
+    },
+    {
+        name: 'Thermal Hybrid',
+        image: 'attachments/optics/thermal.png'
+    },
+    {
+        name: 'Solozero Optics Mini Reflex',
+        image: 'attachments/optics/solozeromini.png'
+    }
     ];
 
 
@@ -11498,21 +11497,21 @@ function fal() {
     //Stock
 
     var stocks = [{
-            name: 'Factory 18 Aluminum Stock',
-            image: 'attachments/stocks/factory18aluminumstock.png'
-        },
-        {
-            name: 'FORGE TAC Stalker',
-            image: 'attachments/stocks/forgetacstalker.png'
-        },
-        {
-            name: 'No Stock',
-            image: 'attachments/stocks/nostockkilo.png'
-        },
-        {
-            name: 'FFS CLose Quarters Stock',
-            image: 'attachments/stocks/closequartersfal.png'
-        }
+        name: 'Factory 18 Aluminum Stock',
+        image: 'attachments/stocks/factory18aluminumstock.png'
+    },
+    {
+        name: 'FORGE TAC Stalker',
+        image: 'attachments/stocks/forgetacstalker.png'
+    },
+    {
+        name: 'No Stock',
+        image: 'attachments/stocks/nostockkilo.png'
+    },
+    {
+        name: 'FFS CLose Quarters Stock',
+        image: 'attachments/stocks/closequartersfal.png'
+    }
     ];
 
 
@@ -11540,57 +11539,57 @@ function fal() {
     //Underbarrel
 
     var underbarrels = [{
-            name: 'Commando Foregrip',
-            image: 'attachments/underbarrels/commando.png'
-        },
-        {
-            name: 'M203 40mm High-explosive',
-            image: 'attachments/underbarrels/m203high.png'
-        },
-        {
-            name: 'M203 40mm Incendiary',
-            image: 'attachments/underbarrels/m203incendiary.png'
-        },
-        {
-            name: '12 Gauge Deputy',
-            image: 'attachments/underbarrels/12gauge.png'
-        },
-        {
-            name: 'Merc Foregrip',
-            image: 'attachments/underbarrels/merc.png'
-        },
-        {
-            name: 'M203 40mm Smokescreen',
-            image: 'attachments/underbarrels/m203smokescreen.png'
-        },
-        {
-            name: 'Tactical Foregrip',
-            image: 'attachments/underbarrels/tactical.png'
-        },
-        {
-            name: 'M203 40mm Recon',
-            image: 'attachments/underbarrels/m203recon.png'
-        },
-        {
-            name: 'Bipod',
-            image: 'attachments/underbarrels/bipod.png'
-        },
-        {
-            name: 'M203 40mm Flash',
-            image: 'attachments/underbarrels/m203flash.png'
-        },
-        {
-            name: 'Ranger Foregrip',
-            image: 'attachments/underbarrels/ranger.png'
-        },
-        {
-            name: 'M203 40mm Concussive',
-            image: 'attachments/underbarrels/m203concussive.png'
-        },
-        {
-            name: 'Operator Foregrip',
-            image: 'attachments/underbarrels/operator.png'
-        }
+        name: 'Commando Foregrip',
+        image: 'attachments/underbarrels/commando.png'
+    },
+    {
+        name: 'M203 40mm High-explosive',
+        image: 'attachments/underbarrels/m203high.png'
+    },
+    {
+        name: 'M203 40mm Incendiary',
+        image: 'attachments/underbarrels/m203incendiary.png'
+    },
+    {
+        name: '12 Gauge Deputy',
+        image: 'attachments/underbarrels/12gauge.png'
+    },
+    {
+        name: 'Merc Foregrip',
+        image: 'attachments/underbarrels/merc.png'
+    },
+    {
+        name: 'M203 40mm Smokescreen',
+        image: 'attachments/underbarrels/m203smokescreen.png'
+    },
+    {
+        name: 'Tactical Foregrip',
+        image: 'attachments/underbarrels/tactical.png'
+    },
+    {
+        name: 'M203 40mm Recon',
+        image: 'attachments/underbarrels/m203recon.png'
+    },
+    {
+        name: 'Bipod',
+        image: 'attachments/underbarrels/bipod.png'
+    },
+    {
+        name: 'M203 40mm Flash',
+        image: 'attachments/underbarrels/m203flash.png'
+    },
+    {
+        name: 'Ranger Foregrip',
+        image: 'attachments/underbarrels/ranger.png'
+    },
+    {
+        name: 'M203 40mm Concussive',
+        image: 'attachments/underbarrels/m203concussive.png'
+    },
+    {
+        name: 'Operator Foregrip',
+        image: 'attachments/underbarrels/operator.png'
+    }
     ];
 
 
@@ -11621,13 +11620,13 @@ function fal() {
     //Ammunation
 
     var ammunations = [{
-            name: '24 Round Mags',
-            image: 'attachments/ammunations/24.png'
-        },
-        {
-            name: '30 Round Mags',
-            image: 'attachments/ammunations/30.png'
-        }
+        name: '24 Round Mags',
+        image: 'attachments/ammunations/24.png'
+    },
+    {
+        name: '30 Round Mags',
+        image: 'attachments/ammunations/30.png'
+    }
     ];
 
 
@@ -11655,17 +11654,17 @@ function fal() {
     //RearGrip
 
     var reargrips = [{
-            name: 'Granulated Grip Tape',
-            image: 'attachments/reargrips/granulated.png'
-        },
-        {
-            name: 'Rubberized Grip Tape',
-            image: 'attachments/reargrips/rubberized.png'
-        },
-        {
-            name: 'Stippled Grip Tape',
-            image: 'attachments/reargrips/stippled.png'
-        }
+        name: 'Granulated Grip Tape',
+        image: 'attachments/reargrips/granulated.png'
+    },
+    {
+        name: 'Rubberized Grip Tape',
+        image: 'attachments/reargrips/rubberized.png'
+    },
+    {
+        name: 'Stippled Grip Tape',
+        image: 'attachments/reargrips/stippled.png'
+    }
     ];
 
 
@@ -11691,49 +11690,49 @@ function fal() {
     //Perks
 
     var perks = [{
-            name: 'FMJ',
-            image: 'attachments/perks/fmj.png'
-        },
-        {
-            name: 'Sleight of Hand',
-            image: 'attachments/perks/sleight.png'
-        },
-        {
-            name: 'Frangible - Wounding',
-            image: 'attachments/perks/wounding.png'
-        },
-        {
-            name: 'Heavy Hitter',
-            image: 'attachments/perks/heavyhitter.png'
-        },
-        {
-            name: 'Fully Loaded',
-            image: 'attachments/perks/fullyloaded.png'
-        },
-        {
-            name: 'Burst',
-            image: 'attachments/perks/burst.png'
-        },
-        {
-            name: 'Recon',
-            image: 'attachments/perks/recon.png'
-        },
-        {
-            name: 'Mo Money',
-            image: 'attachments/perks/money.png'
-        },
-        {
-            name: 'Fast Melee',
-            image: 'attachments/perks/fastmelee.png'
-        },
-        {
-            name: 'Frangible - Disabling',
-            image: 'attachments/perks/disabling.png'
-        },
-        {
-            name: 'Presence of Mind',
-            image: 'attachments/perks/mind.png'
-        }
+        name: 'FMJ',
+        image: 'attachments/perks/fmj.png'
+    },
+    {
+        name: 'Sleight of Hand',
+        image: 'attachments/perks/sleight.png'
+    },
+    {
+        name: 'Frangible - Wounding',
+        image: 'attachments/perks/wounding.png'
+    },
+    {
+        name: 'Heavy Hitter',
+        image: 'attachments/perks/heavyhitter.png'
+    },
+    {
+        name: 'Fully Loaded',
+        image: 'attachments/perks/fullyloaded.png'
+    },
+    {
+        name: 'Burst',
+        image: 'attachments/perks/burst.png'
+    },
+    {
+        name: 'Recon',
+        image: 'attachments/perks/recon.png'
+    },
+    {
+        name: 'Mo Money',
+        image: 'attachments/perks/money.png'
+    },
+    {
+        name: 'Fast Melee',
+        image: 'attachments/perks/fastmelee.png'
+    },
+    {
+        name: 'Frangible - Disabling',
+        image: 'attachments/perks/disabling.png'
+    },
+    {
+        name: 'Presence of Mind',
+        image: 'attachments/perks/mind.png'
+    }
     ];
 
 
@@ -11779,33 +11778,33 @@ function ebr() {
     //Muzzles
 
     var muzzles = [{
-            name: 'Flash Guard',
-            image: 'attachments/muzzles/flashguard.png'
-        },
-        {
-            name: 'Breacher Device',
-            image: 'attachments/muzzles/breacherdevice.png'
-        },
-        {
-            name: 'Tactical Suppressor',
-            image: 'attachments/muzzles/tacticalsuppressor.png'
-        },
-        {
-            name: 'Muzzle Brake',
-            image: 'attachments/muzzles/muzzlebrake.png'
-        },
-        {
-            name: 'Lightweight Suppressor',
-            image: 'attachments/muzzles/lightweightsuppressor.png'
-        },
-        {
-            name: 'Compensator',
-            image: 'attachments/muzzles/compensator.png'
-        },
-        {
-            name: 'Monolithic Suppressor',
-            image: 'attachments/muzzles/monolithicsuppressor.png'
-        }
+        name: 'Flash Guard',
+        image: 'attachments/muzzles/flashguard.png'
+    },
+    {
+        name: 'Breacher Device',
+        image: 'attachments/muzzles/breacherdevice.png'
+    },
+    {
+        name: 'Tactical Suppressor',
+        image: 'attachments/muzzles/tacticalsuppressor.png'
+    },
+    {
+        name: 'Muzzle Brake',
+        image: 'attachments/muzzles/muzzlebrake.png'
+    },
+    {
+        name: 'Lightweight Suppressor',
+        image: 'attachments/muzzles/lightweightsuppressor.png'
+    },
+    {
+        name: 'Compensator',
+        image: 'attachments/muzzles/compensator.png'
+    },
+    {
+        name: 'Monolithic Suppressor',
+        image: 'attachments/muzzles/monolithicsuppressor.png'
+    }
     ];
 
 
@@ -11831,17 +11830,17 @@ function ebr() {
     //Barrel
 
     var barrels = [{
-            name: 'FORGE TAC Precision 20.0',
-            image: 'attachments/mrs/barrels/precision20.png'
-        },
-        {
-            name: 'FORGE TAC Elite',
-            image: 'attachments/mrs/barrels/elite.png'
-        },
-        {
-            name: 'FORGE TAC Precision 22.0',
-            image: 'attachments/mrs/barrels/precision22.png'
-        },
+        name: 'FORGE TAC Precision 20.0',
+        image: 'attachments/mrs/barrels/precision20.png'
+    },
+    {
+        name: 'FORGE TAC Elite',
+        image: 'attachments/mrs/barrels/elite.png'
+    },
+    {
+        name: 'FORGE TAC Precision 22.0',
+        image: 'attachments/mrs/barrels/precision22.png'
+    },
     ];
 
 
@@ -11903,81 +11902,81 @@ function ebr() {
     //Optic
 
     var optics = [{
-            name: 'Corp Combat Holo Sight',
-            image: 'attachments/optics/corp.png'
-        },
-        {
-            name: 'Operator Reflex Sight',
-            image: 'attachments/optics/operator.png'
-        },
-        {
-            name: 'Scout Combat Optic',
-            image: 'attachments/optics/scout.png'
-        },
-        {
-            name: '4.0x Flip Hybrid',
-            image: 'attachments/optics/40x.png'
-        },
-        {
-            name: 'Aim-Op Reflex Sight',
-            image: 'attachments/optics/aimop.png'
-        },
-        {
-            name: 'APx5 Holographic Sight',
-            image: 'attachments/optics/apx5.png'
-        },
-        {
-            name: 'Integral Hybrid',
-            image: 'attachments/optics/integral.png'
-        },
-        {
-            name: 'Solozero NVG Enhanced',
-            image: 'attachments/optics/solozero.png'
-        },
-        {
-            name: 'VLK 3.0x Optic',
-            image: 'attachments/optics/vlk.png'
-        },
-        {
-            name: 'Sniper Scope',
-            image: 'attachments/optics/sniperscope.png'
-        },
-        {
-            name: 'Viper Reflex Sight',
-            image: 'attachments/optics/viper.png'
-        },
-        {
-            name: 'G.I. Mini Reflex',
-            image: 'attachments/optics/gi.png'
-        },
-        {
-            name: 'PBX Holo 7 Sight',
-            image: 'attachments/optics/pbx.png'
-        },
-        {
-            name: 'Cronen C480 Pro Optic',
-            image: 'attachments/optics/cronenc480.png'
-        },
-        {
-            name: 'Monocle Reflex Sight',
-            image: 'attachments/optics/monocle.png'
-        },
-        {
-            name: 'Variable Zoom Scope',
-            image: 'attachments/optics/variable.png'
-        },
-        {
-            name: 'Canted Hybrid',
-            image: 'attachments/optics/canted.png'
-        },
-        {
-            name: 'Merc Thermal Optic',
-            image: 'attachments/optics/merc.png'
-        },
-        {
-            name: 'Thermal Hybrid',
-            image: 'attachments/optics/thermal.png'
-        }
+        name: 'Corp Combat Holo Sight',
+        image: 'attachments/optics/corp.png'
+    },
+    {
+        name: 'Operator Reflex Sight',
+        image: 'attachments/optics/operator.png'
+    },
+    {
+        name: 'Scout Combat Optic',
+        image: 'attachments/optics/scout.png'
+    },
+    {
+        name: '4.0x Flip Hybrid',
+        image: 'attachments/optics/40x.png'
+    },
+    {
+        name: 'Aim-Op Reflex Sight',
+        image: 'attachments/optics/aimop.png'
+    },
+    {
+        name: 'APx5 Holographic Sight',
+        image: 'attachments/optics/apx5.png'
+    },
+    {
+        name: 'Integral Hybrid',
+        image: 'attachments/optics/integral.png'
+    },
+    {
+        name: 'Solozero NVG Enhanced',
+        image: 'attachments/optics/solozero.png'
+    },
+    {
+        name: 'VLK 3.0x Optic',
+        image: 'attachments/optics/vlk.png'
+    },
+    {
+        name: 'Sniper Scope',
+        image: 'attachments/optics/sniperscope.png'
+    },
+    {
+        name: 'Viper Reflex Sight',
+        image: 'attachments/optics/viper.png'
+    },
+    {
+        name: 'G.I. Mini Reflex',
+        image: 'attachments/optics/gi.png'
+    },
+    {
+        name: 'PBX Holo 7 Sight',
+        image: 'attachments/optics/pbx.png'
+    },
+    {
+        name: 'Cronen C480 Pro Optic',
+        image: 'attachments/optics/cronenc480.png'
+    },
+    {
+        name: 'Monocle Reflex Sight',
+        image: 'attachments/optics/monocle.png'
+    },
+    {
+        name: 'Variable Zoom Scope',
+        image: 'attachments/optics/variable.png'
+    },
+    {
+        name: 'Canted Hybrid',
+        image: 'attachments/optics/canted.png'
+    },
+    {
+        name: 'Merc Thermal Optic',
+        image: 'attachments/optics/merc.png'
+    },
+    {
+        name: 'Thermal Hybrid',
+        image: 'attachments/optics/thermal.png'
+    }
     ];
 
 
@@ -12004,21 +12003,21 @@ function ebr() {
     //Stock
 
     var stocks = [{
-            name: 'FTAC Precision Comb',
-            image: 'attachments/mrs/stocks/comb.png'
-        },
-        {
-            name: 'FSS Raider Chassis Pro',
-            image: 'attachments/mrs/stocks/pro.png'
-        },
-        {
-            name: 'FTAC Lightweight Stock',
-            image: 'attachments/mrs/stocks/lightweight.png'
-        },
-        {
-            name: 'FSS Raider Chassis Elite',
-            image: 'attachments/mrs/stocks/elite.png'
-        }
+        name: 'FTAC Precision Comb',
+        image: 'attachments/mrs/stocks/comb.png'
+    },
+    {
+        name: 'FSS Raider Chassis Pro',
+        image: 'attachments/mrs/stocks/pro.png'
+    },
+    {
+        name: 'FTAC Lightweight Stock',
+        image: 'attachments/mrs/stocks/lightweight.png'
+    },
+    {
+        name: 'FSS Raider Chassis Elite',
+        image: 'attachments/mrs/stocks/elite.png'
+    }
     ];
 
 
@@ -12046,29 +12045,29 @@ function ebr() {
     //Underbarrel
 
     var underbarrels = [{
-            name: 'Commando Foregrip',
-            image: 'attachments/underbarrels/commando.png'
-        },
-        {
-            name: 'Merc Foregrip',
-            image: 'attachments/underbarrels/merc.png'
-        },
-        {
-            name: 'Tactical Foregrip',
-            image: 'attachments/underbarrels/tactical.png'
-        },
-        {
-            name: 'Bipod',
-            image: 'attachments/underbarrels/bipod.png'
-        },
-        {
-            name: 'Ranger Foregrip',
-            image: 'attachments/underbarrels/ranger.png'
-        },
-        {
-            name: 'Operator Foregrip',
-            image: 'attachments/underbarrels/operator.png'
-        }
+        name: 'Commando Foregrip',
+        image: 'attachments/underbarrels/commando.png'
+    },
+    {
+        name: 'Merc Foregrip',
+        image: 'attachments/underbarrels/merc.png'
+    },
+    {
+        name: 'Tactical Foregrip',
+        image: 'attachments/underbarrels/tactical.png'
+    },
+    {
+        name: 'Bipod',
+        image: 'attachments/underbarrels/bipod.png'
+    },
+    {
+        name: 'Ranger Foregrip',
+        image: 'attachments/underbarrels/ranger.png'
+    },
+    {
+        name: 'Operator Foregrip',
+        image: 'attachments/underbarrels/operator.png'
+    }
     ];
 
 
@@ -12099,13 +12098,13 @@ function ebr() {
     //Ammunation
 
     var ammunations = [{
-            name: '15 Round Mags',
-            image: 'attachments/mrs/ammunations/15.png'
-        },
-        {
-            name: '20 Round Mags',
-            image: 'attachments/mrs/ammunations/20.png'
-        },
+        name: '15 Round Mags',
+        image: 'attachments/mrs/ammunations/15.png'
+    },
+    {
+        name: '20 Round Mags',
+        image: 'attachments/mrs/ammunations/20.png'
+    },
 
     ];
 
@@ -12134,49 +12133,49 @@ function ebr() {
     //Perks
 
     var perks = [{
-            name: 'FMJ',
-            image: 'attachments/perks/fmj.png'
-        },
-        {
-            name: 'Sleight of Hand',
-            image: 'attachments/perks/sleight.png'
-        },
-        {
-            name: 'Frangible - Wounding',
-            image: 'attachments/perks/wounding.png'
-        },
-        {
-            name: 'Heavy Hitter',
-            image: 'attachments/perks/heavyhitter.png'
-        },
-        {
-            name: 'Fully Loaded',
-            image: 'attachments/perks/fullyloaded.png'
-        },
-        {
-            name: 'Focus',
-            image: 'attachments/perks/focus.png'
-        },
-        {
-            name: 'Recon',
-            image: 'attachments/perks/recon.png'
-        },
-        {
-            name: 'Mo Money',
-            image: 'attachments/perks/money.png'
-        },
-        {
-            name: 'Fast Melee',
-            image: 'attachments/perks/fastmelee.png'
-        },
-        {
-            name: 'Frangible - Disabling',
-            image: 'attachments/perks/disabling.png'
-        },
-        {
-            name: 'Presence of Mind',
-            image: 'attachments/perks/mind.png'
-        }
+        name: 'FMJ',
+        image: 'attachments/perks/fmj.png'
+    },
+    {
+        name: 'Sleight of Hand',
+        image: 'attachments/perks/sleight.png'
+    },
+    {
+        name: 'Frangible - Wounding',
+        image: 'attachments/perks/wounding.png'
+    },
+    {
+        name: 'Heavy Hitter',
+        image: 'attachments/perks/heavyhitter.png'
+    },
+    {
+        name: 'Fully Loaded',
+        image: 'attachments/perks/fullyloaded.png'
+    },
+    {
+        name: 'Focus',
+        image: 'attachments/perks/focus.png'
+    },
+    {
+        name: 'Recon',
+        image: 'attachments/perks/recon.png'
+    },
+    {
+        name: 'Mo Money',
+        image: 'attachments/perks/money.png'
+    },
+    {
+        name: 'Fast Melee',
+        image: 'attachments/perks/fastmelee.png'
+    },
+    {
+        name: 'Frangible - Disabling',
+        image: 'attachments/perks/disabling.png'
+    },
+    {
+        name: 'Presence of Mind',
+        image: 'attachments/perks/mind.png'
+    }
     ];
 
 
@@ -12222,33 +12221,33 @@ function dragunov() {
     //Muzzles
 
     var muzzles = [{
-            name: 'Flash Guard',
-            image: 'attachments/snipers/flashguard.png'
-        },
-        {
-            name: 'Monolithic Suppressor',
-            image: 'attachments/snipers/monolithicsuppressor.png'
-        },
-        {
-            name: 'Breacher Device',
-            image: 'attachments/snipers/breacherdevice.png'
-        },
-        {
-            name: 'Muzzle Brake',
-            image: 'attachments/snipers/muzzlebrake.png'
-        },
-        {
-            name: 'Tactical Suppressor',
-            image: 'attachments/snipers/tacticalsuppressor.png'
-        },
-        {
-            name: 'Compensator',
-            image: 'attachments/snipers/compensator.png'
-        },
-        {
-            name: 'Lightweight Suppressor',
-            image: 'attachments/snipers/lightweightsuppressor.png'
-        },
+        name: 'Flash Guard',
+        image: 'attachments/snipers/flashguard.png'
+    },
+    {
+        name: 'Monolithic Suppressor',
+        image: 'attachments/snipers/monolithicsuppressor.png'
+    },
+    {
+        name: 'Breacher Device',
+        image: 'attachments/snipers/breacherdevice.png'
+    },
+    {
+        name: 'Muzzle Brake',
+        image: 'attachments/snipers/muzzlebrake.png'
+    },
+    {
+        name: 'Tactical Suppressor',
+        image: 'attachments/snipers/tacticalsuppressor.png'
+    },
+    {
+        name: 'Compensator',
+        image: 'attachments/snipers/compensator.png'
+    },
+    {
+        name: 'Lightweight Suppressor',
+        image: 'attachments/snipers/lightweightsuppressor.png'
+    },
     ];
 
 
@@ -12274,13 +12273,13 @@ function dragunov() {
     //Barrel
 
     var barrels = [{
-            name: '510mm Compact Barrel',
-            image: 'attachments/snipers/510mmcompact.png'
-        },
-        {
-            name: '660mm Extended Barrel',
-            image: 'attachments/snipers/660mmextended.png'
-        },
+        name: '510mm Compact Barrel',
+        image: 'attachments/snipers/510mmcompact.png'
+    },
+    {
+        name: '660mm Extended Barrel',
+        image: 'attachments/snipers/660mmextended.png'
+    },
     ];
 
 
@@ -12313,7 +12312,7 @@ function dragunov() {
     var lasers = [{
         name: 'Tac Laser',
         image: 'attachments/snipers/taclaser.png'
-    }, ];
+    },];
 
 
     var laser = false;
@@ -12340,33 +12339,33 @@ function dragunov() {
     //Optic
 
     var optics = [{
-            name: 'Scout Combat Optic',
-            image: 'attachments/snipers/scout.png'
-        },
-        {
-            name: 'Thermal Sniper Scope',
-            image: 'attachments/snipers/thermal.png'
-        },
-        {
-            name: 'VLK 3.0x Optic',
-            image: 'attachments/snipers/vlk.png'
-        },
-        {
-            name: 'Variable Zoom Scope',
-            image: 'attachments/snipers/variable.png'
-        },
-        {
-            name: 'Thermal Dual Power Scope',
-            image: 'attachments/snipers/thermaldual.png'
-        },
-        {
-            name: 'Cronen C480 Pro Optic',
-            image: 'attachments/snipers/cronen.png'
-        },
-        {
-            name: 'Merc Thermal Optic',
-            image: 'attachments/snipers/merc.png'
-        },
+        name: 'Scout Combat Optic',
+        image: 'attachments/snipers/scout.png'
+    },
+    {
+        name: 'Thermal Sniper Scope',
+        image: 'attachments/snipers/thermal.png'
+    },
+    {
+        name: 'VLK 3.0x Optic',
+        image: 'attachments/snipers/vlk.png'
+    },
+    {
+        name: 'Variable Zoom Scope',
+        image: 'attachments/snipers/variable.png'
+    },
+    {
+        name: 'Thermal Dual Power Scope',
+        image: 'attachments/snipers/thermaldual.png'
+    },
+    {
+        name: 'Cronen C480 Pro Optic',
+        image: 'attachments/snipers/cronen.png'
+    },
+    {
+        name: 'Merc Thermal Optic',
+        image: 'attachments/snipers/merc.png'
+    },
     ];
 
 
@@ -12393,21 +12392,21 @@ function dragunov() {
     //Stock
 
     var stocks = [{
-            name: 'FTAC Hunter-Scout',
-            image: 'attachments/snipers/hunter.png'
-        },
-        {
-            name: 'Skeleton Stock',
-            image: 'attachments/snipers/skeleton.png'
-        },
-        {
-            name: 'VLK Lightweight Stock',
-            image: 'attachments/snipers/lightweight.png'
-        },
-        {
-            name: 'FTAC Stalker-Scout',
-            image: 'attachments/snipers/stalker.png'
-        },
+        name: 'FTAC Hunter-Scout',
+        image: 'attachments/snipers/hunter.png'
+    },
+    {
+        name: 'Skeleton Stock',
+        image: 'attachments/snipers/skeleton.png'
+    },
+    {
+        name: 'VLK Lightweight Stock',
+        image: 'attachments/snipers/lightweight.png'
+    },
+    {
+        name: 'FTAC Stalker-Scout',
+        image: 'attachments/snipers/stalker.png'
+    },
 
     ];
 
@@ -12438,7 +12437,7 @@ function dragunov() {
     var underbarrels = [{
         name: 'Bipod',
         image: 'attachments/snipers/bipod.png'
-    }, ];
+    },];
 
 
     var underbarrel = false;
@@ -12468,13 +12467,13 @@ function dragunov() {
     //Ammunation
 
     var ammunations = [{
-            name: '15 Round Mags',
-            image: 'attachments/snipers/15.png'
-        },
-        {
-            name: '20 Round Mags',
-            image: 'attachments/snipers/20.png'
-        },
+        name: '15 Round Mags',
+        image: 'attachments/snipers/15.png'
+    },
+    {
+        name: '20 Round Mags',
+        image: 'attachments/snipers/20.png'
+    },
     ];
 
 
@@ -12500,49 +12499,49 @@ function dragunov() {
     //Perks
 
     var perks = [{
-            name: 'FMJ',
-            image: 'attachments/perks/fmj.png'
-        },
-        {
-            name: 'Sleight of Hand',
-            image: 'attachments/perks/sleight.png'
-        },
-        {
-            name: 'Frangible - Wounding',
-            image: 'attachments/perks/wounding.png'
-        },
-        {
-            name: 'Heavy Hitter',
-            image: 'attachments/perks/heavyhitter.png'
-        },
-        {
-            name: 'Fully Loaded',
-            image: 'attachments/perks/fullyloaded.png'
-        },
-        {
-            name: 'Focus',
-            image: 'attachments/perks/focus.png'
-        },
-        {
-            name: 'Recon',
-            image: 'attachments/perks/recon.png'
-        },
-        {
-            name: 'Mo Money',
-            image: 'attachments/perks/money.png'
-        },
-        {
-            name: 'Fast Melee',
-            image: 'attachments/perks/fastmelee.png'
-        },
-        {
-            name: 'Frangible - Disabling',
-            image: 'attachments/perks/disabling.png'
-        },
-        {
-            name: 'Presence of Mind',
-            image: 'attachments/perks/mind.png'
-        }
+        name: 'FMJ',
+        image: 'attachments/perks/fmj.png'
+    },
+    {
+        name: 'Sleight of Hand',
+        image: 'attachments/perks/sleight.png'
+    },
+    {
+        name: 'Frangible - Wounding',
+        image: 'attachments/perks/wounding.png'
+    },
+    {
+        name: 'Heavy Hitter',
+        image: 'attachments/perks/heavyhitter.png'
+    },
+    {
+        name: 'Fully Loaded',
+        image: 'attachments/perks/fullyloaded.png'
+    },
+    {
+        name: 'Focus',
+        image: 'attachments/perks/focus.png'
+    },
+    {
+        name: 'Recon',
+        image: 'attachments/perks/recon.png'
+    },
+    {
+        name: 'Mo Money',
+        image: 'attachments/perks/money.png'
+    },
+    {
+        name: 'Fast Melee',
+        image: 'attachments/perks/fastmelee.png'
+    },
+    {
+        name: 'Frangible - Disabling',
+        image: 'attachments/perks/disabling.png'
+    },
+    {
+        name: 'Presence of Mind',
+        image: 'attachments/perks/mind.png'
+    }
     ];
 
 
@@ -12588,33 +12587,33 @@ function ax50() {
     //Muzzles
 
     var muzzles = [{
-            name: 'Flash Guard',
-            image: 'attachments/snipers/flashguard.png'
-        },
-        {
-            name: 'Monolithic Suppressor',
-            image: 'attachments/snipers/monolithicsuppressor.png'
-        },
-        {
-            name: 'Breacher Device',
-            image: 'attachments/snipers/breacherdevice.png'
-        },
-        {
-            name: 'Muzzle Brake',
-            image: 'attachments/snipers/muzzlebrake.png'
-        },
-        {
-            name: 'Tactical Suppressor',
-            image: 'attachments/snipers/tacticalsuppressor.png'
-        },
-        {
-            name: 'Compensator',
-            image: 'attachments/snipers/compensator.png'
-        },
-        {
-            name: 'Lightweight Suppressor',
-            image: 'attachments/snipers/lightweightsuppressor.png'
-        },
+        name: 'Flash Guard',
+        image: 'attachments/snipers/flashguard.png'
+    },
+    {
+        name: 'Monolithic Suppressor',
+        image: 'attachments/snipers/monolithicsuppressor.png'
+    },
+    {
+        name: 'Breacher Device',
+        image: 'attachments/snipers/breacherdevice.png'
+    },
+    {
+        name: 'Muzzle Brake',
+        image: 'attachments/snipers/muzzlebrake.png'
+    },
+    {
+        name: 'Tactical Suppressor',
+        image: 'attachments/snipers/tacticalsuppressor.png'
+    },
+    {
+        name: 'Compensator',
+        image: 'attachments/snipers/compensator.png'
+    },
+    {
+        name: 'Lightweight Suppressor',
+        image: 'attachments/snipers/lightweightsuppressor.png'
+    },
     ];
 
 
@@ -12640,17 +12639,17 @@ function ax50() {
     //Barrel
 
     var barrels = [{
-            name: 'Singuard Arms Pro',
-            image: 'attachments/snipers/singuardarms.png'
-        },
-        {
-            name: '17.0 Factory Barrel',
-            image: 'attachments/snipers/17factory.png'
-        },
-        {
-            name: '32.0 Factory Barrel',
-            image: 'attachments/snipers/32factory.png'
-        },
+        name: 'Singuard Arms Pro',
+        image: 'attachments/snipers/singuardarms.png'
+    },
+    {
+        name: '17.0 Factory Barrel',
+        image: 'attachments/snipers/17factory.png'
+    },
+    {
+        name: '32.0 Factory Barrel',
+        image: 'attachments/snipers/32factory.png'
+    },
     ];
 
 
@@ -12683,7 +12682,7 @@ function ax50() {
     var lasers = [{
         name: 'Tac Laser',
         image: 'attachments/snipers/taclaser.png'
-    }, ];
+    },];
 
 
     var laser = false;
@@ -12710,33 +12709,33 @@ function ax50() {
     //Optic
 
     var optics = [{
-            name: 'Scout Combat Optic',
-            image: 'attachments/snipers/scout.png'
-        },
-        {
-            name: 'Thermal Sniper Scope',
-            image: 'attachments/snipers/thermal.png'
-        },
-        {
-            name: 'VLK 3.0x Optic',
-            image: 'attachments/snipers/vlk.png'
-        },
-        {
-            name: 'Variable Zoom Scope',
-            image: 'attachments/snipers/variable.png'
-        },
-        {
-            name: 'Thermal Dual Power Scope',
-            image: 'attachments/snipers/thermaldual.png'
-        },
-        {
-            name: 'Cronen C480 Pro Optic',
-            image: 'attachments/snipers/cronen.png'
-        },
-        {
-            name: 'Merc Thermal Optic',
-            image: 'attachments/snipers/merc.png'
-        },
+        name: 'Scout Combat Optic',
+        image: 'attachments/snipers/scout.png'
+    },
+    {
+        name: 'Thermal Sniper Scope',
+        image: 'attachments/snipers/thermal.png'
+    },
+    {
+        name: 'VLK 3.0x Optic',
+        image: 'attachments/snipers/vlk.png'
+    },
+    {
+        name: 'Variable Zoom Scope',
+        image: 'attachments/snipers/variable.png'
+    },
+    {
+        name: 'Thermal Dual Power Scope',
+        image: 'attachments/snipers/thermaldual.png'
+    },
+    {
+        name: 'Cronen C480 Pro Optic',
+        image: 'attachments/snipers/cronen.png'
+    },
+    {
+        name: 'Merc Thermal Optic',
+        image: 'attachments/snipers/merc.png'
+    },
     ];
 
 
@@ -12763,17 +12762,17 @@ function ax50() {
     //Stock
 
     var stocks = [{
-            name: 'Singuard Arms Marksman',
-            image: 'attachments/snipers/marksman.png'
-        },
-        {
-            name: 'Singuard Arms Evader',
-            image: 'attachments/snipers/evader.png'
-        },
-        {
-            name: 'Singuard Arms Assassin',
-            image: 'attachments/snipers/assassin.png'
-        },
+        name: 'Singuard Arms Marksman',
+        image: 'attachments/snipers/marksman.png'
+    },
+    {
+        name: 'Singuard Arms Evader',
+        image: 'attachments/snipers/evader.png'
+    },
+    {
+        name: 'Singuard Arms Assassin',
+        image: 'attachments/snipers/assassin.png'
+    },
     ];
 
 
@@ -12803,7 +12802,7 @@ function ax50() {
     var underbarrels = [{
         name: 'Bipod',
         image: 'attachments/snipers/bipod.png'
-    }, ];
+    },];
 
 
     var underbarrel = false;
@@ -12833,13 +12832,13 @@ function ax50() {
     //Ammunation
 
     var ammunations = [{
-            name: '7 Round Mags',
-            image: 'attachments/snipers/7.png'
-        },
-        {
-            name: '9 Round Mags',
-            image: 'attachments/snipers/9.png'
-        },
+        name: '7 Round Mags',
+        image: 'attachments/snipers/7.png'
+    },
+    {
+        name: '9 Round Mags',
+        image: 'attachments/snipers/9.png'
+    },
     ];
 
 
@@ -12864,17 +12863,17 @@ function ax50() {
     //RearGrip
 
     var reargrips = [{
-            name: 'Granulated Grip Tape',
-            image: 'attachments/reargrips/granulated.png'
-        },
-        {
-            name: 'Rubberized Grip Tape',
-            image: 'attachments/reargrips/rubberized.png'
-        },
-        {
-            name: 'Stippled Grip Tape',
-            image: 'attachments/reargrips/stippled.png'
-        }
+        name: 'Granulated Grip Tape',
+        image: 'attachments/reargrips/granulated.png'
+    },
+    {
+        name: 'Rubberized Grip Tape',
+        image: 'attachments/reargrips/rubberized.png'
+    },
+    {
+        name: 'Stippled Grip Tape',
+        image: 'attachments/reargrips/stippled.png'
+    }
     ];
 
 
@@ -12899,49 +12898,49 @@ function ax50() {
     //Perks
 
     var perks = [{
-            name: 'FMJ',
-            image: 'attachments/perks/fmj.png'
-        },
-        {
-            name: 'Sleight of Hand',
-            image: 'attachments/perks/sleight.png'
-        },
-        {
-            name: 'Frangible - Wounding',
-            image: 'attachments/perks/wounding.png'
-        },
-        {
-            name: 'Heavy Hitter',
-            image: 'attachments/perks/heavyhitter.png'
-        },
-        {
-            name: 'Fully Loaded',
-            image: 'attachments/perks/fullyloaded.png'
-        },
-        {
-            name: 'Focus',
-            image: 'attachments/perks/focus.png'
-        },
-        {
-            name: 'Recon',
-            image: 'attachments/perks/recon.png'
-        },
-        {
-            name: 'Mo Money',
-            image: 'attachments/perks/money.png'
-        },
-        {
-            name: 'Fast Melee',
-            image: 'attachments/perks/fastmelee.png'
-        },
-        {
-            name: 'Frangible - Disabling',
-            image: 'attachments/perks/disabling.png'
-        },
-        {
-            name: 'Presence of Mind',
-            image: 'attachments/perks/mind.png'
-        }
+        name: 'FMJ',
+        image: 'attachments/perks/fmj.png'
+    },
+    {
+        name: 'Sleight of Hand',
+        image: 'attachments/perks/sleight.png'
+    },
+    {
+        name: 'Frangible - Wounding',
+        image: 'attachments/perks/wounding.png'
+    },
+    {
+        name: 'Heavy Hitter',
+        image: 'attachments/perks/heavyhitter.png'
+    },
+    {
+        name: 'Fully Loaded',
+        image: 'attachments/perks/fullyloaded.png'
+    },
+    {
+        name: 'Focus',
+        image: 'attachments/perks/focus.png'
+    },
+    {
+        name: 'Recon',
+        image: 'attachments/perks/recon.png'
+    },
+    {
+        name: 'Mo Money',
+        image: 'attachments/perks/money.png'
+    },
+    {
+        name: 'Fast Melee',
+        image: 'attachments/perks/fastmelee.png'
+    },
+    {
+        name: 'Frangible - Disabling',
+        image: 'attachments/perks/disabling.png'
+    },
+    {
+        name: 'Presence of Mind',
+        image: 'attachments/perks/mind.png'
+    }
     ];
 
 
@@ -12987,33 +12986,33 @@ function aug() {
     //Muzzles
 
     var muzzles = [{
-            name: 'CQB Breacher Device',
-            image: 'attachments/smgs/cqbbreacherdevice.png'
-        },
-        {
-            name: 'Tactical Suppressor',
-            image: 'attachments/smgs/tacticalsuppressor.png'
-        },
-        {
-            name: 'Flash Guard',
-            image: 'attachments/smgs/flashguard.png'
-        },
-        {
-            name: 'Monolithic Suppressor',
-            image: 'attachments/smgs/monolithicsuppressor.png'
-        },
-        {
-            name: 'Muzzle Brake',
-            image: 'attachments/smgs/muzzlebrake.png'
-        },
-        {
-            name: 'Compensator',
-            image: 'attachments/smgs/compensator.png'
-        },
-        {
-            name: 'Lightweight Suppressor',
-            image: 'attachments/smgs/lightweightsuppressor.png'
-        },
+        name: 'CQB Breacher Device',
+        image: 'attachments/smgs/cqbbreacherdevice.png'
+    },
+    {
+        name: 'Tactical Suppressor',
+        image: 'attachments/smgs/tacticalsuppressor.png'
+    },
+    {
+        name: 'Flash Guard',
+        image: 'attachments/smgs/flashguard.png'
+    },
+    {
+        name: 'Monolithic Suppressor',
+        image: 'attachments/smgs/monolithicsuppressor.png'
+    },
+    {
+        name: 'Muzzle Brake',
+        image: 'attachments/smgs/muzzlebrake.png'
+    },
+    {
+        name: 'Compensator',
+        image: 'attachments/smgs/compensator.png'
+    },
+    {
+        name: 'Lightweight Suppressor',
+        image: 'attachments/smgs/lightweightsuppressor.png'
+    },
     ];
 
 
@@ -13039,17 +13038,17 @@ function aug() {
     //Barrel
 
     var barrels = [{
-            name: '407mm Extended Barrel',
-            image: 'attachments/smgs/407mmextendedbarrel.png'
-        },
-        {
-            name: '407mm Lightweight',
-            image: 'attachments/smgs/407mmlightweight.png'
-        },
-        {
-            name: '622mm Long Barrel',
-            image: 'attachments/smgs/622mmlongbarrel.png'
-        },
+        name: '407mm Extended Barrel',
+        image: 'attachments/smgs/407mmextendedbarrel.png'
+    },
+    {
+        name: '407mm Lightweight',
+        image: 'attachments/smgs/407mmlightweight.png'
+    },
+    {
+        name: '622mm Long Barrel',
+        image: 'attachments/smgs/622mmlongbarrel.png'
+    },
     ];
 
 
@@ -13078,17 +13077,17 @@ function aug() {
     //Laser
 
     var lasers = [{
-            name: '1mW Laser',
-            image: 'attachments/smgs/1mwlaser.png'
-        },
-        {
-            name: '5mW Laser',
-            image: 'attachments/smgs/5mwlaser.png'
-        },
-        {
-            name: 'Tac Laser',
-            image: 'attachments/smgs/taclaser.png'
-        },
+        name: '1mW Laser',
+        image: 'attachments/smgs/1mwlaser.png'
+    },
+    {
+        name: '5mW Laser',
+        image: 'attachments/smgs/5mwlaser.png'
+    },
+    {
+        name: 'Tac Laser',
+        image: 'attachments/smgs/taclaser.png'
+    },
     ];
 
 
@@ -13115,81 +13114,81 @@ function aug() {
     //Optic
 
     var optics = [{
-            name: 'Operator Reflex Sight',
-            image: 'attachments/smgs/operatorreflex.png'
-        },
-        {
-            name: 'Corp Combat Holo Sight',
-            image: 'attachments/smgs/corp.png'
-        },
-        {
-            name: 'Aim-Op Relfex Sight',
-            image: 'attachments/smgs/aimop.png'
-        },
-        {
-            name: 'G.I. Mini Relex',
-            image: 'attachments/smgs/gi.png'
-        },
-        {
-            name: 'Scout Combat Optic',
-            image: 'attachments/smgs/scout.png'
-        },
-        {
-            name: 'APX5 Holographic Sight',
-            image: 'attachments/smgs/apx5.png'
-        },
-        {
-            name: 'Solozero Optics Mini Reflex',
-            image: 'attachments/smgs/solozeromini.png'
-        },
-        {
-            name: 'VLK 3.0x Optic',
-            image: 'attachments/smgs/vlk.png'
-        },
-        {
-            name: 'Thermal hybrid',
-            image: 'attachments/smgs/thermal.png'
-        },
-        {
-            name: 'Viper Reflex Sight',
-            image: 'attachments/smgs/viper.png'
-        },
-        {
-            name: 'PBX Holo 7 sight',
-            image: 'attachments/smgs/pbx.png'
-        },
-        {
-            name: 'Solozero NVG Enhanced',
-            image: 'attachments/smgs/solozero.png'
-        },
-        {
-            name: 'Cronen LP945 Mini Reflex',
-            image: 'attachments/smgs/cronenlp945.png'
-        },
-        {
-            name: '4.0x Flip Hybrid',
-            image: 'attachments/smgs/40x.png'
-        },
-        {
-            name: 'Monocle Reflex Sight',
-            image: 'attachments/smgs/monocle.png'
-        },
-        {
-            name: 'Integral 3.0x Optic',
-            image: 'attachments/smgs/integral30x.png'
-        },
-        {
-            name: 'Cronen C480 Pro Optic',
-            image: 'attachments/smgs/cronenc480.png'
-        },
-        {
-            name: 'Merc Thermal Optic',
-            image: 'attachments/smgs/mercthermal.png'
-        },
-        {
-            name: 'Integral Hybrid',
-            image: 'attachments/smgs/integral.png'
-        },
+        name: 'Operator Reflex Sight',
+        image: 'attachments/smgs/operatorreflex.png'
+    },
+    {
+        name: 'Corp Combat Holo Sight',
+        image: 'attachments/smgs/corp.png'
+    },
+    {
+        name: 'Aim-Op Relfex Sight',
+        image: 'attachments/smgs/aimop.png'
+    },
+    {
+        name: 'G.I. Mini Relex',
+        image: 'attachments/smgs/gi.png'
+    },
+    {
+        name: 'Scout Combat Optic',
+        image: 'attachments/smgs/scout.png'
+    },
+    {
+        name: 'APX5 Holographic Sight',
+        image: 'attachments/smgs/apx5.png'
+    },
+    {
+        name: 'Solozero Optics Mini Reflex',
+        image: 'attachments/smgs/solozeromini.png'
+    },
+    {
+        name: 'VLK 3.0x Optic',
+        image: 'attachments/smgs/vlk.png'
+    },
+    {
+        name: 'Thermal hybrid',
+        image: 'attachments/smgs/thermal.png'
+    },
+    {
+        name: 'Viper Reflex Sight',
+        image: 'attachments/smgs/viper.png'
+    },
+    {
+        name: 'PBX Holo 7 sight',
+        image: 'attachments/smgs/pbx.png'
+    },
+    {
+        name: 'Solozero NVG Enhanced',
+        image: 'attachments/smgs/solozero.png'
+    },
+    {
+        name: 'Cronen LP945 Mini Reflex',
+        image: 'attachments/smgs/cronenlp945.png'
+    },
+    {
+        name: '4.0x Flip Hybrid',
+        image: 'attachments/smgs/40x.png'
+    },
+    {
+        name: 'Monocle Reflex Sight',
+        image: 'attachments/smgs/monocle.png'
+    },
+    {
+        name: 'Integral 3.0x Optic',
+        image: 'attachments/smgs/integral30x.png'
+    },
+    {
+        name: 'Cronen C480 Pro Optic',
+        image: 'attachments/smgs/cronenc480.png'
+    },
+    {
+        name: 'Merc Thermal Optic',
+        image: 'attachments/smgs/mercthermal.png'
+    },
+    {
+        name: 'Integral Hybrid',
+        image: 'attachments/smgs/integral.png'
+    },
     ];
 
 
@@ -13216,17 +13215,17 @@ function aug() {
     //Stock
 
     var stocks = [{
-            name: 'FTAC Ultralight Hollow',
-            image: 'attachments/smgs/ftacultralighthollow.png'
-        },
-        {
-            name: 'FORGE TAC CQB Comb',
-            image: 'attachments/smgs/forgetaccqbcomb.png'
-        },
-        {
-            name: 'FSS Heavy Stock Pro',
-            image: 'attachments/smgs/fssheavystockpro.png'
-        },
+        name: 'FTAC Ultralight Hollow',
+        image: 'attachments/smgs/ftacultralighthollow.png'
+    },
+    {
+        name: 'FORGE TAC CQB Comb',
+        image: 'attachments/smgs/forgetaccqbcomb.png'
+    },
+    {
+        name: 'FSS Heavy Stock Pro',
+        image: 'attachments/smgs/fssheavystockpro.png'
+    },
     ];
 
 
@@ -13254,25 +13253,25 @@ function aug() {
     //Underbarrel
 
     var underbarrels = [{
-            name: 'Merc Foregrup',
-            image: 'attachments/smgs/merc.png'
-        },
-        {
-            name: 'Commando Foregrip',
-            image: 'attachments/smgs/commando.png'
-        },
-        {
-            name: 'Tactical Foregrip',
-            image: 'attachments/smgs/tactical.png'
-        },
-        {
-            name: 'Ranger Foregrip',
-            image: 'attachments/smgs/ranger.png'
-        },
-        {
-            name: 'Operator Foregrip',
-            image: 'attachments/smgs/operator.png'
-        },
+        name: 'Merc Foregrup',
+        image: 'attachments/smgs/merc.png'
+    },
+    {
+        name: 'Commando Foregrip',
+        image: 'attachments/smgs/commando.png'
+    },
+    {
+        name: 'Tactical Foregrip',
+        image: 'attachments/smgs/tactical.png'
+    },
+    {
+        name: 'Ranger Foregrip',
+        image: 'attachments/smgs/ranger.png'
+    },
+    {
+        name: 'Operator Foregrip',
+        image: 'attachments/smgs/operator.png'
+    },
     ];
 
 
@@ -13303,17 +13302,17 @@ function aug() {
     //Ammunation
 
     var ammunations = [{
-            name: '32 Round Mags',
-            image: 'attachments/smgs/32roundmags.png'
-        },
-        {
-            name: '5.56 NATO 30-Round Mags',
-            image: 'attachments/smgs/556nato30roundmags.png'
-        },
-        {
-            name: '5.56 NATO 60-Round Drums',
-            image: 'attachments/smgs/556nato60rounddrums.png'
-        },
+        name: '32 Round Mags',
+        image: 'attachments/smgs/32roundmags.png'
+    },
+    {
+        name: '5.56 NATO 30-Round Mags',
+        image: 'attachments/smgs/556nato30roundmags.png'
+    },
+    {
+        name: '5.56 NATO 60-Round Drums',
+        image: 'attachments/smgs/556nato60rounddrums.png'
+    },
     ];
 
 
@@ -13341,17 +13340,17 @@ function aug() {
     //RearGrip
 
     var reargrips = [{
-            name: 'Granulated Grip Tape',
-            image: 'attachments/smgs/granulatedgriptape.png'
-        },
-        {
-            name: 'Rubberized Grip Tape',
-            image: 'attachments/smgs/rubberizedgriptape.png'
-        },
-        {
-            name: 'Stippled Grip Tape',
-            image: 'attachments/smgs/stippledgriptape.png'
-        },
+        name: 'Granulated Grip Tape',
+        image: 'attachments/smgs/granulatedgriptape.png'
+    },
+    {
+        name: 'Rubberized Grip Tape',
+        image: 'attachments/smgs/rubberizedgriptape.png'
+    },
+    {
+        name: 'Stippled Grip Tape',
+        image: 'attachments/smgs/stippledgriptape.png'
+    },
     ];
 
 
@@ -13377,45 +13376,45 @@ function aug() {
     //Perks
 
     var perks = [{
-            name: 'FMJ',
-            image: 'attachments/perks/fmj.png'
-        },
-        {
-            name: 'Sleight of Hand',
-            image: 'attachments/perks/sleight.png'
-        },
-        {
-            name: 'Frangible - Wounding',
-            image: 'attachments/perks/wounding.png'
-        },
-        {
-            name: 'Heavy Hitter',
-            image: 'attachments/perks/heavyhitter.png'
-        },
-        {
-            name: 'Fully Loaded',
-            image: 'attachments/perks/fullyloaded.png'
-        },
-        {
-            name: 'Burst',
-            image: 'attachments/perks/burst.png'
-        },
-        {
-            name: 'Recon',
-            image: 'attachments/perks/recon.png'
-        },
-        {
-            name: 'Mo Money',
-            image: 'attachments/perks/money.png'
-        },
-        {
-            name: 'Fast Melee',
-            image: 'attachments/perks/fastmelee.png'
-        },
-        {
-            name: 'Frangible - Disabling',
-            image: 'attachments/perks/disabling.png'
-        },
+        name: 'FMJ',
+        image: 'attachments/perks/fmj.png'
+    },
+    {
+        name: 'Sleight of Hand',
+        image: 'attachments/perks/sleight.png'
+    },
+    {
+        name: 'Frangible - Wounding',
+        image: 'attachments/perks/wounding.png'
+    },
+    {
+        name: 'Heavy Hitter',
+        image: 'attachments/perks/heavyhitter.png'
+    },
+    {
+        name: 'Fully Loaded',
+        image: 'attachments/perks/fullyloaded.png'
+    },
+    {
+        name: 'Burst',
+        image: 'attachments/perks/burst.png'
+    },
+    {
+        name: 'Recon',
+        image: 'attachments/perks/recon.png'
+    },
+    {
+        name: 'Mo Money',
+        image: 'attachments/perks/money.png'
+    },
+    {
+        name: 'Fast Melee',
+        image: 'attachments/perks/fastmelee.png'
+    },
+    {
+        name: 'Frangible - Disabling',
+        image: 'attachments/perks/disabling.png'
+    },
     ];
 
 
@@ -13460,37 +13459,37 @@ function s725() {
     //Muzzles
 
     var muzzles = [{
-            name: 'Breacher Device',
-            image: 'attachments/shotguns/725/breacherdevice.png'
-        },
-        {
-            name: 'Flash Guard',
-            image: 'attachments/shotguns/725/flashguard.png'
-        },
-        {
-            name: 'Monolithic Suppressor',
-            image: 'attachments/shotguns/725/monolithicsuppressor.png'
-        },
-        {
-            name: 'Muzzle Brake',
-            image: 'attachments/shotguns/725/muzzlebrake.png'
-        },
-        {
-            name: 'Compensator',
-            image: 'attachments/shotguns/725/compensator.png'
-        },
-        {
-            name: 'Choke',
-            image: 'attachments/shotguns/725/choke.png'
-        },
-        {
-            name: 'Lightweight Suppressor',
-            image: 'attachments/shotguns/725/lightweightsuppressor.png'
-        },
-        {
-            name: 'Tactical Suppressor',
-            image: 'attachments/shotguns/725/tacticalsuppressor.png'
-        },
+        name: 'Breacher Device',
+        image: 'attachments/shotguns/725/breacherdevice.png'
+    },
+    {
+        name: 'Flash Guard',
+        image: 'attachments/shotguns/725/flashguard.png'
+    },
+    {
+        name: 'Monolithic Suppressor',
+        image: 'attachments/shotguns/725/monolithicsuppressor.png'
+    },
+    {
+        name: 'Muzzle Brake',
+        image: 'attachments/shotguns/725/muzzlebrake.png'
+    },
+    {
+        name: 'Compensator',
+        image: 'attachments/shotguns/725/compensator.png'
+    },
+    {
+        name: 'Choke',
+        image: 'attachments/shotguns/725/choke.png'
+    },
+    {
+        name: 'Lightweight Suppressor',
+        image: 'attachments/shotguns/725/lightweightsuppressor.png'
+    },
+    {
+        name: 'Tactical Suppressor',
+        image: 'attachments/shotguns/725/tacticalsuppressor.png'
+    },
 
     ];
 
@@ -13517,17 +13516,17 @@ function s725() {
     //Barrel
 
     var barrels = [{
-            name: 'Tempus Smooth Bore',
-            image: 'attachments/shotguns/725/tmpussmoothbore.png'
-        },
-        {
-            name: 'Sawed-off Barrel',
-            image: 'attachments/shotguns/725/sawedoffbarrel.png'
-        },
-        {
-            name: 'Tempus 32 Competition',
-            image: 'attachments/shotguns/725/tempus32competition.png'
-        },
+        name: 'Tempus Smooth Bore',
+        image: 'attachments/shotguns/725/tmpussmoothbore.png'
+    },
+    {
+        name: 'Sawed-off Barrel',
+        image: 'attachments/shotguns/725/sawedoffbarrel.png'
+    },
+    {
+        name: 'Tempus 32 Competition',
+        image: 'attachments/shotguns/725/tempus32competition.png'
+    },
     ];
 
 
@@ -13556,17 +13555,17 @@ function s725() {
     //Laser
 
     var lasers = [{
-            name: '1mW Laser',
-            image: 'attachments/shotguns/725/1mwlaser.png'
-        },
-        {
-            name: '5mW Laser',
-            image: 'attachments/shotguns/725/5mwlaser.png'
-        },
-        {
-            name: 'Tac Laser',
-            image: 'attachments/shotguns/725/taclaser.png'
-        },
+        name: '1mW Laser',
+        image: 'attachments/shotguns/725/1mwlaser.png'
+    },
+    {
+        name: '5mW Laser',
+        image: 'attachments/shotguns/725/5mwlaser.png'
+    },
+    {
+        name: 'Tac Laser',
+        image: 'attachments/shotguns/725/taclaser.png'
+    },
     ];
 
 
@@ -13592,65 +13591,65 @@ function s725() {
 
     //Optic
     var optics = [{
-            name: 'Operator Reflex Sight',
-            image: 'attachments/shotguns/optics/operatorrelfexsight.png'
-        },
-        {
-            name: 'Corp Combat Holo Sight',
-            image: 'attachments/shotguns/optics/corpcombatholosight.png'
-        },
-        {
-            name: 'Aim-Op Reflex Sight',
-            image: 'attachments/shotguns/optics/aimopreflexsight.png'
-        },
-        {
-            name: 'Cronen LP945 Mini Reflex',
-            image: 'attachments/shotguns/optics/cronenlp945minireflex.png'
-        },
-        {
-            name: 'APX5 Holographic Sight',
-            image: 'attachments/shotguns/optics/apx5holographicsight.png'
-        },
-        {
-            name: 'Scout Combat Optic',
-            image: 'attachments/shotguns/optics/scoutcombatoptic.png'
-        },
-        {
-            name: 'Viper Reflex Sight',
-            image: 'attachments/shotguns/optics/viperreflexsight.png'
-        },
-        {
-            name: 'VLK 3.0x Optic',
-            image: 'attachments/shotguns/optics/vlk30xoptic.png'
-        },
-        {
-            name: 'G.I. Mini Reflex',
-            image: 'attachments/shotguns/optics/giminireflex.png'
-        },
-        {
-            name: 'Solozero NVG Enhanced',
-            image: 'attachments/shotguns/optics/solozeronvgenhanced.png'
-        },
-        {
-            name: 'PBX Holo 7 Sight',
-            image: 'attachments/shotguns/optics/pbxholo7sight.png'
-        },
-        {
-            name: 'Monocle Reflex Sight',
-            image: 'attachments/shotguns/optics/monoclereflexsight.png'
-        },
-        {
-            name: 'Cronen C480 Pro Optic',
-            image: 'attachments/shotguns/optics/cronenc480prooptic.png'
-        },
-        {
-            name: 'Brownlee 32mm Scope',
-            image: 'attachments/shotguns/optics/brownlee32mmscope.png'
-        },
-        {
-            name: 'Solozero Optics Mini Reflex',
-            image: 'attachments/shotguns/optics/solozeroopticsminireflex.png'
-        },
+        name: 'Operator Reflex Sight',
+        image: 'attachments/shotguns/optics/operatorrelfexsight.png'
+    },
+    {
+        name: 'Corp Combat Holo Sight',
+        image: 'attachments/shotguns/optics/corpcombatholosight.png'
+    },
+    {
+        name: 'Aim-Op Reflex Sight',
+        image: 'attachments/shotguns/optics/aimopreflexsight.png'
+    },
+    {
+        name: 'Cronen LP945 Mini Reflex',
+        image: 'attachments/shotguns/optics/cronenlp945minireflex.png'
+    },
+    {
+        name: 'APX5 Holographic Sight',
+        image: 'attachments/shotguns/optics/apx5holographicsight.png'
+    },
+    {
+        name: 'Scout Combat Optic',
+        image: 'attachments/shotguns/optics/scoutcombatoptic.png'
+    },
+    {
+        name: 'Viper Reflex Sight',
+        image: 'attachments/shotguns/optics/viperreflexsight.png'
+    },
+    {
+        name: 'VLK 3.0x Optic',
+        image: 'attachments/shotguns/optics/vlk30xoptic.png'
+    },
+    {
+        name: 'G.I. Mini Reflex',
+        image: 'attachments/shotguns/optics/giminireflex.png'
+    },
+    {
+        name: 'Solozero NVG Enhanced',
+        image: 'attachments/shotguns/optics/solozeronvgenhanced.png'
+    },
+    {
+        name: 'PBX Holo 7 Sight',
+        image: 'attachments/shotguns/optics/pbxholo7sight.png'
+    },
+    {
+        name: 'Monocle Reflex Sight',
+        image: 'attachments/shotguns/optics/monoclereflexsight.png'
+    },
+    {
+        name: 'Cronen C480 Pro Optic',
+        image: 'attachments/shotguns/optics/cronenc480prooptic.png'
+    },
+    {
+        name: 'Brownlee 32mm Scope',
+        image: 'attachments/shotguns/optics/brownlee32mmscope.png'
+    },
+    {
+        name: 'Solozero Optics Mini Reflex',
+        image: 'attachments/shotguns/optics/solozeroopticsminireflex.png'
+    },
     ];
 
 
@@ -13677,21 +13676,21 @@ function s725() {
     //Stock
 
     var stocks = [{
-            name: 'FTAC Equilibrium',
-            image: 'attachments/shotguns/725/ftacequilibrium.png'
-        },
-        {
-            name: 'Chronen Pro Light',
-            image: 'attachments/shotguns/725/chronenprolight.png'
-        },
-        {
-            name: 'Sawed-off Stock',
-            image: 'attachments/shotguns/725/sawedoffstock.png'
-        },
-        {
-            name: 'Tempus Sport',
-            image: 'attachments/shotguns/725/tempussport.png'
-        },
+        name: 'FTAC Equilibrium',
+        image: 'attachments/shotguns/725/ftacequilibrium.png'
+    },
+    {
+        name: 'Chronen Pro Light',
+        image: 'attachments/shotguns/725/chronenprolight.png'
+    },
+    {
+        name: 'Sawed-off Stock',
+        image: 'attachments/shotguns/725/sawedoffstock.png'
+    },
+    {
+        name: 'Tempus Sport',
+        image: 'attachments/shotguns/725/tempussport.png'
+    },
     ];
 
 
@@ -13719,25 +13718,25 @@ function s725() {
     //Underbarrel
 
     var underbarrels = [{
-            name: 'Merc Foregrip',
-            image: 'attachments/shotguns/725/mercforegrip.png'
-        },
-        {
-            name: 'Ranger Foregrip',
-            image: 'attachments/shotguns/725/rangerforegrip.png'
-        },
-        {
-            name: 'Commando Foregrip',
-            image: 'attachments/shotguns/725/commandoforegrip.png'
-        },
-        {
-            name: 'Tactical Foregrip',
-            image: 'attachments/shotguns/725/tacticalforegrip.png'
-        },
-        {
-            name: 'Operator Foregrip',
-            image: 'attachments/shotguns/725/operatorforegrip.png'
-        },
+        name: 'Merc Foregrip',
+        image: 'attachments/shotguns/725/mercforegrip.png'
+    },
+    {
+        name: 'Ranger Foregrip',
+        image: 'attachments/shotguns/725/rangerforegrip.png'
+    },
+    {
+        name: 'Commando Foregrip',
+        image: 'attachments/shotguns/725/commandoforegrip.png'
+    },
+    {
+        name: 'Tactical Foregrip',
+        image: 'attachments/shotguns/725/tacticalforegrip.png'
+    },
+    {
+        name: 'Operator Foregrip',
+        image: 'attachments/shotguns/725/operatorforegrip.png'
+    },
     ];
 
 
@@ -13770,7 +13769,7 @@ function s725() {
     var ammunations = [{
         name: 'Slug Rounds',
         image: 'attachments/shotguns/model680/slugrounds.png'
-    }, ];
+    },];
 
 
     var ammunation = false;
@@ -13794,17 +13793,17 @@ function s725() {
     //Guard
 
     var reargrips = [{
-            name: 'Tempus SlimGrip',
-            image: 'attachments/shotguns/725/tempusslimgrip.png'
-        },
-        {
-            name: 'FORGE TAC Steady Grip',
-            image: 'attachments/shotguns/725/forgetacsteadygrip.png'
-        },
-        {
-            name: 'FORGE TAC Commander',
-            image: 'attachments/shotguns/725/forgetaccommander.png'
-        },
+        name: 'Tempus SlimGrip',
+        image: 'attachments/shotguns/725/tempusslimgrip.png'
+    },
+    {
+        name: 'FORGE TAC Steady Grip',
+        image: 'attachments/shotguns/725/forgetacsteadygrip.png'
+    },
+    {
+        name: 'FORGE TAC Commander',
+        image: 'attachments/shotguns/725/forgetaccommander.png'
+    },
     ];
 
 
@@ -13829,41 +13828,41 @@ function s725() {
     //Perks
 
     var perks = [{
-            name: 'FMJ',
-            image: 'attachments/perks/fmj.png'
-        },
-        {
-            name: 'Sleight of Hand',
-            image: 'attachments/perks/sleight.png'
-        },
-        {
-            name: 'Frangible - Wounding',
-            image: 'attachments/perks/wounding.png'
-        },
-        {
-            name: 'Heavy Hitter',
-            image: 'attachments/perks/heavyhitter.png'
-        },
-        {
-            name: 'Fully Loaded',
-            image: 'attachments/perks/fullyloaded.png'
-        },
-        {
-            name: 'Recon',
-            image: 'attachments/perks/recon.png'
-        },
-        {
-            name: 'Mo Money',
-            image: 'attachments/perks/money.png'
-        },
-        {
-            name: 'Fast Melee',
-            image: 'attachments/perks/fastmelee.png'
-        },
-        {
-            name: 'Frangible - Disabling',
-            image: 'attachments/perks/disabling.png'
-        },
+        name: 'FMJ',
+        image: 'attachments/perks/fmj.png'
+    },
+    {
+        name: 'Sleight of Hand',
+        image: 'attachments/perks/sleight.png'
+    },
+    {
+        name: 'Frangible - Wounding',
+        image: 'attachments/perks/wounding.png'
+    },
+    {
+        name: 'Heavy Hitter',
+        image: 'attachments/perks/heavyhitter.png'
+    },
+    {
+        name: 'Fully Loaded',
+        image: 'attachments/perks/fullyloaded.png'
+    },
+    {
+        name: 'Recon',
+        image: 'attachments/perks/recon.png'
+    },
+    {
+        name: 'Mo Money',
+        image: 'attachments/perks/money.png'
+    },
+    {
+        name: 'Fast Melee',
+        image: 'attachments/perks/fastmelee.png'
+    },
+    {
+        name: 'Frangible - Disabling',
+        image: 'attachments/perks/disabling.png'
+    },
     ];
 
 
@@ -13924,33 +13923,33 @@ function grau() {
     //Muzzles
 
     var muzzles = [{
-            name: 'Flash Guard',
-            image: 'attachments/muzzles/flashguard.png'
-        },
-        {
-            name: 'Breacher Device',
-            image: 'attachments/muzzles/breacherdevice.png'
-        },
-        {
-            name: 'Tactical Suppressor',
-            image: 'attachments/muzzles/tacticalsuppressor.png'
-        },
-        {
-            name: 'Muzzle Brake',
-            image: 'attachments/muzzles/muzzlebrake.png'
-        },
-        {
-            name: 'Lightweight Suppressor',
-            image: 'attachments/muzzles/lightweightsuppressor.png'
-        },
-        {
-            name: 'Compensator',
-            image: 'attachments/muzzles/compensator.png'
-        },
-        {
-            name: 'Monolithic Suppressor',
-            image: 'attachments/muzzles/monolithicsuppressor.png'
-        }
+        name: 'Flash Guard',
+        image: 'attachments/muzzles/flashguard.png'
+    },
+    {
+        name: 'Breacher Device',
+        image: 'attachments/muzzles/breacherdevice.png'
+    },
+    {
+        name: 'Tactical Suppressor',
+        image: 'attachments/muzzles/tacticalsuppressor.png'
+    },
+    {
+        name: 'Muzzle Brake',
+        image: 'attachments/muzzles/muzzlebrake.png'
+    },
+    {
+        name: 'Lightweight Suppressor',
+        image: 'attachments/muzzles/lightweightsuppressor.png'
+    },
+    {
+        name: 'Compensator',
+        image: 'attachments/muzzles/compensator.png'
+    },
+    {
+        name: 'Monolithic Suppressor',
+        image: 'attachments/muzzles/monolithicsuppressor.png'
+    }
     ];
 
 
@@ -13976,21 +13975,21 @@ function grau() {
     //Barrel
 
     var barrels = [{
-            name: 'ZLR Drifter A-08',
-            image: 'attachments/barrels/drifter.png'
-        },
-        {
-            name: 'FSS 26.4 Archangel',
-            image: 'attachments/barrels/archangel.png'
-        },
-        {
-            name: 'XRX CZEN mk2',
-            image: 'attachments/barrels/czen.png'
-        },
-        {
-            name: 'FSS 20.8 Nexus',
-            image: 'attachments/barrels/nexus.png'
-        },
+        name: 'ZLR Drifter A-08',
+        image: 'attachments/barrels/drifter.png'
+    },
+    {
+        name: 'FSS 26.4 Archangel',
+        image: 'attachments/barrels/archangel.png'
+    },
+    {
+        name: 'XRX CZEN mk2',
+        image: 'attachments/barrels/czen.png'
+    },
+    {
+        name: 'FSS 20.8 Nexus',
+        image: 'attachments/barrels/nexus.png'
+    },
     ];
 
 
@@ -14022,17 +14021,17 @@ function grau() {
     //Laser
 
     var lasers = [{
-            name: '1mW Laser',
-            image: 'attachments/lasers/1mw.png'
-        },
-        {
-            name: '5mW Laser',
-            image: 'attachments/lasers/5mw.png'
-        },
-        {
-            name: 'Tac Laser',
-            image: 'attachments/lasers/tac.png'
-        }
+        name: '1mW Laser',
+        image: 'attachments/lasers/1mw.png'
+    },
+    {
+        name: '5mW Laser',
+        image: 'attachments/lasers/5mw.png'
+    },
+    {
+        name: 'Tac Laser',
+        image: 'attachments/lasers/tac.png'
+    }
     ];
 
 
@@ -14059,85 +14058,85 @@ function grau() {
     //Optic
 
     var optics = [{
-            name: 'Cronen LP945 Mini Reflex',
-            image: 'attachments/optics/cronenlp945.png'
-        },
-        {
-            name: 'Corp Combat Holo Sight',
-            image: 'attachments/optics/corp.png'
-        },
-        {
-            name: 'Operator Reflex Sight',
-            image: 'attachments/optics/operator.png'
-        },
-        {
-            name: 'Scout Combat Optic',
-            image: 'attachments/optics/scout.png'
-        },
-        {
-            name: '4.0x Flip Hybrid',
-            image: 'attachments/optics/40x.png'
-        },
-        {
-            name: 'Aim-Op Reflex Sight',
-            image: 'attachments/optics/aimop.png'
-        },
-        {
-            name: 'APx5 Holographic Sight',
-            image: 'attachments/optics/apx5.png'
-        },
-        {
-            name: 'Integral Hybrid',
-            image: 'attachments/optics/integral.png'
-        },
-        {
-            name: 'Solozero NVG Enhanced',
-            image: 'attachments/optics/solozero.png'
-        },
-        {
-            name: 'VLK 3.0x Optic',
-            image: 'attachments/optics/vlk.png'
-        },
-        {
-            name: 'Sniper Scope',
-            image: 'attachments/optics/sniperscope.png'
-        },
-        {
-            name: 'Viper Reflex Sight',
-            image: 'attachments/optics/viper.png'
-        },
-        {
-            name: 'G.I. Mini Reflex',
-            image: 'attachments/optics/gi.png'
-        },
-        {
-            name: 'PBX Holo 7 Sight',
-            image: 'attachments/optics/pbx.png'
-        },
-        {
-            name: 'Cronen C480 Pro Optic',
-            image: 'attachments/optics/cronenc480.png'
-        },
-        {
-            name: 'Monocle Reflex Sight',
-            image: 'attachments/optics/monocle.png'
-        },
-        {
-            name: 'Variable Zoom Scope',
-            image: 'attachments/optics/variable.png'
-        },
-        {
-            name: 'Canted Hybrid',
-            image: 'attachments/optics/canted.png'
-        },
-        {
-            name: 'Merc Thermal Optic',
-            image: 'attachments/optics/merc.png'
-        },
-        {
-            name: 'Thermal Hybrid',
-            image: 'attachments/optics/thermal.png'
-        }
+        name: 'Cronen LP945 Mini Reflex',
+        image: 'attachments/optics/cronenlp945.png'
+    },
+    {
+        name: 'Corp Combat Holo Sight',
+        image: 'attachments/optics/corp.png'
+    },
+    {
+        name: 'Operator Reflex Sight',
+        image: 'attachments/optics/operator.png'
+    },
+    {
+        name: 'Scout Combat Optic',
+        image: 'attachments/optics/scout.png'
+    },
+    {
+        name: '4.0x Flip Hybrid',
+        image: 'attachments/optics/40x.png'
+    },
+    {
+        name: 'Aim-Op Reflex Sight',
+        image: 'attachments/optics/aimop.png'
+    },
+    {
+        name: 'APx5 Holographic Sight',
+        image: 'attachments/optics/apx5.png'
+    },
+    {
+        name: 'Integral Hybrid',
+        image: 'attachments/optics/integral.png'
+    },
+    {
+        name: 'Solozero NVG Enhanced',
+        image: 'attachments/optics/solozero.png'
+    },
+    {
+        name: 'VLK 3.0x Optic',
+        image: 'attachments/optics/vlk.png'
+    },
+    {
+        name: 'Sniper Scope',
+        image: 'attachments/optics/sniperscope.png'
+    },
+    {
+        name: 'Viper Reflex Sight',
+        image: 'attachments/optics/viper.png'
+    },
+    {
+        name: 'G.I. Mini Reflex',
+        image: 'attachments/optics/gi.png'
+    },
+    {
+        name: 'PBX Holo 7 Sight',
+        image: 'attachments/optics/pbx.png'
+    },
+    {
+        name: 'Cronen C480 Pro Optic',
+        image: 'attachments/optics/cronenc480.png'
+    },
+    {
+        name: 'Monocle Reflex Sight',
+        image: 'attachments/optics/monocle.png'
+    },
+    {
+        name: 'Variable Zoom Scope',
+        image: 'attachments/optics/variable.png'
+    },
+    {
+        name: 'Canted Hybrid',
+        image: 'attachments/optics/canted.png'
+    },
+    {
+        name: 'Merc Thermal Optic',
+        image: 'attachments/optics/merc.png'
+    },
+    {
+        name: 'Thermal Hybrid',
+        image: 'attachments/optics/thermal.png'
+    }
     ];
 
 
@@ -14164,17 +14163,17 @@ function grau() {
     //Stock
 
     var stocks = [{
-            name: 'FSS Blackjack',
-            image: 'attachments/stocks/blackjack.png'
-        },
-        {
-            name: 'XRX StrikeLite III',
-            image: 'attachments/stocks/strikelike.png'
-        },
-        {
-            name: 'No Stock',
-            image: 'attachments/stocks/nostockgrau.png'
-        },
+        name: 'FSS Blackjack',
+        image: 'attachments/stocks/blackjack.png'
+    },
+    {
+        name: 'XRX StrikeLite III',
+        image: 'attachments/stocks/strikelike.png'
+    },
+    {
+        name: 'No Stock',
+        image: 'attachments/stocks/nostockgrau.png'
+    },
     ];
 
 
@@ -14202,53 +14201,53 @@ function grau() {
     //Underbarrel
 
     var underbarrels = [{
-            name: 'Commando Foregrip',
-            image: 'attachments/underbarrels/commando.png'
-        },
-        {
-            name: 'M203 40mm High-explosive',
-            image: 'attachments/underbarrels/m203high.png'
-        },
-        {
-            name: 'M203 40mm Incendiary',
-            image: 'attachments/underbarrels/m203incendiary.png'
-        },
-        {
-            name: '12 Gauge Deputy',
-            image: 'attachments/underbarrels/12gauge.png'
-        },
-        {
-            name: 'Merc Foregrip',
-            image: 'attachments/underbarrels/merc.png'
-        },
-        {
-            name: 'M203 40mm Smokescreen',
-            image: 'attachments/underbarrels/m203smokescreen.png'
-        },
-        {
-            name: 'Cronen Shark II',
-            image: 'attachments/underbarrels/shark.png'
-        },
-        {
-            name: 'M203 40mm Recon',
-            image: 'attachments/underbarrels/m203recon.png'
-        },
-        {
-            name: 'M203 40mm Flash',
-            image: 'attachments/underbarrels/m203flash.png'
-        },
-        {
-            name: 'Ranger Foregrip',
-            image: 'attachments/underbarrels/ranger.png'
-        },
-        {
-            name: 'M203 40mm Concussive',
-            image: 'attachments/underbarrels/m203concussive.png'
-        },
-        {
-            name: 'Operator Foregrip',
-            image: 'attachments/underbarrels/operator.png'
-        }
+        name: 'Commando Foregrip',
+        image: 'attachments/underbarrels/commando.png'
+    },
+    {
+        name: 'M203 40mm High-explosive',
+        image: 'attachments/underbarrels/m203high.png'
+    },
+    {
+        name: 'M203 40mm Incendiary',
+        image: 'attachments/underbarrels/m203incendiary.png'
+    },
+    {
+        name: '12 Gauge Deputy',
+        image: 'attachments/underbarrels/12gauge.png'
+    },
+    {
+        name: 'Merc Foregrip',
+        image: 'attachments/underbarrels/merc.png'
+    },
+    {
+        name: 'M203 40mm Smokescreen',
+        image: 'attachments/underbarrels/m203smokescreen.png'
+    },
+    {
+        name: 'Cronen Shark II',
+        image: 'attachments/underbarrels/shark.png'
+    },
+    {
+        name: 'M203 40mm Recon',
+        image: 'attachments/underbarrels/m203recon.png'
+    },
+    {
+        name: 'M203 40mm Flash',
+        image: 'attachments/underbarrels/m203flash.png'
+    },
+    {
+        name: 'Ranger Foregrip',
+        image: 'attachments/underbarrels/ranger.png'
+    },
+    {
+        name: 'M203 40mm Concussive',
+        image: 'attachments/underbarrels/m203concussive.png'
+    },
+    {
+        name: 'Operator Foregrip',
+        image: 'attachments/underbarrels/operator.png'
+    }
     ];
 
 
@@ -14279,12 +14278,12 @@ function grau() {
     //Ammunation
 
     var ammunations = [{
-            name: '50 Round Mags',
-            image: 'attachments/ammunations/50grau.png'
-        },{
-            name: '60 Round Mags',
-            image: 'attachments/ammunations/60grau.png'
-        },
+        name: '50 Round Mags',
+        image: 'attachments/ammunations/50grau.png'
+    }, {
+        name: '60 Round Mags',
+        image: 'attachments/ammunations/60grau.png'
+    },
 
     ];
 
@@ -14313,17 +14312,17 @@ function grau() {
     //RearGrip
 
     var reargrips = [{
-            name: 'XRX Void II',
-            image: 'attachments/reargrips/void.png'
-        },
-        {
-            name: 'Cronen Sniper Elite',
-            image: 'attachments/reargrips/sniperelite.png'
-        },
-        {
-            name: 'FTAC R-89 Rubber',
-            image: 'attachments/reargrips/r89rubber.png'
-        }
+        name: 'XRX Void II',
+        image: 'attachments/reargrips/void.png'
+    },
+    {
+        name: 'Cronen Sniper Elite',
+        image: 'attachments/reargrips/sniperelite.png'
+    },
+    {
+        name: 'FTAC R-89 Rubber',
+        image: 'attachments/reargrips/r89rubber.png'
+    }
     ];
 
 
@@ -14349,49 +14348,49 @@ function grau() {
     //Perks
 
     var perks = [{
-            name: 'FMJ',
-            image: 'attachments/perks/fmj.png'
-        },
-        {
-            name: 'Sleight of Hand',
-            image: 'attachments/perks/sleight.png'
-        },
-        {
-            name: 'Frangible - Wounding',
-            image: 'attachments/perks/wounding.png'
-        },
-        {
-            name: 'Heavy Hitter',
-            image: 'attachments/perks/heavyhitter.png'
-        },
-        {
-            name: 'Fully Loaded',
-            image: 'attachments/perks/fullyloaded.png'
-        },
-        {
-            name: 'Burst',
-            image: 'attachments/perks/burst.png'
-        },
-        {
-            name: 'Recon',
-            image: 'attachments/perks/recon.png'
-        },
-        {
-            name: 'Mo Money',
-            image: 'attachments/perks/money.png'
-        },
-        {
-            name: 'Fast Melee',
-            image: 'attachments/perks/fastmelee.png'
-        },
-        {
-            name: 'Frangible - Disabling',
-            image: 'attachments/perks/disabling.png'
-        },
-        {
-            name: 'Presence of Mind',
-            image: 'attachments/perks/mind.png'
-        }
+        name: 'FMJ',
+        image: 'attachments/perks/fmj.png'
+    },
+    {
+        name: 'Sleight of Hand',
+        image: 'attachments/perks/sleight.png'
+    },
+    {
+        name: 'Frangible - Wounding',
+        image: 'attachments/perks/wounding.png'
+    },
+    {
+        name: 'Heavy Hitter',
+        image: 'attachments/perks/heavyhitter.png'
+    },
+    {
+        name: 'Fully Loaded',
+        image: 'attachments/perks/fullyloaded.png'
+    },
+    {
+        name: 'Burst',
+        image: 'attachments/perks/burst.png'
+    },
+    {
+        name: 'Recon',
+        image: 'attachments/perks/recon.png'
+    },
+    {
+        name: 'Mo Money',
+        image: 'attachments/perks/money.png'
+    },
+    {
+        name: 'Fast Melee',
+        image: 'attachments/perks/fastmelee.png'
+    },
+    {
+        name: 'Frangible - Disabling',
+        image: 'attachments/perks/disabling.png'
+    },
+    {
+        name: 'Presence of Mind',
+        image: 'attachments/perks/mind.png'
+    }
     ];
 
 
@@ -14441,33 +14440,33 @@ function striker45() {
     //Muzzles
 
     var muzzles = [{
-            name: 'Breacher Device',
-            image: 'attachments/smgs/breacherdevice.png'
-        },
-        {
-            name: 'Tactical Suppressor',
-            image: 'attachments/smgs/tacticalsuppressor.png'
-        },
-        {
-            name: 'Flash Guard',
-            image: 'attachments/smgs/flashguard.png'
-        },
-        {
-            name: 'Monolithic Suppressor',
-            image: 'attachments/smgs/monolithicsuppressor.png'
-        },
-        {
-            name: 'Muzzle Brake',
-            image: 'attachments/smgs/muzzlebrake.png'
-        },
-        {
-            name: 'Compensator',
-            image: 'attachments/smgs/compensator.png'
-        },
-        {
-            name: 'Lightweight Suppressor',
-            image: 'attachments/smgs/lightweightsuppressor.png'
-        },
+        name: 'Breacher Device',
+        image: 'attachments/smgs/breacherdevice.png'
+    },
+    {
+        name: 'Tactical Suppressor',
+        image: 'attachments/smgs/tacticalsuppressor.png'
+    },
+    {
+        name: 'Flash Guard',
+        image: 'attachments/smgs/flashguard.png'
+    },
+    {
+        name: 'Monolithic Suppressor',
+        image: 'attachments/smgs/monolithicsuppressor.png'
+    },
+    {
+        name: 'Muzzle Brake',
+        image: 'attachments/smgs/muzzlebrake.png'
+    },
+    {
+        name: 'Compensator',
+        image: 'attachments/smgs/compensator.png'
+    },
+    {
+        name: 'Lightweight Suppressor',
+        image: 'attachments/smgs/lightweightsuppressor.png'
+    },
     ];
 
 
@@ -14493,17 +14492,17 @@ function striker45() {
     //Barrel
 
     var barrels = [{
-            name: '300mm Poly Barrel',
-            image: 'attachments/smgs/polly.png'
-        },
-        {
-            name: '400mm Stainless Steel',
-            image: 'attachments/smgs/400mm.png'
-        },
-        {
-            name: '150mm Stainless Steel',
-            image: 'attachments/smgs/150mm.png'
-        },
+        name: '300mm Poly Barrel',
+        image: 'attachments/smgs/polly.png'
+    },
+    {
+        name: '400mm Stainless Steel',
+        image: 'attachments/smgs/400mm.png'
+    },
+    {
+        name: '150mm Stainless Steel',
+        image: 'attachments/smgs/150mm.png'
+    },
     ];
 
 
@@ -14532,17 +14531,17 @@ function striker45() {
     //Laser
 
     var lasers = [{
-            name: '1mW Laser',
-            image: 'attachments/smgs/1mwlaser.png'
-        },
-        {
-            name: '5mW Laser',
-            image: 'attachments/smgs/5mwlaser.png'
-        },
-        {
-            name: 'Tac Laser',
-            image: 'attachments/smgs/taclaser.png'
-        },
+        name: '1mW Laser',
+        image: 'attachments/smgs/1mwlaser.png'
+    },
+    {
+        name: '5mW Laser',
+        image: 'attachments/smgs/5mwlaser.png'
+    },
+    {
+        name: 'Tac Laser',
+        image: 'attachments/smgs/taclaser.png'
+    },
     ];
 
 
@@ -14671,17 +14670,17 @@ function striker45() {
     //Stock
 
     var stocks = [{
-            name: 'FSS Guardian',
-            image: 'attachments/smgs/guardian.png'
-        },
-        {
-            name: 'FTAC Precision Fixed Stock',
-            image: 'attachments/smgs/fixed.png'
-        },
-        {
-            name: 'XRX Gen III Survivalist Series',
-            image: 'attachments/smgs/survivalist.png'
-        },
+        name: 'FSS Guardian',
+        image: 'attachments/smgs/guardian.png'
+    },
+    {
+        name: 'FTAC Precision Fixed Stock',
+        image: 'attachments/smgs/fixed.png'
+    },
+    {
+        name: 'XRX Gen III Survivalist Series',
+        image: 'attachments/smgs/survivalist.png'
+    },
     ];
 
 
@@ -14709,25 +14708,25 @@ function striker45() {
     //Underbarrel
 
     var underbarrels = [{
-            name: 'Merc Foregrup',
-            image: 'attachments/smgs/merc.png'
-        },
-        {
-            name: 'Commando Foregrip',
-            image: 'attachments/smgs/commando.png'
-        },
-        {
-            name: 'Tactical Foregrip',
-            image: 'attachments/smgs/tactical.png'
-        },
-        {
-            name: 'Ranger Foregrip',
-            image: 'attachments/smgs/ranger.png'
-        },
-        {
-            name: 'Operator Foregrip',
-            image: 'attachments/smgs/operator.png'
-        },
+        name: 'Merc Foregrup',
+        image: 'attachments/smgs/merc.png'
+    },
+    {
+        name: 'Commando Foregrip',
+        image: 'attachments/smgs/commando.png'
+    },
+    {
+        name: 'Tactical Foregrip',
+        image: 'attachments/smgs/tactical.png'
+    },
+    {
+        name: 'Ranger Foregrip',
+        image: 'attachments/smgs/ranger.png'
+    },
+    {
+        name: 'Operator Foregrip',
+        image: 'attachments/smgs/operator.png'
+    },
     ];
 
 
@@ -14758,13 +14757,13 @@ function striker45() {
     //Ammunation
 
     var ammunations = [{
-            name: '.45 Hollow Point 12-R Mags',
-            image: 'attachments/smgs/45hollow.png'
-        },
-        {
-            name: '45 Round Mags',
-            image: 'attachments/smgs/45striker.png'
-        },
+        name: '.45 Hollow Point 12-R Mags',
+        image: 'attachments/smgs/45hollow.png'
+    },
+    {
+        name: '45 Round Mags',
+        image: 'attachments/smgs/45striker.png'
+    },
     ];
 
 
@@ -14792,17 +14791,17 @@ function striker45() {
     //RearGrip
 
     var reargrips = [{
-            name: 'FTAC 60 Series Polymer',
-            image: 'attachments/smgs/polymer.png'
-        },
-        {
-            name: 'FTAC G-5 EXO',
-            image: 'attachments/smgs/exo.png'
-        },
-        {
-            name: 'FTAC 60 Series Rubber',
-            image: 'attachments/smgs/rubber.png'
-        },
+        name: 'FTAC 60 Series Polymer',
+        image: 'attachments/smgs/polymer.png'
+    },
+    {
+        name: 'FTAC G-5 EXO',
+        image: 'attachments/smgs/exo.png'
+    },
+    {
+        name: 'FTAC 60 Series Rubber',
+        image: 'attachments/smgs/rubber.png'
+    },
     ];
 
 
@@ -14822,9 +14821,9 @@ function striker45() {
         // //console.log(rearGripPick.name);
         document.getElementById("primaryAttH2").innerHTML = "";
         document.getElementById("primaryAtt8").innerHTML = '<b>' + "Rear Grip -  " + '</b>' + rearGripPick.name + '<br>' + '<img  style="width:250px;"  src="' + rearGripPick.image + '">';
-        if (stockPick.name == "FSS Guardian"){
+        if (stockPick.name == "FSS Guardian") {
             console.log(stockPick.name);
-            document.getElementById("primaryAtt8").innerHTML = ""; 
+            document.getElementById("primaryAtt8").innerHTML = "";
         }
     }
 
@@ -14833,41 +14832,41 @@ function striker45() {
     //Perks
 
     var perks = [{
-            name: 'FMJ',
-            image: 'attachments/perks/fmj.png'
-        },
-        {
-            name: 'Sleight of Hand',
-            image: 'attachments/perks/sleight.png'
-        },
-        {
-            name: 'Frangible - Wounding',
-            image: 'attachments/perks/wounding.png'
-        },
-        {
-            name: 'Heavy Hitter',
-            image: 'attachments/perks/heavyhitter.png'
-        },
-        {
-            name: 'Fully Loaded',
-            image: 'attachments/perks/fullyloaded.png'
-        },
-        {
-            name: 'Recon',
-            image: 'attachments/perks/recon.png'
-        },
-        {
-            name: 'Mo Money',
-            image: 'attachments/perks/money.png'
-        },
-        {
-            name: 'Fast Melee',
-            image: 'attachments/perks/fastmelee.png'
-        },
-        {
-            name: 'Frangible - Disabling',
-            image: 'attachments/perks/disabling.png'
-        },
+        name: 'FMJ',
+        image: 'attachments/perks/fmj.png'
+    },
+    {
+        name: 'Sleight of Hand',
+        image: 'attachments/perks/sleight.png'
+    },
+    {
+        name: 'Frangible - Wounding',
+        image: 'attachments/perks/wounding.png'
+    },
+    {
+        name: 'Heavy Hitter',
+        image: 'attachments/perks/heavyhitter.png'
+    },
+    {
+        name: 'Fully Loaded',
+        image: 'attachments/perks/fullyloaded.png'
+    },
+    {
+        name: 'Recon',
+        image: 'attachments/perks/recon.png'
+    },
+    {
+        name: 'Mo Money',
+        image: 'attachments/perks/money.png'
+    },
+    {
+        name: 'Fast Melee',
+        image: 'attachments/perks/fastmelee.png'
+    },
+    {
+        name: 'Frangible - Disabling',
+        image: 'attachments/perks/disabling.png'
+    },
     ];
 
 
@@ -14944,13 +14943,13 @@ function crossbow() {
     //Muzzles
 
     var muzzles = [{
-            name: '16-Strand Cable',
-            image: 'attachments/crossbow/16strand.png'
-        },
-        {
-            name: '28-Strand Cable',
-            image: 'attachments/crossbow/28strand.png'
-        }
+        name: '16-Strand Cable',
+        image: 'attachments/crossbow/16strand.png'
+    },
+    {
+        name: '28-Strand Cable',
+        image: 'attachments/crossbow/28strand.png'
+    }
     ];
 
 
@@ -14976,17 +14975,17 @@ function crossbow() {
     //Barrel
 
     var barrels = [{
-            name: 'XRX Thunder 200 Lb',
-            image: 'attachments/crossbow/200lb.png'
-        },
-        {
-            name: 'XRX Quill 100 Lb',
-            image: 'attachments/crossbow/100lb.png'
-        },
-        {
-            name: 'XRX Carbon Elite',
-            image: 'attachments/crossbow/elite.png'
-        },
+        name: 'XRX Thunder 200 Lb',
+        image: 'attachments/crossbow/200lb.png'
+    },
+    {
+        name: 'XRX Quill 100 Lb',
+        image: 'attachments/crossbow/100lb.png'
+    },
+    {
+        name: 'XRX Carbon Elite',
+        image: 'attachments/crossbow/elite.png'
+    },
     ];
 
 
@@ -15142,17 +15141,17 @@ function crossbow() {
     //Stock
 
     var stocks = [{
-            name: 'FORGE TAC Apex',
-            image: 'attachments/crossbow/apex.png'
-        },
-        {
-            name: 'FORGE TAC Dart CB',
-            image: 'attachments/crossbow/dart.png'
-        },
-        {
-            name: 'FORGE TAC SpeedTrak',
-            image: 'attachments/crossbow/speedtrak.png'
-        },
+        name: 'FORGE TAC Apex',
+        image: 'attachments/crossbow/apex.png'
+    },
+    {
+        name: 'FORGE TAC Dart CB',
+        image: 'attachments/crossbow/dart.png'
+    },
+    {
+        name: 'FORGE TAC SpeedTrak',
+        image: 'attachments/crossbow/speedtrak.png'
+    },
     ];
 
 
@@ -15186,7 +15185,7 @@ function crossbow() {
             name: 'XRX Precision Grip',
             image: 'attachments/crossbow/precisiongrip.png'
         },
-         {
+        {
             name: 'XRX Talon',
             image: 'attachments/crossbow/talon.png'
         },
@@ -15218,17 +15217,17 @@ function crossbow() {
     //RearGrip
 
     var reargrips = [{
-            name: 'FTAC Fury 20" Bolts',
-            image: 'attachments/crossbow/fury.png'
-        },
-        {
-            name: 'FTAC Venom 20" Bolts',
-            image: 'attachments/crossbow/venom.png'
-        },
-        {
-            name: 'FTAC Backburn 20" Bolts',
-            image: 'attachments/crossbow/backburn.png'
-        }
+        name: 'FTAC Fury 20" Bolts',
+        image: 'attachments/crossbow/fury.png'
+    },
+    {
+        name: 'FTAC Venom 20" Bolts',
+        image: 'attachments/crossbow/venom.png'
+    },
+    {
+        name: 'FTAC Backburn 20" Bolts',
+        image: 'attachments/crossbow/backburn.png'
+    }
     ];
 
 
@@ -15343,33 +15342,33 @@ function fennec() {
     //Muzzles
 
     var muzzles = [{
-            name: 'CQB Breacher Device',
-            image: 'attachments/smgs/cqbbreacherdevice.png'
-        },
-        {
-            name: 'Tactical Suppressor',
-            image: 'attachments/smgs/tacticalsuppressor.png'
-        },
-        {
-            name: 'Flash Guard',
-            image: 'attachments/smgs/flashguard.png'
-        },
-        {
-            name: 'Monolithic Suppressor',
-            image: 'attachments/smgs/monolithicsuppressor.png'
-        },
-        {
-            name: 'Muzzle Brake',
-            image: 'attachments/smgs/muzzlebrake.png'
-        },
-        {
-            name: 'Compensator',
-            image: 'attachments/smgs/compensator.png'
-        },
-        {
-            name: 'ZLR Sabre',
-            image: 'attachments/smgs/sabre.png'
-        },
+        name: 'CQB Breacher Device',
+        image: 'attachments/smgs/cqbbreacherdevice.png'
+    },
+    {
+        name: 'Tactical Suppressor',
+        image: 'attachments/smgs/tacticalsuppressor.png'
+    },
+    {
+        name: 'Flash Guard',
+        image: 'attachments/smgs/flashguard.png'
+    },
+    {
+        name: 'Monolithic Suppressor',
+        image: 'attachments/smgs/monolithicsuppressor.png'
+    },
+    {
+        name: 'Muzzle Brake',
+        image: 'attachments/smgs/muzzlebrake.png'
+    },
+    {
+        name: 'Compensator',
+        image: 'attachments/smgs/compensator.png'
+    },
+    {
+        name: 'ZLR Sabre',
+        image: 'attachments/smgs/sabre.png'
+    },
     ];
 
 
@@ -15395,13 +15394,13 @@ function fennec() {
     //Barrel
 
     var barrels = [{
-            name: 'ZLR 16 Apex',
-            image: 'attachments/smgs/apex.png'
-        },
-        {
-            name: 'ZLR 18 Deadfall',
-            image: 'attachments/smgs/deadfall.png'
-        }
+        name: 'ZLR 16 Apex',
+        image: 'attachments/smgs/apex.png'
+    },
+    {
+        name: 'ZLR 18 Deadfall',
+        image: 'attachments/smgs/deadfall.png'
+    }
     ];
 
 
@@ -15430,17 +15429,17 @@ function fennec() {
     //Laser
 
     var lasers = [{
-            name: '1mW Laser',
-            image: 'attachments/smgs/1mwlaser.png'
-        },
-        {
-            name: '5mW Laser',
-            image: 'attachments/smgs/5mwlaser.png'
-        },
-        {
-            name: 'Tac Laser',
-            image: 'attachments/smgs/taclaser.png'
-        },
+        name: '1mW Laser',
+        image: 'attachments/smgs/1mwlaser.png'
+    },
+    {
+        name: '5mW Laser',
+        image: 'attachments/smgs/5mwlaser.png'
+    },
+    {
+        name: 'Tac Laser',
+        image: 'attachments/smgs/taclaser.png'
+    },
     ];
 
 
@@ -15565,21 +15564,21 @@ function fennec() {
     //Stock
 
     var stocks = [{
-            name: 'FTAC C6 Carbine PRO',
-            image: 'attachments/smgs/carbinepro.png'
-        },
-        {
-            name: 'FORGE TAC CQS',
-            image: 'attachments/smgs/taccqus.png'
-        },
-        {
-            name: 'ZLR Blade',
-            image: 'attachments/smgs/blade.png'
-        },
-        {
-            name: 'No Stock',
-            image: 'attachments/smgs/nostockuzi.png'
-        },
+        name: 'FTAC C6 Carbine PRO',
+        image: 'attachments/smgs/carbinepro.png'
+    },
+    {
+        name: 'FORGE TAC CQS',
+        image: 'attachments/smgs/taccqus.png'
+    },
+    {
+        name: 'ZLR Blade',
+        image: 'attachments/smgs/blade.png'
+    },
+    {
+        name: 'No Stock',
+        image: 'attachments/smgs/nostockuzi.png'
+    },
     ];
 
 
@@ -15607,25 +15606,25 @@ function fennec() {
     //Underbarrel
 
     var underbarrels = [{
-            name: 'Merc Foregrup',
-            image: 'attachments/smgs/merc.png'
-        },
-        {
-            name: 'Commando Foregrip',
-            image: 'attachments/smgs/commando.png'
-        },
-        {
-            name: 'Tactical Foregrip',
-            image: 'attachments/smgs/tactical.png'
-        },
-        {
-            name: 'Ranger Foregrip',
-            image: 'attachments/smgs/ranger.png'
-        },
-        {
-            name: 'Operator Foregrip',
-            image: 'attachments/smgs/operator.png'
-        },
+        name: 'Merc Foregrup',
+        image: 'attachments/smgs/merc.png'
+    },
+    {
+        name: 'Commando Foregrip',
+        image: 'attachments/smgs/commando.png'
+    },
+    {
+        name: 'Tactical Foregrip',
+        image: 'attachments/smgs/tactical.png'
+    },
+    {
+        name: 'Ranger Foregrip',
+        image: 'attachments/smgs/ranger.png'
+    },
+    {
+        name: 'Operator Foregrip',
+        image: 'attachments/smgs/operator.png'
+    },
     ];
 
 
@@ -15656,13 +15655,13 @@ function fennec() {
     //Ammunation
 
     var ammunations = [{
-            name: '40 Round Drum Mags',
-            image: 'attachments/smgs/40drum.png'
-        },
-        {
-            name: '.45 Hollow Point 12-R Mags',
-            image: 'attachments/smgs/12r.png'
-        },
+        name: '40 Round Drum Mags',
+        image: 'attachments/smgs/40drum.png'
+    },
+    {
+        name: '.45 Hollow Point 12-R Mags',
+        image: 'attachments/smgs/12r.png'
+    },
     ];
 
 
@@ -15690,17 +15689,17 @@ function fennec() {
     //RearGrip
 
     var reargrips = [{
-            name: 'Granulated Grip Tape',
-            image: 'attachments/smgs/granulatedgriptape.png'
-        },
-        {
-            name: 'Stippled Grip Tape',
-            image: 'attachments/smgs/stippledgriptape.png'
-        },
-        {
-            name: 'Rubberized Grip Tape',
-            image: 'attachments/smgs/rubberizedgriptape.png'
-        },
+        name: 'Granulated Grip Tape',
+        image: 'attachments/smgs/granulatedgriptape.png'
+    },
+    {
+        name: 'Stippled Grip Tape',
+        image: 'attachments/smgs/stippledgriptape.png'
+    },
+    {
+        name: 'Rubberized Grip Tape',
+        image: 'attachments/smgs/rubberizedgriptape.png'
+    },
     ];
 
 
@@ -15726,41 +15725,41 @@ function fennec() {
     //Perks
 
     var perks = [{
-            name: 'FMJ',
-            image: 'attachments/perks/fmj.png'
-        },
-        {
-            name: 'Sleight of Hand',
-            image: 'attachments/perks/sleight.png'
-        },
-        {
-            name: 'Frangible - Wounding',
-            image: 'attachments/perks/wounding.png'
-        },
-        {
-            name: 'Heavy Hitter',
-            image: 'attachments/perks/heavyhitter.png'
-        },
-        {
-            name: 'Fully Loaded',
-            image: 'attachments/perks/fullyloaded.png'
-        },
-        {
-            name: 'Recon',
-            image: 'attachments/perks/recon.png'
-        },
-        {
-            name: 'Mo Money',
-            image: 'attachments/perks/money.png'
-        },
-        {
-            name: 'Fast Melee',
-            image: 'attachments/perks/fastmelee.png'
-        },
-        {
-            name: 'Frangible - Disabling',
-            image: 'attachments/perks/disabling.png'
-        },
+        name: 'FMJ',
+        image: 'attachments/perks/fmj.png'
+    },
+    {
+        name: 'Sleight of Hand',
+        image: 'attachments/perks/sleight.png'
+    },
+    {
+        name: 'Frangible - Wounding',
+        image: 'attachments/perks/wounding.png'
+    },
+    {
+        name: 'Heavy Hitter',
+        image: 'attachments/perks/heavyhitter.png'
+    },
+    {
+        name: 'Fully Loaded',
+        image: 'attachments/perks/fullyloaded.png'
+    },
+    {
+        name: 'Recon',
+        image: 'attachments/perks/recon.png'
+    },
+    {
+        name: 'Mo Money',
+        image: 'attachments/perks/money.png'
+    },
+    {
+        name: 'Fast Melee',
+        image: 'attachments/perks/fastmelee.png'
+    },
+    {
+        name: 'Frangible - Disabling',
+        image: 'attachments/perks/disabling.png'
+    },
     ];
 
 
@@ -15859,21 +15858,21 @@ function iso() {
     //Barrel
 
     var barrels = [{
-            name: 'FTAC 225mm Dominator',
-            image: 'attachments/smgs/dominator.png'
-        },
-        {
-            name: 'FSS Revolution',
-            image: 'attachments/smgs/revolution.png'
-        },
-        {
-            name: 'ISO 140mm CQB',
-            image: 'attachments/smgs/140mm.png'
-        },
-        {
-            name: 'FSS Nightshade',
-            image: 'attachments/smgs/nightshade.png'
-        }
+        name: 'FTAC 225mm Dominator',
+        image: 'attachments/smgs/dominator.png'
+    },
+    {
+        name: 'FSS Revolution',
+        image: 'attachments/smgs/revolution.png'
+    },
+    {
+        name: 'ISO 140mm CQB',
+        image: 'attachments/smgs/140mm.png'
+    },
+    {
+        name: 'FSS Nightshade',
+        image: 'attachments/smgs/nightshade.png'
+    }
     ];
 
 
@@ -15902,17 +15901,17 @@ function iso() {
     //Laser
 
     var lasers = [{
-            name: '1mW Laser',
-            image: 'attachments/smgs/1mwlaser.png'
-        },
-        {
-            name: '5mW Laser',
-            image: 'attachments/smgs/5mwlaser.png'
-        },
-        {
-            name: 'Tac Laser',
-            image: 'attachments/smgs/taclaser.png'
-        },
+        name: '1mW Laser',
+        image: 'attachments/smgs/1mwlaser.png'
+    },
+    {
+        name: '5mW Laser',
+        image: 'attachments/smgs/5mwlaser.png'
+    },
+    {
+        name: 'Tac Laser',
+        image: 'attachments/smgs/taclaser.png'
+    },
     ];
 
 
@@ -16033,21 +16032,21 @@ function iso() {
     //Stock
 
     var stocks = [{
-            name: 'FORGE TAC Ultralight',
-            image: 'attachments/smgs/ultralight.png'
-        },
-        {
-            name: 'FORGE TAC Stalker',
-            image: 'attachments/smgs/forgetacstalker.png'
-        },
-        {
-            name: 'FTAC Vagrant',
-            image: 'attachments/smgs/vagrant.png'
-        },
-        {
-            name: 'ISO Collapsible',
-            image: 'attachments/smgs/isocollapsible.png'
-        },
+        name: 'FORGE TAC Ultralight',
+        image: 'attachments/smgs/ultralight.png'
+    },
+    {
+        name: 'FORGE TAC Stalker',
+        image: 'attachments/smgs/forgetacstalker.png'
+    },
+    {
+        name: 'FTAC Vagrant',
+        image: 'attachments/smgs/vagrant.png'
+    },
+    {
+        name: 'ISO Collapsible',
+        image: 'attachments/smgs/isocollapsible.png'
+    },
     ];
 
 
@@ -16075,25 +16074,25 @@ function iso() {
     //Underbarrel
 
     var underbarrels = [{
-            name: 'Merc Foregrup',
-            image: 'attachments/smgs/merc.png'
-        },
-        {
-            name: 'Commando Foregrip',
-            image: 'attachments/smgs/commando.png'
-        },
-        {
-            name: 'Tactical Foregrip',
-            image: 'attachments/smgs/tactical.png'
-        },
-        {
-            name: 'Ranger Foregrip',
-            image: 'attachments/smgs/ranger.png'
-        },
-        {
-            name: 'Operator Foregrip',
-            image: 'attachments/smgs/operator.png'
-        },
+        name: 'Merc Foregrup',
+        image: 'attachments/smgs/merc.png'
+    },
+    {
+        name: 'Commando Foregrip',
+        image: 'attachments/smgs/commando.png'
+    },
+    {
+        name: 'Tactical Foregrip',
+        image: 'attachments/smgs/tactical.png'
+    },
+    {
+        name: 'Ranger Foregrip',
+        image: 'attachments/smgs/ranger.png'
+    },
+    {
+        name: 'Operator Foregrip',
+        image: 'attachments/smgs/operator.png'
+    },
     ];
 
 
@@ -16124,13 +16123,13 @@ function iso() {
     //Ammunation
 
     var ammunations = [{
-            name: '30 Round Mags',
-            image: 'attachments/smgs/30iso.png'
-        },
-        {
-            name: '50 Round Mags',
-            image: 'attachments/smgs/50iso.png'
-        },
+        name: '30 Round Mags',
+        image: 'attachments/smgs/30iso.png'
+    },
+    {
+        name: '50 Round Mags',
+        image: 'attachments/smgs/50iso.png'
+    },
     ];
 
 
@@ -16158,17 +16157,17 @@ function iso() {
     //RearGrip
 
     var reargrips = [{
-            name: 'FSS Vice ISO Grip',
-            image: 'attachments/smgs/viceiso.png'
-        },
-        {
-            name: 'FTAC Elite ISO Grip',
-            image: 'attachments/smgs/eliteiso.png'
-        },
-        {
-            name: 'ISO Tac-Form',
-            image: 'attachments/smgs/taciso.png'
-        },
+        name: 'FSS Vice ISO Grip',
+        image: 'attachments/smgs/viceiso.png'
+    },
+    {
+        name: 'FTAC Elite ISO Grip',
+        image: 'attachments/smgs/eliteiso.png'
+    },
+    {
+        name: 'ISO Tac-Form',
+        image: 'attachments/smgs/taciso.png'
+    },
     ];
 
 
@@ -16194,41 +16193,41 @@ function iso() {
     //Perks
 
     var perks = [{
-            name: 'FMJ',
-            image: 'attachments/perks/fmj.png'
-        },
-        {
-            name: 'Sleight of Hand',
-            image: 'attachments/perks/sleight.png'
-        },
-        {
-            name: 'Frangible - Wounding',
-            image: 'attachments/perks/wounding.png'
-        },
-        {
-            name: 'Heavy Hitter',
-            image: 'attachments/perks/heavyhitter.png'
-        },
-        {
-            name: 'Fully Loaded',
-            image: 'attachments/perks/fullyloaded.png'
-        },
-        {
-            name: 'Recon',
-            image: 'attachments/perks/recon.png'
-        },
-        {
-            name: 'Mo Money',
-            image: 'attachments/perks/money.png'
-        },
-        {
-            name: 'Fast Melee',
-            image: 'attachments/perks/fastmelee.png'
-        },
-        {
-            name: 'Frangible - Disabling',
-            image: 'attachments/perks/disabling.png'
-        },
+        name: 'FMJ',
+        image: 'attachments/perks/fmj.png'
+    },
+    {
+        name: 'Sleight of Hand',
+        image: 'attachments/perks/sleight.png'
+    },
+    {
+        name: 'Frangible - Wounding',
+        image: 'attachments/perks/wounding.png'
+    },
+    {
+        name: 'Heavy Hitter',
+        image: 'attachments/perks/heavyhitter.png'
+    },
+    {
+        name: 'Fully Loaded',
+        image: 'attachments/perks/fullyloaded.png'
+    },
+    {
+        name: 'Recon',
+        image: 'attachments/perks/recon.png'
+    },
+    {
+        name: 'Mo Money',
+        image: 'attachments/perks/money.png'
+    },
+    {
+        name: 'Fast Melee',
+        image: 'attachments/perks/fastmelee.png'
+    },
+    {
+        name: 'Frangible - Disabling',
+        image: 'attachments/perks/disabling.png'
+    },
     ];
 
 
@@ -16333,17 +16332,17 @@ function cr56() {
     //Barrel
 
     var barrels = [{
-            name: 'FSS 8.3 Intruder',
-            image: 'attachments/barrels/intruder.png'
-        },
-        {
-            name: 'XRX Zodiac S440',
-            image: 'attachments/barrels/s440.png'
-        },
-        {
-            name: 'FSS 11.8 Squall',
-            image: 'attachments/barrels/squall.png'
-        }
+        name: 'FSS 8.3 Intruder',
+        image: 'attachments/barrels/intruder.png'
+    },
+    {
+        name: 'XRX Zodiac S440',
+        image: 'attachments/barrels/s440.png'
+    },
+    {
+        name: 'FSS 11.8 Squall',
+        image: 'attachments/barrels/squall.png'
+    }
     ];
 
 
@@ -16375,17 +16374,17 @@ function cr56() {
     //Laser
 
     var lasers = [{
-            name: '1mW Laser',
-            image: 'attachments/lasers/1mw.png'
-        },
-        {
-            name: '5mW Laser',
-            image: 'attachments/lasers/5mw.png'
-        },
-        {
-            name: 'Tac Laser',
-            image: 'attachments/lasers/tac.png'
-        }
+        name: '1mW Laser',
+        image: 'attachments/lasers/1mw.png'
+    },
+    {
+        name: '5mW Laser',
+        image: 'attachments/lasers/5mw.png'
+    },
+    {
+        name: 'Tac Laser',
+        image: 'attachments/lasers/tac.png'
+    }
     ];
 
 
@@ -16522,29 +16521,29 @@ function cr56() {
     //Stock
 
     var stocks = [{
-            name: 'FSS Close Quarters Stock',
-            image: 'attachments/stocks/closequarters.png'
-        },
-        {
-            name: 'FTAC Hunter',
-            image: 'attachments/stocks/ftachunter.png'
-        },
-        {
-            name: 'No Stock',
-            image: 'attachments/stocks/nostockgrau.png'
-        },
-        {
-            name: 'FTAC Spartan',
-            image: 'attachments/stocks/spartan.png'
-        },
-        {
-            name: 'XRX Gatekeeper',
-            image: 'attachments/stocks/gatekeeper.png'
-        },
-        {
-            name: 'CR-56 EXO',
-            image: 'attachments/stocks/exo.png'
-        }
+        name: 'FSS Close Quarters Stock',
+        image: 'attachments/stocks/closequarters.png'
+    },
+    {
+        name: 'FTAC Hunter',
+        image: 'attachments/stocks/ftachunter.png'
+    },
+    {
+        name: 'No Stock',
+        image: 'attachments/stocks/nostockgrau.png'
+    },
+    {
+        name: 'FTAC Spartan',
+        image: 'attachments/stocks/spartan.png'
+    },
+    {
+        name: 'XRX Gatekeeper',
+        image: 'attachments/stocks/gatekeeper.png'
+    },
+    {
+        name: 'CR-56 EXO',
+        image: 'attachments/stocks/exo.png'
+    }
     ];
 
 
@@ -16654,13 +16653,13 @@ function cr56() {
     //Ammunation
 
     var ammunations = [{
-            name: '45 Round Mags',
-            image: 'attachments/ammunations/45cr56.png'
-        },
-        {
-            name: 'M67 10-R Mags',
-            image: 'attachments/ammunations/m67.png'
-        },
+        name: '45 Round Mags',
+        image: 'attachments/ammunations/45cr56.png'
+    },
+    {
+        name: 'M67 10-R Mags',
+        image: 'attachments/ammunations/m67.png'
+    },
     ];
 
 
@@ -16688,17 +16687,17 @@ function cr56() {
     //RearGrip
 
     var reargrips = [{
-            name: 'XRK CR-56 Granulated Wrap',
-            image: 'attachments/reargrips/granulatedwrap.png'
-        },
-        {
-            name: 'XRK CR-56 Rubberized Wrap',
-            image: 'attachments/reargrips/rubberizedwrap.png'
-        },
-        {
-            name: 'XRK CR-56 Stippled Wrap',
-            image: 'attachments/reargrips/stippledwrap.png'
-        }
+        name: 'XRK CR-56 Granulated Wrap',
+        image: 'attachments/reargrips/granulatedwrap.png'
+    },
+    {
+        name: 'XRK CR-56 Rubberized Wrap',
+        image: 'attachments/reargrips/rubberizedwrap.png'
+    },
+    {
+        name: 'XRK CR-56 Stippled Wrap',
+        image: 'attachments/reargrips/stippledwrap.png'
+    }
     ];
 
 
@@ -16861,17 +16860,17 @@ function an94() {
     //Barrel
 
     var barrels = [{
-            name: 'AN-94 Factory 330mm',
-            image: 'attachments/barrels/330mm.png'
-        },
-        {
-            name: 'AN-94 Factory X-438mm',
-            image: 'attachments/barrels/438mm.png'
-        },
-        {
-            name: 'VLK AN-94 Sila',
-            image: 'attachments/barrels/sila.png'
-        }
+        name: 'AN-94 Factory 330mm',
+        image: 'attachments/barrels/330mm.png'
+    },
+    {
+        name: 'AN-94 Factory X-438mm',
+        image: 'attachments/barrels/438mm.png'
+    },
+    {
+        name: 'VLK AN-94 Sila',
+        image: 'attachments/barrels/sila.png'
+    }
     ];
 
 
@@ -16903,17 +16902,17 @@ function an94() {
     //Laser
 
     var lasers = [{
-            name: '1mW Laser',
-            image: 'attachments/lasers/1mw.png'
-        },
-        {
-            name: '5mW Laser',
-            image: 'attachments/lasers/5mw.png'
-        },
-        {
-            name: 'Tac Laser',
-            image: 'attachments/lasers/tac.png'
-        }
+        name: '1mW Laser',
+        image: 'attachments/lasers/1mw.png'
+    },
+    {
+        name: '5mW Laser',
+        image: 'attachments/lasers/5mw.png'
+    },
+    {
+        name: 'Tac Laser',
+        image: 'attachments/lasers/tac.png'
+    }
     ];
 
 
@@ -17054,25 +17053,25 @@ function an94() {
     //Stock
 
     var stocks = [{
-            name: 'AN-94 Factory Heavy',
-            image: 'attachments/stocks/anheavy.png'
-        },
-        {
-            name: 'Forge Tac Ultralight',
-            image: 'attachments/stocks/ultralight.png'
-        },
-        {
-            name: 'Folded Stock',
-            image: 'attachments/stocks/folded.png'
-        },
-        {
-            name: 'FSS CLose Quarters Stock',
-            image: 'attachments/stocks/closequarters.png'
-        },
-        {
-            name: 'VLK PX-9 Pero',
-            image: 'attachments/stocks/vlk.png'
-        }
+        name: 'AN-94 Factory Heavy',
+        image: 'attachments/stocks/anheavy.png'
+    },
+    {
+        name: 'Forge Tac Ultralight',
+        image: 'attachments/stocks/ultralight.png'
+    },
+    {
+        name: 'Folded Stock',
+        image: 'attachments/stocks/folded.png'
+    },
+    {
+        name: 'FSS CLose Quarters Stock',
+        image: 'attachments/stocks/closequarters.png'
+    },
+    {
+        name: 'VLK PX-9 Pero',
+        image: 'attachments/stocks/vlk.png'
+    }
     ];
 
 
@@ -17182,13 +17181,13 @@ function an94() {
     //Ammunation
 
     var ammunations = [{
-            name: '45 Round Mags',
-            image: 'attachments/ammunations/45.png'
-        },
-        {
-            name: '60 Round Casket Mags',
-            image: 'attachments/ammunations/60casket.png'
-        },
+        name: '45 Round Mags',
+        image: 'attachments/ammunations/45.png'
+    },
+    {
+        name: '60 Round Casket Mags',
+        image: 'attachments/ammunations/60casket.png'
+    },
     ];
 
 
@@ -17216,17 +17215,17 @@ function an94() {
     //RearGrip
 
     var reargrips = [{
-            name: 'Granulated Grip Tape',
-            image: 'attachments/reargrips/granulated.png'
-        },
-        {
-            name: 'Stippled Grip Tape',
-            image: 'attachments/reargrips/stippled.png'
-        },
-        {
-            name: 'Rubberized Grip Tape',
-            image: 'attachments/reargrips/rubberized.png'
-        }
+        name: 'Granulated Grip Tape',
+        image: 'attachments/reargrips/granulated.png'
+    },
+    {
+        name: 'Stippled Grip Tape',
+        image: 'attachments/reargrips/stippled.png'
+    },
+    {
+        name: 'Rubberized Grip Tape',
+        image: 'attachments/reargrips/rubberized.png'
+    }
     ];
 
 
@@ -17406,17 +17405,17 @@ function vlk() {
     //Barrel
 
     var barrels = [{
-            name: 'VLK Czar',
-            image: 'attachments/shotguns/vlk/czar.png'
-        },
-        {
-            name: '6 Revolt',
-            image: 'attachments/shotguns/vlk/revolt.png'
-        },
-        {
-            name: '16 Warlord',
-            image: 'attachments/shotguns/vlk/warlord.png'
-        },
+        name: 'VLK Czar',
+        image: 'attachments/shotguns/vlk/czar.png'
+    },
+    {
+        name: '6 Revolt',
+        image: 'attachments/shotguns/vlk/revolt.png'
+    },
+    {
+        name: '16 Warlord',
+        image: 'attachments/shotguns/vlk/warlord.png'
+    },
     ];
 
 
@@ -17445,17 +17444,17 @@ function vlk() {
     //Laser
 
     var lasers = [{
-            name: '1mW Laser',
-            image: 'attachments/shotguns/origin12shotgun/1mwlaser.png'
-        },
-        {
-            name: '5mW Laser',
-            image: 'attachments/shotguns/origin12shotgun/5mwlaser.png'
-        },
-        {
-            name: 'Tac Laser',
-            image: 'attachments/shotguns/origin12shotgun/taclaser.png'
-        },
+        name: '1mW Laser',
+        image: 'attachments/shotguns/origin12shotgun/1mwlaser.png'
+    },
+    {
+        name: '5mW Laser',
+        image: 'attachments/shotguns/origin12shotgun/5mwlaser.png'
+    },
+    {
+        name: 'Tac Laser',
+        image: 'attachments/shotguns/origin12shotgun/taclaser.png'
+    },
     ];
 
 
@@ -17564,21 +17563,21 @@ function vlk() {
     //Pumps
 
     var pumps = [{
-            name: 'FTAC Hunter',
-            image: 'attachments/shotguns/origin12shotgun/ftachunter.png'
-        },
-        {
-            name: 'FORGE TAC Ultralight',
-            image: 'attachments/shotguns/origin12shotgun/forgetacultralight.png'
-        },
-        {
-            name: 'No Stock',
-            image: 'attachments/shotguns/origin12shotgun/nostock.png'
-        },
-        {
-            name: 'FSS Close Quarters Stock',
-            image: 'attachments/shotguns/vlk/closequarters.png'
-        },
+        name: 'FTAC Hunter',
+        image: 'attachments/shotguns/origin12shotgun/ftachunter.png'
+    },
+    {
+        name: 'FORGE TAC Ultralight',
+        image: 'attachments/shotguns/origin12shotgun/forgetacultralight.png'
+    },
+    {
+        name: 'No Stock',
+        image: 'attachments/shotguns/origin12shotgun/nostock.png'
+    },
+    {
+        name: 'FSS Close Quarters Stock',
+        image: 'attachments/shotguns/vlk/closequarters.png'
+    },
     ];
 
 
@@ -17606,17 +17605,17 @@ function vlk() {
     //Underbarrel
 
     var underbarrels = [{
-            name: 'XRX Race Grip',
-            image: 'attachments/shotguns/vlk/race.png'
-        },
-        {
-            name: 'VLK Prime Pump Grip',
-            image: 'attachments/shotguns/vlk/pump.png'
-        },
-        {
-            name: 'XRX ReliaGrip',
-            image: 'attachments/shotguns/vlk/relia.png'
-        },
+        name: 'XRX Race Grip',
+        image: 'attachments/shotguns/vlk/race.png'
+    },
+    {
+        name: 'VLK Prime Pump Grip',
+        image: 'attachments/shotguns/vlk/pump.png'
+    },
+    {
+        name: 'XRX ReliaGrip',
+        image: 'attachments/shotguns/vlk/relia.png'
+    },
     ];
 
 
@@ -17647,21 +17646,21 @@ function vlk() {
     //Ammunation
 
     var ammunations = [{
-            name: '12 Round Mags',
-            image: 'attachments/shotguns/origin12shotgun/12.png'
-        },
-        {
-            name: '8 Round Slug Mags',
-            image: 'attachments/shotguns/origin12shotgun/8.png'
-        },
-        {
-            name: '4 Round Mags',
-            image: 'attachments/shotguns/vlk/4.png'
-        },
-        {
-            name: 'Dragons Breath Rounds',
-            image: 'attachments/shotguns/vlk/dragon.png'
-        },
+        name: '12 Round Mags',
+        image: 'attachments/shotguns/origin12shotgun/12.png'
+    },
+    {
+        name: '8 Round Slug Mags',
+        image: 'attachments/shotguns/origin12shotgun/8.png'
+    },
+    {
+        name: '4 Round Mags',
+        image: 'attachments/shotguns/vlk/4.png'
+    },
+    {
+        name: 'Dragons Breath Rounds',
+        image: 'attachments/shotguns/vlk/dragon.png'
+    },
     ];
 
 
@@ -17686,17 +17685,17 @@ function vlk() {
     //RearGrip
 
     var reargrips = [{
-            name: 'Granulated Grip Tape',
-            image: 'attachments/shotguns/origin12shotgun/granulated.png'
-        },
-        {
-            name: 'Rubberized Grip Tape',
-            image: 'attachments/shotguns/origin12shotgun/rubberized.png'
-        },
-        {
-            name: 'Stippled Grip Tape',
-            image: 'attachments/shotguns/origin12shotgun/stippled.png'
-        },
+        name: 'Granulated Grip Tape',
+        image: 'attachments/shotguns/origin12shotgun/granulated.png'
+    },
+    {
+        name: 'Rubberized Grip Tape',
+        image: 'attachments/shotguns/origin12shotgun/rubberized.png'
+    },
+    {
+        name: 'Stippled Grip Tape',
+        image: 'attachments/shotguns/origin12shotgun/stippled.png'
+    },
     ];
 
 
@@ -17721,41 +17720,41 @@ function vlk() {
     //Perks
 
     var perks = [{
-            name: 'FMJ',
-            image: 'attachments/perks/fmj.png'
-        },
-        {
-            name: 'Sleight of Hand',
-            image: 'attachments/perks/sleight.png'
-        },
-        {
-            name: 'Frangible - Wounding',
-            image: 'attachments/perks/wounding.png'
-        },
-        {
-            name: 'Heavy Hitter',
-            image: 'attachments/perks/heavyhitter.png'
-        },
-        {
-            name: 'Fully Loaded',
-            image: 'attachments/perks/fullyloaded.png'
-        },
-        {
-            name: 'Recon',
-            image: 'attachments/perks/recon.png'
-        },
-        {
-            name: 'Mo Money',
-            image: 'attachments/perks/money.png'
-        },
-        {
-            name: 'Fast Melee',
-            image: 'attachments/perks/fastmelee.png'
-        },
-        {
-            name: 'Frangible - Disabling',
-            image: 'attachments/perks/disabling.png'
-        },
+        name: 'FMJ',
+        image: 'attachments/perks/fmj.png'
+    },
+    {
+        name: 'Sleight of Hand',
+        image: 'attachments/perks/sleight.png'
+    },
+    {
+        name: 'Frangible - Wounding',
+        image: 'attachments/perks/wounding.png'
+    },
+    {
+        name: 'Heavy Hitter',
+        image: 'attachments/perks/heavyhitter.png'
+    },
+    {
+        name: 'Fully Loaded',
+        image: 'attachments/perks/fullyloaded.png'
+    },
+    {
+        name: 'Recon',
+        image: 'attachments/perks/recon.png'
+    },
+    {
+        name: 'Mo Money',
+        image: 'attachments/perks/money.png'
+    },
+    {
+        name: 'Fast Melee',
+        image: 'attachments/perks/fastmelee.png'
+    },
+    {
+        name: 'Frangible - Disabling',
+        image: 'attachments/perks/disabling.png'
+    },
     ];
 
 
@@ -17865,17 +17864,17 @@ function bruen() {
     //Barrel
 
     var barrels = [{
-            name: 'XRX Horizon 23.0',
-            image: 'attachments/lmgs/barrels/horizon.png'
-        },
-        {
-            name: 'XRX Summit 26.8',
-            image: 'attachments/lmgs/barrels/summit.png'
-        },
-        {
-            name: 'Bruen 18.0 Para',
-            image: 'attachments/lmgs/barrels/para.png'
-        },
+        name: 'XRX Horizon 23.0',
+        image: 'attachments/lmgs/barrels/horizon.png'
+    },
+    {
+        name: 'XRX Summit 26.8',
+        image: 'attachments/lmgs/barrels/summit.png'
+    },
+    {
+        name: 'Bruen 18.0 Para',
+        image: 'attachments/lmgs/barrels/para.png'
+    },
 
 
     ];
@@ -17907,17 +17906,17 @@ function bruen() {
     //Laser
 
     var lasers = [{
-            name: '1mW Laser',
-            image: 'attachments/lasers/1mw.png'
-        },
-        {
-            name: '5mW Laser',
-            image: 'attachments/lasers/5mw.png'
-        },
-        {
-            name: 'Tac Laser',
-            image: 'attachments/lasers/tac.png'
-        }
+        name: '1mW Laser',
+        image: 'attachments/lasers/1mw.png'
+    },
+    {
+        name: '5mW Laser',
+        image: 'attachments/lasers/5mw.png'
+    },
+    {
+        name: 'Tac Laser',
+        image: 'attachments/lasers/tac.png'
+    }
     ];
 
 
@@ -18050,25 +18049,25 @@ function bruen() {
     //Stock
 
     var stocks = [{
-            name: 'FORGE TAC Stalker',
-            image: 'attachments/lmgs/stocks/stalker.png'
-        },
-        {
-            name: 'FORGE TAC Ultralight',
-            image: 'attachments/lmgs/stocks/ultralight.png'
-        },
-        {
-            name: 'No Stock',
-            image: 'attachments/lmgs/stocks/nostock.png'
-        },
-        {
-            name: 'FSS Close Quarters Stock',
-            image: 'attachments/lmgs/stocks/close.png'
-        },
-        {
-            name: 'Skeleton Stock',
-            image: 'attachments/lmgs/stocks/skeleton.png'
-        },
+        name: 'FORGE TAC Stalker',
+        image: 'attachments/lmgs/stocks/stalker.png'
+    },
+    {
+        name: 'FORGE TAC Ultralight',
+        image: 'attachments/lmgs/stocks/ultralight.png'
+    },
+    {
+        name: 'No Stock',
+        image: 'attachments/lmgs/stocks/nostock.png'
+    },
+    {
+        name: 'FSS Close Quarters Stock',
+        image: 'attachments/lmgs/stocks/close.png'
+    },
+    {
+        name: 'Skeleton Stock',
+        image: 'attachments/lmgs/stocks/skeleton.png'
+    },
 
     ];
 
@@ -18117,7 +18116,7 @@ function bruen() {
             name: 'Operator Foregrip',
             image: 'attachments/lmgs/underbarrels/commando.png'
         },
-           {
+        {
             name: 'Bipod',
             image: 'attachments/lmgs/underbarrels/bipod.png'
         },
@@ -18185,17 +18184,17 @@ function bruen() {
     //RearGrip
 
     var reargrips = [{
-            name: 'Granulated Grip Tape',
-            image: 'attachments/lmgs/reargrips/granulatedmg.png'
-        },
-        {
-            name: 'Stippled Grip Tape',
-            image: 'attachments/lmgs/reargrips/stippledmg.png'
-        },
-        {
-            name: 'Rubberized Grip Tape',
-            image: 'attachments/lmgs/reargrips/rubberizedmg.png'
-        },
+        name: 'Granulated Grip Tape',
+        image: 'attachments/lmgs/reargrips/granulatedmg.png'
+    },
+    {
+        name: 'Stippled Grip Tape',
+        image: 'attachments/lmgs/reargrips/stippledmg.png'
+    },
+    {
+        name: 'Rubberized Grip Tape',
+        image: 'attachments/lmgs/reargrips/rubberizedmg.png'
+    },
 
     ];
 
@@ -18222,41 +18221,41 @@ function bruen() {
     //Perks
 
     var perks = [{
-            name: 'FMJ',
-            image: 'attachments/perks/fmj.png'
-        },
-        {
-            name: 'Sleight of Hand',
-            image: 'attachments/perks/sleight.png'
-        },
-        {
-            name: 'Frangible - Wounding',
-            image: 'attachments/perks/wounding.png'
-        },
-        {
-            name: 'Heavy Hitter',
-            image: 'attachments/perks/heavyhitter.png'
-        },
-        {
-            name: 'Fully Loaded',
-            image: 'attachments/perks/fullyloaded.png'
-        },
-        {
-            name: 'Recon',
-            image: 'attachments/perks/recon.png'
-        },
-        {
-            name: 'Mo Money',
-            image: 'attachments/perks/money.png'
-        },
-        {
-            name: 'Fast Melee',
-            image: 'attachments/perks/fastmelee.png'
-        },
-        {
-            name: 'Frangible - Disabling',
-            image: 'attachments/perks/disabling.png'
-        },
+        name: 'FMJ',
+        image: 'attachments/perks/fmj.png'
+    },
+    {
+        name: 'Sleight of Hand',
+        image: 'attachments/perks/sleight.png'
+    },
+    {
+        name: 'Frangible - Wounding',
+        image: 'attachments/perks/wounding.png'
+    },
+    {
+        name: 'Heavy Hitter',
+        image: 'attachments/perks/heavyhitter.png'
+    },
+    {
+        name: 'Fully Loaded',
+        image: 'attachments/perks/fullyloaded.png'
+    },
+    {
+        name: 'Recon',
+        image: 'attachments/perks/recon.png'
+    },
+    {
+        name: 'Mo Money',
+        image: 'attachments/perks/money.png'
+    },
+    {
+        name: 'Fast Melee',
+        image: 'attachments/perks/fastmelee.png'
+    },
+    {
+        name: 'Frangible - Disabling',
+        image: 'attachments/perks/disabling.png'
+    },
     ];
 
 
@@ -18368,17 +18367,17 @@ function sks() {
     //Barrel
 
     var barrels = [{
-            name: 'FTAC Landmark',
-            image: 'attachments/mrs/barrels/landmark.png'
-        },
-        {
-            name: '16 FSS Para',
-            image: 'attachments/mrs/barrels/16.png'
-        },
-        {
-            name: '22 FSS M59/66',
-            image: 'attachments/mrs/barrels/22.png'
-        },
+        name: 'FTAC Landmark',
+        image: 'attachments/mrs/barrels/landmark.png'
+    },
+    {
+        name: '16 FSS Para',
+        image: 'attachments/mrs/barrels/16.png'
+    },
+    {
+        name: '22 FSS M59/66',
+        image: 'attachments/mrs/barrels/22.png'
+    },
     ];
 
 
@@ -18440,81 +18439,81 @@ function sks() {
     //Optic
 
     var optics = [{
-            name: 'Corp Combat Holo Sight',
-            image: 'attachments/optics/corp.png'
-        },
-        {
-            name: 'Operator Reflex Sight',
-            image: 'attachments/optics/operator.png'
-        },
-        {
-            name: 'Scout Combat Optic',
-            image: 'attachments/optics/scout.png'
-        },
-        {
-            name: '4.0x Flip Hybrid',
-            image: 'attachments/optics/40x.png'
-        },
-        {
-            name: 'Aim-Op Reflex Sight',
-            image: 'attachments/optics/aimop.png'
-        },
-        {
-            name: 'APx5 Holographic Sight',
-            image: 'attachments/optics/apx5.png'
-        },
-        {
-            name: 'Integral Hybrid',
-            image: 'attachments/optics/integral.png'
-        },
-        {
-            name: 'Solozero NVG Enhanced',
-            image: 'attachments/optics/solozero.png'
-        },
-        {
-            name: 'VLK 3.0x Optic',
-            image: 'attachments/optics/vlk.png'
-        },
-        {
-            name: 'Sniper Scope',
-            image: 'attachments/optics/sniperscope.png'
-        },
-        {
-            name: 'Viper Reflex Sight',
-            image: 'attachments/optics/viper.png'
-        },
-        {
-            name: 'G.I. Mini Reflex',
-            image: 'attachments/optics/gi.png'
-        },
-        {
-            name: 'PBX Holo 7 Sight',
-            image: 'attachments/optics/pbx.png'
-        },
-        {
-            name: 'Cronen C480 Pro Optic',
-            image: 'attachments/optics/cronenc480.png'
-        },
-        {
-            name: 'Monocle Reflex Sight',
-            image: 'attachments/optics/monocle.png'
-        },
-        {
-            name: 'Variable Zoom Scope',
-            image: 'attachments/optics/variable.png'
-        },
-        {
-            name: 'Canted Hybrid',
-            image: 'attachments/optics/canted.png'
-        },
-        {
-            name: 'Merc Thermal Optic',
-            image: 'attachments/optics/merc.png'
-        },
-        {
-            name: 'Thermal Hybrid',
-            image: 'attachments/optics/thermal.png'
-        }
+        name: 'Corp Combat Holo Sight',
+        image: 'attachments/optics/corp.png'
+    },
+    {
+        name: 'Operator Reflex Sight',
+        image: 'attachments/optics/operator.png'
+    },
+    {
+        name: 'Scout Combat Optic',
+        image: 'attachments/optics/scout.png'
+    },
+    {
+        name: '4.0x Flip Hybrid',
+        image: 'attachments/optics/40x.png'
+    },
+    {
+        name: 'Aim-Op Reflex Sight',
+        image: 'attachments/optics/aimop.png'
+    },
+    {
+        name: 'APx5 Holographic Sight',
+        image: 'attachments/optics/apx5.png'
+    },
+    {
+        name: 'Integral Hybrid',
+        image: 'attachments/optics/integral.png'
+    },
+    {
+        name: 'Solozero NVG Enhanced',
+        image: 'attachments/optics/solozero.png'
+    },
+    {
+        name: 'VLK 3.0x Optic',
+        image: 'attachments/optics/vlk.png'
+    },
+    {
+        name: 'Sniper Scope',
+        image: 'attachments/optics/sniperscope.png'
+    },
+    {
+        name: 'Viper Reflex Sight',
+        image: 'attachments/optics/viper.png'
+    },
+    {
+        name: 'G.I. Mini Reflex',
+        image: 'attachments/optics/gi.png'
+    },
+    {
+        name: 'PBX Holo 7 Sight',
+        image: 'attachments/optics/pbx.png'
+    },
+    {
+        name: 'Cronen C480 Pro Optic',
+        image: 'attachments/optics/cronenc480.png'
+    },
+    {
+        name: 'Monocle Reflex Sight',
+        image: 'attachments/optics/monocle.png'
+    },
+    {
+        name: 'Variable Zoom Scope',
+        image: 'attachments/optics/variable.png'
+    },
+    {
+        name: 'Canted Hybrid',
+        image: 'attachments/optics/canted.png'
+    },
+    {
+        name: 'Merc Thermal Optic',
+        image: 'attachments/optics/merc.png'
+    },
+    {
+        name: 'Thermal Hybrid',
+        image: 'attachments/optics/thermal.png'
+    }
     ];
 
 
@@ -18541,17 +18540,17 @@ function sks() {
     //Stock
 
     var stocks = [{
-            name: 'SKS Rifle Stock',
-            image: 'attachments/mrs/stocks/rifle.png'
-        },
-        {
-            name: 'FTAC Hunter-Scout',
-            image: 'attachments/mrs/stocks/hunter.png'
-        },
-        {
-            name: 'Sawed-off Stock',
-            image: 'attachments/mrs/stocks/sawed.png'
-        },
+        name: 'SKS Rifle Stock',
+        image: 'attachments/mrs/stocks/rifle.png'
+    },
+    {
+        name: 'FTAC Hunter-Scout',
+        image: 'attachments/mrs/stocks/hunter.png'
+    },
+    {
+        name: 'Sawed-off Stock',
+        image: 'attachments/mrs/stocks/sawed.png'
+    },
     ];
 
 
@@ -18633,13 +18632,13 @@ function sks() {
     //Ammunation
 
     var ammunations = [{
-            name: '30 Round Mags',
-            image: 'attachments/mrs/ammunations/30.png'
-        },
-        {
-            name: '10 Round Mags',
-            image: 'attachments/mrs/ammunations/10.png'
-        },
+        name: '30 Round Mags',
+        image: 'attachments/mrs/ammunations/30.png'
+    },
+    {
+        name: '10 Round Mags',
+        image: 'attachments/mrs/ammunations/10.png'
+    },
 
     ];
 
@@ -18668,49 +18667,49 @@ function sks() {
     //Perks
 
     var perks = [{
-            name: 'FMJ',
-            image: 'attachments/perks/fmj.png'
-        },
-        {
-            name: 'Sleight of Hand',
-            image: 'attachments/perks/sleight.png'
-        },
-        {
-            name: 'Frangible - Wounding',
-            image: 'attachments/perks/wounding.png'
-        },
-        {
-            name: 'Heavy Hitter',
-            image: 'attachments/perks/heavyhitter.png'
-        },
-        {
-            name: 'Fully Loaded',
-            image: 'attachments/perks/fullyloaded.png'
-        },
-        {
-            name: 'Focus',
-            image: 'attachments/perks/focus.png'
-        },
-        {
-            name: 'Recon',
-            image: 'attachments/perks/recon.png'
-        },
-        {
-            name: 'Mo Money',
-            image: 'attachments/perks/money.png'
-        },
-        {
-            name: 'Fast Melee',
-            image: 'attachments/perks/fastmelee.png'
-        },
-        {
-            name: 'Frangible - Disabling',
-            image: 'attachments/perks/disabling.png'
-        },
-        {
-            name: 'Presence of Mind',
-            image: 'attachments/perks/mind.png'
-        }
+        name: 'FMJ',
+        image: 'attachments/perks/fmj.png'
+    },
+    {
+        name: 'Sleight of Hand',
+        image: 'attachments/perks/sleight.png'
+    },
+    {
+        name: 'Frangible - Wounding',
+        image: 'attachments/perks/wounding.png'
+    },
+    {
+        name: 'Heavy Hitter',
+        image: 'attachments/perks/heavyhitter.png'
+    },
+    {
+        name: 'Fully Loaded',
+        image: 'attachments/perks/fullyloaded.png'
+    },
+    {
+        name: 'Focus',
+        image: 'attachments/perks/focus.png'
+    },
+    {
+        name: 'Recon',
+        image: 'attachments/perks/recon.png'
+    },
+    {
+        name: 'Mo Money',
+        image: 'attachments/perks/money.png'
+    },
+    {
+        name: 'Fast Melee',
+        image: 'attachments/perks/fastmelee.png'
+    },
+    {
+        name: 'Frangible - Disabling',
+        image: 'attachments/perks/disabling.png'
+    },
+    {
+        name: 'Presence of Mind',
+        image: 'attachments/perks/mind.png'
+    }
     ];
 
 
@@ -18769,13 +18768,13 @@ function rytec() {
     //Muzzles
 
     var muzzles = [{
-            name: 'XRX Tank Brake',
-            image: 'attachments/snipers/tank.png'
-        },
-        {
-            name: 'Rytec AMR Suppressor',
-            image: 'attachments/snipers/amrsuppressor.png'
-        },
+        name: 'XRX Tank Brake',
+        image: 'attachments/snipers/tank.png'
+    },
+    {
+        name: 'Rytec AMR Suppressor',
+        image: 'attachments/snipers/amrsuppressor.png'
+    },
     ];
 
 
@@ -18801,17 +18800,17 @@ function rytec() {
     //Barrel
 
     var barrels = [{
-            name: 'FTAC Seven Straight',
-            image: 'attachments/snipers/seven.png'
-        },
-        {
-            name: 'FTAC 448mm Dictator',
-            image: 'attachments/snipers/dicatator.png'
-        },
-        {
-            name: 'XRX Harbinger',
-            image: 'attachments/snipers/harbringer.png'
-        },
+        name: 'FTAC Seven Straight',
+        image: 'attachments/snipers/seven.png'
+    },
+    {
+        name: 'FTAC 448mm Dictator',
+        image: 'attachments/snipers/dicatator.png'
+    },
+    {
+        name: 'XRX Harbinger',
+        image: 'attachments/snipers/harbringer.png'
+    },
     ];
 
 
@@ -18844,7 +18843,7 @@ function rytec() {
     var lasers = [{
         name: 'Tac Laser',
         image: 'attachments/snipers/taclaser.png'
-    }, ];
+    },];
 
 
     var laser = false;
@@ -18871,33 +18870,33 @@ function rytec() {
     //Optic
 
     var optics = [{
-            name: 'Scout Combat Optic',
-            image: 'attachments/snipers/scout.png'
-        },
-        {
-            name: 'Thermal Sniper Scope',
-            image: 'attachments/snipers/thermal.png'
-        },
-        {
-            name: 'VLK 3.0x Optic',
-            image: 'attachments/snipers/vlk.png'
-        },
-        {
-            name: 'Variable Zoom Scope',
-            image: 'attachments/snipers/variable.png'
-        },
-        {
-            name: 'Thermal Dual Power Scope',
-            image: 'attachments/snipers/thermaldual.png'
-        },
-        {
-            name: 'Cronen C480 Pro Optic',
-            image: 'attachments/snipers/cronen.png'
-        },
-        {
-            name: 'Merc Thermal Optic',
-            image: 'attachments/snipers/merc.png'
-        },
+        name: 'Scout Combat Optic',
+        image: 'attachments/snipers/scout.png'
+    },
+    {
+        name: 'Thermal Sniper Scope',
+        image: 'attachments/snipers/thermal.png'
+    },
+    {
+        name: 'VLK 3.0x Optic',
+        image: 'attachments/snipers/vlk.png'
+    },
+    {
+        name: 'Variable Zoom Scope',
+        image: 'attachments/snipers/variable.png'
+    },
+    {
+        name: 'Thermal Dual Power Scope',
+        image: 'attachments/snipers/thermaldual.png'
+    },
+    {
+        name: 'Cronen C480 Pro Optic',
+        image: 'attachments/snipers/cronen.png'
+    },
+    {
+        name: 'Merc Thermal Optic',
+        image: 'attachments/snipers/merc.png'
+    },
     ];
 
 
@@ -18924,17 +18923,17 @@ function rytec() {
     //Stock
 
     var stocks = [{
-            name: 'XRX Mastadon',
-            image: 'attachments/snipers/mastadon.png'
-        },
-        {
-            name: 'FTAC Trekker',
-            image: 'attachments/snipers/trekker.png'
-        },
-        {
-            name: 'STOVL Tac-Wrap',
-            image: 'attachments/snipers/stovl.png'
-        },
+        name: 'XRX Mastadon',
+        image: 'attachments/snipers/mastadon.png'
+    },
+    {
+        name: 'FTAC Trekker',
+        image: 'attachments/snipers/trekker.png'
+    },
+    {
+        name: 'STOVL Tac-Wrap',
+        image: 'attachments/snipers/stovl.png'
+    },
     ];
 
 
@@ -18964,7 +18963,7 @@ function rytec() {
     var underbarrels = [{
         name: 'Bipod',
         image: 'attachments/snipers/bipod.png'
-    }, ];
+    },];
 
 
     var underbarrel = false;
@@ -18994,13 +18993,13 @@ function rytec() {
     //Ammunation
 
     var ammunations = [{
-            name: '25x59mm Explosive 5-R mag',
-            image: 'attachments/snipers/explosive.png'
-        },
-        {
-            name: '25x59mm Thermite 5-R mag',
-            image: 'attachments/snipers/thermite.png'
-        },
+        name: '25x59mm Explosive 5-R mag',
+        image: 'attachments/snipers/explosive.png'
+    },
+    {
+        name: '25x59mm Thermite 5-R mag',
+        image: 'attachments/snipers/thermite.png'
+    },
     ];
 
 
@@ -19025,17 +19024,17 @@ function rytec() {
     //RearGrip
 
     var reargrips = [{
-            name: 'Granulated Grip Tape',
-            image: 'attachments/reargrips/granulated.png'
-        },
-        {
-            name: 'Rubberized Grip Tape',
-            image: 'attachments/reargrips/rubberized.png'
-        },
-        {
-            name: 'Stippled Grip Tape',
-            image: 'attachments/reargrips/stippled.png'
-        }
+        name: 'Granulated Grip Tape',
+        image: 'attachments/reargrips/granulated.png'
+    },
+    {
+        name: 'Rubberized Grip Tape',
+        image: 'attachments/reargrips/rubberized.png'
+    },
+    {
+        name: 'Stippled Grip Tape',
+        image: 'attachments/reargrips/stippled.png'
+    }
     ];
 
 
@@ -19060,49 +19059,49 @@ function rytec() {
     //Perks
 
     var perks = [{
-            name: 'FMJ',
-            image: 'attachments/perks/fmj.png'
-        },
-        {
-            name: 'Sleight of Hand',
-            image: 'attachments/perks/sleight.png'
-        },
-        {
-            name: 'Frangible - Wounding',
-            image: 'attachments/perks/wounding.png'
-        },
-        {
-            name: 'Heavy Hitter',
-            image: 'attachments/perks/heavyhitter.png'
-        },
-        {
-            name: 'Fully Loaded',
-            image: 'attachments/perks/fullyloaded.png'
-        },
-        {
-            name: 'Focus',
-            image: 'attachments/perks/focus.png'
-        },
-        {
-            name: 'Recon',
-            image: 'attachments/perks/recon.png'
-        },
-        {
-            name: 'Mo Money',
-            image: 'attachments/perks/money.png'
-        },
-        {
-            name: 'Fast Melee',
-            image: 'attachments/perks/fastmelee.png'
-        },
-        {
-            name: 'Frangible - Disabling',
-            image: 'attachments/perks/disabling.png'
-        },
-        {
-            name: 'Presence of Mind',
-            image: 'attachments/perks/mind.png'
-        }
+        name: 'FMJ',
+        image: 'attachments/perks/fmj.png'
+    },
+    {
+        name: 'Sleight of Hand',
+        image: 'attachments/perks/sleight.png'
+    },
+    {
+        name: 'Frangible - Wounding',
+        image: 'attachments/perks/wounding.png'
+    },
+    {
+        name: 'Heavy Hitter',
+        image: 'attachments/perks/heavyhitter.png'
+    },
+    {
+        name: 'Fully Loaded',
+        image: 'attachments/perks/fullyloaded.png'
+    },
+    {
+        name: 'Focus',
+        image: 'attachments/perks/focus.png'
+    },
+    {
+        name: 'Recon',
+        image: 'attachments/perks/recon.png'
+    },
+    {
+        name: 'Mo Money',
+        image: 'attachments/perks/money.png'
+    },
+    {
+        name: 'Fast Melee',
+        image: 'attachments/perks/fastmelee.png'
+    },
+    {
+        name: 'Frangible - Disabling',
+        image: 'attachments/perks/disabling.png'
+    },
+    {
+        name: 'Presence of Mind',
+        image: 'attachments/perks/mind.png'
+    }
     ];
 
 
@@ -19129,20 +19128,4 @@ function rytec() {
 
 
 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+};
